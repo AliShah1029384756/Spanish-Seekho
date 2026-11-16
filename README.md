@@ -51,8 +51,9 @@ The A1 course roadmap is available at `a1/index.html`. Interactive lessons curre
 - Lesson 05 — Everyday objects & places
 - Lesson 06 — Food, cafés & shopping
 - Lesson 07 — Daily routine & basic grammar
+- Lesson 08 — Review & A1 checkpoint
 
-Lesson 08 (Review & A1 checkpoint) is still planned.
+A1 path is complete. Next: practice tools or real-life Spain modules.
 
 
 ## AI handoff and project planning

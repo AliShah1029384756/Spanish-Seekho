@@ -1,5 +1,5 @@
 # Spanish Seekho — Product Roadmap
-_Last updated: 16 November 2026 — Lesson 07 (Daily routine & basic grammar) released_
+_Last updated: 16 November 2026 — Lesson 08 (Review & A1 checkpoint) released_
 
 Status labels: Done, In progress, Next, Planned, Blocked. A roadmap item is not shipped until implemented and tested.
 
@@ -25,16 +25,16 @@ Every release preserves free core access, mobile-first usability, honest feature
 - [ ] Test 360px / 390px / 412px on real Android.
 
 ## Phase 2 — A1 curriculum
-1. [x] Greetings & introductions (Lesson 01) — formal + informal
+1. [x] Greetings & introductions (Lesson 01)
 2. [x] Alphabet & pronunciation (Lesson 02)
 3. [x] Numbers, dates & time (Lesson 03)
 4. [x] People, family & countries
 5. [x] Everyday objects & places
 6. [x] Food, cafés & shopping
-7. [x] Daily routine & basic grammar (ser, estar, tener, ir, querer)
-8. Review & A1 checkpoint  ← **Next**
+7. [x] Daily routine & basic grammar
+8. [x] Review & A1 checkpoint
 
-## Phase 3 — Practice and retention
+## Phase 3 — Practice and retention  ← **Next**
 - Vocabulary review / spaced repetition
 - Matching, listening-choice, sentence-building
 - Light gamification only after core content is solid
