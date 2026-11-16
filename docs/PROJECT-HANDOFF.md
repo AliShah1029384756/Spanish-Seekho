@@ -46,6 +46,7 @@ Never clear these keys during redesign.
 - a1/index.html: A1 roadmap and progress summary.
 - a1/course.css: course/lesson styles.
 - a1/lesson-01.html: first interactive lesson and quiz.
+- a1/app-shell.js: shared language picker + mobile navigation for A1 pages.
 - manifest.webmanifest: PWA metadata.
 - sw.js: offline app-shell cache.
 - assets/icon.svg: app icon.
@@ -61,21 +62,20 @@ Never clear these keys during redesign.
 - Five introductory vocabulary cards, approximate pronunciation and optional browser speech.
 - One homepage practice question.
 - A1 roadmap with eight units; first unit is available.
-- Lesson 01: greetings/introduction phrases, dialogue, five-question quiz and local completion.
+- Lesson 01 (expanded): greetings, introductions, formal vs informal (tú / usted), dialogue examples, 6-question quiz and local completion.
 - Local preference/progress storage.
 - Basic PWA manifest and service worker.
-- Latest homepage UI update: phone-first layout refinements, fixed five-item mobile navigation, a clear three-choice language dialog, saved language selection and removal of the external Google Fonts import.
+- Shared A1 mobile shell with language dialog and bottom navigation.
+- RTL isolation rules so Spanish phrases remain left-to-right when Urdu is selected.
 
-### Latest milestone: shared A1 mobile shell (16 Nov 2026)
-- Added `a1/app-shell.js`, shared by the A1 course and lesson pages.
-- Added the same three-option language preference dialog to both A1 pages. It persists `ss-language` and changes page direction; the dialog explicitly warns that full lesson translations are still in progress.
-- Added fixed five-item mobile navigation to A1 course and lesson pages, with current-section highlighting.
-- Added responsive A1/lesson layout refinements and Urdu RTL rules that keep Spanish phrases and Latin-script examples left-to-right.
-- Updated the service-worker cache to `spanish-seekho-v4` and included the shared A1 script.
+### Latest milestone (16 Nov 2026)
+- Expanded Lesson 01 with Buenas noches, formal/informal distinction, formal dialogue example, and a 6th quiz question about formality.
+- Strengthened CSS isolation (`direction: ltr; unicode-bidi: isolate`) for Spanish text on RTL pages.
+- Updated roadmap to mark formal/informal expansion as done and set Alphabet lesson as next.
 
 ### Partial / needs validation
 - Whole course and lesson pages are not fully translated. Homepage translations cover only selected strings.
-- Urdu RTL requires page-by-page QA; mixed Spanish/English text must retain correct direction.
+- Real-device visual RTL QA still recommended.
 - Latest homepage and A1 mobile layouts must be tested on real Android devices and 360/390/412px viewports.
 - Service-worker update/offline flow needs testing after successful online load.
 - Speech synthesis can be missing or use an unexpected Spanish voice.

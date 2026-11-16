@@ -1,5 +1,5 @@
 # Spanish Seekho — Product Roadmap
-_Last updated: 16 November 2026 — shared A1 mobile shell milestone_
+_Last updated: 16 November 2026 — Lesson 01 expanded + RTL isolation improved_
 
 Status labels: Done, In progress, Next, Planned, Blocked. A roadmap item is not shipped until implemented and tested.
 
@@ -20,15 +20,16 @@ Every release preserves free core access, mobile-first usability, honest feature
 - [x] Persist homepage language choice.
 - [x] Remove external Google Fonts dependency from global stylesheet.
 - [x] Apply consistent language preference picker/navigation to A1 course and lesson pages.
-- [ ] Complete Urdu RTL QA, including mixed Spanish and English text (initial direction/isolation styles added; visual QA pending).
+- [x] Strengthen Urdu RTL isolation so Spanish phrases and Latin text stay LTR (unicode-bidi: isolate rules added).
+- [ ] Visual RTL QA on real Android (still recommended).
 - [ ] Test 360px, 390px and 412px screens on real Android.
 - [ ] Add browser-specific install guidance only after testing.
 Acceptance: language choice is obvious, one tap away, persists after reload, and Urdu does not reverse Spanish examples.
 
-## Phase 2 — A1 curriculum (high priority after mobile QA)
+## Phase 2 — A1 curriculum
 Recommended sequence:
-1. Expand greetings/introductions: formal usted vs informal tú and polite introductions.
-2. Alphabet, vowel sounds, stress and spelling.
+1. [x] Expand greetings/introductions: formal usted vs informal tú (done in Lesson 01).
+2. Alphabet, vowel sounds, stress and spelling.  ← **Next**
 3. Numbers, dates, time and prices.
 4. Personal information, family, countries and nationalities.
 5. Everyday objects, locations and directions.
