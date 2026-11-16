@@ -44,6 +44,9 @@
   applyLanguage();
 
   if (!document.querySelector(".mobile-nav")) {
+    const inA2 = /\/a2(\/|$)/.test(location.pathname);
+    const a1base = inA2 ? "../a1/" : "";
+    const homeHref = "../index.html";
     const path = location.pathname;
     const isLesson = /lesson-\d+\.html$/.test(path);
     const isPractice = /practice\.html$/.test(path);
@@ -51,16 +54,15 @@
     nav.className = "mobile-nav";
     nav.setAttribute("aria-label", "Main navigation");
     nav.innerHTML =
-      '<a href="../index.html"><span aria-hidden="true">\u2302</span><small>Home</small></a>' +
-      '<a class="' + (!isLesson && !isPractice ? "active" : "") + '" href="index.html"' + (!isLesson && !isPractice ? ' aria-current="page"' : "") + '><span aria-hidden="true">\u25A4</span><small>Learn</small></a>' +
-      '<a class="' + (isPractice ? "active" : "") + '" href="practice.html"' + (isPractice ? ' aria-current="page"' : "") + '><span aria-hidden="true">\u2726</span><small>Practice</small></a>' +
-      '<a href="index.html#progressText"><span aria-hidden="true">\u25D4</span><small>Progress</small></a>' +
+      '<a href="' + homeHref + '"><span aria-hidden="true">\u2302</span><small>Home</small></a>' +
+      '<a class="' + (!isLesson && !isPractice ? "active" : "") + '" href="' + a1base + 'index.html"' + (!isLesson && !isPractice ? ' aria-current="page"' : "") + '><span aria-hidden="true">\u25A4</span><small>Learn</small></a>' +
+      '<a class="' + (isPractice ? "active" : "") + '" href="' + a1base + 'practice.html"' + (isPractice ? ' aria-current="page"' : "") + '><span aria-hidden="true">\u2726</span><small>Practice</small></a>' +
+      '<a href="' + a1base + 'index.html#progressText"><span aria-hidden="true">\u25D4</span><small>Progress</small></a>' +
       '<button type="button" id="navLanguage"><span aria-hidden="true">\u6587</span><small>Language</small></button>';
     document.body.append(nav);
     document.getElementById("navLanguage").addEventListener("click", openPicker);
   }
 
-  /* Spanish speech — shared for all lessons */
   let spanishVoice = null;
   let voicesReady = false;
 
@@ -100,42 +102,27 @@
       alert("Is browser mein speech support nahi hai. Chrome / Edge try karein, ya device Settings \u2192 Language mein Spanish voice install karein.");
       return;
     }
-
     refreshVoices();
-
-    try {
-      speechSynthesis.cancel();
-    } catch (e) {}
-
+    try { speechSynthesis.cancel(); } catch (e) {}
     const utter = new SpeechSynthesisUtterance(String(text).trim());
     utter.lang = spanishVoice && spanishVoice.lang ? spanishVoice.lang : "es-ES";
     utter.rate = 0.85;
     utter.pitch = 1;
     if (spanishVoice) utter.voice = spanishVoice;
-
     if (btn) {
       btn.classList.add("speaking");
       btn.setAttribute("aria-busy", "true");
-      const clear = () => {
-        btn.classList.remove("speaking");
-        btn.removeAttribute("aria-busy");
-      };
+      const clear = () => { btn.classList.remove("speaking"); btn.removeAttribute("aria-busy"); };
       utter.onend = clear;
       utter.onerror = clear;
     }
-
     const run = () => {
-      try {
-        speechSynthesis.speak(utter);
-      } catch (err) {
-        if (btn) {
-          btn.classList.remove("speaking");
-          btn.removeAttribute("aria-busy");
-        }
-        alert("Audio play nahi ho saka. Device par Spanish voice install karein (Settings \u2192 Language / Text-to-speech).");
+      try { speechSynthesis.speak(utter); }
+      catch (err) {
+        if (btn) { btn.classList.remove("speaking"); btn.removeAttribute("aria-busy"); }
+        alert("Audio play nahi ho saka. Device par Spanish voice install karein.");
       }
     };
-
     if (!voicesReady) {
       setTimeout(() => {
         refreshVoices();
@@ -148,23 +135,17 @@
     }
   }
 
-  document.addEventListener(
-    "click",
-    event => {
-      const btn = event.target.closest("[data-say]");
-      if (!btn) return;
-      event.preventDefault();
-      speakSpanish(btn.getAttribute("data-say"), btn);
-    },
-    true
-  );
+  document.addEventListener("click", event => {
+    const btn = event.target.closest("[data-say]");
+    if (!btn) return;
+    event.preventDefault();
+    speakSpanish(btn.getAttribute("data-say"), btn);
+  }, true);
 
   if (!document.getElementById("ss-speak-style")) {
     const style = document.createElement("style");
     style.id = "ss-speak-style";
-    style.textContent =
-      ".speak.speaking,.speak[aria-busy=true]{opacity:.7;outline:2px solid #c4a574;outline-offset:2px}" +
-      "button.speak.speaking::after{content:' \u2026'}";
+    style.textContent = ".speak.speaking,.speak[aria-busy=true]{opacity:.7;outline:2px solid #c4a574;outline-offset:2px}button.speak.speaking::after{content:' \u2026'}";
     document.head.append(style);
   }
 
