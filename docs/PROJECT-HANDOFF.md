@@ -7,7 +7,7 @@ Mission: **Making Spanish Learning Accessible to Every Pakistani.**
 
 ## Current status (verified)
 - Live on GitHub Pages
-- A1 lessons available: 01 (Greetings), 02 (Alphabet & Pronunciation), 03 (Numbers, dates & time)
+- A1 lessons available: 01 (Greetings), 02 (Alphabet & Pronunciation), 03 (Numbers, dates & time), 04 (People, family & countries)
 - Shared mobile shell + language picker working
 - Service worker cache: spanish-seekho-v7
 - Progress stored in localStorage (ss-a1-done, ss-language)
