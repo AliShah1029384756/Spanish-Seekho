@@ -50,8 +50,9 @@ The A1 course roadmap is available at `a1/index.html`. Interactive lessons curre
 - Lesson 04 — People, family & countries
 - Lesson 05 — Everyday objects & places
 - Lesson 06 — Food, cafés & shopping
+- Lesson 07 — Daily routine & basic grammar
 
-Lessons 07–08 are still planned.
+Lesson 08 (Review & A1 checkpoint) is still planned.
 
 
 ## AI handoff and project planning

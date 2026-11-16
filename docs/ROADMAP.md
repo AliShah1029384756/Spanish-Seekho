@@ -1,5 +1,5 @@
 # Spanish Seekho — Product Roadmap
-_Last updated: 16 November 2026 — Lesson 06 (Food, cafés & shopping) released_
+_Last updated: 16 November 2026 — Lesson 07 (Daily routine & basic grammar) released_
 
 Status labels: Done, In progress, Next, Planned, Blocked. A roadmap item is not shipped until implemented and tested.
 
@@ -31,8 +31,8 @@ Every release preserves free core access, mobile-first usability, honest feature
 4. [x] People, family & countries
 5. [x] Everyday objects & places
 6. [x] Food, cafés & shopping
-7. Daily routine & basic grammar (ser, estar, tener, ir, querer)  ← **Next**
-8. Review & A1 checkpoint
+7. [x] Daily routine & basic grammar (ser, estar, tener, ir, querer)
+8. Review & A1 checkpoint  ← **Next**
 
 ## Phase 3 — Practice and retention
 - Vocabulary review / spaced repetition
