@@ -1,5 +1,5 @@
 # Spanish Seekho — Product Roadmap
-_Last updated: 16 November 2026 — Lesson 03 (Numbers, dates & time) released_
+_Last updated: 16 November 2026 — Lesson 04 (People, family & countries) released_
 
 Status labels: Done, In progress, Next, Planned, Blocked. A roadmap item is not shipped until implemented and tested.
 
@@ -28,8 +28,8 @@ Every release preserves free core access, mobile-first usability, honest feature
 1. [x] Greetings & introductions (Lesson 01) — formal + informal
 2. [x] Alphabet & pronunciation (Lesson 02)
 3. [x] Numbers, dates & time (Lesson 03)
-4. People, family & countries  ← **Next**
-5. Everyday objects & places
+4. [x] People, family & countries
+5. Everyday objects & places  ← **Next**
 6. Food, cafés & shopping
 7. Daily routine & basic grammar (ser, estar, tener, ir, querer)
 8. Review & A1 checkpoint
