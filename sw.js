@@ -1,4 +1,4 @@
-const CACHE="spanish-seekho-v2";
+const CACHE="spanish-seekho-v3";
 const FILES=[
  "./","./index.html","./styles.css","./app.js","./manifest.webmanifest","./assets/icon.svg",
  "./a1/index.html","./a1/lesson-01.html","./a1/course.css"
