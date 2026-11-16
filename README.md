@@ -42,7 +42,16 @@ MIT — see [LICENSE](LICENSE).
 
 
 ## A1 course status
-The A1 course roadmap is available at `a1/index.html`. Unit 01 (greetings and introductions) is the first interactive lesson at `a1/lesson-01.html`. Other units are roadmap placeholders and are not yet published as lessons.
+The A1 course roadmap is available at `a1/index.html`. Interactive lessons currently available:
+
+- Lesson 01 — Greetings & introductions
+- Lesson 02 — Alphabet & pronunciation
+- Lesson 03 — Numbers, dates & time
+- Lesson 04 — People, family & countries
+- Lesson 05 — Everyday objects & places
+- Lesson 06 — Food, cafés & shopping
+
+Lessons 07–08 are still planned.
 
 
 ## AI handoff and project planning
