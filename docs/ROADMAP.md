@@ -1,5 +1,5 @@
 # Spanish Seekho — Product Roadmap
-_Last updated: 16 November 2026 — Lesson 02 (Alphabet & Pronunciation) released_
+_Last updated: 16 November 2026 — Lesson 03 (Numbers, dates & time) released_
 
 Status labels: Done, In progress, Next, Planned, Blocked. A roadmap item is not shipped until implemented and tested.
 
@@ -8,7 +8,7 @@ Every release preserves free core access, mobile-first usability, honest feature
 
 ## Phase 0 — Foundation
 - [x] Public GitHub Pages deployment.
-- [x] Landing page, A1 roadmap and first lesson.
+- [x] Landing page, A1 roadmap and first lessons.
 - [x] Local progress storage and basic PWA shell.
 - [ ] Verify deployment after every release.
 - [ ] Test install/update/offline behaviour on Android Chrome and another browser.
@@ -16,42 +16,37 @@ Every release preserves free core access, mobile-first usability, honest feature
 ## Phase 1 — Mobile app experience
 - [x] Phone-first homepage layout refinement.
 - [x] Fixed bottom navigation on homepage.
-- [x] Three-choice language dialog instead of cycling through languages.
-- [x] Persist homepage language choice.
-- [x] Remove external Google Fonts dependency from global stylesheet.
-- [x] Apply consistent language preference picker/navigation to A1 course and lesson pages.
-- [x] Strengthen Urdu RTL isolation so Spanish phrases and Latin text stay LTR.
-- [ ] Visual RTL QA on real Android (still recommended).
-- [ ] Test 360px, 390px and 412px screens on real Android.
-- [ ] Add browser-specific install guidance only after testing.
+- [x] Three-choice language dialog.
+- [x] Persist language choice.
+- [x] Remove external Google Fonts dependency.
+- [x] Shared language picker + mobile nav on A1 pages.
+- [x] RTL isolation for Spanish text.
+- [ ] Visual RTL QA on real Android.
+- [ ] Test 360px / 390px / 412px on real Android.
 
 ## Phase 2 — A1 curriculum
-Recommended sequence:
-1. [x] Expand greetings/introductions: formal usted vs informal tú (Lesson 01).
-2. [x] Alphabet, vowel sounds, stress and spelling (Lesson 02).
-3. Numbers, dates, time and prices.  ← **Next**
-4. Personal information, family, countries and nationalities.
-5. Everyday objects, locations and directions.
-6. Food, cafés, shopping and money.
-7. Daily routine and beginner grammar: ser, estar, tener, ir, querer.
-8. Integrated revision and A1 checkpoint.
-
-Each lesson should include outcomes, estimated time, explanation, examples, common mistakes, Spanish text, English meaning, Roman Urdu and Urdu approximation where useful, usage notes, practice, varied exercises, feedback, reviewed answers and local progress.
+1. [x] Greetings & introductions (Lesson 01) — formal + informal
+2. [x] Alphabet & pronunciation (Lesson 02)
+3. [x] Numbers, dates & time (Lesson 03)
+4. People, family & countries  ← **Next**
+5. Everyday objects & places
+6. Food, cafés & shopping
+7. Daily routine & basic grammar (ser, estar, tener, ir, querer)
+8. Review & A1 checkpoint
 
 ## Phase 3 — Practice and retention
-- Vocabulary review/spaced repetition.
-- Matching, listening-choice and sentence-building.
-- Daily target, streaks and XP only after reliable tracking.
-- No shame-based streak loss or manipulative notifications.
+- Vocabulary review / spaced repetition
+- Matching, listening-choice, sentence-building
+- Light gamification only after core content is solid
 
 ## Phase 4 — Real-life Spain
 Renting, job interviews, healthcare, public offices, transport, shopping, education, airport and everyday social communication.
 
 ## Phase 5 — PWA and family learning
-Improve offline lesson packs and update handling. Consider same-device family profiles. Investigate sync only if genuinely free and privacy-respecting. Basic learning remains account-free.
+Improve offline packs. Consider same-device family profiles later.
 
 ## Phase 6 — Advanced pathway
-A2, B1, B2, C1 and C2 only after A1 is complete and reviewed. Andalusian/Málaga pronunciation may be an optional regional module.
+A2+ only after A1 is complete and reviewed.
 
 ## Out of scope until justified
-Paid APIs/services, complex backend/framework, public leaderboards before privacy review, claims of certified CEFR assessment, and claims that speech works on every device.
+Paid APIs, complex backend, public leaderboards before privacy review, claims of certified CEFR assessment.
