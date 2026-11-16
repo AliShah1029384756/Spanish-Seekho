@@ -39,3 +39,7 @@ Accuracy over volume. Accessibility over complexity. Free core learning for ever
 
 ## License
 MIT — see [LICENSE](LICENSE).
+
+
+## A1 course status
+The A1 course roadmap is available at `a1/index.html`. Unit 01 (greetings and introductions) is the first interactive lesson at `a1/lesson-01.html`. Other units are roadmap placeholders and are not yet published as lessons.
