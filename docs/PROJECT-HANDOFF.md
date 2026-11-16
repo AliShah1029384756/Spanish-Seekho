@@ -36,7 +36,7 @@ This is a real educational product, not just a portfolio demo. Prioritise teachi
 ## Important localStorage keys
 - ss-language: roman, urdu or english.
 - ss-completed: homepage practice completion markers.
-- ss-a1-done: completed A1 lesson IDs.
+- ss-a1-done: completed A1 lesson IDs (e.g. "lesson-01", "lesson-02").
 Never clear these keys during redesign.
 
 ## Repository map
@@ -45,10 +45,11 @@ Never clear these keys during redesign.
 - app.js: homepage language selection, vocabulary, quick quiz, speech and mobile navigation.
 - a1/index.html: A1 roadmap and progress summary.
 - a1/course.css: course/lesson styles.
-- a1/lesson-01.html: first interactive lesson and quiz.
+- a1/lesson-01.html: Greetings & introductions (formal + informal).
+- a1/lesson-02.html: Alphabet & pronunciation.
 - a1/app-shell.js: shared language picker + mobile navigation for A1 pages.
 - manifest.webmanifest: PWA metadata.
-- sw.js: offline app-shell cache.
+- sw.js: offline app-shell cache (currently v5).
 - assets/icon.svg: app icon.
 - README.md: public project overview.
 - AGENTS.md: instructions for AI coding agents.
@@ -57,53 +58,49 @@ Never clear these keys during redesign.
 
 ## Current implementation — verified from repository code
 ### Implemented
-- Public GitHub Pages static site, landing page, A1 roadmap and one lesson.
+- Public GitHub Pages static site, landing page, A1 roadmap and two lessons.
 - Homepage language selector for Roman Urdu, Urdu and English.
-- Five introductory vocabulary cards, approximate pronunciation and optional browser speech.
-- One homepage practice question.
-- A1 roadmap with eight units; first unit is available.
-- Lesson 01 (expanded): greetings, introductions, formal vs informal (tú / usted), dialogue examples, 6-question quiz and local completion.
+- A1 Lesson 01: greetings, introductions, formal vs informal, dialogue, 6-question quiz.
+- A1 Lesson 02: five vowels, key consonants (j, ñ, ll, h, c/z, r/rr), stress rules, listening practice, 5-question quiz.
 - Local preference/progress storage.
-- Basic PWA manifest and service worker.
-- Shared A1 mobile shell with language dialog and bottom navigation.
+- Basic PWA manifest and service worker (v5 includes lesson-02).
+- Shared A1 mobile shell with language dialog and bottom navigation (works for any lesson-XX.html).
 - RTL isolation rules so Spanish phrases remain left-to-right when Urdu is selected.
 
 ### Latest milestone (16 Nov 2026)
-- Expanded Lesson 01 with Buenas noches, formal/informal distinction, formal dialogue example, and a 6th quiz question about formality.
-- Strengthened CSS isolation (`direction: ltr; unicode-bidi: isolate`) for Spanish text on RTL pages.
-- Updated roadmap to mark formal/informal expansion as done and set Alphabet lesson as next.
+- Created and published Lesson 02 (Alphabet & Pronunciation).
+- Updated A1 index to mark Unit 02 as available.
+- Updated service worker cache to spanish-seekho-v5 and included lesson-02.html.
+- Improved app-shell.js so mobile nav correctly detects any lesson page.
 
 ### Partial / needs validation
-- Whole course and lesson pages are not fully translated. Homepage translations cover only selected strings.
+- Whole course and lesson pages are not fully translated.
 - Real-device visual RTL QA still recommended.
-- Latest homepage and A1 mobile layouts must be tested on real Android devices and 360/390/412px viewports.
+- Mobile layouts should be tested on real Android devices (360/390/412px).
 - Service-worker update/offline flow needs testing after successful online load.
-- Speech synthesis can be missing or use an unexpected Spanish voice.
-- Accessibility needs keyboard and screen-reader testing.
+- Speech synthesis quality varies by device.
 
 ### Not implemented
-- Complete A1 curriculum; units 2–8 are roadmap placeholders.
+- Units 3–8 of A1.
 - A2–C2 lessons.
-- Full grammar, listening library, speaking assessment or writing correction.
-- Accounts, family profiles, cloud sync or server-side progress.
-- AI tutor, leaderboard, streaks, XP, badges or full game suite.
-- Dedicated Andalusian accent course.
+- Full grammar track, listening library, speaking assessment.
+- Accounts, family profiles, cloud sync.
+- Gamification (streaks, XP, badges).
 
 ## Workflow for any AI taking over
 Before editing:
 1. Read AGENTS.md, this handoff and docs/ROADMAP.md.
-2. Inspect current branch, exact files and live deployment; do not assume this document is perfectly current.
+2. Inspect current branch, exact files and live deployment.
 3. Check project-relative paths for GitHub Pages.
 4. Pick the smallest coherent milestone and preserve existing content/progress.
 
 After editing:
 1. Check links, asset paths, HTML, JS errors and CSS breakpoints.
 2. Test language persistence and direction for the changed scope.
-3. Check keyboard focus, labels and touch targets.
-4. If app-shell files changed, review service-worker cache list/version.
-5. Update this handoff and roadmap with only verified facts.
-6. Commit clearly; check GitHub Pages Actions and live pages before saying deployment succeeded.
-7. Report files, commit, actual tests, limitations and one next task.
+3. If app-shell files changed, review service-worker cache list/version.
+4. Update this handoff and roadmap with only verified facts.
+5. Commit clearly; check GitHub Pages before claiming deployment succeeded.
+6. Report files, commit, limitations and one next task.
 
 ## Definition of done
 A milestone is done only when its agreed scope is in the repository, learner progress is preserved, mobile layout is usable at 360px+, internal links/assets work, language/direction behaviour is checked, documentation is updated, and deployment is confirmed rather than assumed.
