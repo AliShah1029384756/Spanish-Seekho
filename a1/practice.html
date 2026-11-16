@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8f6f0"><meta name="description" content="Practice Spanish vocabulary from A1 lessons — flashcards and matching for Pakistani learners."><link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="course.css"><link rel="manifest" href="../manifest.webmanifest"><title>Practice — Spanish Seekho</title>
+<style>
+.practice-modes{display:grid;gap:12px;margin:16px 0 24px}
+.mode-card{display:flex;align-items:center;gap:14px;padding:16px;border:1px solid #e5e0d5;border-radius:16px;background:#fff;text-decoration:none;color:inherit}
+.mode-card:hover{border-color:#c4a574}
+.mode-card b{display:block;font-size:1.05rem}
+.mode-card small{color:#6b6560}
+.flash-card{min-height:180px;border-radius:20px;background:#fff;border:1px solid #e5e0d5;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;text-align:center;cursor:pointer;user-select:none}
+.flash-card .es{font-size:1.6rem;font-weight:700;color:#1a1a1a}
+.flash-card .meta{margin-top:10px;color:#6b6560;font-size:.95rem}
+.flash-card .urdu-text{direction:rtl;font-size:1.05rem;margin-top:6px}
+.flash-actions{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap}
+.flash-actions button{min-width:110px}
+.match-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.match-grid button{padding:12px 10px;border-radius:12px;border:1.5px solid #e5e0d5;background:#fff;font-size:.95rem}
+.match-grid button.selected{border-color:#c4a574;background:#faf6ef}
+.match-grid button.correct{border-color:#3d8b5f;background:#eaf6ef}
+.match-grid button.wrong{border-color:#c45c5c;background:#fceeee}
+.match-grid button:disabled{opacity:.7}
+.score-pill{display:inline-block;padding:4px 10px;border-radius:999px;background:#f0ebe3;font-size:.85rem;margin-bottom:8px}
+</style>
+</head>
+<body><header class="topbar"><a class="brand" href="../index.html"><span class="brand-mark">¡</span><span>spanish<span class="brand-accent">seekho</span></span></a><button class="lang-toggle" id="languageButton" type="button">Roman Urdu ▾</button></header>
+<main class="lesson-wrap">
+<div class="lesson-top"><span class="eyebrow">A1 · PRACTICE</span><h1>Practice your <em>Spanish.</em></h1><p>Flashcards aur matching se A1 vocabulary strong karein. Progress is device par save hota hai.</p></div>
+
+<section class="learning-box" id="homePanel">
+<span class="eyebrow">CHOOSE A MODE</span>
+<h2>How do you want to practise?</h2>
+<div class="practice-modes">
+<button class="mode-card" type="button" id="startFlash"><span style="font-size:1.5rem">🃏</span><span><b>Flashcards</b><small>Tap to flip · Spanish ↔ meaning</small></span></button>
+<button class="mode-card" type="button" id="startMatch"><span style="font-size:1.5rem">🔗</span><span><b>Matching</b><small>Pair Spanish with English</small></span></button>
+</div>
+<p class="muted">Words come from Lessons 01–08. No account needed.</p>
+<a class="primary-btn" href="index.html" style="display:inline-flex;margin-top:8px">← Back to A1 course</a>
+</section>
+
+<section class="learning-box" id="flashPanel" hidden>
+<span class="eyebrow">FLASHCARDS</span>
+<div class="score-pill" id="flashScore">Card 1 / 0</div>
+<div class="flash-card" id="flashCard" role="button" tabindex="0" aria-label="Flip card">
+<div class="es" id="flashFront">—</div>
+<div class="meta" id="flashBack" hidden></div>
+</div>
+<div class="flash-actions">
+<button type="button" class="primary-btn" id="flashFlip">Flip</button>
+<button type="button" id="flashNext">Next →</button>
+<button type="button" id="flashHome">All modes</button>
+</div>
+</section>
+
+<section class="learning-box" id="matchPanel" hidden>
+<span class="eyebrow">MATCHING</span>
+<div class="score-pill" id="matchScore">Matched 0 / 6</div>
+<p class="muted">Spanish word ko uske English meaning se match karein.</p>
+<div class="match-grid" id="matchGrid"></div>
+<div class="flash-actions" style="margin-top:16px">
+<button type="button" class="primary-btn" id="matchNew" hidden>New round</button>
+<button type="button" id="matchHome">All modes</button>
+</div>
+<p id="matchDone" class="quiz-result" hidden></p>
+</section>
+</main>
+<footer><a class="brand" href="../index.html"><span class="brand-mark">¡</span><span>spanish<span class="brand-accent">seekho</span></span></a><p>Making Spanish Learning Accessible to Every Pakistani.</p></footer>
+<script>
+const DECK=[
+{es:"Hola",en:"Hello",ru:"O-la"},
+{es:"Buenos días",en:"Good morning",ru:"BWE-nos DEE-as"},
+{es:"Gracias",en:"Thank you",ru:"GRA-thyas"},
+{es:"De nada",en:"You're welcome",ru:"de NA-da"},
+{es:"¿Cómo te llamas?",en:"What is your name?",ru:"KO-mo te YA-mas"},
+{es:"la madre",en:"the mother",ru:"la MA-dre"},
+{es:"el padre",en:"the father",ru:"el PA-dre"},
+{es:"la casa",en:"the house / home",ru:"la KA-sa"},
+{es:"el baño",en:"the bathroom",ru:"el BA-nyo"},
+{es:"la escuela",en:"the school",ru:"la es-KWE-la"},
+{es:"el café",en:"the coffee",ru:"el ka-FE"},
+{es:"el pan",en:"the bread",ru:"el pan"},
+{es:"el agua",en:"the water",ru:"el A-gwa"},
+{es:"Un café con leche, por favor",en:"A coffee with milk, please",ru:"oon ka-FE kon LE-che"},
+{es:"La cuenta, por favor",en:"The bill, please",ru:"la KWEN-ta"},
+{es:"¿Cuánto es?",en:"How much is it?",ru:"KWAN-to es"},
+{es:"Soy de Pakistán",en:"I am from Pakistan",ru:"soy de pa-kis-TAN"},
+{es:"Estoy en casa",en:"I am at home",ru:"es-TOY en KA-sa"},
+{es:"Tengo hambre",en:"I am hungry",ru:"TEN-go AM-bre"},
+{es:"Voy a la escuela",en:"I am going to school",ru:"boy a la es-KWE-la"},
+{es:"Quiero un café",en:"I want a coffee",ru:"KYER-o oon ka-FE"},
+{es:"¿Dónde está el baño?",en:"Where is the bathroom?",ru:"DON-de es-TA el BA-nyo"}
+];
+
+const home=document.getElementById("homePanel");
+const flashPanel=document.getElementById("flashPanel");
+const matchPanel=document.getElementById("matchPanel");
+function show(panel){[home,flashPanel,matchPanel].forEach(p=>p.hidden=p!==panel)}
+
+let order=[], idx=0, flipped=false;
+function shuffle(a){const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b}
+function renderFlash(){
+  const c=order[idx];
+  document.getElementById("flashScore").textContent="Card "+(idx+1)+" / "+order.length;
+  document.getElementById("flashFront").textContent=c.es;
+  const back=document.getElementById("flashBack");
+  back.innerHTML=c.en+"<br><small>Roman Urdu: "+c.ru+"</small>";
+  back.hidden=!flipped;
+}
+function startFlash(){
+  order=shuffle(DECK);idx=0;flipped=false;show(flashPanel);renderFlash();
+}
+document.getElementById("startFlash").onclick=startFlash;
+document.getElementById("flashFlip").onclick=()=>{flipped=!flipped;renderFlash()};
+document.getElementById("flashCard").onclick=()=>{flipped=!flipped;renderFlash()};
+document.getElementById("flashCard").onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();flipped=!flipped;renderFlash()}};
+document.getElementById("flashNext").onclick=()=>{idx=(idx+1)%order.length;flipped=false;renderFlash()};
+document.getElementById("flashHome").onclick=()=>show(home);
+
+let matchPairs=[], selected=null, matched=0;
+function startMatch(){
+  const pick=shuffle(DECK).slice(0,6);
+  matchPairs=pick;
+  matched=0;selected=null;
+  document.getElementById("matchDone").hidden=true;
+  document.getElementById("matchNew").hidden=true;
+  document.getElementById("matchScore").textContent="Matched 0 / 6";
+  const left=shuffle(pick.map((p,i)=>({side:"es",text:p.es,id:i})));
+  const right=shuffle(pick.map((p,i)=>({side:"en",text:p.en,id:i})));
+  const grid=document.getElementById("matchGrid");
+  grid.innerHTML="";
+  const cells=[...left,...right];
+  cells.forEach(cell=>{
+    const b=document.createElement("button");
+    b.type="button";b.textContent=cell.text;b.dataset.side=cell.side;b.dataset.id=cell.id;
+    b.onclick=()=>onMatchTap(b);
+    grid.append(b);
+  });
+  show(matchPanel);
+}
+function onMatchTap(btn){
+  if(btn.disabled||btn.classList.contains("correct"))return;
+  if(!selected){
+    selected=btn;btn.classList.add("selected");return;
+  }
+  if(selected===btn){selected.classList.remove("selected");selected=null;return}
+  if(selected.dataset.side===btn.dataset.side){
+    selected.classList.remove("selected");selected=btn;btn.classList.add("selected");return;
+  }
+  const a=selected,b=btn;
+  a.classList.remove("selected");
+  if(a.dataset.id===b.dataset.id){
+    a.classList.add("correct");b.classList.add("correct");a.disabled=true;b.disabled=true;
+    matched++;document.getElementById("matchScore").textContent="Matched "+matched+" / 6";
+    selected=null;
+    if(matched===6){
+      document.getElementById("matchDone").hidden=false;
+      document.getElementById("matchDone").textContent="¡Muy bien! Saare pairs match ho gaye.";
+      document.getElementById("matchNew").hidden=false;
+      let done=JSON.parse(localStorage.getItem("ss-practice")||"{}");
+      done.matchRounds=(done.matchRounds||0)+1;
+      localStorage.setItem("ss-practice",JSON.stringify(done));
+    }
+  }else{
+    a.classList.add("wrong");b.classList.add("wrong");
+    setTimeout(()=>{a.classList.remove("wrong");b.classList.remove("wrong");selected=null},450);
+    selected=null;
+  }
+}
+document.getElementById("startMatch").onclick=startMatch;
+document.getElementById("matchNew").onclick=startMatch;
+document.getElementById("matchHome").onclick=()=>show(home);
+</script><script src="app-shell.js"></script></body></html>
