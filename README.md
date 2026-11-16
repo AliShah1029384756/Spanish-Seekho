@@ -43,3 +43,7 @@ MIT — see [LICENSE](LICENSE).
 
 ## A1 course status
 The A1 course roadmap is available at `a1/index.html`. Unit 01 (greetings and introductions) is the first interactive lesson at `a1/lesson-01.html`. Other units are roadmap placeholders and are not yet published as lessons.
+
+
+## AI handoff and project planning
+For future contributors and AI assistants, start with [AGENTS.md](AGENTS.md), then read the [Project Handoff](docs/PROJECT-HANDOFF.md) and [Product Roadmap](docs/ROADMAP.md). These documents record the product principles, architecture, current implementation status, priorities and the expected workflow for continuing the project.
