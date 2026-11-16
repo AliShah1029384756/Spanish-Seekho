@@ -1,13 +1,12 @@
-# Spanish Seekho Roadmap
-_Updated: 16 November 2026_
+# Roadmap
 
 ## Done
-- A1 lessons 01–08 + checkpoint
-- Practice: flashcards + matching
-- Spain Life: Transport, Healthcare, Airport
-- Speech fix (shared Spanish voice in app-shell)
+- A1 lessons 01–08
+- Practice: flashcards, matching, listening-choice
+- Spain Life: Transport, Healthcare, Airport, Housing
+- Speech synthesis fix
 
-## Next
-- Housing / renting module
-- Listening-choice practice
-- Content QA pass on all lessons
+## Optional later
+- Public offices / paperwork module
+- Sentence-building practice
+- A2 pathway after content review
