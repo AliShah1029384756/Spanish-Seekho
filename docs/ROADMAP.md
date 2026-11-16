@@ -1,5 +1,5 @@
 # Spanish Seekho — Product Roadmap
-_Last updated: 16 November 2026_
+_Last updated: 16 November 2026 — shared A1 mobile shell milestone_
 
 Status labels: Done, In progress, Next, Planned, Blocked. A roadmap item is not shipped until implemented and tested.
 
@@ -19,8 +19,8 @@ Every release preserves free core access, mobile-first usability, honest feature
 - [x] Three-choice language dialog instead of cycling through languages.
 - [x] Persist homepage language choice.
 - [x] Remove external Google Fonts dependency from global stylesheet.
-- [ ] Apply consistent language picker/navigation to A1 course and lesson pages.
-- [ ] Complete Urdu RTL QA, including mixed Spanish and English text.
+- [x] Apply consistent language preference picker/navigation to A1 course and lesson pages.
+- [ ] Complete Urdu RTL QA, including mixed Spanish and English text (initial direction/isolation styles added; visual QA pending).
 - [ ] Test 360px, 390px and 412px screens on real Android.
 - [ ] Add browser-specific install guidance only after testing.
 Acceptance: language choice is obvious, one tap away, persists after reload, and Urdu does not reverse Spanish examples.
