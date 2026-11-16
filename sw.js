@@ -1,7 +1,7 @@
-const CACHE="spanish-seekho-v6";
+const CACHE="spanish-seekho-v7";
 const FILES=[
  "./","./index.html","./styles.css","./app.js","./manifest.webmanifest","./assets/icon.svg",
- "./a1/index.html","./a1/lesson-01.html","./a1/lesson-02.html","./a1/lesson-03.html","./a1/course.css","./a1/app-shell.js"
+ "./a1/index.html","./a1/lesson-01.html","./a1/lesson-02.html","./a1/lesson-03.html","./a1/lesson-04.html","./a1/course.css","./a1/app-shell.js"
 ];
 self.addEventListener("install",event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)));
