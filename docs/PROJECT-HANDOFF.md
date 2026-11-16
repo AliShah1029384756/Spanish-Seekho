@@ -66,10 +66,17 @@ Never clear these keys during redesign.
 - Basic PWA manifest and service worker.
 - Latest homepage UI update: phone-first layout refinements, fixed five-item mobile navigation, a clear three-choice language dialog, saved language selection and removal of the external Google Fonts import.
 
+### Latest milestone: shared A1 mobile shell (16 Nov 2026)
+- Added `a1/app-shell.js`, shared by the A1 course and lesson pages.
+- Added the same three-option language preference dialog to both A1 pages. It persists `ss-language` and changes page direction; the dialog explicitly warns that full lesson translations are still in progress.
+- Added fixed five-item mobile navigation to A1 course and lesson pages, with current-section highlighting.
+- Added responsive A1/lesson layout refinements and Urdu RTL rules that keep Spanish phrases and Latin-script examples left-to-right.
+- Updated the service-worker cache to `spanish-seekho-v4` and included the shared A1 script.
+
 ### Partial / needs validation
 - Whole course and lesson pages are not fully translated. Homepage translations cover only selected strings.
 - Urdu RTL requires page-by-page QA; mixed Spanish/English text must retain correct direction.
-- Latest mobile layout must be tested on real Android devices and 360/390/412px viewports.
+- Latest homepage and A1 mobile layouts must be tested on real Android devices and 360/390/412px viewports.
 - Service-worker update/offline flow needs testing after successful online load.
 - Speech synthesis can be missing or use an unexpected Spanish voice.
 - Accessibility needs keyboard and screen-reader testing.
