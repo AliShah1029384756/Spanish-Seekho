@@ -44,14 +44,17 @@
 
   if (!document.querySelector(".mobile-nav")) {
     const path = location.pathname;
-    const isLesson = path.endsWith("lesson-01.html");
+    const isLesson = /lesson-\d+\.html$/.test(path);
+    const currentLesson = (path.match(/lesson-(\d+)\.html$/) || [])[1];
+    const lessonHref = currentLesson ? "lesson-" + currentLesson + ".html" : "lesson-01.html";
+
     const nav = document.createElement("nav");
     nav.className = "mobile-nav";
     nav.setAttribute("aria-label", "Main navigation");
     nav.innerHTML =
       '<a href="../index.html"><span aria-hidden="true">⌂</span><small>Home</small></a>' +
       '<a class="' + (!isLesson ? "active" : "") + '" href="index.html" ' + (!isLesson ? 'aria-current="page"' : "") + '><span aria-hidden="true">▤</span><small>Learn</small></a>' +
-      '<a class="' + (isLesson ? "active" : "") + '" href="lesson-01.html" ' + (isLesson ? 'aria-current="page"' : "") + '><span aria-hidden="true">✦</span><small>Lesson</small></a>' +
+      '<a class="' + (isLesson ? "active" : "") + '" href="' + lessonHref + '" ' + (isLesson ? 'aria-current="page"' : "") + '><span aria-hidden="true">✦</span><small>Lesson</small></a>' +
       '<a href="index.html#progressText"><span aria-hidden="true">◷</span><small>Progress</small></a>' +
       '<button type="button" id="navLanguage"><span aria-hidden="true">文</span><small>Language</small></button>';
     document.body.append(nav);
