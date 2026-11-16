@@ -1,13 +1,13 @@
-# Spanish Seekho — Product Roadmap
-_Last updated: 16 November 2026_
+# Spanish Seekho Roadmap
+_Updated: 16 November 2026_
 
-## Phase 2 — A1 curriculum: [x] complete (01–08)
-## Phase 3 — Practice: [x] flashcards + matching · [ ] listening-choice · [ ] sentence-building
-## Phase 4 — Real-life Spain
-- [x] Transport (metro, bus, tickets, directions)
-- [ ] Healthcare
-- [ ] Housing / renting
-- [ ] Airport & arrivals
-- [ ] Public offices / paperwork basics
+## Done
+- A1 lessons 01–08 + checkpoint
+- Practice: flashcards + matching
+- Spain Life: Transport, Healthcare, Airport
+- Speech fix (shared Spanish voice in app-shell)
 
-## Phase 5 — PWA improvements · Phase 6 — A2+
+## Next
+- Housing / renting module
+- Listening-choice practice
+- Content QA pass on all lessons

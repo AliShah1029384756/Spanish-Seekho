@@ -1,14 +1,11 @@
-# Spanish Seekho — Project Handoff
-_Last updated: 16 November 2026_
+# Spanish Seekho Handoff
+_Updated: 16 November 2026_
 
-## Current status
-- A1 lessons 01–08 complete
-- Practice: flashcards + matching (`a1/practice.html`)
-- Spain Life: Transport (`a1/spain-transport.html`)
-- SW cache: spanish-seekho-v13
+## Live content
+- a1/lesson-01 … lesson-08
+- a1/practice.html
+- a1/spain-transport.html, spain-healthcare.html, spain-airport.html
+- SW: spanish-seekho-v15
 
-## Next recommended task
-Spain Life modules: healthcare, housing/renting, or airport. Or listening-choice practice mode.
-
-## Principles
-Free core, mobile-first, static HTML/CSS/JS, preserve localStorage keys, accuracy over volume.
+## Next task
+Housing/renting Spain Life module, or listening-choice practice.
