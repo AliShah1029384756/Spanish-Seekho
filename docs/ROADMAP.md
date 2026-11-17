@@ -7,13 +7,12 @@
 - Homepage Spain Life grid, course and practice CTAs
 - A2 starter pathway in progress: Lessons 01–08 cover past events, past habits, work/studies, travel/accommodation, opinions/future plans, social invitations and healthcare; Lesson 08 provides a mixed review checkpoint and can-do checklist
 - Shared speech helper and path-aware mobile navigation
-- Service-worker cache version v34
+- Service-worker cache version v35
 
 ## QA progress
 - [x] First static review of homepage, A1 course, 8 lessons, practice page, 6 Spain Life modules, A2 outline, app shell, styles and service worker
 - [x] Inline JavaScript syntax parsed in inspected HTML pages
 - [x] No duplicate HTML IDs found in inspected pages
-- [x] Confirmed declared service-worker cache version v29 and its expected A2 checkpoint entry
 - [x] A2 Lesson 08 static structure: 12 mixed questions, 9/12 pass threshold, separate `ss-a2-done` progress key and `lesson-08` completion marker
 - [x] Corrected A2 index to mark Lessons 01–08 available and distinguish the starter pathway from full CEFR A2 completion
 - [x] Corrected Lesson 08 completion wording so passing the A1 starter checkpoint is not presented as completing all of CEFR A1
@@ -31,6 +30,7 @@
 - [ ] Confirm latest GitHub Pages deployment
 
 - A2 Lesson 05: completed the gustar indirect-object pronoun pattern, clarified verb agreement with the liked item/activity, added natural agreement responses, and clarified Castilian pronunciation approximations.
+- A2 Lesson 06: reviewed invitation patterns, clarified infinitive use after common invitation expressions, added a formal usted alternative, and reinforced the difference between informal and formal social language.
 - A2 Lesson 04: clarified the checkout question, refined the room-change request, and added polite conditional request patterns (quisiera/podría/podrían/podríais).
 
 ## Next
