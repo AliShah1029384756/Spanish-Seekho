@@ -1,4 +1,4 @@
-const CACHE="spanish-seekho-v34";
+const CACHE="spanish-seekho-v35";
 const FILES=[
  "./","./index.html","./styles.css","./app.js","./manifest.webmanifest","./assets/icon.svg",
  "./a1/index.html","./a1/lesson-01.html","./a1/lesson-02.html","./a1/lesson-03.html","./a1/lesson-04.html","./a1/lesson-05.html","./a1/lesson-06.html","./a1/lesson-07.html","./a1/lesson-08.html","./a1/practice.html","./a1/spain-transport.html","./a1/spain-healthcare.html","./a1/spain-airport.html","./a1/spain-housing.html","./a1/spain-offices.html","./a1/spain-shopping.html","./a1/course.css","./a1/app-shell.js",
