@@ -53,6 +53,11 @@ _Updated: 17 November 2026_
 - Verify PWA installation and offline behaviour on a real Android browser.
 - Confirm the latest GitHub Pages deployment and live rendering; repository commits alone do not prove deployment success.
 
+## Open access and caching
+- All currently published A1 and A2 lessons are directly accessible; there is no prerequisite sequence or lesson-lock gate.
+- Quiz scores and completion markers are for progress tracking only and do not control access to later lessons.
+- Service-worker cache is only an offline convenience. Browsers may clear or evict cached files; online access should work from GitHub Pages without a pre-existing cache.
+
 ## Architecture and preservation rules
 - Free static HTML/CSS/vanilla JavaScript; no mandatory account or paid API.
 - Mobile-first; preserve learner progress and existing localStorage keys: `ss-language`, `ss-completed`, `ss-a1-done`, `ss-a2-done`.
