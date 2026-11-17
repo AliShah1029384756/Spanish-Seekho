@@ -2,11 +2,11 @@
 
 **Making Spanish Learning Accessible to Every Pakistani.**
 
-Free, mobile-first Spanish learning for Pakistani learners — Roman Urdu, Urdu and English support. Standard Spanish from Spain (Castilian).
+Free, mobile-first Spanish learning for Pakistani learners. The learning experience is Roman Urdu-first, with English meanings and Urdu-script pronunciation approximations. The curriculum teaches standard Spanish from Spain (Castilian).
 
 ## Live now
 
-### A1 course (8 lessons)
+### A1 starter course (8 lessons)
 1. Greetings & introductions
 2. Alphabet & pronunciation
 3. Numbers, dates & time
@@ -17,6 +17,8 @@ Free, mobile-first Spanish learning for Pakistani learners — Roman Urdu, Urdu 
 8. Review & checkpoint
 
 Open: [A1 course](https://alishah1029384756.github.io/Spanish-Seekho/a1/)
+
+These eight lessons are a beginner starter pathway, not a claim that the full CEFR A1 syllabus has been completed.
 
 ### Practice (4 modes)
 - Flashcards
@@ -36,12 +38,13 @@ Open: [Practice](https://alishah1029384756.github.io/Spanish-Seekho/a1/practice.
 | Public offices | Cita previa, forms, documents |
 | Shopping | Supermarket, prices, paying |
 
-## Features
-- Spanish + English + Roman Urdu (+ Urdu-script approximation)
-- Browser speech (device Spanish voice required)
-- Progress in localStorage (no account)
-- PWA / offline shell
-- No paid APIs for core learning
+## Features and limitations
+- Homepage language selector has Roman Urdu, Urdu and English copy.
+- Lesson pages are primarily Roman Urdu/English supported; Urdu-script pronunciation is approximate. Selecting Urdu on lesson pages changes text direction and saved preference, but does not translate every lesson.
+- Browser speech uses an installed Spanish voice where available; device voices and quality vary.
+- Progress is stored in localStorage (no account).
+- A service-worker cache is configured; offline behaviour still needs real Android/browser smoke testing.
+- No paid APIs are required for core learning.
 
 ## Principles
 Accuracy over volume. Free core learning. Mobile-first. Static HTML/CSS/vanilla JS.
@@ -53,7 +56,7 @@ Open `index.html` or serve the folder. Service worker needs HTTPS or localhost.
 GitHub Pages: Settings → Pages → Deploy from branch `main` / (root).
 
 ## Status
-A1 path + practice tools + Spain Life modules are implemented. Content QA and A2 pathway are next.
+The A1 starter pathway, four practice modes and six Spain Life modules are implemented. A first static QA pass is underway; deeper Spanish content review, Urdu RTL/device testing and offline verification remain. A2 is currently an outline only.
 
 ## License
 MIT — see [LICENSE](LICENSE).
