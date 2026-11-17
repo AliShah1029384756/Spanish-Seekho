@@ -6,8 +6,9 @@ _Updated: 17 November 2026_
 - A1 starter pathway: lessons 01–08
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: transport, healthcare, airport, housing, public offices and shopping
-- A2 pathway in progress: Lessons 01 (regular pretérito indefinido), 02 (imperfecto for past habits), 03 (work, studies and obligations), 04 (travel, accommodation and polite requests), 05 (opinions, preferences and future plans), 06 (social life, invitations and arrangements), and 07 (health appointments, symptoms, clinic conversations and pharmacy questions) are available; remaining units are planned only
-- Service-worker cache: `spanish-seekho-v27`
+- A2 starter pathway in progress: Lessons 01–07 cover past events, past habits, work/studies, travel/accommodation, opinions/future plans, social invitations and healthcare; Lesson 08 is a mixed review checkpoint with a can-do checklist
+- A2 Lessons 01–08 are available; this is not a claim of complete CEFR A2 syllabus coverage or official certification
+- Service-worker cache: `spanish-seekho-v28`
 
 ## Language coverage (important)
 - Homepage language selector provides Roman Urdu, Urdu and English copy.
@@ -16,11 +17,13 @@ _Updated: 17 November 2026_
 - Urdu-script and Roman Urdu pronunciations are approximations, not precise phonetic transcription.
 
 ## QA status
-### Static checks completed in this pass
-- Earlier static review covered the 8 A1 lesson pages, practice page, 6 Spain Life pages, homepage, A1 course page, A2 outline, shared app shell, styles and service worker.
-- Earlier inspected inline JavaScript syntax parsed successfully and no duplicate HTML IDs were found in those inspected pages.
-- Latest static review for A2 Lesson 06: six quiz questions; completion uses the separate `ss-a2-done` key and records `lesson-06`; A2 index links to the lesson; service worker declares v26 and precaches the lesson.
-- No real browser, Android, RTL or PWA testing has been performed in this pass.
+### Static checks completed for Lesson 08
+- Checkpoint contains 12 mixed multiple-choice questions spanning the seven preceding A2 lessons.
+- Pass threshold is 9/12 (75%); feedback explanations are shown after submission.
+- Successful completion records `lesson-08` in the separate `ss-a2-done` localStorage key; the A1 progress keys remain untouched.
+- A2 index links to Lessons 01–08 and labels the pathway as in progress.
+- Service worker declares v28 and includes `./a2/lesson-08.html` in its precache list.
+- Static syntax and duplicate-ID checks are limited to source inspection; no browser, Android, RTL or PWA testing was performed.
 
 ### A2 progress
 - Lesson 01: past-time expressions, regular -ar/-er/-ir pretérito indefinido forms, examples, dialogue and six-question quiz.
@@ -29,17 +32,16 @@ _Updated: 17 November 2026_
 - Lesson 04: accommodation vocabulary, making reservations, asking about prices and breakfast, check-in/check-out, polite requests, reporting simple hotel problems, reception dialogue and six-question quiz.
 - Lesson 05: opinion phrases (creo que, me parece que), agreement/disagreement, gustar for singular/plural nouns and infinitives, ir a + infinitive, arranging a meeting, weekend-plans dialogue and six-question quiz.
 - Lesson 06: invitations with ¿Quieres…?, ¿Te apetece…? and ¿Te gustaría…?; accepting and declining politely; suggesting activities; using quedar for meeting arrangements; social vocabulary; café-plans dialogue and six-question quiz.
-- A2 index marks Lessons 01–07 available; Lesson 08 checkpoint remains planned.
-- Service worker precaches all seven A2 lessons; current cache version is v26.
-- A2 lesson progress uses the separate `ss-a2-done` localStorage key; existing A1 progress keys are untouched.
+- Lesson 07: appointment requests, basic symptom descriptions, doctor communication, pharmacy questions, a clinic dialogue and six-question quiz. Includes a clear medical-information disclaimer.
+- Lesson 08: revision examples from Lessons 01–07, seven-item can-do checklist and 12-question mixed checkpoint. A score of 9/12 (75%) records completion locally.
+- A2 progress is stored in the separate `ss-a2-done` localStorage key; existing A1 progress keys are untouched.
 
-- Lesson 07: appointment requests, basic symptom descriptions, doctor communication, pharmacy questions, a clinic dialogue and six-question quiz. Includes a clear medical-information disclaimer.\n\n### Content review progress
-- Lesson 02: refined explanations for Spanish e/o vowels, qualified ll pronunciation as a common pattern rather than universal, clarified regional variation in c/z, and refined the jota sound guide.
-- Lesson 07: clarified that ser/estar cannot be reduced to a strict permanent-versus-temporary rule; location, identity and context are better beginner anchors. The tiredness example provides speech for both masculine and feminine forms.
-- Lesson 03: introduces common Spain-relevant work/study expressions and obligation structures.
-- Lesson 04: introduces practical accommodation and hotel phrases.
-- Lesson 05: introduces common opinion and preference structures and the near-future `ir a + infinitive` pattern.
-- Lesson 06: introduces informal invitations, polite acceptance/refusal, suggestions and social meeting arrangements. Roman Urdu/Urdu-script guides are approximations and need human review.
+### Content review progress
+- A1 Lesson 02: refined explanations for Spanish e/o vowels, qualified ll pronunciation as a common pattern rather than universal, clarified regional variation in c/z, and refined the jota sound guide.
+- A1 Lesson 07: clarified that ser/estar cannot be reduced to a strict permanent-versus-temporary rule; location, identity and context are better beginner anchors. The tiredness example provides speech for both masculine and feminine forms.
+- A2 Lessons 03–06 introduce common Spain-relevant work, accommodation, opinion, preference, future-plan and social invitation patterns.
+- A2 Lesson 07 introduces basic health appointment and pharmacy communication; it is not medical advice.
+- Roman Urdu/Urdu-script pronunciation guides are approximations and need human review.
 
 ### Still required
 - Detailed human review of Spanish grammar, vocabulary, Castilian usage and every pronunciation guide.
@@ -54,9 +56,10 @@ _Updated: 17 November 2026_
 - Mobile-first; preserve learner progress and existing localStorage keys: `ss-language`, `ss-completed`, `ss-a1-done`, `ss-a2-done`.
 - Keep Spanish content LTR within Urdu RTL layouts where appropriate.
 - Browser speech depends on installed device voices and must remain supplementary.
-- Do not describe the eight starter lessons as a complete CEFR A1 syllabus.
+- Do not describe the eight A1 starter lessons as a complete CEFR A1 syllabus.
+- Do not describe the eight A2 starter lessons or their checkpoint as a complete CEFR A2 syllabus, official exam or certification.
 
 ## Next recommended work
-1. Continue building A2 gradually; next planned topic is expanded health and public-service conversations.
-2. Continue the remaining A1 content review and repository link/precache audit.
+1. Continue Spanish content and pronunciation review, then audit internal links and service-worker precache paths.
+2. Expand A2 beyond the starter pathway while keeping course completion claims accurate.
 3. Run Android/browser functional, responsive, RTL, PWA and offline tests when the project owner is ready.
