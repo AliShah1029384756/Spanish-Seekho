@@ -82,6 +82,7 @@ const questions=[
 {q:"Choose the correct phrase for “the cities”.",o:["los ciudades","las ciudad","las ciudades"],a:2,why:"Ciudad is feminine; its plural is ciudades, so use las."},
 {q:"Which sentence means “The houses are big”?",o:["La casa es grande.","Las casas son grandes.","Los casas son grande."],a:1,why:"Plural feminine noun takes las; the sentence also uses plural son and grandes."}
 ];
+questions.forEach(q=>{const c=q.o[q.a];for(let i=q.o.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[q.o[i],q.o[j]]=[q.o[j],q.o[i]]}q.a=q.o.indexOf(c)});
 const quiz=document.getElementById("quiz");let answers={};
 quiz.innerHTML=questions.map((q,i)=>'<article class="quiz-question"><b>'+(i+1)+'. '+q.q+'</b><div class="quiz-options">'+q.o.map((o,j)=>'<button type="button" data-q="'+i+'" data-a="'+j+'">'+o+'</button>').join("")+'</div><p class="quiz-explain" id="explain'+i+'"></p></article>').join("");
 quiz.addEventListener("click",e=>{const b=e.target.closest("button[data-q]");if(!b||document.getElementById("finishQuiz").dataset.done)return;const q=+b.dataset.q;answers[q]=+b.dataset.a;quiz.querySelectorAll('[data-q="'+q+'"]').forEach(x=>x.classList.toggle("selected",x===b));document.getElementById("quizStatus").textContent=Object.keys(answers).length+" of 8 answered";document.getElementById("finishQuiz").disabled=Object.keys(answers).length!==8;});

@@ -151,3 +151,18 @@
 
   window.ssSpeakSpanish = speakSpanish;
 })();
+
+(() => {
+  const finish = document.getElementById("finishQuiz");
+  if (!finish) return;
+  finish.addEventListener("click", () => {
+    if (document.getElementById("retryQuiz")) return;
+    const retry = document.createElement("button");
+    retry.type = "button";
+    retry.id = "retryQuiz";
+    retry.className = "primary-btn";
+    retry.textContent = "Try again \u21BB";
+    retry.addEventListener("click", () => location.reload());
+    finish.insertAdjacentElement("afterend", retry);
+  });
+})();

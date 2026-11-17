@@ -74,6 +74,7 @@ const questions=[
 {q:"Which phrase means “next to”?",o:["debajo de","encima de","al lado de"],a:2,why:"Al lado de means next to."},
 {q:"Choose the correct sentence for “The book is here.”",o:["El libro está aquí.","Hay el libro aquí.","El libro es aquí."],a:0,why:"Use está to give the location of a specific object: El libro está aquí."}
 ];
+questions.forEach(q=>{const c=q.o[q.a];for(let i=q.o.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[q.o[i],q.o[j]]=[q.o[j],q.o[i]]}q.a=q.o.indexOf(c)});
 const quiz=document.getElementById("quiz");let answers={};
 quiz.innerHTML=questions.map((q,i)=>'<article class="quiz-question"><b>'+(i+1)+'. '+q.q+'</b><div class="quiz-options">'+q.o.map((o,j)=>'<button type="button" data-q="'+i+'" data-a="'+j+'">'+o+'</button>').join("")+'</div><p class="quiz-explain" id="explain'+i+'"></p></article>').join("");
 quiz.addEventListener("click",e=>{const b=e.target.closest("button[data-q]");if(!b||document.getElementById("finishQuiz").dataset.done)return;const q=+b.dataset.q;answers[q]=+b.dataset.a;quiz.querySelectorAll('[data-q="'+q+'"]').forEach(x=>x.classList.toggle("selected",x===b));document.getElementById("quizStatus").textContent=Object.keys(answers).length+" of 6 answered";document.getElementById("finishQuiz").disabled=Object.keys(answers).length!==6;});

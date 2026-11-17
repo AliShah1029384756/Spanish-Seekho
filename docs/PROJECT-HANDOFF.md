@@ -10,7 +10,7 @@ _Updated: 17 November 2026_
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: transport, healthcare, airport, housing, public offices and shopping
 - A2 starter pathway in progress: Lessons 01–09; not a claim of complete CEFR A2 syllabus coverage or official certification
-- Service-worker cache: `spanish-seekho-v41`
+- Service-worker cache: `spanish-seekho-v42`
 
 ## Language coverage (important)
 - Homepage language selector provides Roman Urdu, Urdu and English copy.
@@ -22,6 +22,8 @@ _Updated: 17 November 2026_
 The A1 pathway is being expanded deliberately, not treated as complete. Upcoming areas include articles and gender, plurals, adjective agreement, regular present-tense verbs, common irregular verbs, negation, sentence construction, everyday questions, practical situations, and integrated reading/listening/writing/speaking practice. This is a working plan; do not describe planned topics as already available.
 
 ## QA status
+- 17 Nov 2026 (branch a1-improvements): Lesson 03 pronunciation guides changed to Castilian "th" (cero, cinco, diez, once-quince, 16-19, cincuenta, cien) to match Lesson 02; all A1 quiz options now shuffle each load; "Try again" button added via app-shell.js (reloads page; also applies to A2 quizzes); manifest link added to a1/index, practice, spain-shopping; homepage/README lesson counts corrected (A1 11, A2 9).
+- Known leftover: a2/lesson-09 "izquierda" guide uses "ees-" (Castilian would be "eeth-"). Practice deck is still 12 hardcoded items.
 - Earlier static source review and syntax/duplicate-ID checks were completed on the pages inspected at that time.
 - Lessons 09–11 have been added to the A1 index and service-worker precache list.
 - No browser, Android, RTL, PWA or offline testing was performed for the new lesson.

@@ -33,7 +33,7 @@ This is a working curriculum plan, not a claim that every item is already implem
 - Earlier inline JavaScript syntax and duplicate-ID checks were completed on the inspected pages
 - A1 Lesson 02 and 07 received targeted pronunciation/grammar refinements
 - [ ] Continue detailed Spanish grammar, vocabulary and Castilian usage review
-- [ ] Review pronunciation approximations for consistency and clarity across all lessons
+- [ ] Review pronunciation approximations for consistency and clarity across all lessons (Lesson 03 c/z fixed 17 Nov 2026; others pass a scripted c/z check for A1; A2 lesson-09 izquierda outstanding)
 - [ ] Verify every internal link and precache URL against the complete repository tree
 - [ ] Test quizzes and practice modes in a real browser
 - [ ] Android layout checks at 360px, 390px and 412px
@@ -50,6 +50,7 @@ This is a working curriculum plan, not a claim that every item is already implem
 The eleven A1 lessons are an expanding beginner starter pathway, not a claim that the complete CEFR A1 syllabus is covered. A2 Lessons 01–09 are available as a starter pathway, not a complete CEFR A2 syllabus, official exam or certification. A2 remains in progress.
 
 ## Next
+0. Expand practice beyond the 12-item deck: build vocabulary from Lessons 03–11, add progress saving for flashcards.
 1. Continue expanding A1 in a structured order, prioritising grammar foundations and practical communication.
 2. Continue A2 expansion when A1 coverage is stronger or when the project owner reprioritises.
 3. Keep browser, Android, RTL, PWA and full repository testing for the dedicated final quality phase.
