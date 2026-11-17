@@ -21,6 +21,7 @@
 - [ ] Verify every internal link and precache URL against the complete repository tree
 - [x] A2 Lesson 01: clarified that hacer is irregular, added a concise preview of hacer/ir/ser/tener in the preterite, and documented Spain vosotros forms
 - A2 Lesson 02: added complete regular and irregular imperfect conjugation patterns, explained vosotros forms, and refined the j sound approximation
+- A2 Lesson 03: clarified article use with professions, completed tener/deber present-tense forms, explained vosotros/ustedes usage, and distinguished Spain/Latin American pronunciation of oficina
 - [ ] Continue detailed Spanish grammar, vocabulary and Castilian usage review
 - [ ] Review pronunciation approximations for consistency and clarity across all lessons
 - [ ] Test all quizzes and practice modes in a real browser
