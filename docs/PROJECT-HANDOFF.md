@@ -8,7 +8,7 @@ _Updated: 17 November 2026_
 - Spain Life: transport, healthcare, airport, housing, public offices and shopping
 - A2 starter pathway in progress: Lessons 01–08 cover past events, past habits, work/studies, travel/accommodation, opinions/future plans, social invitations and healthcare; Lesson 08 is a mixed review checkpoint with a can-do checklist
 - A2 Lessons 01–08 are available; this is not a claim of complete CEFR A2 syllabus coverage or official certification
-- Service-worker cache: `spanish-seekho-v30`
+- Service-worker cache: `spanish-seekho-v33`
 
 ## Language coverage (important)
 - Homepage language selector provides Roman Urdu, Urdu and English copy.
@@ -37,6 +37,7 @@ _Updated: 17 November 2026_
 - A2 progress is stored in the separate `ss-a2-done` localStorage key; existing A1 progress keys are untouched.
 
 ### Content review progress
+- A2 Lesson 04: made the checkout question more precise, refined the room-change request, and added a concise guide to polite conditional forms including Spain vosotros usage.
 - A2 Lesson 01: clarified the irregular hacer form in the dialogue, added common hacer / ir-ser / tener preterite forms as a preview, and explained the Spain vosotros forms.
 - A2 Lesson 03: clarified profession article use, added full tener/deber present conjugations and vosotros/ustedes forms, and refined regional pronunciation guidance.
 - A2 Lesson 02: added complete regular and irregular imperfect conjugation patterns, explained vosotros forms, and refined the j sound approximation.
