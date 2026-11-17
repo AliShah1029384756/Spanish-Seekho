@@ -38,6 +38,7 @@ _Updated: 17 November 2026_
 
 ### Content review progress
 - A2 Lesson 01: clarified the irregular hacer form in the dialogue, added common hacer / ir-ser / tener preterite forms as a preview, and explained the Spain vosotros forms.
+- A2 Lesson 03: clarified profession article use, added full tener/deber present conjugations and vosotros/ustedes forms, and refined regional pronunciation guidance.
 - A2 Lesson 02: added complete regular and irregular imperfect conjugation patterns, explained vosotros forms, and refined the j sound approximation.
 - A1 Lesson 02: refined explanations for Spanish e/o vowels, qualified ll pronunciation as a common pattern rather than universal, clarified regional variation in c/z, and refined the jota sound guide.
 - A1 Lesson 07: clarified that ser/estar cannot be reduced to a strict permanent-versus-temporary rule; location, identity and context are better beginner anchors. The tiredness example provides speech for both masculine and feminine forms.
