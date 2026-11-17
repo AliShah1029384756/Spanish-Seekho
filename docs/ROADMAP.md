@@ -34,5 +34,10 @@
 2. Perform browser and Android functional/responsive testing when the project owner is ready.
 3. Continue expanding A2 beyond the starter pathway while keeping unfinished A1 QA work visible; do not label A2 complete.
 
+## Open access and caching
+- A1 and A2 lesson pages are open directly: learners may start from any available lesson without completing earlier lessons or passing a prerequisite gate.
+- Quiz completion records learning progress only; it does not lock later lessons.
+- Service-worker caching is an offline convenience, not an access-control mechanism. Browser storage can be cleared or evicted, so learners should not rely on cached pages being permanently available offline.
+
 ## Product truth
 The eight A1 lessons are a beginner starter pathway, not a claim that the complete CEFR A1 syllabus is covered. A2 Lessons 01–08 are available as a starter pathway and internal checkpoint, not a complete CEFR A2 syllabus, official exam or certification. A2 remains in progress.
