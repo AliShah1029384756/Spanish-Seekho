@@ -23,7 +23,7 @@ _Updated: 17 November 2026_
 - Confirmed the service worker currently declares cache version `spanish-seekho-v20` and includes the A1 lessons, practice page, six Spain Life modules, shared CSS/JS and A2 outline.
 
 ### Still required
-- Detailed human review of Spanish grammar, vocabulary, Castilian usage and every pronunciation guide.
+- Detailed human review of Spanish grammar, vocabulary, Castilian usage and every pronunciation guide. A first content wording correction was made in Lesson 08: passing the 8-lesson starter checkpoint is no longer described as completing the full A1 path.
 - Verify all internal links and service-worker precache URLs against the complete repository tree.
 - Test quizzes and all four practice modes in a real browser.
 - Test 360px, 390px and 412px Android layouts; inspect Urdu RTL alignment.
@@ -38,6 +38,6 @@ _Updated: 17 November 2026_
 - Do not describe the eight starter lessons as a complete CEFR A1 syllabus.
 
 ## Next recommended work
-1. Complete link/precache audit and detailed Spanish content QA.
-2. Run Android/browser functional, responsive, RTL, PWA and offline tests.
+1. Continue detailed Spanish content and pronunciation QA, plus the repository link/precache audit.
+2. Run Android/browser functional, responsive, RTL, PWA and offline tests when the project owner is ready.
 3. Only then scope the first full A2 lesson.
