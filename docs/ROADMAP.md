@@ -7,7 +7,7 @@
 - Homepage Spain Life grid, course and practice CTAs
 - A2 starter pathway in progress: Lessons 01–08 cover past events, past habits, work/studies, travel/accommodation, opinions/future plans, social invitations and healthcare; Lesson 08 provides a mixed review checkpoint and can-do checklist
 - Shared speech helper and path-aware mobile navigation
-- Service-worker cache version v30
+- Service-worker cache version v33
 
 ## QA progress
 - [x] First static review of homepage, A1 course, 8 lessons, practice page, 6 Spain Life modules, A2 outline, app shell, styles and service worker
@@ -29,6 +29,8 @@
 - [ ] Urdu RTL review
 - [ ] PWA install and offline smoke test on Android
 - [ ] Confirm latest GitHub Pages deployment
+
+- A2 Lesson 04: clarified the checkout question, refined the room-change request, and added polite conditional request patterns (quisiera/podría/podrían/podríais).
 
 ## Next
 1. Continue the Spanish content and pronunciation review, then complete the repository link/precache audit.
