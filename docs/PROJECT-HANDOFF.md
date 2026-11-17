@@ -6,8 +6,8 @@ _Updated: 17 November 2026_
 - A1 starter pathway: lessons 01–08
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: transport, healthcare, airport, housing, public offices and shopping
-- A2 outline page only; no A2 lessons are complete
-- Service-worker cache: `spanish-seekho-v20`
+- A2 pathway started: Lesson 01 (regular pretérito indefinido) is available; remaining units are planned only
+- Service-worker cache: `spanish-seekho-v21`
 
 ## Language coverage (important)
 - Homepage language selector provides Roman Urdu, Urdu and English copy.
@@ -21,6 +21,12 @@ _Updated: 17 November 2026_
 - Inline JavaScript syntax parsed successfully in the inspected HTML pages.
 - No duplicate HTML IDs were found in the inspected pages.
 - Confirmed the service worker currently declares cache version `spanish-seekho-v20` and includes the A1 lessons, practice page, six Spain Life modules, shared CSS/JS and A2 outline.
+
+### A2 progress
+- Added `a2/lesson-01.html`: past-time expressions, regular -ar/-er/-ir pretérito indefinido forms, example sentences, dialogue and a six-question quiz.
+- Updated the A2 course page to mark only Lesson 01 as available; all other units remain planned.
+- Added the new lesson to the service-worker precache and incremented cache version to v21.
+- A2 lesson progress uses a separate `ss-a2-done` localStorage key; existing A1 progress keys are untouched.
 
 ### Content review progress
 - Lesson 02: refined the explanations for Spanish e/o vowels, qualified the ll pronunciation as a common pattern rather than universal, clarified regional variation in c/z, and refined the jota sound guide.
@@ -42,6 +48,6 @@ _Updated: 17 November 2026_
 - Do not describe the eight starter lessons as a complete CEFR A1 syllabus.
 
 ## Next recommended work
-1. Continue the detailed Spanish content and pronunciation QA across the remaining lessons, plus the repository link/precache audit.
-2. Run Android/browser functional, responsive, RTL, PWA and offline tests when the project owner is ready.
-3. Only then scope the first full A2 lesson.
+1. Continue building A2 lessons gradually, reviewing Spanish content as each lesson is added.
+2. Continue the remaining A1 content review and repository link/precache audit.
+3. Run Android/browser functional, responsive, RTL, PWA and offline tests when the project owner is ready.
