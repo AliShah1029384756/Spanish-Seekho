@@ -37,6 +37,7 @@ _Updated: 17 November 2026_
 - A2 progress is stored in the separate `ss-a2-done` localStorage key; existing A1 progress keys are untouched.
 
 ### Content review progress
+- A2 Lesson 05: added the full gustar pronoun pattern (me/te/le/nos/os/les), clarified singular/plural agreement, added natural preference responses (a mí también/tampoco), and clarified Castilian pronunciation approximations.
 - A2 Lesson 04: refined the check-out question, added a Wi-Fi question, included an adjective-agreement reminder and clarified Castilian pronunciation approximations.
 - A2 Lesson 04: made the checkout question more precise, refined the room-change request, and added a concise guide to polite conditional forms including Spain vosotros usage.
 - A2 Lesson 01: clarified the irregular hacer form in the dialogue, added common hacer / ir-ser / tener preterite forms as a preview, and explained the Spain vosotros forms.
