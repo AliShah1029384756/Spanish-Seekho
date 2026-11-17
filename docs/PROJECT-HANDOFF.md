@@ -6,8 +6,8 @@ _Updated: 17 November 2026_
 - A1 starter pathway: lessons 01–08
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: transport, healthcare, airport, housing, public offices and shopping
-- A2 pathway in progress: Lessons 01 (regular pretérito indefinido), 02 (imperfecto for past habits), 03 (work, studies and obligations), 04 (travel, accommodation and polite requests), 05 (opinions, preferences and future plans), and 06 (social life, invitations and arrangements) are available; remaining units are planned only
-- Service-worker cache: `spanish-seekho-v26`
+- A2 pathway in progress: Lessons 01 (regular pretérito indefinido), 02 (imperfecto for past habits), 03 (work, studies and obligations), 04 (travel, accommodation and polite requests), 05 (opinions, preferences and future plans), 06 (social life, invitations and arrangements), and 07 (health appointments, symptoms, clinic conversations and pharmacy questions) are available; remaining units are planned only
+- Service-worker cache: `spanish-seekho-v27`
 
 ## Language coverage (important)
 - Homepage language selector provides Roman Urdu, Urdu and English copy.
@@ -29,11 +29,11 @@ _Updated: 17 November 2026_
 - Lesson 04: accommodation vocabulary, making reservations, asking about prices and breakfast, check-in/check-out, polite requests, reporting simple hotel problems, reception dialogue and six-question quiz.
 - Lesson 05: opinion phrases (creo que, me parece que), agreement/disagreement, gustar for singular/plural nouns and infinitives, ir a + infinitive, arranging a meeting, weekend-plans dialogue and six-question quiz.
 - Lesson 06: invitations with ¿Quieres…?, ¿Te apetece…? and ¿Te gustaría…?; accepting and declining politely; suggesting activities; using quedar for meeting arrangements; social vocabulary; café-plans dialogue and six-question quiz.
-- A2 index marks Lessons 01–06 available; all other units remain planned.
-- Service worker precaches all six A2 lessons; current cache version is v26.
+- A2 index marks Lessons 01–07 available; Lesson 08 checkpoint remains planned.
+- Service worker precaches all seven A2 lessons; current cache version is v26.
 - A2 lesson progress uses the separate `ss-a2-done` localStorage key; existing A1 progress keys are untouched.
 
-### Content review progress
+- Lesson 07: appointment requests, basic symptom descriptions, doctor communication, pharmacy questions, a clinic dialogue and six-question quiz. Includes a clear medical-information disclaimer.\n\n### Content review progress
 - Lesson 02: refined explanations for Spanish e/o vowels, qualified ll pronunciation as a common pattern rather than universal, clarified regional variation in c/z, and refined the jota sound guide.
 - Lesson 07: clarified that ser/estar cannot be reduced to a strict permanent-versus-temporary rule; location, identity and context are better beginner anchors. The tiredness example provides speech for both masculine and feminine forms.
 - Lesson 03: introduces common Spain-relevant work/study expressions and obligation structures.
