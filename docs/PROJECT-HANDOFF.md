@@ -8,7 +8,7 @@ _Updated: 17 November 2026_
 - Spain Life: transport, healthcare, airport, housing, public offices and shopping
 - A2 starter pathway in progress: Lessons 01–07 cover past events, past habits, work/studies, travel/accommodation, opinions/future plans, social invitations and healthcare; Lesson 08 is a mixed review checkpoint with a can-do checklist
 - A2 Lessons 01–08 are available; this is not a claim of complete CEFR A2 syllabus coverage or official certification
-- Service-worker cache: `spanish-seekho-v28`
+- Service-worker cache: `spanish-seekho-v29`
 
 ## Language coverage (important)
 - Homepage language selector provides Roman Urdu, Urdu and English copy.
@@ -22,11 +22,11 @@ _Updated: 17 November 2026_
 - Pass threshold is 9/12 (75%); feedback explanations are shown after submission.
 - Successful completion records `lesson-08` in the separate `ss-a2-done` localStorage key; the A1 progress keys remain untouched.
 - A2 index links to Lessons 01–08 and labels the pathway as in progress.
-- Service worker declares v28 and includes `./a2/lesson-08.html` in its precache list.
+- Service worker declares v29 and includes `./a2/lesson-08.html` in its precache list.
 - Static syntax and duplicate-ID checks are limited to source inspection; no browser, Android, RTL or PWA testing was performed.
 
 ### A2 progress
-- Lesson 01: past-time expressions, regular -ar/-er/-ir pretérito indefinido forms, examples, dialogue and six-question quiz.
+- Lesson 01: past-time expressions, regular -ar/-er/-ir pretérito indefinido forms, examples, dialogue and six-question quiz. A targeted content refinement also previews common irregular hacer, ir/ser and tener forms, explicitly flags hiciste as irregular, and explains Spain vosotros forms.
 - Lesson 02: imperfecto endings for regular -ar/-er/-ir verbs, common irregular ser/ir/ver forms, past habits/descriptions, a beginner-level imperfecto vs pretérito contrast, dialogue and six-question quiz.
 - Lesson 03: work and study vocabulary, describing jobs and education, tener que / hay que / deber for obligations and advice, workplace questions, sample job interview and six-question quiz.
 - Lesson 04: accommodation vocabulary, making reservations, asking about prices and breakfast, check-in/check-out, polite requests, reporting simple hotel problems, reception dialogue and six-question quiz.
@@ -37,7 +37,7 @@ _Updated: 17 November 2026_
 - A2 progress is stored in the separate `ss-a2-done` localStorage key; existing A1 progress keys are untouched.
 
 ### Content review progress
-- A1 Lesson 02: refined explanations for Spanish e/o vowels, qualified ll pronunciation as a common pattern rather than universal, clarified regional variation in c/z, and refined the jota sound guide.
+- A2 Lesson 01: clarified the irregular hacer form in the dialogue, added common hacer / ir-ser / tener preterite forms as a preview, and explained the Spain vosotros forms.\n- A1 Lesson 02: refined explanations for Spanish e/o vowels, qualified ll pronunciation as a common pattern rather than universal, clarified regional variation in c/z, and refined the jota sound guide.
 - A1 Lesson 07: clarified that ser/estar cannot be reduced to a strict permanent-versus-temporary rule; location, identity and context are better beginner anchors. The tiredness example provides speech for both masculine and feminine forms.
 - A2 Lessons 03–06 introduce common Spain-relevant work, accommodation, opinion, preference, future-plan and social invitation patterns.
 - A2 Lesson 07 introduces basic health appointment and pharmacy communication; it is not medical advice.
