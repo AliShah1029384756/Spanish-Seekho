@@ -1,44 +1,43 @@
 # Roadmap
 
 ## Implemented
-- A1 beginner starter pathway: lessons 01–08
+- A1 beginner starter pathway expanded to lessons 01–09; this is still not the complete CEFR A1 syllabus.
+- A1 Lesson 09: personal information, question words, regular present-tense forms of vivir and hablar, tú/usted contrast, dialogue and six-question quiz.
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: 6 practical modules
 - Homepage Spain Life grid, course and practice CTAs
-- A2 starter pathway in progress: Lessons 01–09 cover past events, past habits, work/studies, travel/accommodation, opinions/future plans, social invitations and healthcare; Lesson 08 provides a mixed review checkpoint and can-do checklist
+- A2 starter pathway in progress: Lessons 01–09; not full CEFR A2 coverage
 - Shared speech helper and path-aware mobile navigation
-- A2 Lesson 09: directions and places in town, polite requests, route instructions and location phrases\n- Service-worker cache version v38
+- Service-worker cache version v39; A1 Lesson 09 included in precache
 
-## QA progress
-- [x] First static review of homepage, A1 course, 8 lessons, practice page, 6 Spain Life modules, A2 outline, app shell, styles and service worker
-- [x] Inline JavaScript syntax parsed in inspected HTML pages
-- [x] No duplicate HTML IDs found in inspected pages
-- [x] A2 Lesson 08 static structure: 12 mixed questions, 9/12 pass threshold, separate `ss-a2-done` progress key and `lesson-08` completion marker
-- [x] Corrected A2 index to mark Lessons 01–08 available and distinguish the starter pathway from full CEFR A2 completion
-- [x] Corrected Lesson 08 completion wording so passing the A1 starter checkpoint is not presented as completing all of CEFR A1
-- [x] First targeted content corrections in A1 Lessons 02 and 07: clearer pure-vowel guidance, more accurate jota and regional pronunciation notes, less absolute ser/estar explanations, and audio coverage for both gender forms of cansado/cansada
-- [ ] Verify every internal link and precache URL against the complete repository tree
-- [x] A2 Lesson 01: clarified that hacer is irregular, added a concise preview of hacer/ir/ser/tener in the preterite, and documented Spain vosotros forms
-- A2 Lesson 02: added complete regular and irregular imperfect conjugation patterns, explained vosotros forms, and refined the j sound approximation
-- A2 Lesson 03: clarified article use with professions, completed tener/deber present-tense forms, explained vosotros/ustedes usage, and distinguished Spain/Latin American pronunciation of oficina
+## A1 expansion plan
+Keep the existing lessons available and expand the course as a coherent beginner syllabus rather than replacing material randomly. Planned areas to cover in upcoming lessons:
+1. Articles, noun gender and plural forms
+2. Adjective agreement and describing people/things
+3. Regular present-tense -ar, -er and -ir verbs in useful contexts
+4. Common irregular verbs and everyday question-answer patterns
+5. Negation, word order and building simple sentences
+6. Days, months, dates, clock time and schedules (deeper practice)
+7. Home, town, directions and everyday services
+8. Shopping, prices, quantities and polite requests
+9. Daily routines, frequency and simple free-time activities
+10. Reading, listening, writing and speaking practice integrated across units
+11. A broader A1 review and a carefully labelled non-official checkpoint
+
+This is a working curriculum plan, not a claim that every item is already implemented or an official exhaustive CEFR syllabus. Lessons remain directly accessible in any order.
+
+## QA status
+- First static review of homepage, A1 starter lessons, practice page, six Spain Life modules, A2 outline, app shell, styles and service worker
+- Earlier inline JavaScript syntax and duplicate-ID checks were completed on the inspected pages
+- A1 Lesson 02 and 07 received targeted pronunciation/grammar refinements
 - [ ] Continue detailed Spanish grammar, vocabulary and Castilian usage review
 - [ ] Review pronunciation approximations for consistency and clarity across all lessons
-- [ ] Test all quizzes and practice modes in a real browser
+- [ ] Verify every internal link and precache URL against the complete repository tree
+- [ ] Test quizzes and practice modes in a real browser
 - [ ] Android layout checks at 360px, 390px and 412px
 - [ ] Urdu RTL review
 - [ ] PWA install and offline smoke test on Android
 - [ ] Confirm latest GitHub Pages deployment
-
-- A2 Lesson 05: completed the gustar indirect-object pronoun pattern, clarified verb agreement with the liked item/activity, added natural agreement responses, and clarified Castilian pronunciation approximations.
-- A2 Lesson 06: reviewed invitation patterns, clarified infinitive use after common invitation expressions, added a formal usted alternative, and reinforced the difference between informal and formal social language.
-- A2 Lesson 07: distinguished asking whether the patient already has an appointment from asking whether a slot is available; made the medicine side-effects question explicit.
-- A2 Lesson 08: clarified masculine/feminine versions of the past-habit example, added a careful preterite/imperfecto reminder, and made the side-effects checkpoint wording specific to a medicine.
-- A2 Lesson 04: clarified the checkout question, refined the room-change request, and added polite conditional request patterns (quisiera/podría/podrían/podríais).
-
-## Next
-1. Continue the Spanish content and pronunciation review, then complete the repository link/precache audit.
-2. Perform browser and Android functional/responsive testing when the project owner is ready.
-3. Continue expanding A2 beyond the starter pathway while keeping unfinished A1 QA work visible; do not label A2 complete.
 
 ## Open access and caching
 - A1 and A2 lesson pages are open directly: learners may start from any available lesson without completing earlier lessons or passing a prerequisite gate.
@@ -46,4 +45,9 @@
 - Service-worker caching is an offline convenience, not an access-control mechanism. Browser storage can be cleared or evicted, so learners should not rely on cached pages being permanently available offline.
 
 ## Product truth
-The eight A1 lessons are a beginner starter pathway, not a claim that the complete CEFR A1 syllabus is covered. A2 Lessons 01–09 are available as a starter pathway and internal checkpoint, not a complete CEFR A2 syllabus, official exam or certification. A2 remains in progress.
+The nine A1 lessons are an expanding beginner starter pathway, not a claim that the complete CEFR A1 syllabus is covered. A2 Lessons 01–09 are available as a starter pathway, not a complete CEFR A2 syllabus, official exam or certification. A2 remains in progress.
+
+## Next
+1. Continue expanding A1 in a structured order, prioritising grammar foundations and practical communication.
+2. Continue A2 expansion when A1 coverage is stronger or when the project owner reprioritises.
+3. Keep browser, Android, RTL, PWA and full repository testing for the dedicated final quality phase.
