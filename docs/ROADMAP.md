@@ -16,7 +16,7 @@
 - [x] Confirmed declared service-worker cache version v20 and its expected course entries
 - [ ] Verify every internal link and precache URL against the complete repository tree
 - [x] Corrected Lesson 08 completion wording so passing the starter checkpoint is not presented as completing all of CEFR A1
-- [x] First targeted content corrections in Lessons 02 and 07: clearer pure-vowel guidance, regional pronunciation qualification, and less absolute ser/estar explanations
+- [x] First targeted content corrections in Lessons 02 and 07: clearer pure-vowel guidance, more accurate jota and regional pronunciation notes, less absolute ser/estar explanations, and audio coverage for both gender forms of cansado/cansada
 - [ ] Continue detailed Spanish grammar, vocabulary and Castilian usage review
 - [ ] Review pronunciation approximations for consistency and clarity across all lessons
 - [ ] Test all quizzes and practice modes in a real browser
