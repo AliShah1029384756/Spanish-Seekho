@@ -6,9 +6,9 @@ _Updated: 17 November 2026_
 - A1 starter pathway: lessons 01–08
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: transport, healthcare, airport, housing, public offices and shopping
-- A2 starter pathway in progress: Lessons 01–08 cover past events, past habits, work/studies, travel/accommodation, opinions/future plans, social invitations and healthcare; Lesson 08 is a mixed review checkpoint with a can-do checklist
-- A2 Lessons 01–08 are available; this is not a claim of complete CEFR A2 syllabus coverage or official certification
-- Service-worker cache: `spanish-seekho-v37`
+- A2 starter pathway in progress: Lessons 01–09 cover past events, past habits, work/studies, travel/accommodation, opinions/future plans, social invitations and healthcare; Lesson 08 is a mixed review checkpoint with a can-do checklist
+- A2 Lessons 01–09 are available; this is not a claim of complete CEFR A2 syllabus coverage or official certification
+- A2 Lesson 09: directions and places in town, asking for routes, polite commands and location phrases\n- Service-worker cache: `spanish-seekho-v38`
 
 ## Language coverage (important)
 - Homepage language selector provides Roman Urdu, Urdu and English copy.
