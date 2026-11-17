@@ -5,9 +5,9 @@
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: 6 practical modules
 - Homepage Spain Life grid, course and practice CTAs
-- A2 starter pathway in progress: Lessons 01–08 cover past events, past habits, work/studies, travel/accommodation, opinions/future plans, social invitations and healthcare; Lesson 08 provides a mixed review checkpoint and can-do checklist
+- A2 starter pathway in progress: Lessons 01–09 cover past events, past habits, work/studies, travel/accommodation, opinions/future plans, social invitations and healthcare; Lesson 08 provides a mixed review checkpoint and can-do checklist
 - Shared speech helper and path-aware mobile navigation
-- Service-worker cache version v37
+- A2 Lesson 09: directions and places in town, polite requests, route instructions and location phrases\n- Service-worker cache version v38
 
 ## QA progress
 - [x] First static review of homepage, A1 course, 8 lessons, practice page, 6 Spain Life modules, A2 outline, app shell, styles and service worker
@@ -46,4 +46,4 @@
 - Service-worker caching is an offline convenience, not an access-control mechanism. Browser storage can be cleared or evicted, so learners should not rely on cached pages being permanently available offline.
 
 ## Product truth
-The eight A1 lessons are a beginner starter pathway, not a claim that the complete CEFR A1 syllabus is covered. A2 Lessons 01–08 are available as a starter pathway and internal checkpoint, not a complete CEFR A2 syllabus, official exam or certification. A2 remains in progress.
+The eight A1 lessons are a beginner starter pathway, not a claim that the complete CEFR A1 syllabus is covered. A2 Lessons 01–09 are available as a starter pathway and internal checkpoint, not a complete CEFR A2 syllabus, official exam or certification. A2 remains in progress.
