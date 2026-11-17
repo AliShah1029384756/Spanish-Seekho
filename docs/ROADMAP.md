@@ -1,15 +1,16 @@
 # Roadmap
 
 ## Implemented
-- A1 beginner starter pathway expanded to lessons 01–10; this is still not the complete CEFR A1 syllabus.
+- A1 beginner starter pathway expanded to lessons 01–11; this is still not the complete CEFR A1 syllabus.
 - A1 Lesson 09: personal information, question words, regular present-tense forms of vivir and hablar, tú/usted contrast, dialogue and six-question quiz.
 - A1 Lesson 10: noun gender, definite and indefinite articles, singular/plural formation, common gender clues and exceptions, sentence examples and eight-question quiz.
+- A1 Lesson 11: adjective agreement, common descriptive vocabulary, gender/number forms, ser + adjective, conversation and eight-question quiz.
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: 6 practical modules
 - Homepage Spain Life grid, course and practice CTAs
 - A2 starter pathway in progress: Lessons 01–09; not full CEFR A2 coverage
 - Shared speech helper and path-aware mobile navigation
-- Service-worker cache version v40; A1 Lessons 09–10 included in precache
+- Service-worker cache version v41; A1 Lessons 09–11 included in precache
 
 ## A1 expansion plan
 Keep the existing lessons available and expand the course as a coherent beginner syllabus rather than replacing material randomly. Planned areas to cover in upcoming lessons:
@@ -46,7 +47,7 @@ This is a working curriculum plan, not a claim that every item is already implem
 - Service-worker caching is an offline convenience, not an access-control mechanism. Browser storage can be cleared or evicted, so learners should not rely on cached pages being permanently available offline.
 
 ## Product truth
-The ten A1 lessons are an expanding beginner starter pathway, not a claim that the complete CEFR A1 syllabus is covered. A2 Lessons 01–09 are available as a starter pathway, not a complete CEFR A2 syllabus, official exam or certification. A2 remains in progress.
+The eleven A1 lessons are an expanding beginner starter pathway, not a claim that the complete CEFR A1 syllabus is covered. A2 Lessons 01–09 are available as a starter pathway, not a complete CEFR A2 syllabus, official exam or certification. A2 remains in progress.
 
 ## Next
 1. Continue expanding A1 in a structured order, prioritising grammar foundations and practical communication.
