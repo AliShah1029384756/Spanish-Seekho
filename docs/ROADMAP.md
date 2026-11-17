@@ -5,15 +5,15 @@
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: 6 practical modules
 - Homepage Spain Life grid, course and practice CTAs
-- A2 pathway in progress: Lessons 01 (regular pretérito indefinido) and 02 (imperfecto for past habits) are available; remaining units still planned
+- A2 pathway in progress: Lessons 01 (regular pretérito indefinido), 02 (imperfecto for past habits) and 03 (work, studies and obligations) are available; remaining units still planned
 - Shared speech helper and path-aware mobile navigation
-- Service-worker cache version v22
+- Service-worker cache version v23
 
 ## QA progress
 - [x] First static review of homepage, A1 course, 8 lessons, practice page, 6 Spain Life modules, A2 outline, app shell, styles and service worker
 - [x] Inline JavaScript syntax parsed in inspected HTML pages
 - [x] No duplicate HTML IDs found in inspected pages
-- [x] Confirmed declared service-worker cache version v22 and its expected course entries
+- [x] Confirmed declared service-worker cache version v23 and its expected course entries
 - [ ] Verify every internal link and precache URL against the complete repository tree
 - [x] Corrected Lesson 08 completion wording so passing the starter checkpoint is not presented as completing all of CEFR A1
 - [x] First targeted content corrections in Lessons 02 and 07: clearer pure-vowel guidance, more accurate jota and regional pronunciation notes, less absolute ser/estar explanations, and audio coverage for both gender forms of cansado/cansada
@@ -31,4 +31,4 @@
 3. Continue A2 gradually while keeping the unfinished A1 QA work visible; do not label A2 complete.
 
 ## Product truth
-The eight A1 lessons are a beginner starter pathway, not a claim that the complete CEFR A1 syllabus is covered. A2 is in progress: Lessons 01 and 02 are available, while the remaining units are still an outline.
+The eight A1 lessons are a beginner starter pathway, not a claim that the complete CEFR A1 syllabus is covered. A2 is in progress: Lessons 01, 02 and 03 are available, while the remaining units are still an outline.
