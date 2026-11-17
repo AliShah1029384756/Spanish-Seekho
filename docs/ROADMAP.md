@@ -15,6 +15,7 @@
 - [x] No duplicate HTML IDs found in inspected pages
 - [x] Confirmed declared service-worker cache version v20 and its expected course entries
 - [ ] Verify every internal link and precache URL against the complete repository tree
+- [x] Corrected Lesson 08 completion wording so passing the starter checkpoint is not presented as completing all of CEFR A1
 - [ ] Detailed Spanish grammar, vocabulary and Castilian usage review
 - [ ] Review pronunciation approximations for consistency and clarity
 - [ ] Test all quizzes and practice modes in a real browser
@@ -24,8 +25,8 @@
 - [ ] Confirm latest GitHub Pages deployment
 
 ## Next
-1. Finish repository link/precache audit and Spanish content QA.
-2. Perform browser and Android functional/responsive testing.
+1. Continue the Spanish content and pronunciation review, then complete the repository link/precache audit.
+2. Perform browser and Android functional/responsive testing when the project owner is ready.
 3. Plan the first A2 lesson only after the A1 quality gates are met.
 
 ## Product truth
