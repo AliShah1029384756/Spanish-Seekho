@@ -6,8 +6,8 @@ _Updated: 17 November 2026_
 - A1 starter pathway: lessons 01–08
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: transport, healthcare, airport, housing, public offices and shopping
-- A2 pathway started: Lesson 01 (regular pretérito indefinido) is available; remaining units are planned only
-- Service-worker cache: `spanish-seekho-v21`
+- A2 pathway in progress: Lessons 01 (regular pretérito indefinido) and 02 (imperfecto for past habits) are available; remaining units are planned only
+- Service-worker cache: `spanish-seekho-v22`
 
 ## Language coverage (important)
 - Homepage language selector provides Roman Urdu, Urdu and English copy.
@@ -24,8 +24,9 @@ _Updated: 17 November 2026_
 
 ### A2 progress
 - Added `a2/lesson-01.html`: past-time expressions, regular -ar/-er/-ir pretérito indefinido forms, example sentences, dialogue and a six-question quiz.
-- Updated the A2 course page to mark only Lesson 01 as available; all other units remain planned.
-- Added the new lesson to the service-worker precache and incremented cache version to v21.
+- Added `a2/lesson-02.html`: imperfecto endings for regular -ar/-er/-ir verbs, common irregular ser/ir/ver forms, past habits/descriptions, a beginner-level imperfecto vs pretérito contrast, dialogue and a six-question quiz.
+- Updated the A2 course page to mark Lessons 01 and 02 as available; all other units remain planned.
+- Added both A2 lessons to the service-worker precache; current cache version is v22.
 - A2 lesson progress uses a separate `ss-a2-done` localStorage key; existing A1 progress keys are untouched.
 
 ### Content review progress
@@ -48,6 +49,6 @@ _Updated: 17 November 2026_
 - Do not describe the eight starter lessons as a complete CEFR A1 syllabus.
 
 ## Next recommended work
-1. Continue building A2 lessons gradually, reviewing Spanish content as each lesson is added.
+1. Continue building A2 lessons gradually, reviewing Spanish content as each lesson is added; next planned topic is practical work/study communication.
 2. Continue the remaining A1 content review and repository link/precache audit.
 3. Run Android/browser functional, responsive, RTL, PWA and offline tests when the project owner is ready.
