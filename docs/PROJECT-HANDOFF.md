@@ -23,8 +23,8 @@ _Updated: 17 November 2026_
 - Confirmed the service worker currently declares cache version `spanish-seekho-v20` and includes the A1 lessons, practice page, six Spain Life modules, shared CSS/JS and A2 outline.
 
 ### Content review progress
-- Lesson 02: refined the explanations for Spanish e/o vowels, qualified the ll pronunciation as a common pattern rather than universal, and clarified regional variation in c/z pronunciation.
-- Lesson 07: clarified that ser/estar cannot be reduced to a strict permanent-versus-temporary rule; location, identity and context are better beginner anchors.
+- Lesson 02: refined the explanations for Spanish e/o vowels, qualified the ll pronunciation as a common pattern rather than universal, clarified regional variation in c/z, and refined the jota sound guide.
+- Lesson 07: clarified that ser/estar cannot be reduced to a strict permanent-versus-temporary rule; location, identity and context are better beginner anchors. The tiredness example now provides speech for both masculine and feminine forms.
 
 ### Still required
 - Detailed human review of Spanish grammar, vocabulary, Castilian usage and every pronunciation guide. A first content wording correction was made in Lesson 08: passing the 8-lesson starter checkpoint is no longer described as completing the full A1 path.
