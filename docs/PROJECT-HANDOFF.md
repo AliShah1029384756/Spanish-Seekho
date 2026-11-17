@@ -8,7 +8,7 @@ _Updated: 17 November 2026_
 - Spain Life: transport, healthcare, airport, housing, public offices and shopping
 - A2 starter pathway in progress: Lessons 01–08 cover past events, past habits, work/studies, travel/accommodation, opinions/future plans, social invitations and healthcare; Lesson 08 is a mixed review checkpoint with a can-do checklist
 - A2 Lessons 01–08 are available; this is not a claim of complete CEFR A2 syllabus coverage or official certification
-- Service-worker cache: `spanish-seekho-v36`
+- Service-worker cache: `spanish-seekho-v37`
 
 ## Language coverage (important)
 - Homepage language selector provides Roman Urdu, Urdu and English copy.
@@ -22,7 +22,7 @@ _Updated: 17 November 2026_
 - Pass threshold is 9/12 (75%); feedback explanations are shown after submission.
 - Successful completion records `lesson-08` in the separate `ss-a2-done` localStorage key; the A1 progress keys remain untouched.
 - A2 index links to Lessons 01–08 and labels the pathway as in progress.
-- Service worker now declares v35 and includes the published A2 lesson pages in its precache list.
+- Service worker now declares v37 and includes the published A2 lesson pages in its precache list.
 - Static syntax and duplicate-ID checks are limited to source inspection; no browser, Android, RTL or PWA testing was performed.
 
 ### A2 progress
@@ -40,6 +40,7 @@ _Updated: 17 November 2026_
 - A2 Lesson 05: added the full gustar pronoun pattern (me/te/le/nos/os/les), clarified singular/plural agreement, added natural preference responses (a mí también/tampoco), and clarified Castilian pronunciation approximations.
 - A2 Lesson 06: reviewed invitations, polite acceptance/declining, making suggestions and social arrangements; clarified infinitive patterns and added a formal usted alternative alongside informal tú examples.
 - A2 Lesson 07: refined appointment language so asking whether a patient has an appointment is distinct from asking about available slots; clarified the medicine side-effects question.
+- A2 Lesson 08: clarified masculine/feminine versions of the imperfecto example, added a qualified preterite/imperfecto reminder, and made the side-effects checkpoint question specific to a medicine.
 - A2 Lesson 04: refined the check-out question, added a Wi-Fi question, included an adjective-agreement reminder and clarified Castilian pronunciation approximations.
 - A2 Lesson 04: made the checkout question more precise, refined the room-change request, and added a concise guide to polite conditional forms including Spain vosotros usage.
 - A2 Lesson 01: clarified the irregular hacer form in the dialogue, added common hacer / ir-ser / tener preterite forms as a preview, and explained the Spain vosotros forms.
