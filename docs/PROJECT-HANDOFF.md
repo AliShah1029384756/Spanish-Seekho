@@ -6,8 +6,8 @@ _Updated: 17 November 2026_
 - A1 starter pathway: lessons 01–08
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: transport, healthcare, airport, housing, public offices and shopping
-- A2 pathway in progress: Lessons 01 (regular pretérito indefinido), 02 (imperfecto for past habits), 03 (work, studies and obligations) and 04 (travel, accommodation and polite requests) are available; remaining units are planned only
-- Service-worker cache: `spanish-seekho-v24`
+- A2 pathway in progress: Lessons 01 (regular pretérito indefinido), 02 (imperfecto for past habits), 03 (work, studies and obligations), 04 (travel, accommodation and polite requests), and 05 (opinions, preferences and future plans) are available; remaining units are planned only
+- Service-worker cache: `spanish-seekho-v25`
 
 ## Language coverage (important)
 - Homepage language selector provides Roman Urdu, Urdu and English copy.
@@ -19,7 +19,7 @@ _Updated: 17 November 2026_
 ### Static checks completed in this pass
 - Earlier static review covered the 8 A1 lesson pages, practice page, 6 Spain Life pages, homepage, A1 course page, A2 outline, shared app shell, styles and service worker.
 - Earlier inspected inline JavaScript syntax parsed successfully and no duplicate HTML IDs were found in those inspected pages.
-- Latest static review for A2 Lesson 04: quiz has six questions, uses the separate `ss-a2-done` key and records completion as `lesson-04`; A2 index links to the new lesson; service worker declares v24 and precaches the lesson.
+- Latest static review for A2 Lesson 05: six quiz questions; completion uses the separate `ss-a2-done` key and records `lesson-05`; A2 index links to the lesson; service worker declares v25 and precaches the lesson.
 - No real browser, Android, RTL or PWA testing has been performed in this pass.
 
 ### A2 progress
@@ -27,15 +27,17 @@ _Updated: 17 November 2026_
 - Lesson 02: imperfecto endings for regular -ar/-er/-ir verbs, common irregular ser/ir/ver forms, past habits/descriptions, a beginner-level imperfecto vs pretérito contrast, dialogue and six-question quiz.
 - Lesson 03: work and study vocabulary, describing jobs and education, tener que / hay que / deber for obligations and advice, workplace questions, sample job interview and six-question quiz.
 - Lesson 04: accommodation vocabulary, making reservations, asking about prices and breakfast, check-in/check-out, polite requests, reporting simple hotel problems, reception dialogue and six-question quiz.
-- A2 index marks Lessons 01–04 available; all other units remain planned.
-- Service worker precaches all four A2 lessons; current cache version is v24.
+- Lesson 05: opinion phrases (creo que, me parece que), agreement/disagreement, gustar for singular/plural nouns and infinitives, ir a + infinitive, arranging a meeting, weekend-plans dialogue and six-question quiz.
+- A2 index marks Lessons 01–05 available; all other units remain planned.
+- Service worker precaches all five A2 lessons; current cache version is v25.
 - A2 lesson progress uses the separate `ss-a2-done` localStorage key; existing A1 progress keys are untouched.
 
 ### Content review progress
 - Lesson 02: refined explanations for Spanish e/o vowels, qualified ll pronunciation as a common pattern rather than universal, clarified regional variation in c/z, and refined the jota sound guide.
 - Lesson 07: clarified that ser/estar cannot be reduced to a strict permanent-versus-temporary rule; location, identity and context are better beginner anchors. The tiredness example provides speech for both masculine and feminine forms.
 - Lesson 03: introduces common Spain-relevant work/study expressions and obligation structures.
-- Lesson 04: introduces practical accommodation and hotel phrases. Regional pronunciation and Roman Urdu/Urdu-script guides remain approximate and should receive human review.
+- Lesson 04: introduces practical accommodation and hotel phrases.
+- Lesson 05: introduces common opinion and preference structures and the near-future `ir a + infinitive` pattern. Roman Urdu/Urdu-script guides are approximations and need human review.
 
 ### Still required
 - Detailed human review of Spanish grammar, vocabulary, Castilian usage and every pronunciation guide.
@@ -53,6 +55,6 @@ _Updated: 17 November 2026_
 - Do not describe the eight starter lessons as a complete CEFR A1 syllabus.
 
 ## Next recommended work
-1. Continue building A2 lessons gradually; next planned topic is opinions, preferences and future plans.
+1. Continue building A2 lessons gradually; next planned topic is social life, invitations and arrangements.
 2. Continue the remaining A1 content review and repository link/precache audit.
 3. Run Android/browser functional, responsive, RTL, PWA and offline tests when the project owner is ready.
