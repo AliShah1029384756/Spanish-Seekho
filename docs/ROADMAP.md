@@ -5,9 +5,9 @@
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: 6 practical modules
 - Homepage Spain Life grid, course and practice CTAs
-- A2 outline page (plan only; no A2 lessons)
+- A2 pathway started: Lesson 01 on regular pretérito indefinido verbs; remaining units still planned
 - Shared speech helper and path-aware mobile navigation
-- Service-worker cache version v20
+- Service-worker cache version v21
 
 ## QA progress
 - [x] First static review of homepage, A1 course, 8 lessons, practice page, 6 Spain Life modules, A2 outline, app shell, styles and service worker
@@ -28,7 +28,7 @@
 ## Next
 1. Continue the Spanish content and pronunciation review, then complete the repository link/precache audit.
 2. Perform browser and Android functional/responsive testing when the project owner is ready.
-3. Plan the first A2 lesson only after the A1 quality gates are met.
+3. Continue A2 gradually while keeping the unfinished A1 QA work visible; do not label A2 complete.
 
 ## Product truth
-The eight A1 lessons are a beginner starter pathway, not a claim that the complete CEFR A1 syllabus is covered. The A2 page is an outline only.
+The eight A1 lessons are a beginner starter pathway, not a claim that the complete CEFR A1 syllabus is covered. A2 is in progress: Lesson 01 is available, while the remaining units are still an outline.
