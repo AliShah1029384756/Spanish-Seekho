@@ -3,13 +3,14 @@ _Updated: 17 November 2026_
 
 ## Current repository state
 - Homepage with A1 starter-course CTA, Spain Life grid and practice CTA
-- A1 expanding starter pathway: Lessons 01–10 are available; not yet the complete CEFR A1 syllabus
+- A1 expanding starter pathway: Lessons 01–11 are available; not yet the complete CEFR A1 syllabus
 - A1 Lesson 09: personal information, question words, regular present forms of vivir and hablar, formal/informal questions, dialogue and quiz
 - A1 Lesson 10: noun gender, definite/indefinite articles, plural formation, common patterns and exceptions, sentence examples and quiz
+- A1 Lesson 11: adjective agreement, descriptive vocabulary, gender/number matching, ser + adjective, dialogue and quiz
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: transport, healthcare, airport, housing, public offices and shopping
 - A2 starter pathway in progress: Lessons 01–09; not a claim of complete CEFR A2 syllabus coverage or official certification
-- Service-worker cache: `spanish-seekho-v40`
+- Service-worker cache: `spanish-seekho-v41`
 
 ## Language coverage (important)
 - Homepage language selector provides Roman Urdu, Urdu and English copy.
@@ -22,7 +23,7 @@ The A1 pathway is being expanded deliberately, not treated as complete. Upcoming
 
 ## QA status
 - Earlier static source review and syntax/duplicate-ID checks were completed on the pages inspected at that time.
-- Lessons 09 and 10 have been added to the A1 index and service-worker precache list.
+- Lessons 09–11 have been added to the A1 index and service-worker precache list.
 - No browser, Android, RTL, PWA or offline testing was performed for the new lesson.
 - Detailed grammar, Castilian usage and pronunciation review remains ongoing.
 - Full internal-link/precache audit and final functional/device testing remain deferred to the dedicated quality phase.
@@ -37,7 +38,7 @@ The A1 pathway is being expanded deliberately, not treated as complete. Upcoming
 - Mobile-first; preserve learner progress and existing localStorage keys: `ss-language`, `ss-completed`, `ss-a1-done`, `ss-a2-done`.
 - Keep Spanish content LTR within Urdu RTL layouts where appropriate.
 - Browser speech depends on installed device voices and must remain supplementary.
-- Do not describe the ten A1 lessons as a complete CEFR A1 syllabus.
+- Do not describe the eleven A1 lessons as a complete CEFR A1 syllabus.
 - Do not describe A2 Lessons 01–09 as a complete CEFR A2 syllabus, official exam or certification.
 
 ## Next recommended work
