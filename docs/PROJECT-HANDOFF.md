@@ -3,11 +3,13 @@ _Updated: 18 November 2026_
 
 ## Current repository state
 - Homepage with A1 starter-course CTA, Spain Life grid and practice CTA
-- A1 starter pathway: lessons 01–17
+- A1 starter pathway: lessons 01–19
+- A1 Lesson 18: daily routines, frequency expressions, hobbies, me gusta/me gustan and an eight-question quiz
+- A1 Lesson 19: weather expressions, seasons, temperatures, hace/está/hay patterns, forecasts and an eight-question quiz
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: transport, healthcare, airport, housing, public offices and shopping
 - A2 pathway in progress: Lessons 01–10 available (Lesson 10 = present perfect)
-- Service-worker cache: `spanish-seekho-v49`
+- Service-worker cache: `spanish-seekho-v51`
 
 ## Language coverage (important)
 - Homepage language selector provides Roman Urdu, Urdu and English copy.
@@ -50,6 +52,6 @@ _Updated: 18 November 2026_
 - Do not describe the starter lessons as a complete CEFR syllabus.
 
 ## Next recommended work
-1. Continue building A2 gradually (comparisons, clothes, weather, advice structures, more present-perfect practice).
-2. Continue the remaining A1 content review and repository link/precache audit.
-3. Run Android/browser functional, responsive, RTL, PWA and offline tests when the project owner is ready.
+1. Continue building practical A1 communication lessons and integrated reading/listening/writing/speaking practice.
+2. Continue A2 gradually when useful, without interrupting the A1 beginner pathway.
+3. Run Android/browser functional, responsive, RTL, PWA and offline tests only in the dedicated final quality phase.
