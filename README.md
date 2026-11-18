@@ -42,6 +42,11 @@ Lessons 01–20 are available. Topics include past experiences and habits, work 
 
 Open: [A2 course](https://alishah1029384756.github.io/Spanish-Seekho/a2/)
 
+### B1 intermediate pathway (started)
+The first B1 lesson is available: narrating past events naturally with indefinido vs imperfecto, background description and story connectors. B1 is just beginning; this is not a complete CEFR B1 syllabus.
+
+Open: [B1 course](https://alishah1029384756.github.io/Spanish-Seekho/b1/)
+
 ## Practice (4 modes)
 - Flashcards
 - Matching
@@ -78,7 +83,7 @@ Open `index.html` or serve the folder. Service worker needs HTTPS or localhost.
 GitHub Pages: Settings → Pages → Deploy from branch `main` / (root).
 
 ## Status
-The A1 starter pathway (25 lessons), four practice modes and six Spain Life modules are implemented. A first static QA pass is underway; deeper Spanish content review, Urdu RTL/device testing and offline verification remain. A2 has a 20-lesson starter pathway (not a complete CEFR A2 syllabus).
+The A1 starter pathway (25 lessons), four practice modes and six Spain Life modules are implemented. A first static QA pass is underway; deeper Spanish content review, Urdu RTL/device testing and offline verification remain. A2 has a 20-lesson starter pathway (not a complete CEFR A2 syllabus). B1 has started with its first lesson (not a complete CEFR B1 syllabus).
 
 ## License
 MIT — see [LICENSE](LICENSE).
