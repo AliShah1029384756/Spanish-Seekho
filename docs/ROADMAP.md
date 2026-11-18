@@ -1,16 +1,15 @@
 # Roadmap
 
 ## Implemented
-- A1 starter pathway: lessons 01–23 (Lesson 23 = body parts & basic health)
-- Practice: expanded deck + flashcard progress
+- A1 starter pathway: lessons 01–23
+- Practice: 60-item vocabulary deck + 24 sentence items; flashcard known progress
 - A2: lessons 01–10
 - Spain Life: 6 modules
-- Cache: v56
+- Cache: v57
 
 ## Next
-0. Continue A1 (food review, transport phrases, or broader skills) or expand practice with new vocabulary from recent lessons.
-1. Continue A2 expansion when prioritised.
-2. Real-device testing (Android, RTL, PWA, offline).
+0. Continue A2 expansion (comparisons, advice, clothes review at A2 level, more present-perfect practice) when prioritised, or continue A1 with further practical topics.
+1. Real-device testing (Android, RTL, PWA, offline).
 
 ## Product truth
-A1/A2 are expanding starter pathways, not complete CEFR syllabi. Health phrases are for language practice only, not medical advice.
+A1/A2 are expanding starter pathways, not complete CEFR syllabi.
