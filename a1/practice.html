@@ -18,29 +18,38 @@
 .listen-opts button{padding:14px;border-radius:12px;border:1.5px solid #e5e0d5;background:#fff;text-align:left}
 .listen-opts button.correct{border-color:#3d8b5f;background:#eaf6ef}
 .listen-opts button.wrong{border-color:#c45c5c;background:#fceeee}
+.known-btn{border:1.5px solid #3d8b5f;background:#eaf6ef;color:#2c5f4a;border-radius:10px;padding:8px 14px;font:inherit;cursor:pointer}
+.practice-note{font-size:.9rem;color:#6b6560;margin-top:8px}
 </style></head>
 <body><header class="topbar"><a class="brand" href="../index.html"><span class="brand-mark">¡</span><span>spanish<span class="brand-accent">seekho</span></span></a><button class="lang-toggle" id="languageButton" type="button">Roman Urdu ▾</button></header>
 <main class="lesson-wrap">
-<div class="lesson-top"><span class="eyebrow">PRACTICE</span><h1>Practice your <em>Spanish.</em></h1></div>
+<div class="lesson-top"><span class="eyebrow">PRACTICE</span><h1>Practice your <em>Spanish.</em></h1><p class="muted">Vocabulary A1 lessons se liya gaya hai. Progress is device par save hota hai.</p></div>
 <section class="learning-box" id="homePanel">
-<span class="eyebrow">MODES</span><h2>Choose</h2>
+<span class="eyebrow">MODES</span><h2>Choose a mode</h2>
+<p class="practice-note" id="flashProgressNote"></p>
 <div class="practice-modes">
-<button class="mode-card" type="button" id="startFlash"><b>Flashcards</b><small>Tap to flip</small></button>
-<button class="mode-card" type="button" id="startMatch"><b>Matching</b><small>Pair words</small></button>
-<button class="mode-card" type="button" id="startListen"><b>Listening</b><small>Hear and choose</small></button>
-<button class="mode-card" type="button" id="startSentence"><b>Sentence building</b><small>Word order</small></button>
+<button class="mode-card" type="button" id="startFlash"><b>Flashcards</b><small>Tap to flip · mark as known</small></button>
+<button class="mode-card" type="button" id="startMatch"><b>Matching</b><small>Pair Spanish & English</small></button>
+<button class="mode-card" type="button" id="startListen"><b>Listening</b><small>Hear and choose the meaning</small></button>
+<button class="mode-card" type="button" id="startSentence"><b>Sentence building</b><small>Put the words in order</small></button>
 </div>
 <a class="primary-btn" href="index.html">← A1 course</a>
 </section>
 <section class="learning-box" id="flashPanel" hidden>
 <div class="score-pill" id="flashScore">1/0</div>
 <div class="flash-card" id="flashCard"><div class="es" id="flashFront">—</div><div class="meta" id="flashBack" hidden></div></div>
-<div class="flash-actions"><button class="primary-btn" id="flashFlip" type="button">Flip</button><button id="flashNext" type="button">Next</button><button id="flashHome" type="button">Modes</button></div>
+<div class="flash-actions">
+<button class="primary-btn" id="flashFlip" type="button">Flip</button>
+<button class="known-btn" id="flashKnown" type="button">I know this</button>
+<button id="flashNext" type="button">Next</button>
+<button id="flashHome" type="button">Modes</button>
+</div>
+<p class="practice-note" id="flashKnownNote"></p>
 </section>
 <section class="learning-box" id="matchPanel" hidden>
 <div class="score-pill" id="matchScore">0/6</div>
 <div class="match-grid" id="matchGrid"></div>
-<div class="flash-actions"><button class="primary-btn" id="matchNew" type="button" hidden>New</button><button id="matchHome" type="button">Modes</button></div>
+<div class="flash-actions"><button class="primary-btn" id="matchNew" type="button" hidden>New round</button><button id="matchHome" type="button">Modes</button></div>
 <p id="matchDone" class="quiz-result" hidden></p>
 </section>
 <section class="learning-box" id="listenPanel" hidden>
@@ -59,30 +68,98 @@
 </section>
 </main>
 <script>
-const DECK=[{es:"Hola",en:"Hello"},{es:"Gracias",en:"Thank you"},{es:"Buenos días",en:"Good morning"},{es:"el café",en:"the coffee"},{es:"el baño",en:"the bathroom"},{es:"Tengo hambre",en:"I am hungry"},{es:"Estoy en casa",en:"I am at home"},{es:"el metro",en:"the metro"},{es:"la farmacia",en:"the pharmacy"},{es:"el alquiler",en:"the rent"},{es:"la fianza",en:"the deposit"},{es:"el vuelo",en:"the flight"}];
+const DECK=[
+{es:"Hola",en:"Hello"},
+{es:"Gracias",en:"Thank you"},
+{es:"Buenos días",en:"Good morning"},
+{es:"Buenas noches",en:"Good night"},
+{es:"Por favor",en:"Please"},
+{es:"De nada",en:"You're welcome"},
+{es:"el café",en:"the coffee"},
+{es:"el baño",en:"the bathroom"},
+{es:"el agua",en:"the water"},
+{es:"el pan",en:"the bread"},
+{es:"Tengo hambre",en:"I am hungry"},
+{es:"Tengo sed",en:"I am thirsty"},
+{es:"Estoy en casa",en:"I am at home"},
+{es:"el metro",en:"the metro"},
+{es:"la farmacia",en:"the pharmacy"},
+{es:"el alquiler",en:"the rent"},
+{es:"la fianza",en:"the deposit"},
+{es:"el vuelo",en:"the flight"},
+{es:"Me llamo",en:"My name is"},
+{es:"¿Cómo estás?",en:"How are you?"},
+{es:"Me levanto",en:"I get up"},
+{es:"Me acuesto",en:"I go to bed"},
+{es:"por la mañana",en:"in the morning"},
+{es:"por la noche",en:"at night"},
+{es:"siempre",en:"always"},
+{es:"a veces",en:"sometimes"},
+{es:"nunca",en:"never"},
+{es:"Me gusta",en:"I like (singular)"},
+{es:"Me gustan",en:"I like (plural)"},
+{es:"¿Cuánto cuesta?",en:"How much does it cost?"},
+{es:"la estación",en:"the station"},
+{es:"el supermercado",en:"the supermarket"},
+{es:"al lado de",en:"next to"},
+{es:"enfrente de",en:"opposite / in front of"},
+{es:"Hoy",en:"Today"},
+{es:"Mañana",en:"Tomorrow"}
+];
+
+const SENT=[
+{en:"I want a coffee",p:["Quiero","un","café"]},
+{en:"Where is the bathroom?",p:["¿Dónde","está","el","baño?"]},
+{en:"I am from Pakistan",p:["Soy","de","Pakistán"]},
+{en:"The bill, please",p:["La","cuenta,","por","favor"]},
+{en:"I am hungry",p:["Tengo","hambre"]},
+{en:"I need a doctor",p:["Necesito","un","médico"]},
+{en:"How much is the rent?",p:["¿Cuánto","es","el","alquiler?"]},
+{en:"I am at home",p:["Estoy","en","casa"]},
+{en:"I get up at seven",p:["Me","levanto","a","las","siete"]},
+{en:"I like reading",p:["Me","gusta","leer"]},
+{en:"I never work on Sundays",p:["Nunca","trabajo","los","domingos"]},
+{en:"The pharmacy is next to the bank",p:["La","farmacia","está","al","lado","del","banco"]},
+{en:"How much does it cost?",p:["¿Cuánto","cuesta?"]},
+{en:"I study Spanish every day",p:["Estudio","español","todos","los","días"]},
+{en:"Good morning",p:["Buenos","días"]},
+{en:"See you tomorrow",p:["Hasta","mañana"]}
+];
+
+const FLASH_KEY="ss-practice-flash";
+function loadKnown(){try{return JSON.parse(localStorage.getItem(FLASH_KEY)||"[]")}catch(e){return[]}}
+function saveKnown(list){localStorage.setItem(FLASH_KEY,JSON.stringify(list))}
+function updateHomeNote(){const k=loadKnown();const el=document.getElementById("flashProgressNote");el.textContent=k.length?("Flashcards: "+k.length+" / "+DECK.length+" marked as known on this device."):("Flashcards: 0 / "+DECK.length+" marked as known. Tap “I know this” while practising.")}
+
 const home=document.getElementById("homePanel"),flashPanel=document.getElementById("flashPanel"),matchPanel=document.getElementById("matchPanel"),listenPanel=document.getElementById("listenPanel"),sentencePanel=document.getElementById("sentencePanel");
-function show(p){[home,flashPanel,matchPanel,listenPanel,sentencePanel].forEach(x=>x.hidden=x!==p)}
+function show(p){[home,flashPanel,matchPanel,listenPanel,sentencePanel].forEach(x=>x.hidden=x!==p);if(p===home)updateHomeNote()}
 function shuffle(a){const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b}
+
 let order=[],idx=0,flipped=false;
-function renderFlash(){const c=order[idx];document.getElementById("flashScore").textContent=(idx+1)+"/"+order.length;document.getElementById("flashFront").textContent=c.es;const back=document.getElementById("flashBack");back.textContent=c.en;back.hidden=!flipped}
-document.getElementById("startFlash").onclick=()=>{order=shuffle(DECK);idx=0;flipped=false;show(flashPanel);renderFlash()};
+function renderFlash(){const c=order[idx];document.getElementById("flashScore").textContent=(idx+1)+"/"+order.length;document.getElementById("flashFront").textContent=c.es;const back=document.getElementById("flashBack");back.textContent=c.en;back.hidden=!flipped;const known=loadKnown();const isKnown=known.includes(c.es);document.getElementById("flashKnown").textContent=isKnown?"Known ✓":"I know this";document.getElementById("flashKnownNote").textContent=isKnown?"This card is marked known on this device.":""}
+document.getElementById("startFlash").onclick=()=>{const known=loadKnown();const unknown=DECK.filter(c=>!known.includes(c.es));order=shuffle(unknown.length?unknown:DECK);idx=0;flipped=false;show(flashPanel);renderFlash()};
 document.getElementById("flashFlip").onclick=()=>{flipped=!flipped;renderFlash()};
 document.getElementById("flashCard").onclick=()=>{flipped=!flipped;renderFlash()};
+document.getElementById("flashKnown").onclick=()=>{const c=order[idx];let known=loadKnown();if(!known.includes(c.es)){known.push(c.es);saveKnown(known)}renderFlash()};
 document.getElementById("flashNext").onclick=()=>{idx=(idx+1)%order.length;flipped=false;renderFlash()};
 document.getElementById("flashHome").onclick=()=>show(home);
+
 let selected=null,matched=0;
 function startMatch(){const pick=shuffle(DECK).slice(0,6);matched=0;selected=null;document.getElementById("matchDone").hidden=true;document.getElementById("matchNew").hidden=true;document.getElementById("matchScore").textContent="0/6";const cells=[...shuffle(pick.map((p,i)=>({side:"es",text:p.es,id:i}))),...shuffle(pick.map((p,i)=>({side:"en",text:p.en,id:i})))];const grid=document.getElementById("matchGrid");grid.innerHTML="";cells.forEach(cell=>{const b=document.createElement("button");b.type="button";b.textContent=cell.text;b.dataset.side=cell.side;b.dataset.id=cell.id;b.onclick=()=>onMatch(b);grid.append(b)});show(matchPanel)}
 function onMatch(btn){if(btn.disabled||btn.classList.contains("correct"))return;if(!selected){selected=btn;btn.classList.add("selected");return}if(selected===btn){selected.classList.remove("selected");selected=null;return}if(selected.dataset.side===btn.dataset.side){selected.classList.remove("selected");selected=btn;btn.classList.add("selected");return}const a=selected,b=btn;a.classList.remove("selected");if(a.dataset.id===b.dataset.id){a.classList.add("correct");b.classList.add("correct");a.disabled=true;b.disabled=true;matched++;document.getElementById("matchScore").textContent=matched+"/6";selected=null;if(matched===6){document.getElementById("matchDone").hidden=false;document.getElementById("matchDone").textContent="¡Muy bien!";document.getElementById("matchNew").hidden=false}}else{a.classList.add("wrong");b.classList.add("wrong");setTimeout(()=>{a.classList.remove("wrong");b.classList.remove("wrong");selected=null},400);selected=null}}
 document.getElementById("startMatch").onclick=startMatch;document.getElementById("matchNew").onclick=startMatch;document.getElementById("matchHome").onclick=()=>show(home);
+
 let L=[],Li=0,Lc=0,La=false;
-function startListen(){L=shuffle(DECK).slice(0,8);Li=0;Lc=0;document.getElementById("listenNext").hidden=true;show(listenPanel);rL()}
-function rL(){const c=L[Li];La=false;document.getElementById("listenScore").textContent=Lc+"/"+Li+" Q"+(Li+1);document.getElementById("listenNext").hidden=true;const opts=shuffle([c.en,...shuffle(DECK.filter(x=>x.en!==c.en)).slice(0,3).map(x=>x.en)]);const box=document.getElementById("listenOpts");box.innerHTML="";opts.forEach(en=>{const b=document.createElement("button");b.type="button";b.textContent=en;b.onclick=()=>{if(La)return;La=true;if(en===c.en)Lc++;box.querySelectorAll("button").forEach(x=>{x.disabled=true;if(x.textContent===c.en)x.classList.add("correct")});if(en!==c.en)b.classList.add("wrong");document.getElementById("listenScore").textContent=Lc+"/"+(Li+1);document.getElementById("listenNext").hidden=false};box.append(b)});document.getElementById("listenPlay").onclick=()=>{if(window.ssSpeakSpanish)window.ssSpeakSpanish(c.es);else if("speechSynthesis"in window){const u=new SpeechSynthesisUtterance(c.es);u.lang="es-ES";speechSynthesis.cancel();speechSynthesis.speak(u)}}}
+function startListen(){L=shuffle(DECK).slice(0,10);Li=0;Lc=0;document.getElementById("listenNext").hidden=true;show(listenPanel);rL()}
+function rL(){const c=L[Li];La=false;document.getElementById("listenScore").textContent=Lc+"/"+Li+" · Q"+(Li+1);document.getElementById("listenNext").hidden=true;const opts=shuffle([c.en,...shuffle(DECK.filter(x=>x.en!==c.en)).slice(0,3).map(x=>x.en)]);const box=document.getElementById("listenOpts");box.innerHTML="";opts.forEach(en=>{const b=document.createElement("button");b.type="button";b.textContent=en;b.onclick=()=>{if(La)return;La=true;if(en===c.en)Lc++;box.querySelectorAll("button").forEach(x=>{x.disabled=true;if(x.textContent===c.en)x.classList.add("correct")});if(en!==c.en)b.classList.add("wrong");document.getElementById("listenScore").textContent=Lc+"/"+(Li+1);document.getElementById("listenNext").hidden=false};box.append(b)});document.getElementById("listenPlay").onclick=()=>{if(window.ssSpeakSpanish)window.ssSpeakSpanish(c.es);else if("speechSynthesis"in window){const u=new SpeechSynthesisUtterance(c.es);u.lang="es-ES";speechSynthesis.cancel();speechSynthesis.speak(u)}}}
 document.getElementById("startListen").onclick=startListen;document.getElementById("listenNext").onclick=()=>{if(Li+1>=L.length){show(home);return}Li++;rL()};document.getElementById("listenHome").onclick=()=>show(home);
-const SENT=[{en:"I want a coffee",p:["Quiero","un","café"]},{en:"Where is the bathroom?",p:["¿Dónde","está","el","baño?"]},{en:"I am from Pakistan",p:["Soy","de","Pakistán"]},{en:"The bill, please",p:["La","cuenta,","por","favor"]},{en:"I am hungry",p:["Tengo","hambre"]},{en:"I need a doctor",p:["Necesito","un","médico"]},{en:"How much is the rent?",p:["¿Cuánto","es","el","alquiler?"]},{en:"I am at home",p:["Estoy","en","casa"]}];
+
 let S=[],Si=0,Sc=0,built=[];
 function startSent(){S=shuffle(SENT);Si=0;Sc=0;document.getElementById("sentenceNext").hidden=true;document.getElementById("sentenceFeedback").textContent="";show(sentencePanel);rS()}
-function rS(){const s=S[Si];built=[];document.getElementById("sentenceHint").textContent=s.en;document.getElementById("sentenceScore").textContent=Sc+"/"+Si+" Q"+(Si+1);document.getElementById("sentenceFeedback").textContent="";document.getElementById("sentenceNext").hidden=true;document.getElementById("sentenceCheck").disabled=false;const bank=document.getElementById("sentenceBank"),be=document.getElementById("sentenceBuilt");bank.innerHTML="";be.innerHTML="";shuffle([...s.p]).forEach(w=>{const b=document.createElement("button");b.type="button";b.textContent=w;b.style.cssText="padding:10px 12px;border-radius:10px;border:1.5px solid #e5e0d5;background:#fff";b.onclick=()=>{if(b.disabled)return;b.disabled=true;b.style.opacity=".4";built.push(w);const t=document.createElement("button");t.type="button";t.textContent=w;t.style.cssText=b.style.cssText+";opacity:1";t.onclick=()=>{const i=[...be.children].indexOf(t);built.splice(i,1);t.remove();b.disabled=false;b.style.opacity="1"};be.append(t)};bank.append(b)})}
+function rS(){const s=S[Si];built=[];document.getElementById("sentenceHint").textContent=s.en;document.getElementById("sentenceScore").textContent=Sc+"/"+Si+" · Q"+(Si+1);document.getElementById("sentenceFeedback").textContent="";document.getElementById("sentenceNext").hidden=true;document.getElementById("sentenceCheck").disabled=false;const bank=document.getElementById("sentenceBank"),be=document.getElementById("sentenceBuilt");bank.innerHTML="";be.innerHTML="";shuffle([...s.p]).forEach(w=>{const b=document.createElement("button");b.type="button";b.textContent=w;b.style.cssText="padding:10px 12px;border-radius:10px;border:1.5px solid #e5e0d5;background:#fff";b.onclick=()=>{if(b.disabled)return;b.disabled=true;b.style.opacity=".4";built.push(w);const t=document.createElement("button");t.type="button";t.textContent=w;t.style.cssText=b.style.cssText+";opacity:1";t.onclick=()=>{const i=[...be.children].indexOf(t);built.splice(i,1);t.remove();b.disabled=false;b.style.opacity="1"};be.append(t)};bank.append(b)})}
 document.getElementById("startSentence").onclick=startSent;document.getElementById("sentenceClear").onclick=()=>rS();
-document.getElementById("sentenceCheck").onclick=()=>{const s=S[Si];const ok=built.join(" ")===s.p.join(" ");document.getElementById("sentenceFeedback").textContent=(ok?"\u2713 ":"\u2717 ")+s.p.join(" ");if(ok)Sc++;document.getElementById("sentenceCheck").disabled=true;document.getElementById("sentenceNext").hidden=false;document.getElementById("sentenceScore").textContent=Sc+"/"+(Si+1)};
+document.getElementById("sentenceCheck").onclick=()=>{const s=S[Si];const ok=built.join(" ")===s.p.join(" ");document.getElementById("sentenceFeedback").textContent=(ok?"✓ ":"✗ ")+s.p.join(" ");if(ok)Sc++;document.getElementById("sentenceCheck").disabled=true;document.getElementById("sentenceNext").hidden=false;document.getElementById("sentenceScore").textContent=Sc+"/"+(Si+1)};
 document.getElementById("sentenceNext").onclick=()=>{if(Si+1>=S.length){show(home);return}Si++;rS()};document.getElementById("sentenceHome").onclick=()=>show(home);
+
+updateHomeNote();
 </script><script src="app-shell.js"></script></body></html>
