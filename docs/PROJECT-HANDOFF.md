@@ -3,8 +3,8 @@ _Updated: 18 November 2026_
 
 ## Current state
 - A1: lessons 01–25; practice 60-item deck
-- A2: lessons 01–11 (Lesson 11 = comparisons: más/menos/tan, mejor/peor/mayor/menor)
-- Cache: `spanish-seekho-v59`
+- A2: lessons 01–12 (Lesson 12 = advice and obligation: deber, tener que, hay que)
+- Cache: `spanish-seekho-v61`
 
 ## Lesson 11
 - más … que / menos … que
@@ -17,6 +17,6 @@ _Updated: 18 November 2026_
 - Spain usage note distinguishes colegio (commonly primary), instituto (commonly secondary) and universidad; regional usage may vary.
 - Lesson progress key: `lesson-25`; all lessons remain directly accessible.
 
-## Next
-1. A2 advice structures or further A2 topics
+## Lesson 12\n- Advice with deber/deberías + infinitive; personal obligations with tener que; general necessity with hay que.\n- Contrasts no tienes que (not necessary) and no debes (should not).\n- Everyday examples, health-centre dialogue, sentence-building prompts and 8-question quiz.\n- Progress key: `ss-a2-done` → `lesson-12`; all lessons remain directly accessible.\n\n## Next
+1. Further A2 topics: more present-perfect practice, shopping/clothes at A2 level
 2. Device testing when ready
