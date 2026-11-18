@@ -1,7 +1,7 @@
-const CACHE="spanish-seekho-v44";
+const CACHE="spanish-seekho-v45";
 const FILES=[
  "./","./index.html","./styles.css","./app.js","./manifest.webmanifest","./assets/icon.svg",
- "./a1/index.html","./a1/lesson-01.html","./a1/lesson-02.html","./a1/lesson-03.html","./a1/lesson-04.html","./a1/lesson-05.html","./a1/lesson-06.html","./a1/lesson-07.html","./a1/lesson-08.html","./a1/lesson-09.html","./a1/lesson-10.html","./a1/lesson-11.html","./a1/lesson-12.html","./a1/lesson-13.html","./a1/practice.html","./a1/spain-transport.html","./a1/spain-healthcare.html","./a1/spain-airport.html","./a1/spain-housing.html","./a1/spain-offices.html","./a1/spain-shopping.html","./a1/course.css","./a1/app-shell.js",
+ "./a1/index.html","./a1/lesson-01.html","./a1/lesson-02.html","./a1/lesson-03.html","./a1/lesson-04.html","./a1/lesson-05.html","./a1/lesson-06.html","./a1/lesson-07.html","./a1/lesson-08.html","./a1/lesson-09.html","./a1/lesson-10.html","./a1/lesson-11.html","./a1/lesson-12.html","./a1/lesson-13.html","./a1/lesson-14.html","./a1/practice.html","./a1/spain-transport.html","./a1/spain-healthcare.html","./a1/spain-airport.html","./a1/spain-housing.html","./a1/spain-offices.html","./a1/spain-shopping.html","./a1/course.css","./a1/app-shell.js",
  "./a2/index.html","./a2/lesson-01.html","./a2/lesson-02.html","./a2/lesson-03.html","./a2/lesson-04.html","./a2/lesson-05.html","./a2/lesson-06.html","./a2/lesson-07.html","./a2/lesson-08.html","./a2/lesson-09.html"
 ];
 self.addEventListener("install",event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)));self.skipWaiting();});
