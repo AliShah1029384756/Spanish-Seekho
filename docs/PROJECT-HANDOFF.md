@@ -2,18 +2,17 @@
 _Updated: 18 November 2026_
 
 ## Current state
-- A1: lessons 01–20 (Lesson 20 = weather & seasons)
-- Practice: 36-item deck, flashcard progress (`ss-practice-flash`)
+- A1: lessons 01–21 (Lesson 21 = home & household)
+- Practice: 36-item deck + `ss-practice-flash`
 - A2: lessons 01–10
-- Cache: `spanish-seekho-v53`
+- Cache: `spanish-seekho-v54`
 
-## Lesson 20 content
-- Weather questions and phrases (hace sol/calor/frío, llueve, nieva, está nublado)
-- Four seasons
-- Temperature and practical phrases (paraguas, abrigo)
-- Mini dialogue + 8-question quiz
-- Progress key: `ss-a1-done` → `lesson-20`
+## Lesson 21
+- Rooms: casa, piso, cocina, salón, dormitorio, baño, comedor, pasillo
+- Furniture/objects: mesa, silla, cama, sofá, nevera, ventana, puerta, llave
+- Phrases + dialogue describing a flat
+- 8-question quiz; progress key `lesson-21`
 
 ## Next
-1. Home/household vocabulary lesson, or A2 expansion if prioritised
+1. Clothes vocabulary, or A2 expansion if prioritised
 2. Device testing when ready
