@@ -2,20 +2,16 @@
 _Updated: 18 November 2026_
 
 ## Current state
-- A1: lessons 01–24 (Lesson 24 = jobs & professions)
-- Practice: DECK = 60 items (includes weather, home, clothes, body/health); SENT = 24 items; flashcard progress key `ss-practice-flash`
-- A2: lessons 01–10
+- A1: lessons 01–23; practice 60-item deck
+- A2: lessons 01–11 (Lesson 11 = comparisons: más/menos/tan, mejor/peor/mayor/menor)
 - Cache: `spanish-seekho-v58`
 
-## Practice expansion (this pass)
-- Added vocabulary from Lessons 20–23
-- Sentence set expanded with weather, home, clothes and health examples
-
-## Lesson 24
-- Professions and gender forms; workplaces; ser + profession without an indefinite article in basic statements
-- Trabajar, asking about someone's job, practical work conversation
-- 8-question quiz; progress key `lesson-24`
+## Lesson 11
+- más … que / menos … que
+- tan … como / tanto … como
+- Irregulars: mejor, peor, mayor, menor
+- Dialogue + 8-question quiz; progress key `ss-a2-done` → `lesson-11`
 
 ## Next
-1. Continue practical A1 topics or expand integrated speaking/listening/reading/writing practice
+1. A2 advice structures or further A2 topics
 2. Device testing when ready

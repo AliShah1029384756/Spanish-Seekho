@@ -1,14 +1,13 @@
 # Roadmap
 
 ## Implemented
-- A1 starter pathway: lessons 01–24 (Lesson 24 = jobs & professions)
-- Practice: 60-item vocabulary deck + 24 sentence items; flashcard known progress
-- A2: lessons 01–10
+- A1: lessons 01–23 + expanded practice (60-item deck)
+- A2: lessons 01–11 (Lesson 11 = comparisons)
 - Spain Life: 6 modules
 - Cache: v58
 
 ## Next
-0. Continue A1 practical topics and integrated skills practice; A2 expansion can follow when prioritised. (comparisons, advice, clothes review at A2 level, more present-perfect practice) when prioritised, or continue A1 with further practical topics.
+0. Continue A2 (advice with deber/tener que/hay que, more present-perfect practice, shopping/clothes at A2 level, etc.).
 1. Real-device testing (Android, RTL, PWA, offline).
 
 ## Product truth
