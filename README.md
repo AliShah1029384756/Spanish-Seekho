@@ -6,7 +6,7 @@ Free, mobile-first Spanish learning for Pakistani learners. The learning experie
 
 ## Live now
 
-### A1 starter course (13 lessons)
+### A1 starter course (14 lessons)
 1. Greetings & introductions
 2. Alphabet & pronunciation
 3. Numbers, dates & time
@@ -20,10 +20,11 @@ Free, mobile-first Spanish learning for Pakistani learners. The learning experie
 11. Adjectives & descriptions
 12. Regular present-tense verbs (-AR, -ER, -IR)
 13. Essential irregular verbs (ser, estar, tener, ir, hacer)
+14. Negation and simple sentences
 
 Open: [A1 course](https://alishah1029384756.github.io/Spanish-Seekho/a1/)
 
-These thirteen lessons are a beginner starter pathway, not a claim that the full CEFR A1 syllabus has been completed.
+These fourteen lessons are a beginner starter pathway, not a claim that the full CEFR A1 syllabus has been completed.
 
 ### Practice (4 modes)
 - Flashcards
