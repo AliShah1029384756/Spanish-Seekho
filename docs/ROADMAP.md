@@ -2,65 +2,39 @@
 
 ## Implemented
 - A1 beginner starter pathway expanded to lessons 01–19; this is still not the complete CEFR A1 syllabus.
-- A1 Lesson 09: personal information, question words, regular present-tense forms of vivir and hablar, tú/usted contrast, dialogue and six-question quiz.
-- A1 Lesson 10: noun gender, definite and indefinite articles, singular/plural formation, common gender clues and exceptions, sentence examples and eight-question quiz.
-- A1 Lesson 11: adjective agreement, common descriptive vocabulary, gender/number forms, ser + adjective, conversation and eight-question quiz.
-- A1 Lesson 12: regular -ar, -er and -ir present-tense endings, all six subject groups including vosotros, subject pronoun omission, everyday examples, conversation, independent practice and eight-question quiz.
-- A1 Lesson 13: essential irregular present-tense verbs ser, estar, tener, ir and hacer; basic ser/estar contrast; age and common tener expressions; ir a + destination; vosotros forms, conversation and eight-question quiz.
-- A1 Lesson 14: basic sentence order, negation with no/nunca/tampoco, yes/no questions, time phrases, sentence building, dialogue and eight-question quiz.
-- A1 Lesson 15: weekdays, months, calendar dates, Spain date format, recurring weekday expressions, appointment scheduling and eight-question quiz.
-- A1 Lesson 16: town places and services, asking for locations, hay vs está reminder, location prepositions, simple directions, polite requests, dialogue and eight-question quiz.
-- A1 Lesson 17: shopping vocabulary, asking/stating prices, cuesta/cuestan, quantities, packaging, polite requests, payment methods, supermarket dialogue and eight-question quiz.
 - A1 Lesson 18: daily routine phrases, reflexive verb patterns, times of day, frequency adverbs, hobbies, me gusta/me gustan, conversation and eight-question quiz.
-- A1 Lesson 19: weather expressions, seasons, temperatures, hace/está/hay patterns, simple forecasts, Spain-focused conversation and eight-question quiz.
+- A1 Lesson 19: mixed starter review & non-official checkpoint (12 questions, 75% pass, can-do checklist).
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: 6 practical modules
-- Homepage Spain Life grid, course and practice CTAs
 - A2 starter pathway in progress: Lessons 01–10; not full CEFR A2 coverage
-- A2 Lesson 10: present perfect (haber + past participle), common irregular participles, time expressions (hoy, esta semana, alguna vez, ya, todavía no), dialogue and eight-question quiz
-- Shared speech helper and path-aware mobile navigation
-- Service-worker cache version v51; A1 Lesson 19 and A2 Lesson 10 included in precache
+- A2 Lesson 10: present perfect (haber + past participle), common irregular participles, time expressions, dialogue and eight-question quiz
+- Service-worker cache version v51; A1 Lesson 19 included in precache
 
 ## A1 expansion plan
-Keep the existing lessons available and expand the course as a coherent beginner syllabus rather than replacing material randomly. Planned areas to cover in upcoming lessons:
-1. Articles, noun gender and plural forms
-2. Adjective agreement and describing people/things
-3. Regular present-tense -ar, -er and -ir verbs in useful contexts
-4. Common irregular verbs and everyday question-answer patterns
-5. Negation, word order and building simple sentences
-6. Days, months, dates, clock time and schedules (deeper practice)
-7. Home, town, directions and everyday services
-8. Shopping, prices, quantities and polite requests (Lesson 17 introduced; continue practice)
-9. Daily routines, frequency and simple free-time activities (Lesson 18 introduced; continue consolidation)
-10. Weather, seasons and temperatures (Lesson 19 introduced; continue practice)
-10. Reading, listening, writing and speaking practice integrated across units
-11. A broader A1 review and a carefully labelled non-official checkpoint
+Keep the existing lessons available and expand the course as a coherent beginner syllabus. Planned further areas:
+1. Integrated reading, listening, writing and speaking practice across units
+2. Weather, seasons and simple plans
+3. Home / household vocabulary
+4. More consolidation of present-tense and routine language
+5. A carefully labelled non-official broader review (Lesson 19 introduced the first checkpoint)
 
-This is a working curriculum plan, not a claim that every item is already implemented or an official exhaustive CEFR syllabus. Lessons remain directly accessible in any order.
+Lessons remain directly accessible in any order.
 
 ## QA status
-- First static review of homepage, A1 starter lessons, practice page, six Spain Life modules, A2 outline, app shell, styles and service worker
-- Earlier inline JavaScript syntax and duplicate-ID checks were completed on the inspected pages
-- A1 Lesson 02 and 07 received targeted pronunciation/grammar refinements
 - [ ] Continue detailed Spanish grammar, vocabulary and Castilian usage review
-- [ ] Review pronunciation approximations for consistency and clarity across all lessons (Lesson 03 c/z fixed 17 Nov 2026; others pass a scripted c/z check for A1; A2 lesson-09 izquierda outstanding)
-- [ ] Verify every internal link and precache URL against the complete repository tree
+- [ ] Review pronunciation approximations for consistency
+- [ ] Verify every internal link and precache URL
 - [ ] Test quizzes and practice modes in a real browser
 - [ ] Android layout checks at 360px, 390px and 412px
 - [ ] Urdu RTL review
 - [ ] PWA install and offline smoke test on Android
 - [ ] Confirm latest GitHub Pages deployment
 
-## Open access and caching
-- A1 and A2 lesson pages are open directly: learners may start from any available lesson without completing earlier lessons or passing a prerequisite gate.
-- Quiz completion records learning progress only; it does not lock later lessons.
-- Service-worker caching is an offline convenience, not an access-control mechanism. Browser storage can be cleared or evicted, so learners should not rely on cached pages being permanently available offline.
-
 ## Product truth
-The nineteen A1 lessons are an expanding beginner starter pathway, not a claim that the complete CEFR A1 syllabus is covered. A2 Lessons 01–10 are available as a starter pathway, not a complete CEFR A2 syllabus, official exam or certification. A2 remains in progress.
+The nineteen A1 lessons are an expanding beginner starter pathway, not a claim that the complete CEFR A1 syllabus is covered. A2 Lessons 01–10 are available as a starter pathway, not a complete CEFR A2 syllabus. Checkpoints are internal learning milestones only.
 
 ## Next
-0. Continue A1 with integrated reading, listening, writing and speaking practice, routine consolidation and broader A1 review.
-1. Later, expand practice beyond the 12-item deck using vocabulary from the growing A1 lessons and add progress saving for flashcards.
-2. Continue A2 expansion (comparisons, clothes/shopping, weather, advice, more present-perfect practice, etc.) when the project owner prioritises.
+0. Expand practice modes with more vocabulary from A1 lessons and progress saving for flashcards.
+1. Continue A1 with weather/seasons, home vocabulary or integrated skills practice.
+2. Continue A2 expansion (comparisons, clothes, weather, advice, more present-perfect practice) when prioritised.
 3. Keep browser, Android, RTL, PWA and full repository testing for the dedicated final quality phase.
