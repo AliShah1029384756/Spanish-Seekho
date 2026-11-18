@@ -1,7 +1,7 @@
 # Roadmap
 
 ## Implemented
-- A1 beginner starter pathway expanded to lessons 01–17; this is still not the complete CEFR A1 syllabus.
+- A1 beginner starter pathway expanded to lessons 01–18; this is still not the complete CEFR A1 syllabus.
 - A1 Lesson 09: personal information, question words, regular present-tense forms of vivir and hablar, tú/usted contrast, dialogue and six-question quiz.
 - A1 Lesson 10: noun gender, definite and indefinite articles, singular/plural formation, common gender clues and exceptions, sentence examples and eight-question quiz.
 - A1 Lesson 11: adjective agreement, common descriptive vocabulary, gender/number forms, ser + adjective, conversation and eight-question quiz.
@@ -11,6 +11,7 @@
 - A1 Lesson 15: weekdays, months, calendar dates, Spain date format, recurring weekday expressions, appointment scheduling and eight-question quiz.
 - A1 Lesson 16: town places and services, asking for locations, hay vs está reminder, location prepositions, simple directions, polite requests, dialogue and eight-question quiz.
 - A1 Lesson 17: shopping vocabulary, asking/stating prices, cuesta/cuestan, quantities, packaging, polite requests, payment methods, supermarket dialogue and eight-question quiz.
+- A1 Lesson 18: daily routine phrases, reflexive verb patterns, times of day, frequency adverbs, hobbies, me gusta/me gustan, conversation and eight-question quiz.
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: 6 practical modules
 - Homepage Spain Life grid, course and practice CTAs
@@ -29,7 +30,7 @@ Keep the existing lessons available and expand the course as a coherent beginner
 6. Days, months, dates, clock time and schedules (deeper practice)
 7. Home, town, directions and everyday services
 8. Shopping, prices, quantities and polite requests (Lesson 17 introduced; continue practice)
-9. Daily routines, frequency and simple free-time activities
+9. Daily routines, frequency and simple free-time activities (Lesson 18 introduced; continue consolidation)
 10. Reading, listening, writing and speaking practice integrated across units
 11. A broader A1 review and a carefully labelled non-official checkpoint
 
@@ -54,10 +55,10 @@ This is a working curriculum plan, not a claim that every item is already implem
 - Service-worker caching is an offline convenience, not an access-control mechanism. Browser storage can be cleared or evicted, so learners should not rely on cached pages being permanently available offline.
 
 ## Product truth
-The seventeen A1 lessons are an expanding beginner starter pathway, not a claim that the complete CEFR A1 syllabus is covered. A2 Lessons 01–10 are available as a starter pathway, not a complete CEFR A2 syllabus, official exam or certification. A2 remains in progress.
+The eighteen A1 lessons are an expanding beginner starter pathway, not a claim that the complete CEFR A1 syllabus is covered. A2 Lessons 01–10 are available as a starter pathway, not a complete CEFR A2 syllabus, official exam or certification. A2 remains in progress.
 
 ## Next
-0. Continue A1 with everyday routines, frequency, free-time activities and integrated reading, listening, writing and speaking practice.
+0. Continue A1 with integrated reading, listening, writing and speaking practice, routine consolidation and broader A1 review.
 1. Later, expand practice beyond the 12-item deck using vocabulary from the growing A1 lessons and add progress saving for flashcards.
 2. Continue A2 expansion (comparisons, clothes/shopping, weather, advice, more present-perfect practice, etc.) when the project owner prioritises.
 3. Keep browser, Android, RTL, PWA and full repository testing for the dedicated final quality phase.
