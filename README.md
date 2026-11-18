@@ -35,9 +35,14 @@ Free, mobile-first Spanish learning for Pakistani learners. The learning experie
 
 Open: [A1 course](https://alishah1029384756.github.io/Spanish-Seekho/a1/)
 
-These twenty-four lessons are a beginner starter pathway, not a claim that the full CEFR A1 syllabus has been completed.
+These twenty-five lessons are a beginner starter pathway, not a claim that the full CEFR A1 syllabus has been completed.
 
-### Practice (4 modes)
+#### A2 starter pathway (12 lessons)
+Lessons 01–12 are available, including advice and obligation with **deber**, **tener que** and **hay que**. A2 remains in progress, not a complete CEFR syllabus.
+
+Open: [A2 course](https://alishah1029384756.github.io/Spanish-Seekho/a2/)
+
+## Practice (4 modes)
 - Flashcards
 - Matching
 - Listening choice
@@ -73,7 +78,7 @@ Open `index.html` or serve the folder. Service worker needs HTTPS or localhost.
 GitHub Pages: Settings → Pages → Deploy from branch `main` / (root).
 
 ## Status
-The A1 starter pathway (25 lessons), four practice modes and six Spain Life modules are implemented. A first static QA pass is underway; deeper Spanish content review, Urdu RTL/device testing and offline verification remain. A2 has an 11-lesson starter pathway (not a complete CEFR A2 syllabus).
+The A1 starter pathway (25 lessons), four practice modes and six Spain Life modules are implemented. A first static QA pass is underway; deeper Spanish content review, Urdu RTL/device testing and offline verification remain. A2 has a 12-lesson starter pathway (not a complete CEFR A2 syllabus).
 
 ## License
 MIT — see [LICENSE](LICENSE).
