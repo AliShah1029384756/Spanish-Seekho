@@ -3,7 +3,7 @@ _Updated: 17 November 2026_
 
 ## Current repository state
 - Homepage with A1 starter-course CTA, Spain Life grid and practice CTA
-- A1 expanding starter pathway: Lessons 01–16 are available; not yet the complete CEFR A1 syllabus
+- A1 expanding starter pathway: Lessons 01–17 are available; not yet the complete CEFR A1 syllabus
 - A1 Lesson 09: personal information, question words, regular present forms of vivir and hablar, formal/informal questions, dialogue and quiz
 - A1 Lesson 10: noun gender, definite/indefinite articles, plural formation, common patterns and exceptions, sentence examples and quiz
 - A1 Lesson 11: adjective agreement, descriptive vocabulary, gender/number matching, ser + adjective, dialogue and quiz
@@ -12,10 +12,11 @@ _Updated: 17 November 2026_
 - A1 Lesson 14: basic sentence order, negation with no, nunca and tampoco, yes/no questions, time phrases, sentence building, practical dialogue and eight-question quiz
 - A1 Lesson 15: weekdays, months, calendar dates, Spain date format, recurring weekday expressions, appointment scheduling and eight-question quiz
 - A1 Lesson 16: common town places and services, asking where places are, hay vs está reminder, location prepositions, simple directions, polite requests, dialogue and eight-question quiz
+- A1 Lesson 17: shopping vocabulary, asking and stating prices, cuesta/cuestan, euro prices, quantities and packaging, polite requests, card/cash payment, supermarket dialogue and eight-question quiz
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: transport, healthcare, airport, housing, public offices and shopping
 - A2 starter pathway in progress: Lessons 01–09; not a claim of complete CEFR A2 syllabus coverage or official certification
-- Service-worker cache: `spanish-seekho-v47`
+- Service-worker cache: `spanish-seekho-v48`
 
 ## Language coverage (important)
 - Homepage language selector provides Roman Urdu, Urdu and English copy.
@@ -24,13 +25,13 @@ _Updated: 17 November 2026_
 - Urdu-script and Roman Urdu pronunciations are approximations, not precise phonetic transcription.
 
 ## A1 course direction
-The A1 pathway is being expanded deliberately, not treated as complete. Upcoming areas include articles and gender, plurals, adjective agreement, regular present-tense verbs, common irregular verbs, negation, sentence construction, everyday questions, practical situations, and integrated reading/listening/writing/speaking practice. This is a working plan; do not describe planned topics as already available.
+The A1 pathway is being expanded deliberately, not treated as complete. Upcoming areas include daily routines, frequency, free-time activities, and integrated reading/listening/writing/speaking practice. This is a working plan; do not describe planned topics as already available.
 
 ## QA status
 - 17 Nov 2026 (branch a1-improvements): Lesson 03 pronunciation guides changed to Castilian "th" (cero, cinco, diez, once-quince, 16-19, cincuenta, cien) to match Lesson 02; all A1 quiz options now shuffle each load; "Try again" button added via app-shell.js (reloads page; also applies to A2 quizzes); manifest link added to a1/index, practice, spain-shopping; homepage/README lesson counts corrected (A1 11, A2 9).
 - Known leftover: a2/lesson-09 "izquierda" guide uses "ees-" (Castilian would be "eeth-"). Practice deck is still 12 hardcoded items.
 - Earlier static source review and syntax/duplicate-ID checks were completed on the pages inspected at that time.
-- Lessons 09–16 have been added to the A1 index and service-worker precache list.
+- Lessons 09–17 have been added to the A1 index and service-worker precache list.
 - No browser, Android, RTL, PWA or offline testing was performed for the new lesson.
 - Detailed grammar, Castilian usage and pronunciation review remains ongoing.
 - Full internal-link/precache audit and final functional/device testing remain deferred to the dedicated quality phase.
