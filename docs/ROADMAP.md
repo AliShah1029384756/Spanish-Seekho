@@ -6,7 +6,8 @@
 - Spain Life: 6 modules
 - Cache: v61
 
-- Lesson 25: Education, school and studies (A1).\n- Lesson 12: Advice and obligation with deber, tener que and hay que (A2).
+- Lesson 25: Education, school and studies (A1).
+- Lesson 12: Advice and obligation with deber, tener que and hay que (A2).
 
 ## Next
 0. Continue A2 (more present-perfect practice, shopping/clothes at A2 level, etc.).
