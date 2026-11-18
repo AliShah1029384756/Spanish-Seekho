@@ -1,24 +1,19 @@
 # Spanish Seekho Handoff
 _Updated: 18 November 2026_
 
-## Current repository state
-- A1: lessons 01–19
-- Practice: 4 modes; deck expanded to 36 items; flashcard known-list saved under `ss-practice-flash`
+## Current state
+- A1: lessons 01–20 (Lesson 20 = weather & seasons)
+- Practice: 36-item deck, flashcard progress (`ss-practice-flash`)
 - A2: lessons 01–10
-- Spain Life: 6 modules
-- Service-worker cache: `spanish-seekho-v52`
+- Cache: `spanish-seekho-v53`
 
-## Practice changes (this pass)
-- Vocabulary deck grown from 12 → 36 items drawn from A1 content
-- Sentence-building set grown to 16 items
-- Flashcards: “I know this” marks a card known; known cards are deprioritised on next session; progress is device-local only
-- Home panel shows known-count progress
+## Lesson 20 content
+- Weather questions and phrases (hace sol/calor/frío, llueve, nieva, está nublado)
+- Four seasons
+- Temperature and practical phrases (paraguas, abrigo)
+- Mini dialogue + 8-question quiz
+- Progress key: `ss-a1-done` → `lesson-20`
 
-## Preservation rules
-- localStorage keys in use: `ss-language`, `ss-completed`, `ss-a1-done`, `ss-a2-done`, `ss-practice-flash`
-- Do not rename keys without migration
-
-## Next recommended work
-1. A1 weather/seasons or home vocabulary lesson
-2. A2 expansion if prioritised
-3. Real-device testing (Android, RTL, PWA, offline)
+## Next
+1. Home/household vocabulary lesson, or A2 expansion if prioritised
+2. Device testing when ready
