@@ -4,7 +4,8 @@ _Updated: 18 November 2026_
 ## Current state
 - A1: lessons 01–25; practice 60-item deck
 - A2: lessons 01–20 (Lesson 20 = integrated final practice and self-assessment)
-- Cache: `spanish-seekho-v62`
+- B1: Lesson 01 available; pathway started
+- Cache: `spanish-seekho-v63`
 
 ## Lesson 11
 - más … que / menos … que
@@ -34,6 +35,12 @@ _Updated: 18 November 2026_
 - **20 — A2 final practice & checkpoint:** short reading, message comprehension, invitation replies, speaking/writing prompts and an internal can-do self-assessment. Not an official CEFR exam.
 - Each new lesson includes an 8-question quiz; 6/8 saves progress under ss-a2-done. All lessons remain directly accessible; quiz completion never gates later lessons.
 
+## B1 · Lesson 01
+- **Narrating past events naturally:** contrast indefinido (completed events) and imperfecto (background, states and habits) in connected stories.
+- Covers scene-setting, interruptions, sequence connectors (primero, luego, después, mientras, de repente, al final), a practical Málaga story, speaking and 100–120-word writing prompts.
+- Includes an 8-question quiz; 6/8 saves progress under `ss-b1-done`. Lesson access is open; completion never gates another lesson.
+- B1 has just started. Do not describe it as a complete CEFR B1 syllabus.
+
 ## Next
-1. Review Spanish accuracy and expand practice where learners need more reinforcement
+1. Continue B1 lessons in a coherent sequence, with accurate explanations and practical communication tasks
 2. Device testing in the dedicated final QA phase
