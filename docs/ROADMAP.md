@@ -1,7 +1,7 @@
 # Roadmap
 
 ## Implemented
-- A1 beginner starter pathway expanded to lessons 01–15; this is still not the complete CEFR A1 syllabus.
+- A1 beginner starter pathway expanded to lessons 01–16; this is still not the complete CEFR A1 syllabus.
 - A1 Lesson 09: personal information, question words, regular present-tense forms of vivir and hablar, tú/usted contrast, dialogue and six-question quiz.
 - A1 Lesson 10: noun gender, definite and indefinite articles, singular/plural formation, common gender clues and exceptions, sentence examples and eight-question quiz.
 - A1 Lesson 11: adjective agreement, common descriptive vocabulary, gender/number forms, ser + adjective, conversation and eight-question quiz.
@@ -9,12 +9,13 @@
 - A1 Lesson 13: essential irregular present-tense verbs ser, estar, tener, ir and hacer; basic ser/estar contrast; age and common tener expressions; ir a + destination; vosotros forms, conversation and eight-question quiz.
 - A1 Lesson 14: basic sentence order, negation with no/nunca/tampoco, yes/no questions, time phrases, sentence building, dialogue and eight-question quiz.
 - A1 Lesson 15: weekdays, months, calendar dates, Spain date format, recurring weekday expressions, appointment scheduling and eight-question quiz.
+- A1 Lesson 16: town places and services, asking for locations, hay vs está reminder, location prepositions, simple directions, polite requests, dialogue and eight-question quiz.
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: 6 practical modules
 - Homepage Spain Life grid, course and practice CTAs
 - A2 starter pathway in progress: Lessons 01–09; not full CEFR A2 coverage
 - Shared speech helper and path-aware mobile navigation
-- Service-worker cache version v46; A1 Lessons 09–15 included in precache
+- Service-worker cache version v47; A1 Lessons 09–16 included in precache
 
 ## A1 expansion plan
 Keep the existing lessons available and expand the course as a coherent beginner syllabus rather than replacing material randomly. Planned areas to cover in upcoming lessons:
@@ -54,7 +55,7 @@ This is a working curriculum plan, not a claim that every item is already implem
 The fifteen A1 lessons are an expanding beginner starter pathway, not a claim that the complete CEFR A1 syllabus is covered. A2 Lessons 01–09 are available as a starter pathway, not a complete CEFR A2 syllabus, official exam or certification. A2 remains in progress.
 
 ## Next
-0. Continue A1 with practical town/directions and everyday services, then integrated reading, listening, writing and speaking practice.
+0. Continue A1 with shopping quantities, everyday routines and integrated reading, listening, writing and speaking practice.
 1. Later, expand practice beyond the 12-item deck using vocabulary from the growing A1 lessons and add progress saving for flashcards.
 2. Continue A2 expansion when A1 coverage is stronger or when the project owner reprioritises.
 3. Keep browser, Android, RTL, PWA and full repository testing for the dedicated final quality phase.
