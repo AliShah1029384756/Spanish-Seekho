@@ -2,17 +2,17 @@
 _Updated: 18 November 2026_
 
 ## Current state
-- A1: lessons 01–21 (Lesson 21 = home & household)
+- A1: lessons 01–22 (Lesson 22 = clothes & what you wear)
 - Practice: 36-item deck + `ss-practice-flash`
 - A2: lessons 01–10
-- Cache: `spanish-seekho-v54`
+- Cache: `spanish-seekho-v55`
 
-## Lesson 21
-- Rooms: casa, piso, cocina, salón, dormitorio, baño, comedor, pasillo
-- Furniture/objects: mesa, silla, cama, sofá, nevera, ventana, puerta, llave
-- Phrases + dialogue describing a flat
-- 8-question quiz; progress key `lesson-21`
+## Lesson 22
+- Clothes: camisa, camiseta, pantalón, falda, vestido, chaqueta, abrigo, zapatos, calcetines, sombrero/gorra
+- Colours with gender agreement notes
+- Phrases: llevar, ponerse, talla, me queda bien/mal
+- Shop dialogue + 8-question quiz
 
 ## Next
-1. Clothes vocabulary, or A2 expansion if prioritised
+1. Body parts / basic health phrases, or A2 expansion if prioritised
 2. Device testing when ready
