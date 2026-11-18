@@ -3,7 +3,7 @@ _Updated: 17 November 2026_
 
 ## Current repository state
 - Homepage with A1 starter-course CTA, Spain Life grid and practice CTA
-- A1 expanding starter pathway: Lessons 01–14 are available; not yet the complete CEFR A1 syllabus
+- A1 expanding starter pathway: Lessons 01–15 are available; not yet the complete CEFR A1 syllabus
 - A1 Lesson 09: personal information, question words, regular present forms of vivir and hablar, formal/informal questions, dialogue and quiz
 - A1 Lesson 10: noun gender, definite/indefinite articles, plural formation, common patterns and exceptions, sentence examples and quiz
 - A1 Lesson 11: adjective agreement, descriptive vocabulary, gender/number matching, ser + adjective, dialogue and quiz
@@ -13,7 +13,7 @@ _Updated: 17 November 2026_
 - Practice: flashcards, matching, listening choice and sentence building
 - Spain Life: transport, healthcare, airport, housing, public offices and shopping
 - A2 starter pathway in progress: Lessons 01–09; not a claim of complete CEFR A2 syllabus coverage or official certification
-- Service-worker cache: `spanish-seekho-v45`
+- Service-worker cache: `spanish-seekho-v46`
 
 ## Language coverage (important)
 - Homepage language selector provides Roman Urdu, Urdu and English copy.
