@@ -6,7 +6,7 @@ Free, mobile-first Spanish learning for Pakistani learners. The learning experie
 
 ## Live now
 
-### A1 starter course (24 lessons)
+### A1 starter course (25 lessons)
 1. Greetings & introductions
 2. Alphabet & pronunciation
 3. Numbers, dates & time
@@ -31,6 +31,7 @@ Free, mobile-first Spanish learning for Pakistani learners. The learning experie
 22. Clothes and what you wear
 23. Body parts and basic health
 24. Jobs and professions
+25. Education, school and studies
 
 Open: [A1 course](https://alishah1029384756.github.io/Spanish-Seekho/a1/)
 
@@ -72,7 +73,7 @@ Open `index.html` or serve the folder. Service worker needs HTTPS or localhost.
 GitHub Pages: Settings → Pages → Deploy from branch `main` / (root).
 
 ## Status
-The A1 starter pathway, four practice modes and six Spain Life modules are implemented. A first static QA pass is underway; deeper Spanish content review, Urdu RTL/device testing and offline verification remain. A2 has a 10-lesson starter pathway (not a complete CEFR A2 syllabus).
+The A1 starter pathway (25 lessons), four practice modes and six Spain Life modules are implemented. A first static QA pass is underway; deeper Spanish content review, Urdu RTL/device testing and offline verification remain. A2 has an 11-lesson starter pathway (not a complete CEFR A2 syllabus).
 
 ## License
 MIT — see [LICENSE](LICENSE).
