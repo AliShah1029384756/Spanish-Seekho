@@ -6,7 +6,7 @@ Free, mobile-first Spanish learning for Pakistani learners. The learning experie
 
 ## Live now
 
-### A1 starter course (15 lessons)
+### A1 starter course (16 lessons)
 1. Greetings & introductions
 2. Alphabet & pronunciation
 3. Numbers, dates & time
@@ -22,6 +22,7 @@ Free, mobile-first Spanish learning for Pakistani learners. The learning experie
 13. Essential irregular verbs (ser, estar, tener, ir, hacer)
 14. Negation and simple sentences
 15. Days, dates and schedules
+16. Town, locations and directions
 
 Open: [A1 course](https://alishah1029384756.github.io/Spanish-Seekho/a1/)
 
