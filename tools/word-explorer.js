@@ -71,10 +71,26 @@ function normaliseDictionary(payload, term) {
 }
 async function lookupDictionary(term) {
   const url = "https://api.dictionaryapi.dev/api/v2/entries/es/" + encodeURIComponent(term);
-  const payload = await fetchJSON(url);
-  const result = normaliseDictionary(payload, term);
-  if (!result) throw new Error("The dictionary returned no structured definitions for this word.");
-  return result;
+  try {
+    const payload = await fetchJSON(url);
+    const result = normaliseDictionary(payload, term);
+    if (result) return result;
+  } catch (_) {}
+  // Secondary fallback: Spanish Wiktionary page summary.
+  const wikiUrl = "https://es.wiktionary.org/api/rest_v1/page/summary/" + encodeURIComponent(term);
+  const wiki = await fetchJSON(wikiUrl);
+  const extract = String(wiki.extract || "").trim();
+  if (!extract || wiki.type === "disambiguation") {
+    throw new Error("No dictionary entry was found. Try another spelling or a shorter word.");
+  }
+  return {
+    word: wiki.title || term,
+    phonetic: "",
+    audio: "",
+    meanings: [{ partOfSpeech: "Wiktionary entry", definitions: [{ definition: extract, example: "", synonyms: [], antonyms: [] }] }],
+    source: "Spanish Wiktionary",
+    sourceUrl: wiki.content_urls?.desktop?.page || ("https://es.wiktionary.org/wiki/" + encodeURIComponent(term))
+  };
 }
 async function translate(text, target) {
   if (!text) return "";
