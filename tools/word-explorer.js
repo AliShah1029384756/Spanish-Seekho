@@ -120,9 +120,14 @@ async function translate(text, target) {
   const url = "https://api.mymemory.translated.net/get?q=" + encodeURIComponent(text.slice(0, 450)) + "&langpair=es%7C" + lang;
   try {
     const data = await fetchJSON(url);
-    const translated = data?.responseData?.translatedText;
-    if (!translated || data?.responseStatus !== 200) return "";
-    return translated;
+    if (data?.responseStatus !== 200) return "";
+    const primary = String(data?.responseData?.translatedText || "").trim();
+    if (primary) return primary;
+    // Some language pairs return an empty primary translation but include
+    // usable community matches in the same response.
+    const alternatives = Array.isArray(data?.matches) ? data.matches : [];
+    const match = alternatives.find(item => String(item?.translation || "").trim());
+    return match ? String(match.translation).trim() : "";
   } catch (_) { return ""; }
 }
 function speakSpanish(text) {
