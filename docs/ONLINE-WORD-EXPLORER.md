@@ -322,3 +322,7 @@ Before release, re-check:
 This document defines the intended behaviour, architecture, constraints, and staged delivery. It does not claim that the feature has been implemented or that a particular external API has passed testing.
 
 The next engineering step is **Phase 0: API feasibility testing**. Once the provider decision is evidence-based, implementation can begin without guessing about API coverage or licensing.
+
+
+## Implementation note (2026-11-20)
+The first browser-based version has been added at `tools/word-explorer.html` with its own CSS and JavaScript. It currently attempts a Spanish dictionary lookup through the Free Dictionary API endpoint, uses MyMemory for optional English/Urdu translation, supports browser `es-ES` speech, caches successful lookups locally, and is linked from the homepage and A1/A2/B1 course pages. API coverage and browser availability have not been validated in this change; the site owner will perform live testing. Synonyms/antonyms render only when the dictionary source supplies them. Full conjugation, gender, idiom and collocation datasets remain future enhancements.
