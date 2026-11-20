@@ -118,8 +118,8 @@ function unique(items) {
   return [...new Set((items || []).filter(Boolean))].slice(0, 16);
 }
 function renderResult(data, translation, target, cached = false) {
-  const isUrdu = target === "ur";
-  const translationLabel = target === "en" ? "English meaning" : isUrdu ? "اردو معنی" : "Roman Urdu meaning";
+  const isUrdu = target === "ur" || target === "roman";
+  const translationLabel = target === "en" ? "English meaning" : target === "ur" ? "اردو معنی" : "Urdu meaning (Roman Urdu transliteration is not available from this source)";
   const allSynonyms = unique(data.meanings.flatMap(m => m.definitions.flatMap(d => d.synonyms)));
   const allAntonyms = unique(data.meanings.flatMap(m => m.definitions.flatMap(d => d.antonyms)));
   const meaningHTML = data.meanings.map(meaning => {
