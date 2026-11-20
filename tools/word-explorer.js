@@ -70,27 +70,49 @@ function normaliseDictionary(payload, term) {
   return { word: entry.word || term, phonetic, audio, meanings, source: "Free Dictionary API", sourceUrl: "https://dictionaryapi.dev/" };
 }
 async function lookupDictionary(term) {
-  const url = "https://api.dictionaryapi.dev/api/v2/entries/es/" + encodeURIComponent(term);
+  // Spanish Wiktionary's MediaWiki API is the primary source. The old
+  // dictionaryapi.dev /es endpoint is not consistently populated for Spanish.
+  const apiUrl = "https://es.wiktionary.org/w/api.php?action=query&format=json&prop=extracts&explaintext=1&exsectionformat=plain&redirects=1&titles=" + encodeURIComponent(term) + "&origin=*";
   try {
+    const payload = await fetchJSON(apiUrl);
+    const pages = payload?.query?.pages || {};
+    const page = Object.values(pages)[0];
+    const extract = String(page?.extract || "").replace(/\\n{3,}/g, "\\n\\n").trim();
+    if (page && !page.missing && extract) {
+      return {
+        word: page.title || term,
+        phonetic: "",
+        audio: "",
+        meanings: [{ partOfSpeech: "Spanish Wiktionary", definitions: [{ definition: extract, example: "", synonyms: [], antonyms: [] }] }],
+        source: "Spanish Wiktionary",
+        sourceUrl: "https://es.wiktionary.org/wiki/" + encodeURIComponent(page.title || term)
+      };
+    }
+  } catch (_) {}
+  // Secondary fallback: the Wikimedia REST summary endpoint.
+  try {
+    const wikiUrl = "https://es.wiktionary.org/api/rest_v1/page/summary/" + encodeURIComponent(term);
+    const wiki = await fetchJSON(wikiUrl);
+    const extract = String(wiki.extract || "").trim();
+    if (extract && wiki.type !== "disambiguation") {
+      return {
+        word: wiki.title || term,
+        phonetic: "",
+        audio: "",
+        meanings: [{ partOfSpeech: "Wiktionary entry", definitions: [{ definition: extract, example: "", synonyms: [], antonyms: [] }] }],
+        source: "Spanish Wiktionary",
+        sourceUrl: wiki.content_urls?.desktop?.page || ("https://es.wiktionary.org/wiki/" + encodeURIComponent(term))
+      };
+    }
+  } catch (_) {}
+  // Last fallback: some Spanish words may be present in the community dictionary API.
+  try {
+    const url = "https://api.dictionaryapi.dev/api/v2/entries/es/" + encodeURIComponent(term);
     const payload = await fetchJSON(url);
     const result = normaliseDictionary(payload, term);
     if (result) return result;
   } catch (_) {}
-  // Secondary fallback: Spanish Wiktionary page summary.
-  const wikiUrl = "https://es.wiktionary.org/api/rest_v1/page/summary/" + encodeURIComponent(term);
-  const wiki = await fetchJSON(wikiUrl);
-  const extract = String(wiki.extract || "").trim();
-  if (!extract || wiki.type === "disambiguation") {
-    throw new Error("No dictionary entry was found. Try another spelling or a shorter word.");
-  }
-  return {
-    word: wiki.title || term,
-    phonetic: "",
-    audio: "",
-    meanings: [{ partOfSpeech: "Wiktionary entry", definitions: [{ definition: extract, example: "", synonyms: [], antonyms: [] }] }],
-    source: "Spanish Wiktionary",
-    sourceUrl: wiki.content_urls?.desktop?.page || ("https://es.wiktionary.org/wiki/" + encodeURIComponent(term))
-  };
+  throw new Error("Is lafz ka result nahi mila. Spelling check karein, ya koi doosra Spanish word try karein.");
 }
 async function translate(text, target) {
   if (!text) return "";
