@@ -47,6 +47,14 @@ The first B1 lesson is available: narrating past events naturally with indefinid
 
 Open: [B1 course](https://alishah1029384756.github.io/Spanish-Seekho/b1/)
 
+## Online Word Explorer
+- Dedicated online Spanish dictionary and word-reference page.
+- Search definitions, examples, pronunciation, synonyms/antonyms where the source provides them, and translations via an online translation service.
+- Roman Urdu, Urdu-script and English explanation options.
+- Online lookup is separate from the offline learning pathway; API availability and coverage may vary.
+
+Open: [Online Word Explorer](https://alishah1029384756.github.io/Spanish-Seekho/tools/word-explorer.html)
+
 ## Practice (4 modes)
 - Flashcards
 - Matching
