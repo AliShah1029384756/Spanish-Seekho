@@ -205,3 +205,41 @@ A row may move to **Complete** only after the mapped learning outcome is explici
 - Record small clarity improvements for A1-06 and A1-10; the more meaningful curriculum issue is A1-08's selective checkpoint coverage.
 - Preserve existing URLs and progress keys.
 - Continue with **A1 Lessons 11–15** for the next detailed review batch.
+
+
+## 11. Detailed content review — A1 Lessons 11–15 (24 November 2026)
+
+**Review scope:** Visible lesson content, examples, quiz answer keys and source-level completion logic were inspected. No browser/device runtime testing was performed.
+
+| Page | Review result | Findings |
+|---|---|---|
+| A1-11 — Adjectives and descriptions | Reviewed; no blocker found | Adjective placement, -o agreement, invariant -e/consonant forms, colour agreement and ser + adjective examples are broadly accurate. Quiz keys reviewed; no correction required. |
+| A1-12 — Regular present-tense verbs | Reviewed; no blocker found | -AR/-ER/-IR paradigms, vosotros forms, pronoun omission and examples are accurate for the stated beginner scope. Quiz keys reviewed; no correction required. |
+| A1-13 — Essential irregular verbs | Reviewed; no blocker found | Ser, estar, tener, ir and hacer paradigms/examples are sound. The beginner caveat on ser/estar is appropriate. Quiz keys reviewed; no correction required. |
+| A1-14 — Negation and simple sentences | Reviewed; minor quiz distractor polished | Core no + conjugated verb, nunca/tampoco and question punctuation explanations are broadly accurate. One distractor in the final quiz was awkwardly mixed with English (“only”); it was replaced with a cleaner incorrect Spanish distractor. Correct answer and scoring were preserved. |
+| A1-15 — Days, dates and schedules | Reviewed; factual example corrected | The page stated “martes, 18 de noviembre de 2026”; 18 November 2026 is Wednesday, so the Spanish example was corrected to **miércoles**. The remaining date, month, weekday, appointment and time examples are broadly sound. |
+
+### 11.1 Optimizations and corrections applied together
+
+The following targeted changes were implemented directly in the existing lesson files. No lesson URL, file path, lesson ID, completion threshold or progress-storage key was changed.
+
+- **A1-01:** Clarified that formal address depends on context and preference, not age alone.
+- **A1-02:** Clarified that the English “bed” comparison for Spanish *e* is approximate; added a more useful single-r/trilled rr distinction with *pero/perro* examples.
+- **A1-05:** Clarified *habitación* versus *dormitorio* rather than treating “room” and “bedroom” as exact synonyms.
+- **A1-06:** Expanded the *agua* note to explain stressed initial *a* and feminine adjective agreement: **el agua fría**.
+- **A1-08:** Renamed the review label to “Starter review”; added a compact pronunciation/date/time recap; replaced two quiz items so the 10-question checkpoint now samples vowel pronunciation and first-of-month date usage. The 7/10 threshold and completion behaviour remain unchanged. It is still a starter checkpoint, not a complete CEFR A1 assessment.
+- **A1-14:** Improved one awkward distractor without changing the correct answer.
+- **A1-15:** Corrected the weekday for 18 November 2026 from Tuesday to Wednesday.
+
+A1-03 already contained the first-of-month date rule (*el primero de…*) and cardinal-date example, so no duplicate change was made there.
+
+### 11.2 Verification and limits
+
+- All seven modified lesson files were fetched again from GitHub; each intended replacement was present.
+- No incorrect keyed answers were identified in the reviewed Lessons 11–15.
+- Existing localStorage progress handling and lesson URLs were preserved in the changes.
+- Verification was source-level only. Runtime quiz behaviour, mobile/RTL layout, speech synthesis, persistence across browsers and accessibility still need browser/device testing.
+
+### 11.3 Next batch
+
+Continue with **A1 Lessons 16–20** using the combined workflow: review content and quiz, fix verified issues in the same pass, verify the changed files, then update this tracker. Avoid opening a second repair cycle for already-reviewed lessons unless a cross-lesson inconsistency or new evidence requires it.
