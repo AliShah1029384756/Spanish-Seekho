@@ -24,21 +24,18 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 
 ## Next priorities
 
-1. A2 core 01–24 and separate end-of-level modules 25–28 are implemented and deployed. Remaining A2 QA is broader device/TTS/reload/offline/accessibility verification plus selected older quiz flows; do not delay B1-01 mapping while waiting for exhaustive device QA.
-2. Apply verified content corrections in the same review pass; preserve all existing URLs and learner progress.
-3. Verify B1-01, then produce B1-02–06 as a coherent five-lesson batch.
-4. Run dedicated A1 end-of-level runtime QA: assessment interactions, local drafts, TTS fallback, keyboard/focus, mobile/RTL and real offline/PWA behaviour.
-5. Continue to defer JSON/data-driven rendering unless a demonstrated maintenance problem justifies a tested proof of concept.
-6. A2 Lessons 01–05 source review: one clarity note added to A2-01; quiz/progress structures preserved.
-7. A2 Lessons 06–10 source review: clarified present-perfect regional variation and improved the Madrid dialogue in A2-10. A2-08 confirmed as an interim starter checkpoint, not the end-of-level module 25.
-8. Limited live A2 smoke test: A2-06 quiz passed 6/6; A2-07 result message not observed despite source handler being present; A2-08–10 not interaction-tested. See tracker.
-9. A2 Lessons 11–15 source review: clarified mayor/menor size/age usage in A2-11 and corrected antiguo/a vs histórico/a in A2-13. Quiz/progress structures preserved.
-10. A2 Lessons 16–20 source review: added tú/usted register note in A2-18, qualified the present-perfect rationale in A2-19 and corrected the Spanish can-do checklist in A2-20. All 40 answer keys and progress structures checked; details in tracker section 18.
-11. Limited live smoke test: A2-11, A2-12 and A2-13 each passed 8/8 and showed completion; A2-14/15 were visible but not interaction-tested. See tracker section 17.1.
-12. Service worker bumped to v68 for A2-21–23; real offline behaviour remains untested.
-12. A2-16–20 source review complete. Live smoke test confirmed all five pages and quizzes render; A2-16 passed a targeted 8/8 completion interaction. A2-17–20 submission flows remain untested. See tracker section 18.1.
-13. Full A2 01–20 to 24-outcome reconciliation completed; all 24 outcomes now have strong internal mapping evidence after five targeted revisions and three new lessons. Source files/index are committed and a later live check confirmed 23 lesson cards and deployed routes 21–23. Lessons 21, 22 and 23 each passed live 8/8 submissions with completion panels visible. See tracker section 4.
-10. Limited live smoke test: A1 index and all four new end-of-level pages deployed; module 25 answer selection and module 26 completion-button interaction exercised; modules 27–28 only partially checked. See curriculum tracker for limits.
+1. **B1-01 verification, then B1-02–06:** compare B1-01 with the approved B1 opening outcome, inspect its implementation conventions and progression, then produce B1-02–06 as one coherent five-lesson batch. B1-02 should deepen narrative cohesion rather than repeat the opening tense contrast.
+2. **Selected A2 runtime follow-up:** test A2-07 result display and A2-14/15 plus A2-17–20 quiz submissions. A2-16 and A2-21–23 have confirmed live completion flows; A2-25–28 closing activities have received primary interaction smoke tests.
+3. **Cross-course device/accessibility QA:** test Android/mobile layout, Urdu RTL, keyboard/focus, screen-reader labels, TTS availability, reload persistence and actual offline/PWA behaviour. The service-worker cache is v69 and includes A2 core lessons 21–23 and closing modules 25–28; offline behaviour is still unverified.
+4. **A1 end-of-level follow-up:** complete module 25 submission/result, module 27 full completion and module 28 interaction tests; preserve all existing A1 progress and URLs.
+5. **Continue B1 in order:** after B1-02–06, review the batch, update the map and continue with the next contiguous sequence. Do not begin B2 until B1 progression has been developed and reviewed.
+
+## Completed A2 work snapshot (24 November 2026)
+
+- Mapped all 24 approved A2 core outcomes to existing lessons; applied five targeted revisions and created A2-21–23 for modules 02, 16 and 20.
+- Deployed separate A2 end-of-level modules 25–28 and added them to the A2 index.
+- Live smoke tests: A2-21/22/23 each 8/8; A2-25 16/16; A2-26 five-task project saved; A2-27 listening/reading 5/5 each and assessment save; A2-28 readiness plan saved.
+- See tracker sections 4, 18.2 and 19 for exact coverage, test evidence and limitations.
 
 ## Product and engineering principles
 
