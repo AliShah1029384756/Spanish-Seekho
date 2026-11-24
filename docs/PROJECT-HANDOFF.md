@@ -96,7 +96,7 @@ The owner approved **168 modules across A1–C2, with 28 modules per level**. Se
 
 This is Spanish Seekho's own curriculum structure, not a lesson count prescribed by CEFR. Each level contains 24 core teaching modules and four closing modules: cumulative revision, practical project, integrated skills assessment, and readiness checkpoint. The 168 modules are a planned target, not an implemented course. Existing A1 lessons 01–25 and A2 lessons 01–20 must be audited and mapped before changes; preserve direct URLs and progress. B1-01 must be verified before producing B1-02–06. Never claim official CEFR accreditation or certification.
 
-**Next sequence:** baseline audit of existing A1/A2/B1 content, then B1-02–06 as a complete batch, following the master map.
+**Next sequence:** B1 core lessons 01–24 and separate closing modules 25–28 are now implemented at source. First verify the latest Pages publication and complete the outstanding B1 route/interaction and curriculum QA; begin B2 only after B1 has been reviewed.
 
 
 ## A2 Lessons 16–20 source review (24 November 2026)
@@ -190,3 +190,17 @@ All 24 approved A2 core outcomes have now been compared with the 20 existing les
 - Bumped service-worker cache to v74 and added B1-22–24 to precache. Real offline behaviour is not tested.
 - Source files were re-fetched and verified: each new page has eight questions, valid answer indices, the 6/8 threshold, unique completion ID and ss-b1-done handler; the index has 24 sequential cards, the 24/24 progress display and accurate pathway status; navigation and v74 precache entries are correct. The latest Pages workflow run 45429610127 was in progress at the last check. Live browser QA was unavailable because the browser automation service reported an insufficient wallet balance before starting; no live route or quiz success is claimed. The next source check must re-fetch the changed files and inspect the current Pages workflow.
 - Next: complete B1 closing modules 25–28 after core review, while keeping B1-17–24 post-build browser checks on the QA backlog.
+
+
+## B1 closing modules 25–28 source implementation (24 November 2026)
+
+- Added four distinct end-of-level pages following the approved B1 map: `b1/b1-review.html` (25), `b1/b1-project.html` (26), `b1/b1-assessment.html` (27), and `b1/b1-readiness.html` (28).
+- Module 25 includes a 16-question cumulative review, answer explanations, targeted lesson links and a saved revision plan. A 12/16 target records completion of this activity only; it is not a proficiency threshold.
+- Module 26 is a six-task study/work/relocation scenario project: first contact, clarification questions, problem narration, negotiation, integrated action plan and mediation summary. Drafts autosave locally; completion requires minimum word targets and all six self-checks.
+- Module 27 samples listening and reading with five questions each, extended writing, spoken production self-review and mediation. Listening uses device-generated Spanish text-to-speech where available with a transcript fallback. Speech/writing are not machine-scored; saved work is a learning record, not a CEFR grade.
+- Module 28 contains 12 can-do self-ratings, strengths/gaps/next steps and a B2 learning-route choice. It does not make an automated B2 placement decision.
+- Added all four activities to the B1 index with a separate 0/4 closing-activity progress display. Core progress remains separately measured out of 24. Closing modules use the separate `ss-b1-end-done` key; existing `ss-b1-done` lesson progress is untouched.
+- Bumped service-worker cache to v75 and added the four closing routes to precache. This is configuration only; actual offline behaviour is untested.
+- Source re-fetch checks passed: review has 16 valid-key questions and 11 distinct repair links; project has six draft fields/checks and autosave; assessment has five listening and five reading questions with valid keys and compiled inline JS; readiness has 12 can-do items and local save; index and service-worker references are present. Inline JS in all four new pages compiled successfully with the source checker.
+- GitHub Pages workflow run 45431309579 was pending at the last status check. Browser automation remains unavailable due to insufficient service wallet balance; no live route, audio, quiz interaction or mobile test is claimed.
+- Next: inspect the latest Pages workflow, perform post-build browser checks for B1-17–28 when browser automation is available, then complete the B1 curriculum/language review before starting B2.
