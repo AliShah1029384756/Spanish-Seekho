@@ -175,25 +175,24 @@ B1-01's opening narrative module is verified. B1-02 extends narrative cohesion a
 
 | Area | Initial evidence | Status |
 |---|---|---|
-| Individual lesson files | 25 A1, 20 A2 and 1 B1 file fetched at expected paths | Existing files verified |
+| Individual lesson files | A1 01–25; A2 core 01–23 plus end modules 25–28; B1 01–06 | Source files and deployed routes verified |
 | Visible lesson structure | Section headings present across inspected pages | Structural presence only |
 | Quiz/checkpoint pattern | Quiz/checkpoint sections found across inspected pages | Content/answer correctness not verified |
 | Language controls | Language button/control references found in inspected pages | Runtime behaviour not tested |
 | Local progress | localStorage references found in inspected pages | Persistence/regression not tested |
 | Urdu RTL / mixed direction | Not verified in browser/device | Needs QA |
 | Accessibility and keyboard | Not verified in browser | Needs QA |
-| GitHub Pages links and deployment | Not tested in this audit | Needs QA |
-| PWA/offline and service worker | Not tested in this audit | Needs QA |
+| GitHub Pages links and deployment | A2 core/end modules and B1 01–06 index/routes checked live | Selected live interactions verified; broader cross-device QA pending |
+| PWA/offline and service worker | Cache v70 includes current A1/A2/B1 pages | Cache configured; actual offline behaviour not verified |
 
-## 7. Agreed next actions
+## 7. Current next actions
 
-1. **A1 detailed content review:** review the existing pages against mapped outcomes; flag Spanish corrections, missing explanations, repeated content and weak assessments. Do not rewrite all pages by default.
-2. **A2 detailed content review:** resolve overlapping topics and confirm the missing outcomes (especially modules 02 and 16).
-3. **B1-01 quality review:** verify its content and exact implementation conventions before writing B1-02–06.
-4. **Decide minimal repairs:** prefer improving or integrating existing pages over creating unnecessary new pages.
-5. **Create new lessons only for confirmed gaps:** preserve all current URLs and local progress.
-6. **Run a separate technical QA pass:** mobile, RTL, navigation, progress, accessibility and offline behaviour.
-7. Update this tracker only when evidence changes; update handoff and roadmap after meaningful verified work.
+1. **B1 continuation:** B1-01–06 are implemented and mapped to the opening sequence. Produce B1-07–11 as the next coherent batch, following the approved B1 master map.
+2. **Selected A2 runtime QA:** test A2-07 result display and A2-14/15 plus A2-17–20 quiz submissions; preserve all existing progress keys.
+3. **Cross-course device QA:** mobile/Android, Urdu RTL, keyboard/focus, screen-reader labels, TTS, reload persistence and actual offline/PWA behaviour.
+4. **A1 end-of-level follow-up:** complete remaining interaction checks for modules 25, 27 and 28.
+5. Update this tracker, handoff and roadmap after each verified batch. Do not claim official CEFR certification or complete CEFR syllabi.
+
 
 ## 8. Completion rule
 
