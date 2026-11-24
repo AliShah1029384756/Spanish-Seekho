@@ -21,26 +21,23 @@ Check the latest repository before each batch. The 24 November 2026 documentatio
 |---|---:|---|
 | A1 | 01–25 | Starter pathway |
 | A2 | Core lessons 01–23 + separate modules 25–28 | Core outcomes mapped; end-of-level activities deployed and smoke-tested |
-| B1 | 01 | Started; incomplete |
+| B1 | 01–06 | Opening batch implemented; incomplete |
 
 A1 and A2 must not be advertised as complete CEFR syllabi. B1 must not be advertised as a complete course.
 
 ## Next planned work
 
-The next content priority is B1, continuing after Lesson 01. Before generating the batch, inspect the live files and existing lesson 01 to verify the exact title, content, file naming, navigation, and quiz/progress conventions.
+The next content priority is B1-07–11. Lessons 01–06 are deployed; B1-01 and B1-02 passed live 8/8 tests, while B1-03–06 pages/quiz controls are verified but their submission interactions remain pending. Before the next batch, inspect the live files and map the sequence against the approved B1 plan.
 
-Suggested planning themes for the next B1 sequence (adapt after inspecting existing files; these are topic directions, not already-created lessons):
+Next planned batch B1-07–11 follows the approved map:
 
-1. Connecting past events and telling a fuller story.
-2. Sharing opinions and giving reasons.
-3. Describing experiences and changes over time.
-4. Plans, intentions, predictions, and possibilities.
-5. Work, study, and everyday responsibilities.
-6. Social situations, advice, and polite disagreement.
-7. Problems, solutions, and explaining consequences.
-8. Integrated communication and a progress checkpoint.
+1. Supporting an argument and considering another viewpoint.
+2. Clarifying, reformulating and keeping a conversation moving.
+3. Future simple for predictions, promises and assumptions.
+4. Conditional forms for hypothetical situations and polite requests.
+5. Plans, intentions and possible outcomes.
 
-Select the next 5–8 topics that create the strongest learning progression. Do not force all eight into one batch if the lesson scope becomes too broad.
+These topics continue the sequence after B1-06 without repeating the opening narrative or opinion lessons.
 
 ## Batch workflow
 
@@ -86,4 +83,4 @@ When the owner says “continue,” “next,” “make more lessons,” or “c
 
 The owner approved **168 modules across A1–C2 (28 per level)**. Follow [CURRICULUM-MASTER-PLAN.md](CURRICULUM-MASTER-PLAN.md) for the authoritative titles, outcomes and assessment model. This is a Spanish Seekho design decision, not a CEFR-mandated count.
 
-A1 and A2 inventories have been reviewed and mapped; A2 core modules 01–24 have strong internal coverage evidence and separate end-of-level modules 25–28 are implemented. Preserve current URLs and progress; do not renumber blindly. The immediate content batch is B1-02–06 after verifying B1-01 against the master map and current page conventions. B1-02 must deepen narrative cohesion rather than repeat B1-01. B2/C1/C2 remain future phases.
+A1 and A2 inventories have been reviewed and mapped; A2 core modules 01–24 have strong internal coverage evidence and separate end-of-level modules 25–28 are implemented. Preserve current URLs and progress; do not renumber blindly. The immediate content batch is B1-07–11. B1-01–06 have been implemented; B1-02 deepens narrative cohesion rather than repeating B1-01. B2/C1/C2 remain future phases.
