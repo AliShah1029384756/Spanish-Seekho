@@ -2,6 +2,10 @@
 
 _Updated: 24 November 2026_
 
+## Project specification
+
+`docs/PROJECT-SPECIFICATION.md` is the concise source of truth for product scope, functional/non-functional requirements, technical constraints, acceptance gates and multi-AI collaboration. Read it before planning or changing product behaviour. This handoff records the current working state; the specification records what the product is required to be.
+
 ## Mission and product direction
 
 **Making Spanish Learning Accessible to Every Pakistani.**
