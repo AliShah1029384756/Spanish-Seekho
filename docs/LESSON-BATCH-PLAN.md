@@ -80,7 +80,7 @@ When the owner says “continue,” “next,” “make more lessons,” or “c
 
 The owner approved **168 modules across A1–C2 (28 per level)**. Follow [CURRICULUM-MASTER-PLAN.md](CURRICULUM-MASTER-PLAN.md) for the authoritative titles, outcomes and assessment model. This is a Spanish Seekho design decision, not a CEFR-mandated count.
 
-A1 and A2 inventories have been reviewed and mapped; A2 core modules 01–24 have strong internal coverage evidence and separate end-of-level modules 25–28 are implemented. Preserve current URLs and progress; do not renumber blindly. The immediate content batch after B1-12–16 publication is B1-17–21. B1-01–16 have been implemented at source; map each lesson to the next Unit 5–6 outcomes without duplicating earlier communication functions. B2/C1/C2 remain future phases.
+A1 and A2 inventories have been reviewed and mapped; A2 core modules 01–24 have strong internal coverage evidence and separate end-of-level modules 25–28 are implemented. B1 core lessons 01–24 and closing modules 25–28 are now implemented at source. Preserve current URLs and progress; do not renumber blindly. The immediate work is publication verification, outstanding live interaction QA and a full B1 01–28 curriculum review. B2/C1/C2 remain future phases.
 
 ## Current next batch
 
