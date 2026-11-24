@@ -24,13 +24,14 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 
 ## Next priorities
 
-1. A2 Lessons 01–05 are now source-reviewed; continue detailed content/curriculum mapping from Lessons 06–10, then proceed in contiguous batches through Lesson 20.
+1. A2 Lessons 01–10 are now source-reviewed; continue detailed content/curriculum mapping from Lessons 11–15, then finish Lessons 16–20.
 2. Apply verified content corrections in the same review pass; preserve all existing URLs and learner progress.
 3. Verify B1-01, then produce B1-02–06 as a coherent five-lesson batch.
 4. Run dedicated A1 end-of-level runtime QA: assessment interactions, local drafts, TTS fallback, keyboard/focus, mobile/RTL and real offline/PWA behaviour.
 5. Continue to defer JSON/data-driven rendering unless a demonstrated maintenance problem justifies a tested proof of concept.
-6. A2 Lessons 01–05 source review: one clarity note added to A2-01; no other verified corrections were necessary. Quiz/progress structures preserved.
-7. Limited live smoke test: A1 index and all four new end-of-level pages deployed; module 25 answer selection and module 26 completion-button interaction exercised; modules 27–28 only partially checked. See curriculum tracker for limits.
+6. A2 Lessons 01–05 source review: one clarity note added to A2-01; quiz/progress structures preserved.
+7. A2 Lessons 06–10 source review: clarified present-perfect regional variation and improved the Madrid dialogue in A2-10. A2-08 confirmed as an interim starter checkpoint, not the end-of-level module 25.
+8. Limited live smoke test: A1 index and all four new end-of-level pages deployed; module 25 answer selection and module 26 completion-button interaction exercised; modules 27–28 only partially checked. See curriculum tracker for limits.
 
 ## Product and engineering principles
 
