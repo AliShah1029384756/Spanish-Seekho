@@ -26,7 +26,7 @@ Important: the audit confirms files and visible topic/section structures, not fu
 - A2: core pathway lessons 01–23 plus separate end-of-level modules 25–28. All 24 core outcomes have strong internal mapping evidence. Closing pages have been deployed and their primary interactions smoke-tested; see tracker sections 4, 18.2 and 19.
 - B1: Core lessons 01–24 and separate closing modules 25–28 are implemented and have received a consolidated source-level curriculum/language/quiz review. Corrections include unit labels, one translation, Spanish phrasing, Module 27 listening evidence and B1 mobile navigation. The source-correction commit was built and deployed successfully in Pages run 45459503106 (run 573); live route/interaction QA remains pending. Earlier live 8/8 evidence is limited to B1-01, B1-02 and B1-07. Do not begin B2 until release QA is complete.
 - Spain Life: 6 modules.
-- Current service-worker cache version: `spanish-seekho-v76`; four A1 end-of-level pages, A2 lessons 21–23, A2 end-of-level modules 25–28, and B1 lessons 01–24 are in its precache list. This configures update caching; real offline behaviour remains untested.
+- Current service-worker cache version: `spanish-seekho-v76`; four A1 end-of-level pages, A2 lessons 21–23, A2 end-of-level modules 25–28, and B1 index, lessons 01–24 and closing modules 25–28 are in its precache list. This configures update caching; real offline behaviour remains untested.
 
 A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 now has 24 core lessons and four closing activities at source level, but remains source-reviewed rather than release-verified. No official CEFR accreditation or certification is claimed. Inspect current files before assuming this snapshot is still current.
 
