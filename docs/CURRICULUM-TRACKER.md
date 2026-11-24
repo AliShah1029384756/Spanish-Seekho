@@ -1,6 +1,6 @@
 # Spanish Seekho — Curriculum Audit Tracker
 
-_Status: A1 Lessons 01–25 source-reviewed; A1 end-of-level modules 25–28 implemented and source-verified. A2 Lessons 01–15 source-reviewed with targeted clarifications in A2-01, A2-10, A2-11 and A2-13. Remaining A2/B1 detailed QA and programme-wide runtime testing are pending._  
+_Status: A1 Lessons 01–25 source-reviewed; A1 end-of-level modules 25–28 implemented and source-verified. A2 Lessons 01–20 source-reviewed with targeted improvements in A2-01, A2-10, A2-11, A2-13, A2-18, A2-19 and A2-20. A2 curriculum reconciliation, A2 closing modules and programme-wide runtime testing remain pending._  
 _Audit date: 24 November 2026_  
 _Baseline: `docs/CURRICULUM-MASTER-PLAN.md` (approved 168-module target)_
 
@@ -103,16 +103,17 @@ The URLs below are existing public lesson paths. Preserve them and existing lear
 | [A2-13](../a2/lesson-13.html) | Describing people, appearance, neighbourhoods and places | 01, 18 | Detailed source review: useful expansion of personal descriptions and places; added accurate distinction antiguo/a (old/ancient/former) vs histórico/a (historic). More connected detail still needed for full module 18 |
 | [A2-14](../a2/lesson-14.html) | Preferences, reasons, agreement and disagreement | 04, 19, 23 | Detailed source review: module 04 and 23 well represented; module 19 partial through preferences/reasons but no comparative language. Avoid duplication with A2-05 |
 | [A2-15](../a2/lesson-15.html) | Near-future plans, meeting arrangements and time coordination | 09, 10 | Detailed source review: strong module 09 and 10 coverage. Distinct from A2-05/06 when focused on concrete scheduling and changing arrangements |
-| [A2-16](../a2/lesson-16.html) | Travel experiences and problems | 11, 15, 22 | Partial / overlap; useful travel/problem language |
-| [A2-17](../a2/lesson-17.html) | Technology and communication | 17 | Existing — mapping candidate |
-| [A2-18](../a2/lesson-18.html) | Everyday problems and solutions | 15 | Existing — mapping candidate; distinguish complaints, polite requests and solutions |
-| [A2-19](../a2/lesson-19.html) | Grammar and communication review | 08, 20, 25 candidate | Needs review; visible sections include past, present perfect, plans, obligations, comparisons and communication |
-| [A2-20](../a2/lesson-20.html) | Integrated final practice, invitation reading/reply, speaking/writing, can-do checklist | 24, 27/28 candidates | Needs review; promising integrated task, but verify all four skills, scoring, rubric and readiness claims before mapping |
+| [A2-16](../a2/lesson-16.html) | Travel experiences and problems | 11, 22 | Partial / overlap; useful transport, accommodation and disruption language; follow-up questions and fuller problem-resolution sequences remain limited |
+| [A2-17](../a2/lesson-17.html) | Technology and communication | 17 | Strong mapping candidate; digital actions, common problems and direct object pronouns are covered |
+| [A2-18](../a2/lesson-18.html) | Everyday problems and solutions | 15, 14 partial | Strong module 15 candidate; advice and polite requests support module 14, but permission and fuller service/public-office contexts are missing |
+| [A2-19](../a2/lesson-19.html) | Grammar and communication review | 05–07, 14, 19, 20, 23; 25 candidate | Review page spanning several grammar areas; not a dedicated module 20 linking/sequencing lesson or a complete module 25 gap-repair review |
+| [A2-20](../a2/lesson-20.html) | Integrated final practice, invitation reading/reply, speaking/writing, can-do checklist | 24 partial; 26/27/28 candidates | Useful integrated practice, but no separate listening-comprehension task, scored productive-skill rubric, trip-planning project or readiness plan; not modules 26–28 |
 
 ### A2 initial gap picture
 
 - The clearest unrepresented approved outcomes are **home/neighbourhood/local services** (module 02) and **services/public offices/forms/appointments in Spain** (module 16).
-- Modules 20–24 need an outcome-level audit: linking/sequencing, suggestions, explaining events and follow-up questions, opinions/agreement/disagreement, and integrated communication. Existing pages may cover portions.
+- Module 20 (linking ideas and sequencing events) remains a clear gap: A2-19 reviews several grammar areas but does not teach connected sequencing systematically. Module 22 (explaining what happened and asking follow-up questions) is partial in A2-16/18. Module 24 is only partially represented by A2-20; its productive tasks need clearer criteria and broader contexts.
+- Module 14 is partial: advice and obligation are covered, but permission needs explicit teaching. Module 18 needs more connected description/detail. Module 02 (home, neighbourhood and local services) and module 16 (services, public offices, forms and appointments in Spain) remain clear gaps.
 - A2-05, A2-14 and A2-15 have overlapping preferences/reasons/plans content; A2-04 and A2-16 overlap travel; A2-11 and A2-14 overlap comparison/preferences. This is not automatically a defect, but progression and non-repetition need review.
 - A2-08, A2-19 and A2-20 are review/final practice candidates. Do not count them as approved modules 25–28 until their outcomes, skills and assessment evidence are checked.
 - Approved A2 modules 25–28 are not verified as fully implemented.
@@ -434,3 +435,27 @@ Reviewed lesson explanations, Spanish examples and translations, Castilian pronu
 ### 17.1 Limited public-site smoke test (24 November 2026)
 
 A live browser smoke test opened the public A2 index and confirmed Lessons 11–15 are available. Lessons 11, 12 and 13 each rendered their heading and eight-question quiz; all correct choices were selected and submitted, and each displayed an 8/8 score with its lesson-completed message. The deployed A2-11 mayor/menor usage note and A2-13 antiguo/a vs histórico/a distinction were also visible. Lessons 14 and 15 were not interaction-tested because the browser run exhausted its execution budget; their presence in the A2 index was confirmed. TTS output, saved progress after reload, mobile/Android, RTL, accessibility and offline behaviour were not tested. This is a limited smoke test, not exhaustive runtime QA.
+
+
+## 18. A2 Lessons 16–20 — detailed source review and same-pass optimization (24 November 2026)
+
+Reviewed the five lesson pages in detail: explanations, Spanish examples and English meanings, practical dialogues, Spain-focused usage, quiz questions and answer keys, thresholds, completion handlers, lesson IDs and the `ss-a2-done` progress key.
+
+| Lesson | Findings | Same-pass action / mapping |
+|---|---|---|
+| A2-16 — Travel experiences and problems | Travel/accommodation vocabulary, present-perfect experience statements, lost-ticket/delayed-train problems, polite requests and booking dialogue are accurate and practical. Eight quiz keys checked; no incorrect key found. | No lesson edit needed. Partial candidates for module 11 and module 22; transport disruption and booking issues are useful, but detailed directions and follow-up questioning remain limited. |
+| A2-17 — Technology and communication | Device/digital-action vocabulary is appropriate. Direct object pronouns agree with *archivo/fotos*; *te lo envío* has correct indirect + direct pronoun order; the dialogue is natural. Eight quiz keys checked; no incorrect key found. | No lesson edit needed. Strong module 17 candidate. |
+| A2-18 — Everyday problems and solutions | Problem descriptions, polite requests, advice, suggestions and practical commands are sound. The rented-flat dialogue intentionally uses formal *usted* forms (*espere, su ayuda*) alongside informal command examples elsewhere in the lesson. Eight quiz keys checked; no incorrect key found. | Added a concise register note distinguishing informal *tú* commands from formal *usted* forms. Strong module 15 candidate; partial support for module 14, but permission and public-office/service scenarios remain missing. |
+| A2-19 — Grammar and communication review | Past event vs past habit, present perfect, plans, obligations, comparisons, reasons and polite communication examples are accurate. Eight quiz keys checked; no incorrect key found. | Qualified the quiz explanation for *Hoy he trabajado mucho*: this is common in much of Spain for an unfinished time period, but usage varies by speaker and region. Review candidate for modules 05–07, 14, 19 and 23; it does not teach module 20 sequencing systematically or constitute module 25 gap repair. |
+| A2-20 — Final practice and checkpoint | Invitation reading, gist questions, replies, speaking/writing prompts and can-do statements provide useful integrated practice. Eight quiz keys checked; no incorrect key found. | Replaced English checklist statements incorrectly marked as Spanish/TTS input with accurate Spanish can-do statements and English meanings. This is a useful module 24 practice candidate, but not a complete module 26 trip project, module 27 four-skill assessment or module 28 readiness plan. |
+
+### Progress and verification
+
+- Each lesson contains eight quiz questions and a 6/8 completion threshold. All 40 keyed answers were reviewed; no incorrect keyed answer was identified.
+- All five retain their existing page URLs, lesson completion IDs, quiz thresholds and `ss-a2-done` progress key. No quiz answer key or progress schema was changed.
+- Re-fetched all three changed pages and verified the A2-18 register note, A2-19 qualified present-perfect explanation and all five Spanish A2-20 can-do statements/data-say phrases.
+- Source-level review only; public browser interaction for this batch is pending. TTS output, reload persistence, mobile/Android, Urdu RTL, keyboard/screen-reader accessibility and offline behaviour are not verified.
+
+### Mapping conclusion after A2-01–20 source review
+
+The 20 existing pages provide a useful starter pathway, but they do not yet constitute the approved A2 core modules 01–24. Clear remaining work includes module 02 (home/neighbourhood/local services), module 14 permission, module 16 public services/forms, module 18 richer connected description, module 20 connectors/sequencing, fuller module 22 follow-up questions and a more complete module 24 integrated outcome. A2-08 and A2-19 are review pages, not approved module 25. A2-20 is a practice/checkpoint candidate, not evidence that modules 26–28 are complete. Reconcile the full A2 map before creating lessons 21–24 or any closing modules.
