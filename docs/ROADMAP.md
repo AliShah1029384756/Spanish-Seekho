@@ -29,6 +29,7 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 3. Verify B1-01, then produce B1-02–06 as a coherent five-lesson batch.
 4. Run dedicated A1 end-of-level runtime QA: assessment interactions, local drafts, TTS fallback, keyboard/focus, mobile/RTL and real offline/PWA behaviour.
 5. Continue to defer JSON/data-driven rendering unless a demonstrated maintenance problem justifies a tested proof of concept.
+6. Limited live smoke test: A1 index and all four new end-of-level pages deployed; module 25 answer selection and module 26 completion-button interaction exercised; modules 27–28 only partially checked. See curriculum tracker for limits.
 
 ## Product and engineering principles
 
