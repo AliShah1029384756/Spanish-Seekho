@@ -670,7 +670,7 @@ Four separate A2 closing pages were created, added to the A2 index and added to 
 - Each quiz has a 6/8 pass threshold, valid answer indices, a unique lesson completion ID (lesson-22, lesson-23, lesson-24) and preserves the existing ss-b1-done key. Completion does not gate later lessons.
 - Added lessons 22–24 to the B1 index. B1-21 now links to B1-22; new lessons link sequentially 22→23→24. Corrected the progress display from the stale “of 16” to “of 24”.
 - Bumped the service-worker cache to spanish-seekho-v74 and added all three new routes to precache. This is cache configuration, not proof of offline operation.
-- Files and integration writes were committed through GitHub. Fresh re-fetch/source verification and GitHub Pages workflow status are still required before declaring this batch fully source-verified and deployed.
+- All three lesson files, index, navigation and service worker were re-fetched after the final edits. Each new page has eight parseable quiz questions, valid answer indices, a unique lesson completion ID, the 6/8 threshold and the existing ss-b1-done handler. The index was corrected to list cards sequentially 01–24, displays progress out of 24, and accurately states that closing modules 25–28 remain. Service-worker v74 includes all three routes. Latest GitHub Pages workflow run 45429610127 was in progress at the last check; publication is not yet confirmed.
 
 ### Live QA limitation
 - Browser automation did not start because the browser service reported insufficient wallet balance. Therefore B1-22–24 public routes and quiz submissions have not been browser-tested. B1-17–21 post-build route/quiz verification also remains pending. Do not claim live success.
