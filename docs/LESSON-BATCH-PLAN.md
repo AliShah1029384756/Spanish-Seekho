@@ -20,7 +20,7 @@ Check the latest repository before each batch. The 24 November 2026 documentatio
 | Pathway | Available lessons | Status |
 |---|---:|---|
 | A1 | 01–25 | Starter pathway |
-| A2 | 01–20 | Starter pathway |
+| A2 | Core lessons 01–23 + separate modules 25–28 | Core outcomes mapped; end-of-level activities deployed and smoke-tested |
 | B1 | 01 | Started; incomplete |
 
 A1 and A2 must not be advertised as complete CEFR syllabi. B1 must not be advertised as a complete course.
@@ -86,4 +86,4 @@ When the owner says “continue,” “next,” “make more lessons,” or “c
 
 The owner approved **168 modules across A1–C2 (28 per level)**. Follow [CURRICULUM-MASTER-PLAN.md](CURRICULUM-MASTER-PLAN.md) for the authoritative titles, outcomes and assessment model. This is a Spanish Seekho design decision, not a CEFR-mandated count.
 
-Before new lesson production, audit existing A1 01–25, A2 01–20 and B1-01 against the map. Preserve current URLs and progress; do not renumber blindly. The immediate content batch remains B1-02–06 after verifying B1-01 and the actual page conventions. B1-02 must deepen narrative cohesion rather than repeat B1-01. B2/C1/C2 remain future phases.
+A1 and A2 inventories have been reviewed and mapped; A2 core modules 01–24 have strong internal coverage evidence and separate end-of-level modules 25–28 are implemented. Preserve current URLs and progress; do not renumber blindly. The immediate content batch is B1-02–06 after verifying B1-01 against the master map and current page conventions. B1-02 must deepen narrative cohesion rather than repeat B1-01. B2/C1/C2 remain future phases.
