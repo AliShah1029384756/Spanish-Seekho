@@ -1,46 +1,76 @@
 # Spanish Seekho Handoff
-_Updated: 18 November 2026_
 
-## Current state
-- A1: lessons 01–25; practice 60-item deck
-- A2: lessons 01–20 (Lesson 20 = integrated final practice and self-assessment)
-- B1: Lesson 01 available; pathway started
-- Cache: `spanish-seekho-v63`
+_Updated: 24 November 2026_
 
-## Lesson 11
-- más … que / menos … que
-- tan … como / tanto … como
-- Irregulars: mejor, peor, mayor, menor
-- Dialogue + 8-question quiz; progress key `ss-a2-done` → `lesson-11`
+## Mission and product direction
 
-## Lesson 25
-- Education, school and studies: school vocabulary, study verbs, questions about subjects/classes, a short conversation and an 8-question quiz.
-- Spain usage note distinguishes colegio (commonly primary), instituto (commonly secondary) and universidad; regional usage may vary.
-- Lesson progress key: `lesson-25`; all lessons remain directly accessible.
+**Making Spanish Learning Accessible to Every Pakistani.**
 
-## Lesson 12
-- Advice with deber/deberías + infinitive; personal obligations with tener que; general necessity with hay que.
-- Contrasts no tienes que (not necessary) and no debes (should not).
-- Everyday examples, health-centre dialogue, sentence-building prompts and 8-question quiz.
-- Progress key: `ss-a2-done` → `lesson-12`; all lessons remain directly accessible.
+Free, practical, mobile-first Spanish learning for Pakistani learners. Roman Urdu is the default teaching language, with Urdu-script and English support according to the existing interface. Teach contemporary standard Spanish from Spain (Castilian). Pronunciation spellings in Roman Urdu/Urdu are approximations and must be labelled. The product is intended to be genuinely useful, including for learners preparing for life in Spain; it is not merely a vocabulary list or portfolio demo.
 
-## A2 Lessons 13–20
-- **13 — Describing people & places:** personality, appearance, ser/estar/tener/llevar and neighbourhood descriptions.
-- **14 — Preferences & giving reasons:** gustar, preferir, apetecer, opinions, agreement and porque.
-- **15 — Making plans & arrangements:** ir a + infinitive, quedar, time expressions, accepting and changing plans.
-- **16 — Travel experiences & problems:** travel vocabulary, present-perfect experiences, booking/ticket problems and polite requests.
-- **17 — Technology & communication:** devices, digital actions, common tech problems and direct object pronouns lo/la/los/las.
-- **18 — Everyday problems & solutions:** household problems, polite help requests, suggestions and useful commands.
-- **19 — A2 grammar & communication review:** past event vs past habit, present perfect, plans, obligation, comparisons and polite communication.
-- **20 — A2 final practice & checkpoint:** short reading, message comprehension, invitation replies, speaking/writing prompts and an internal can-do self-assessment. Not an official CEFR exam.
-- Each new lesson includes an 8-question quiz; 6/8 saves progress under ss-a2-done. All lessons remain directly accessible; quiz completion never gates later lessons.
+## Current documented course state
 
-## B1 · Lesson 01
-- **Narrating past events naturally:** contrast indefinido (completed events) and imperfecto (background, states and habits) in connected stories.
-- Covers scene-setting, interruptions, sequence connectors (primero, luego, después, mientras, de repente, al final), a practical Málaga story, speaking and 100–120-word writing prompts.
-- Includes an 8-question quiz; 6/8 saves progress under `ss-b1-done`. Lesson access is open; completion never gates another lesson.
-- B1 has just started. Do not describe it as a complete CEFR B1 syllabus.
+- A1: lessons 01–25; 60-item practice deck.
+- A2: lessons 01–20; Lesson 20 is integrated final practice and self-assessment.
+- B1: Lesson 01 available; pathway started, not complete.
+- Spain Life: 6 modules.
+- Cache noted in the previous handoff: `spanish-seekho-v63`; inspect the current service worker before changing it.
 
-## Next
-1. Continue B1 lessons in a coherent sequence, with accurate explanations and practical communication tasks
-2. Device testing in the dedicated final QA phase
+A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 is only beginning. Inspect current files before assuming this snapshot is still current.
+
+## Recent documented lesson coverage
+
+### A1
+- Lesson 25: Education, school and studies — school vocabulary, study verbs, subjects/classes, a short conversation and an 8-question quiz.
+- Other A1 lessons 01–24 are recorded in README/course files; inspect them before planning new content.
+
+### A2
+- Lessons 13–20: descriptions; preferences/reasons; plans/arrangements; travel experiences/problems; technology/communication; everyday problems/solutions; grammar and communication review; integrated final practice/checkpoint.
+- Each new A2 lesson in the previous handoff includes an 8-question quiz. 6/8 saves progress under `ss-a2-done`. Later lessons remain directly accessible; quiz completion does not gate access.
+
+### B1
+- Lesson 01: narrating past events naturally; contrast indefinido and imperfecto, scene-setting, interruptions, sequence connectors, a practical Málaga story, speaking and 100–120-word writing prompts.
+- Includes an 8-question quiz; 6/8 saves progress under `ss-b1-done`. Lesson access is open; completion does not gate later lessons.
+
+## Current production priority
+
+Continue B1 after Lesson 01, after verifying the latest repository state and exact file conventions. Build a coherent sequence, not isolated disconnected topics. Candidate directions include connected storytelling, opinions and reasons, experiences and change, plans and possibilities, work/study, social communication, problems/solutions, and integrated practice. Use `docs/LESSON-BATCH-PLAN.md` to select the next batch.
+
+## Batch-first working agreement
+
+- The owner prefers to work in ChatGPT when possible but may switch to Claude or Grok when usage limits are reached.
+- All AI tools must use the repository documentation as shared context; do not ask the owner to repeat the project mission or standards.
+- Default to 5 complete lessons in one batch. Generate 6–8 when scope and response budget allow; use 3–5 for dense grammar.
+- Do not make the owner request each lesson individually. “Continue” means prepare the next contiguous batch.
+- For parallel AIs, assign non-overlapping lesson ranges and have one integrator reconcile content, numbering, navigation, and implementation.
+- Follow `docs/LESSON-PRODUCTION-PLAYBOOK.md` for the shared AI prompt, content blueprint, QA, and architecture rules.
+
+## Architecture and migration status
+
+- Repository guidance preserves a free static HTML/CSS/vanilla-JavaScript architecture.
+- JSON-driven lesson rendering has been discussed as an optimization but is **not confirmed as implemented**. Inspect actual lesson files, navigation, language behaviour, progress storage, and service-worker behaviour before deciding.
+- Do not mass-migrate lessons. If justified, first create and test one representative proof of concept while preserving visual behaviour, direct links, and learner progress.
+- Preserve existing localStorage keys: `ss-language`, `ss-completed`, `ss-a1-done`, and inspect current code for any additional level-specific keys.
+- No claim of automated lesson validation or a batch-generation tool unless one is implemented.
+
+## Existing engineering constraints
+
+- Android/mobile-first.
+- Correct Urdu RTL; Spanish and Latin-script text LTR where appropriate.
+- Semantic HTML, accessibility, visible focus, touch-friendly controls, reduced-motion support.
+- Avoid paid APIs/hosting, mandatory accounts, unnecessary frameworks and essential external CDN dependencies.
+- Review service-worker cache version/list when app-shell assets change.
+- Verify GitHub Pages project-relative paths.
+- Do not claim offline/PWA behaviour without real device/browser testing.
+
+## Next steps
+
+1. Inspect B1 Lesson 01 and the current course structure.
+2. Plan and generate the next complete B1 batch (normally 5 lessons; up to 6–8 if suitable).
+3. Validate Spanish content, Roman Urdu explanations, quizzes, navigation, progress, mobile layout and RTL.
+4. Update this handoff and `docs/ROADMAP.md` with actual work and the next range.
+5. Schedule deeper Android, RTL, PWA and offline QA as a dedicated QA phase.
+
+## Handoff rule
+
+A new AI must read `AGENTS.md`, this file, `docs/ROADMAP.md`, `docs/LESSON-PRODUCTION-PLAYBOOK.md`, and `docs/LESSON-BATCH-PLAN.md`, then inspect the repository. It should continue from verified code and documentation without asking the owner to repeat known project context.
