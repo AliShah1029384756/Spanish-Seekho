@@ -149,3 +149,11 @@ After each meaningful batch, update:
 - This playbook only when the production standard changes.
 
 A new AI must be able to continue from these documents and repository state without asking the owner to repeat the project background.
+
+
+
+## Approved 168-module programme standard
+
+The owner approved a **168-module A1–C2 curriculum, 28 modules per level**. The complete sequence and outcomes are documented in [CURRICULUM-MASTER-PLAN.md](CURRICULUM-MASTER-PLAN.md). This is the project's own module count, not a CEFR-prescribed number. Each level has 24 core teaching modules plus cumulative revision, a practical project, integrated skills assessment and readiness checkpoint (modules 25–28).
+
+All lesson authors and reviewers must use the master map, map existing content before creating duplicates, and distinguish planned modules from implemented pages. A1/A2 existing lessons must not be renumbered or overwritten merely to fit the map. Use CEFR descriptors and Instituto Cervantes PCIC as references; never claim official accreditation or certification. An MCQ score alone does not establish CEFR proficiency.
