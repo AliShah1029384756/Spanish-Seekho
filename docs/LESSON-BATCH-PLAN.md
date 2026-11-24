@@ -85,4 +85,4 @@ A1 and A2 inventories have been reviewed and mapped; A2 core modules 01–24 hav
 
 ## Current next batch
 
-B1 core 01–24 and closing modules 25–28 are implemented at source. Inspect the latest Pages workflow, complete live route/interaction QA when browser automation is available, then perform the B1 01–28 curriculum review before B2.
+No new lesson batch is scheduled. B1 core 01–24 and closing modules 25–28 have completed source-level curriculum review. Complete the fresh Pages deployment and live route/interaction QA first; do not begin B2 until that release gate is cleared. The current service-worker cache is `spanish-seekho-v76`.
