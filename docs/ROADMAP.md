@@ -6,7 +6,7 @@ _Last updated: 24 November 2026_
 
 - A1: core lessons 01–25 + expanded practice (60-item deck) + separate end-of-level modules 25–28 (cumulative review, practical project, integrated skills practice, readiness plan).
 - A2: core lessons 01–23 plus separate end-of-level modules 25–28. All 24 core outcomes have strong internal mapping evidence; this is not official CEFR certification.
-- B1: Lesson 01 (narrating past events naturally; pathway started).
+- B1: lessons 01–06 (narratives, experiences, life changes, opinions and diplomatic interaction); pathway started, incomplete.
 - Spain Life: 6 modules.
 - A1 Lesson 25 remains Education, school and studies; it was preserved and mapped to core module 20. The new cumulative review uses a separate URL.
 - A2 lessons 13–23: descriptions, preferences/reasons, plans, travel problems, technology, everyday solutions, review, integrated practice, home/neighbourhood, public services and connectors/sequencing. Separate closing modules 25–28 are deployed and smoke-tested.
@@ -24,11 +24,11 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 
 ## Next priorities
 
-1. **B1-01 verification, then B1-02–06:** compare B1-01 with the approved B1 opening outcome, inspect its implementation conventions and progression, then produce B1-02–06 as one coherent five-lesson batch. B1-02 should deepen narrative cohesion rather than repeat the opening tense contrast.
+1. **B1-07–11:** continue with supporting an argument, clarifying/reformulating, future simple predictions, conditional forms and plans/possibilities. B1-02–06 are implemented; B1-03–06 quiz submission interactions remain for the broader QA pass.
 2. **Selected A2 runtime follow-up:** test A2-07 result display and A2-14/15 plus A2-17–20 quiz submissions. A2-16 and A2-21–23 have confirmed live completion flows; A2-25–28 closing activities have received primary interaction smoke tests.
-3. **Cross-course device/accessibility QA:** test Android/mobile layout, Urdu RTL, keyboard/focus, screen-reader labels, TTS availability, reload persistence and actual offline/PWA behaviour. The service-worker cache is v69 and includes A2 core lessons 21–23 and closing modules 25–28; offline behaviour is still unverified.
+3. **Cross-course device/accessibility QA:** test Android/mobile layout, Urdu RTL, keyboard/focus, screen-reader labels, TTS availability, reload persistence and actual offline/PWA behaviour. The service-worker cache is v70 and includes A2 core lessons 21–23, A2 closing modules 25–28 and B1 lessons 01–06; offline behaviour is still unverified.
 4. **A1 end-of-level follow-up:** complete module 25 submission/result, module 27 full completion and module 28 interaction tests; preserve all existing A1 progress and URLs.
-5. **Continue B1 in order:** after B1-02–06, review the batch, update the map and continue with the next contiguous sequence. Do not begin B2 until B1 progression has been developed and reviewed.
+5. **Continue B1 in order:** B1-02–06 are deployed; create B1-07–11 as the next contiguous batch. Do not begin B2 until B1 progression has been developed and reviewed.
 
 ## Completed A2 work snapshot (24 November 2026)
 
@@ -64,3 +64,10 @@ The 168 count is Spanish Seekho's design choice, not a CEFR requirement. Each le
 
 15. A2 end-of-level modules 25–28 created, added to A2 index and precached under service-worker v69. Live checks: module 25 = 16/16; module 26 project completion saved; module 27 listening/reading = 5/5 each and save; module 28 readiness plan saved. See tracker section 19. Real offline/device/accessibility QA remains pending.
 16. Next priority: verify B1-01 against the approved B1 map, then produce B1-02–06 as a complete batch. Preserve existing URLs and local progress.
+
+
+## Completed B1 opening batch (24 November 2026)
+
+- B1-01 and B1-02 passed live 8/8 quiz/completion tests. B1-03–06 live pages, headings, eight-question quizzes and submit controls verified; submissions not yet interaction-tested.
+- B1 index shows six lesson cards. Service-worker cache v70 precaches B1-01–06.
+- All 40 new B1-02–06 answer keys were source-checked; each page preserves ss-b1-done and its own lesson ID.
