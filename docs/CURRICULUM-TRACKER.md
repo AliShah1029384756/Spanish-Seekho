@@ -168,8 +168,13 @@ The 20 original lessons and the three new lessons (21–23), together with the t
 | [B1-04](../b1/lesson-04.html) | Life changes and milestones; soler + infinitive and past/present comparison | B1-04 | New — source-reviewed; live page/quiz controls verified |
 | [B1-05](../b1/lesson-05.html) | Expressing opinions with reasons and examples | B1-05 | New — source-reviewed; live page/quiz controls verified |
 | [B1-06](../b1/lesson-06.html) | Agreeing/disagreeing diplomatically and keeping discussion moving | B1-06 | New — source-reviewed; live page/quiz controls verified |
+| [B1-07](../b1/lesson-07.html) | Supporting an argument and considering another viewpoint | B1-07 | New — source-reviewed; deployed and live 8/8 completion verified |
+| [B1-08](../b1/lesson-08.html) | Clarifying and reformulating | B1-08 | New — source-reviewed; deployed, eight questions and submit control verified |
+| [B1-09](../b1/lesson-09.html) | Future predictions and promises | B1-09 | New — source-reviewed; deployed, eight questions and submit control verified |
+| [B1-10](../b1/lesson-10.html) | Hypothetical situations and polite requests | B1-10 | New — source-reviewed; deployed, eight questions and submit control verified |
+| [B1-11](../b1/lesson-11.html) | Plans, intentions and possible outcomes | B1-11 | New — source-reviewed; deployed, eight questions and submit control verified |
 
-B1-01's opening narrative module is verified. B1-02 extends narrative cohesion and discourse structure rather than repeating the introductory tense contrast. B1-03–06 continue the first unit and begin the opinions/interaction unit. B1-07–28 remain planned.
+B1-01's opening narrative module is verified. B1-02 extends narrative cohesion and discourse structure rather than repeating the introductory tense contrast. B1-03–04 complete the first narrative/experience unit; B1-05–08 cover opinions and interaction; B1-09–11 begin plans/predictions. B1-12–28 remain planned.
 
 ## 6. Cross-course implementation checks
 
@@ -575,3 +580,30 @@ Four separate A2 closing pages were created, added to the A2 index and added to 
 - Live browser verification confirmed the B1 index displays six lessons and B1-02–06 each load with their expected heading, eight questions and submit button. B1-02 passed a targeted 8/8 quiz and displayed its completion panel and progress-saving message.
 - The initial combined browser run only selected three B1-02 answers before its execution budget ended; a dedicated follow-up completed all eight and passed. B1-03–06 quiz submissions have not yet been interaction-tested.
 - Broader TTS, reload persistence, mobile/Android, Urdu RTL, keyboard/screen-reader accessibility and offline behaviour remain untested. B1 is an expanding pathway, not a complete CEFR B1 course.
+
+
+## 21. B1 Lessons 07–11 — implementation and live QA (24 November 2026)
+
+| Lesson | Topic | Source review |
+|---:|---|---|
+| 07 | Supporting an argument and considering another viewpoint | Clear position → reason → example → conclusion structure; acknowledges counterpoints |
+| 08 | Clarifying and reformulating | Clarification questions, checking understanding, paraphrasing and conversation fillers |
+| 09 | Future predictions and promises | Regular future endings, irregular stems, predictions, present assumptions and promises |
+| 10 | Hypothetical situations and polite requests | Conditional forms, polite requests, hypothetical si + imperfect subjunctive + conditional pattern |
+| 11 | Plans, intentions and possible outcomes | Ir a + infinitive, tener pensado, estar pensando en, future predictions and alternative outcomes |
+
+### Source verification
+
+- All five pages have eight three-option quiz questions, valid answer indices, a 6/8 threshold, unique completion IDs and the existing `ss-b1-done` storage key. All 40 answer keys were checked.
+- B1-09 example was adjusted to keep the focus on future simple rather than introduce an unexplained future-time subjunctive clause.
+- B1 index source now links lessons 01–11 and tracks progress out of 11. B1-06 links forward to B1-07.
+- Service-worker cache bumped to `spanish-seekho-v71`; B1-07–11 added to precache.
+
+### Live verification
+
+- The initial browser pass used the previously cached B1 index and displayed only lessons 01–06, although direct routes 07–11 loaded.
+- A cache-busting public-site check using `?refresh=71` confirmed the deployed index shows all 11 lesson cards and the live `sw.js` reports `spanish-seekho-v71`. The earlier six-card result was stale cached content.
+- Lessons 07–11 each loaded with the expected heading, eight quiz questions and submit control.
+- B1-07 passed all eight correct answers: 8/8, “Lesson completed — well done!”, completion panel visible and progress saved.
+- B1-08–11 quiz submission/result interactions remain untested. B1-03–06 quiz submission interactions also remain pending.
+- TTS, reload persistence, Android/mobile, Urdu RTL, accessibility and actual offline behaviour remain untested.
