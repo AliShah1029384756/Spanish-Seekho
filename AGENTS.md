@@ -2,10 +2,10 @@
 
 Read these before doing work:
 1. `docs/PROJECT-SPECIFICATION.md` (product and requirements baseline)
-2. `docs/PROJECT-HANDOFF.md`
-2. `docs/ROADMAP.md`
-3. `docs/LESSON-PRODUCTION-PLAYBOOK.md`
-4. `docs/LESSON-BATCH-PLAN.md`
+2. `docs/PROJECT-HANDOFF.md` (verified current state and next task)
+3. `docs/ROADMAP.md` (prioritised future work)
+4. `docs/LESSON-PRODUCTION-PLAYBOOK.md` (lesson standards and QA)
+5. `docs/LESSON-BATCH-PLAN.md` (next lesson batch)
 
 Inspect the current repository and live deployment; documentation can lag behind code.
 
