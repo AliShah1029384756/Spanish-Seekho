@@ -78,11 +78,11 @@ A2 core curriculum reconciliation and source-level implementation are complete: 
 
 ## Next steps
 
-1. Continue detailed A2 Lessons 16–20 review, mapping and same-pass corrections; preserve URLs and `ss-a2-done` progress.
-2. Finish A2 audit by reconciling all 20 lessons against approved modules 01–24 and identify remaining gaps before adding content.
-3. Verify B1-01, then produce B1-02–06 as a coherent batch.
-4. Run a dedicated browser/device QA pass for A1 end modules: quiz interactions, drafts/checklists, TTS fallback, keyboard/focus, mobile/RTL and service-worker/offline behaviour.
-5. Update this handoff, tracker and roadmap after each verified batch.
+1. Continue with B1-22–24: relative clauses, reported information and integrated B1 communication, following the approved master map.
+2. After B1 core lessons 01–24, create separate end-of-level modules 25–28.
+3. Re-check B1-17–21 public routes after the successful Pages workflow and complete their quiz submissions when live browser testing is available.
+4. Keep selected A1/A2/B1 quiz interactions and programme-wide Android/mobile, Urdu RTL, accessibility, TTS, reload-persistence and offline QA on the verification backlog.
+5. Update this handoff, tracker, roadmap and batch plan after each verified batch.
 
 ## Handoff rule
 
