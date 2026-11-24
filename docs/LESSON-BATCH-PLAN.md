@@ -27,14 +27,14 @@ A1 and A2 must not be advertised as complete CEFR syllabi. B1 must not be advert
 
 ## Next planned work
 
-B1 core lessons 01–24 are implemented at source. Lessons 17–21 have a successful Pages workflow record but still need a fresh post-build browser check; lessons 22–24 have been re-fetched and source-verified. Latest Pages workflow run 45429610127 was in progress at the last check. The browser automation service could not start on the latest attempt because its wallet balance was insufficient, so public route and quiz interaction checks remain pending.
+B1 core lessons 01–24 and separate closing modules 25–28 are now implemented at source. Latest Pages workflow run 45431309579 was pending at the last check. Browser automation could not start because its service wallet balance was insufficient, so public route and interaction checks remain pending.
 
 The latest batch follows the approved master map:
 1. B1-22: relative clauses and adding useful detail (que, quien/quienes, donde, lo que).
 2. B1-23: reported statements and questions, including common tense/time shifts.
 3. B1-24: integrated B1 communication — tell, explain, discuss and propose.
 
-Next content phase: review B1 core 01–24 and build separate closing modules 25–28. Do not start B2 before B1 closing activities are complete and reviewed.
+Next phase: verify B1 publication and live routes/interactions for lessons 17–28, then review the full B1 01–28 curriculum and language quality. Do not start B2 before that review.
 
 ## Batch workflow
 
@@ -84,4 +84,4 @@ A1 and A2 inventories have been reviewed and mapped; A2 core modules 01–24 hav
 
 ## Current next batch
 
-B1-22–24 are now implemented at source. Re-fetch and verify all three files, inspect Pages workflow status, and complete live route/quiz QA when browser automation is available. Then create B1 closing modules 25–28.
+B1 core 01–24 and closing modules 25–28 are implemented at source. Inspect the latest Pages workflow, complete live route/interaction QA when browser automation is available, then perform the B1 01–28 curriculum review before B2.
