@@ -27,7 +27,7 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 1. **B1 release verification:** the final B1 content commit `2705fab84ccabe9d71979f3437313cd775d4f789` was deployed successfully in Pages run 45460248990 (run 578). The follow-up documentation commit `b5c05fec63d0cf3a14da3a36ea57f505ac9b66e3` also built and deployed successfully in run 45460473286 (run 579). Verify the B1 index, all 24 lesson routes and four closing routes; exercise core quiz completion and closing-module interactions when browser automation is available.
 2. **B1 release gate:** the full 01–28 source review is complete, but B1 is not ready for B2 until live route/interaction QA is completed. Do not begin B2 prematurely.
 3. **Selected A1/A2 runtime follow-up:** test outstanding quiz submissions and closing-activity interactions without disturbing existing progress.
-4. **Cross-course device/accessibility QA:** Android/mobile layout, Urdu RTL, keyboard/focus, screen-reader labels, TTS, reload persistence and actual offline/PWA behaviour remain unverified. Service-worker cache is v78; precache configuration is not proof of offline functionality.
+4. **Cross-course device/accessibility QA:** Android/mobile layout, Urdu RTL, keyboard/focus, screen-reader labels, TTS, reload persistence and actual offline/PWA behaviour remain unverified. Service-worker cache is v79 after the Word Explorer source update; precache configuration is not proof of offline functionality.
 
 ## Completed A2 work snapshot (24 November 2026)
 

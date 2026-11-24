@@ -85,4 +85,4 @@ A1 and A2 inventories have been reviewed and mapped; A2 core modules 01–24 hav
 
 ## Current next batch
 
-No new lesson batch is scheduled. B1 core 01–24 and closing modules 25–28 have completed source-level curriculum review. Complete live route/interaction QA first; do not begin B2 until that release gate is cleared. The current service-worker cache is `spanish-seekho-v78`.
+No new lesson batch is scheduled. B1 core 01–24 and closing modules 25–28 have completed source-level curriculum review. Complete live route/interaction QA first; do not begin B2 until that release gate is cleared. The current service-worker cache is `spanish-seekho-v79`.
