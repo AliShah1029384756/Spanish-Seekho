@@ -31,6 +31,13 @@
 <a class="unit-card available" href="lesson-24.html"><span class="unit-number">24</span><div class="unit-info"><b>Jobs & professions</b></div><span class="unit-state">New · Open →</span></a>
 <a class="unit-card available" href="lesson-25.html"><span class="unit-number">25</span><div class="unit-info"><b>Education, school & studies</b></div><span class="unit-state">New · Open →</span></a>
 </section>
+<section class="unit-list" style="margin-top:24px" id="a1-end-modules"><div class="unit-heading"><div><span class="eyebrow">A1 · END-OF-LEVEL</span><h2>Put your Spanish together</h2><p class="muted">Review, practical project, integrated skills practice aur readiness plan. Yeh activities alag se track hoti hain; koi lesson lock nahi hota.</p></div></div>
+<a class="unit-card available" href="a1-review.html"><span class="unit-number">25</span><div class="unit-info"><b>Cumulative review & gap repair</b><small id="endStatus25">Open activity →</small></div><span class="unit-state">Open →</span></a>
+<a class="unit-card available" href="a1-project.html"><span class="unit-number">26</span><div class="unit-info"><b>Practical project: a day in Spain</b><small id="endStatus26">Open activity →</small></div><span class="unit-state">Open →</span></a>
+<a class="unit-card available" href="a1-assessment.html"><span class="unit-number">27</span><div class="unit-info"><b>Integrated skills assessment</b><small id="endStatus27">Open activity →</small></div><span class="unit-state">Open →</span></a>
+<a class="unit-card available" href="a1-readiness.html"><span class="unit-number">28</span><div class="unit-info"><b>Final checkpoint & A2 readiness</b><small id="endStatus28">Open activity →</small></div><span class="unit-state">Open →</span></a>
+<p class="muted" id="endProgress" style="margin-top:8px">0 of 4 end-of-level activities completed on this device.</p>
+</section>
 <section class="unit-list" style="margin-top:24px"><div class="unit-heading"><div><span class="eyebrow">SPAIN LIFE</span><h2>Real-life modules</h2></div></div>
 <a class="unit-card available" href="spain-transport.html"><span class="unit-number">1</span><div class="unit-info"><b>Transport</b></div><span class="unit-state">→</span></a>
 <a class="unit-card available" href="spain-healthcare.html"><span class="unit-number">2</span><div class="unit-info"><b>Healthcare</b></div><span class="unit-state">→</span></a>
@@ -40,4 +47,4 @@
 <a class="unit-card available" href="spain-shopping.html"><span class="unit-number">6</span><div class="unit-info"><b>Shopping</b></div><span class="unit-state">→</span></a>
 </section></main>
 <footer><a class="brand" href="../index.html"><span class="brand-mark">¡</span><span>spanish<span class="brand-accent">seekho</span></span></a><p>Making Spanish Learning Accessible to Every Pakistani.</p></footer>
-<script>const done=JSON.parse(localStorage.getItem("ss-a1-done")||"[]");const n=done.filter(x=>String(x).startsWith("lesson")).length;document.getElementById("progressText").textContent=Math.min(n,25)+" of 25";document.getElementById("progressBar").style.width=(Math.min(n,25)/25*100)+"%";</script><script src="app-shell.js"></script></body></html>
+<script>const done=JSON.parse(localStorage.getItem("ss-a1-done")||"[]");const n=done.filter(x=>String(x).startsWith("lesson")).length;document.getElementById("progressText").textContent=Math.min(n,25)+" of 25 lessons";document.getElementById("progressBar").style.width=(Math.min(n,25)/25*100)+"%";const endDone=JSON.parse(localStorage.getItem("ss-a1-end-done")||"[]");[25,26,27,28].forEach(id=>{const el=document.getElementById("endStatus"+id);if(el&&endDone.includes("module-"+id))el.textContent="Completed on this device ✓";});document.getElementById("endProgress").textContent=Math.min(endDone.filter(x=>/^module-(25|26|27|28)$/.test(x)).length,4)+" of 4 end-of-level activities completed on this device.";</script><script src="app-shell.js"></script></body></html>
