@@ -446,7 +446,7 @@ Review transitions, descriptor mapping, skill coverage, placement/progress repor
 
 Repository documentation dated 24 November 2026 records:
 - A1: core lessons 01–25 exist; separate end-of-level activities 25–28 are implemented and deployed. A limited public-site smoke test covered the index and exercised parts of modules 25–26; full interaction/device QA remains pending.
-- A2: lessons 01–23 exist at source level. The 24 approved core outcomes now have strong internal mapping evidence after targeted revisions and three new lessons; this is not external CEFR validation. New pages' live GitHub Pages deployment is pending verification. Separate closing modules 25–28 are still planned.
+- A2: lessons 01–23 are deployed and source-verified. All 24 approved core outcomes have strong internal mapping evidence after targeted revisions and three new lessons; this is not external CEFR validation. Live smoke tests confirmed lessons 21–23 each passed 8/8 and showed completion. Separate closing modules 25–28 are still planned. Service-worker cache v68 includes lessons 21–23; real offline behaviour remains untested.
 - B1: Lesson 01 exists; pathway started.
 - Spain Life: six modules documented.
 - Full 168-module curriculum: **approved and planned; not implemented in full**.
