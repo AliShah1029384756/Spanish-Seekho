@@ -429,3 +429,8 @@ Reviewed lesson explanations, Spanish examples and translations, Castilian pronu
 - All retain their original URLs, lesson IDs, ss-a2-done progress key and existing completion behaviour.
 - Re-fetched the two changed lesson files and verified the new wording. No quiz keys, thresholds, lesson IDs or progress storage were changed.
 - Source-level review only. No live browser interaction, mobile/Android, Urdu RTL, keyboard/screen-reader or reload-persistence testing was performed for this batch.
+
+
+### 17.1 Limited public-site smoke test (24 November 2026)
+
+A live browser smoke test opened the public A2 index and confirmed Lessons 11–15 are available. Lessons 11, 12 and 13 each rendered their heading and eight-question quiz; all correct choices were selected and submitted, and each displayed an 8/8 score with its lesson-completed message. The deployed A2-11 mayor/menor usage note and A2-13 antiguo/a vs histórico/a distinction were also visible. Lessons 14 and 15 were not interaction-tested because the browser run exhausted its execution budget; their presence in the A2 index was confirmed. TTS output, saved progress after reload, mobile/Android, RTL, accessibility and offline behaviour were not tested. This is a limited smoke test, not exhaustive runtime QA.
