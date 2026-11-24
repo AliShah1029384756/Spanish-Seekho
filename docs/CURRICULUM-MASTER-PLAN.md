@@ -445,7 +445,7 @@ Review transitions, descriptor mapping, skill coverage, placement/progress repor
 ## 12. Current status snapshot
 
 Repository documentation dated 24 November 2026 records:
-- A1: lessons 01–25 exist; starter pathway.
+- A1: core lessons 01–25 exist; separate end-of-level activities 25–28 have now been implemented at source level. Runtime/device QA remains pending.
 - A2: lessons 01–20 exist; starter pathway.
 - B1: Lesson 01 exists; pathway started.
 - Spain Life: six modules documented.
@@ -478,7 +478,7 @@ This is a repository-level planning snapshot, not a page-by-page audit. “Exist
 | Level | Module range | Initial status | Required next action |
 |---|---|---|---|
 | A1 | 01–25 | Existing — mapping pending | Inspect each lesson and map to outcomes; preserve URLs/progress |
-| A1 | 26–28 | Planned | Create project, integrated assessment and readiness checkpoint if not already present |
+| A1 | 25–28 | Implemented at source level | Separate pages for cumulative review/gap repair, practical project, integrated skills assessment and readiness checkpoint; runtime QA pending |
 | A2 | 01–20 | Existing — mapping pending | Inspect each lesson and map to outcomes; identify gaps and duplication |
 | A2 | 21–28 | Planned | Map, then create missing core modules and end-of-level modules |
 | B1 | 01 | Existing — verification/mapping pending | Inspect actual page and map to B1-01 |
