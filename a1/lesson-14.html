@@ -71,7 +71,7 @@ const questions=[
 {q:"Which is the correctly written Spanish question?",o:["Tienes coche?","¿Tienes coche?","¡Tienes coche!"],a:1,why:"Spanish questions use an opening ¿ and a closing ?."},
 {q:"Choose the correct sentence: “She does not work today.”",o:["Ella no trabaja hoy.","Ella trabaja no hoy.","Ella no trabajar hoy."],a:0,why:"No comes before the conjugated form trabaja."},
 {q:"What does “Estudio por la noche” mean?",o:["I study in the morning.","I study at night.","I never study."],a:1,why:"Por la noche means at night."},
-{q:"Which sentence means “We never eat here”?",o:["No comemos nunca aquí only","Nunca comemos aquí.","Nunca comer aquí."],a:1,why:"Nunca comemos aquí is a correct beginner-friendly negative sentence."}
+{q:"Which sentence means “We never eat here”?",o:["Nunca comemos aquí no.","Nunca comemos aquí.","Nunca comer aquí."],a:1,why:"Nunca comemos aquí is a correct beginner-friendly negative sentence."}
 ];
 questions.forEach(q=>{const c=q.o[q.a];for(let i=q.o.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[q.o[i],q.o[j]]=[q.o[j],q.o[i]]}q.a=q.o.indexOf(c)});
 const quiz=document.getElementById("quiz");let answers={};
