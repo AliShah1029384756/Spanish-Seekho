@@ -109,14 +109,52 @@ The URLs below are existing public lesson paths. Preserve them and existing lear
 | [A2-19](../a2/lesson-19.html) | Grammar and communication review | 05–07, 14, 19, 20, 23; 25 candidate | Review page spanning several grammar areas; not a dedicated module 20 linking/sequencing lesson or a complete module 25 gap-repair review |
 | [A2-20](../a2/lesson-20.html) | Integrated final practice, invitation reading/reply, speaking/writing, can-do checklist | 24 partial; 26/27/28 candidates | Useful integrated practice, but no separate listening-comprehension task, scored productive-skill rubric, trip-planning project or readiness plan; not modules 26–28 |
 
-### A2 initial gap picture
+### A2 reconciled outcome coverage — all 24 approved core modules
 
-- The clearest unrepresented approved outcomes are **home/neighbourhood/local services** (module 02) and **services/public offices/forms/appointments in Spain** (module 16).
-- Module 20 (linking ideas and sequencing events) remains a clear gap: A2-19 reviews several grammar areas but does not teach connected sequencing systematically. Module 22 (explaining what happened and asking follow-up questions) is partial in A2-16/18. Module 24 is only partially represented by A2-20; its productive tasks need clearer criteria and broader contexts.
-- Module 14 is partial: advice and obligation are covered, but permission needs explicit teaching. Module 18 needs more connected description/detail. Module 02 (home, neighbourhood and local services) and module 16 (services, public offices, forms and appointments in Spain) remain clear gaps.
-- A2-05, A2-14 and A2-15 have overlapping preferences/reasons/plans content; A2-04 and A2-16 overlap travel; A2-11 and A2-14 overlap comparison/preferences. This is not automatically a defect, but progression and non-repetition need review.
-- A2-08, A2-19 and A2-20 are review/final practice candidates. Do not count them as approved modules 25–28 until their outcomes, skills and assessment evidence are checked.
-- Approved A2 modules 25–28 are not verified as fully implemented.
+This is an outcome-level reconciliation of the 20 existing A2 pages against the approved master map. Status describes the evidence visible in the audited lessons; it is not a claim of CEFR certification.
+
+| Approved module | Required outcome | Existing evidence | Status | Remaining work |
+|---:|---|---|---|---|
+| 01 | Personal descriptions and relationships | A2-13 descriptions, appearance and people | Partial | Add relationship vocabulary/context and more connected personal descriptions |
+| 02 | Home, neighbourhood and local services | Some neighbourhood/place vocabulary in A2-13; directions in A2-09 | Gap | Dedicated home, facilities, local services and describing where you live |
+| 03 | Work, education and responsibilities | A2-03 work/study and obligations | Strong | Keep as core coverage; avoid duplicating in later work |
+| 04 | Preferences, reasons and choices | A2-05 and A2-14 | Strong | Keep progression distinct: choices/opinions first, developed reasons/preferences later |
+| 05 | Past habits and life stages | A2-02 imperfecto and past-habit descriptions | Strong | No new lesson needed |
+| 06 | Completed events in everyday narration | A2-01 indefinido | Strong | No new lesson needed |
+| 07 | Present perfect for recent/relevant experiences | A2-10; reinforced in A2-19 | Strong | Keep regional usage nuanced |
+| 08 | Comparing past and present routines | A2-02 covers past habits, but systematic present-day comparison is limited | Partial | Add explicit antes/ahora comparisons and a short production task to A2-02 |
+| 09 | Near future and planned activities | A2-05 and A2-15 | Strong | Preserve distinction between expressing plans and coordinating arrangements |
+| 10 | Invitations, arrangements and changing plans | A2-06 and A2-15 | Strong | Avoid repeating generic invitation phrases |
+| 11 | Travel, accommodation and transport | A2-04 accommodation; A2-16 travel disruption and transport | Partial | Clarify progression from booking/staying to transport problems and practical resolution |
+| 12 | Detailed directions | A2-09 directions and polite commands | Strong | Existing coverage is a good base; optional extra route clarification can be added later |
+| 13 | Healthcare, symptoms, pharmacy and appointments | A2-07 | Strong | Preserve safe, non-diagnostic language |
+| 14 | Requests, advice, obligation and permission | A2-04 polite requests; A2-12 advice/obligation; A2-18 polite requests | Partial | Teach permission explicitly and contrast *¿Puedo…?*, *¿Se puede…?*, *deber*, *tener que* and *hay que* in context |
+| 15 | Everyday problems, complaints and solutions | A2-18 | Strong | Existing everyday-problem coverage; keep public-office administration separate |
+| 16 | Services, public offices, forms and appointments in Spain | No dedicated outcome coverage identified | Gap | Add practical Spanish administrative-service scenarios and form/appointment language |
+| 17 | Technology, messaging and online communication | A2-17 | Strong | No new lesson needed |
+| 18 | Describing objects, places and experiences in more detail | A2-13 descriptions; A2-16 travel experiences | Partial | Add connected detail, relative location, features and supporting reasons to A2-13 |
+| 19 | Comparisons, quantities and preferences with reasons | A2-11 comparisons; A2-14 preferences/reasons | Strong | Keep comparison forms distinct from general preference practice |
+| 20 | Linking ideas with common connectors and sequencing events | A2-19 is a grammar review; no systematic teaching sequence found | Gap | Add a focused lesson on connectors, ordering events and connected short narratives |
+| 21 | Suggestions, accepting and politely declining | A2-06 invitations/suggestions | Strong | Existing coverage |
+| 22 | Explaining what happened and asking follow-up questions | A2-16 travel problems and A2-18 everyday problems | Partial | Extend problem narratives with follow-up questions, clarification and response sequences |
+| 23 | Opinions, agreement and disagreement | A2-05 and A2-14 | Strong | Existing coverage; ensure examples progress beyond repeated preference phrases |
+| 24 | Integrated communication across personal, public and work/study contexts | A2-20 invitation reading/reply and speaking/writing prompts | Partial | Expand to multiple contexts and assess task completion, not just grammar recognition |
+
+### Overlap and progression decisions
+
+- **A2-04 vs A2-16:** keep A2-04 centred on accommodation, booking and guest requests; A2-16 on travel experiences, transport disruption and resolving travel problems.
+- **A2-05 vs A2-14 vs A2-15:** keep A2-05 on choices/opinions and near-future intentions; A2-14 on preferences, reasons and agreement; A2-15 on practical scheduling and changing arrangements.
+- **A2-11 vs A2-14:** A2-11 teaches comparative structures; A2-14 uses preferences/reasons in communication. Do not reteach comparative grammar in A2-14.
+- **A2-08 and A2-19:** retain as interim/revision pages. Neither is a new core module nor the approved module 25 cumulative review.
+- **A2-20:** treat as an integrated practice page and strengthen it to meet module 24's range of contexts and task outcomes. It is not module 27 or 28.
+
+### Minimum non-duplicative completion plan
+
+1. **Small revisions to existing lessons:** A2-02 (module 08: compare past and present routines); A2-13 (module 18: richer connected descriptions); A2-14 or A2-18 (module 14: explicit permission language); A2-16 (module 22: follow-up questions and clarification); A2-20 (module 24: personal, public and work/study integrated tasks).
+2. **Three new core lessons:** A2-21 for module 02 (home, neighbourhood and local services); A2-22 for module 16 (public services, offices, forms and appointments in Spain); A2-23 for module 20 (connectors and sequencing events). Keep their lesson IDs sequential and their topic scope distinct.
+3. **End-of-level modules 25–28:** create separate A2 review, practical project, integrated four-skill assessment and readiness-checkpoint pages only after the core map is closed. Preserve A2-08, A2-19 and A2-20; do not overwrite them or mislabel them as those closing modules.
+4. **Runtime QA:** test A2-07 result display, A2-14/15 and A2-17–20 quiz submissions, and all new/updated A2 pages. Include progress reload, TTS, mobile/RTL, keyboard/accessibility and offline checks in the appropriate dedicated pass.
+
 
 ## 5. B1 inventory
 
