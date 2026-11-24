@@ -655,3 +655,26 @@ Four separate A2 closing pages were created, added to the A2 index and added to 
 - GitHub Actions subsequently reported the `pages build and deployment` workflow for head commit `36c9bcd52bb7bcdbf95b3f3b237d558599a0ed54` as **completed / success** (run 45426795301). This is deployment-workflow evidence, not a fresh post-build browser verification of the five routes.
 - Therefore, source integration and the Pages build are confirmed; post-build public-route verification and all five live quiz submissions remain pending. Do not claim the lessons are browser-tested or that their quizzes passed.
 - Next content batch: B1-22–24 (relative clauses, reported information, integrated B1 communication). B1 closing modules 25–28 follow after core 24.
+
+
+## 24. B1 Lessons 22–24 — source implementation (24 November 2026)
+
+| Lesson | Approved outcome | Content delivered |
+|---:|---|---|
+| 22 | Relative clauses and adding useful detail | que, quien/quienes, donde, lo que; identifying vs additional information; punctuation and context |
+| 23 | Reported information and retelling what someone said | Reported statements, yes/no questions with si, information questions, common tense/time shifts after past reporting verbs |
+| 24 | Integrated B1 communication: tell, explain, discuss and propose | Narrative sequencing, causes/consequences, opinions with reasons/examples, negotiation, subjunctive recommendations and integrated production |
+
+### Source and integration checks
+- Created three complete static lesson pages. Each includes learning objectives, five teaching sections, examples with Roman Urdu meanings, a model dialogue, speaking/writing production and an eight-question three-option quiz with explanations.
+- Each quiz has a 6/8 pass threshold, valid answer indices, a unique lesson completion ID (lesson-22, lesson-23, lesson-24) and preserves the existing ss-b1-done key. Completion does not gate later lessons.
+- Added lessons 22–24 to the B1 index. B1-21 now links to B1-22; new lessons link sequentially 22→23→24. Corrected the progress display from the stale “of 16” to “of 24”.
+- Bumped the service-worker cache to spanish-seekho-v74 and added all three new routes to precache. This is cache configuration, not proof of offline operation.
+- Files and integration writes were committed through GitHub. Fresh re-fetch/source verification and GitHub Pages workflow status are still required before declaring this batch fully source-verified and deployed.
+
+### Live QA limitation
+- Browser automation did not start because the browser service reported insufficient wallet balance. Therefore B1-22–24 public routes and quiz submissions have not been browser-tested. B1-17–21 post-build route/quiz verification also remains pending. Do not claim live success.
+- Broader mobile/Android, Urdu RTL, keyboard/screen-reader, TTS, reload persistence and actual offline testing remain outstanding.
+
+### Next work
+- Review B1 core 01–24 as a sequence and build separate closing modules 25–28: cumulative review, practical project, integrated skills assessment and readiness checkpoint.
