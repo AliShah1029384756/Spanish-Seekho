@@ -21,21 +21,21 @@ Check the latest repository before each batch. The 24 November 2026 documentatio
 |---|---:|---|
 | A1 | 01–25 | Starter pathway |
 | A2 | Core lessons 01–23 + separate modules 25–28 | Core outcomes mapped; end-of-level activities deployed and smoke-tested |
-| B1 | 01–11 | First two batches implemented; incomplete |
+| B1 | 01–16 | Three batches implemented at source; 12–16 deployment pending |
 
 A1 and A2 must not be advertised as complete CEFR syllabi. B1 must not be advertised as a complete course.
 
 ## Next planned work
 
-The next content priority is B1-12–16. Lessons 01–11 are deployed; B1-01, B1-02 and B1-07 passed live 8/8 tests. B1-03–06 and B1-08–11 pages/quiz controls are verified, but their submission interactions remain pending. Before the next batch, inspect the live files and map the sequence against the approved B1 plan.
+B1-12–16 have been created at source level; GitHub Pages deployment is pending. Lessons 01–11 are deployed; B1-01, B1-02 and B1-07 passed live 8/8 tests. B1-03–06 and B1-08–11 pages/quiz controls are verified, but their submission interactions remain pending. After 12–16 publication is confirmed, inspect the next outcomes and create B1-17–21.
 
-Next planned batch B1-12–16 follows the approved map:
+Next planned batch B1-17–21 follows the approved map:
 
-1. Making decisions and discussing advantages and disadvantages.
-2. Work experience, responsibilities and workplace communication.
-3. Education, skills, goals and learning experiences.
-4. Applications, interviews and professional self-presentation.
-5. Social issues and changes in everyday society.
+1. Causes, consequences and result connectors.
+2. Proposing solutions, negotiating and reaching agreement.
+3. Advice, recommendations and expressing necessity.
+4. Complaints, claims and resolving service problems.
+5. Common subjunctive in recommendations, wishes and reactions.
 
 These topics continue the sequence after B1-06 without repeating the opening narrative or opinion lessons.
 
@@ -83,4 +83,4 @@ When the owner says “continue,” “next,” “make more lessons,” or “c
 
 The owner approved **168 modules across A1–C2 (28 per level)**. Follow [CURRICULUM-MASTER-PLAN.md](CURRICULUM-MASTER-PLAN.md) for the authoritative titles, outcomes and assessment model. This is a Spanish Seekho design decision, not a CEFR-mandated count.
 
-A1 and A2 inventories have been reviewed and mapped; A2 core modules 01–24 have strong internal coverage evidence and separate end-of-level modules 25–28 are implemented. Preserve current URLs and progress; do not renumber blindly. The immediate content batch is B1-12–16. B1-01–11 have been implemented; keep the next five lessons mapped to Unit 3–4 outcomes without repeating earlier arguments/future forms. B2/C1/C2 remain future phases.
+A1 and A2 inventories have been reviewed and mapped; A2 core modules 01–24 have strong internal coverage evidence and separate end-of-level modules 25–28 are implemented. Preserve current URLs and progress; do not renumber blindly. The immediate content batch after B1-12–16 publication is B1-17–21. B1-01–16 have been implemented at source; map each lesson to the next Unit 5–6 outcomes without duplicating earlier communication functions. B2/C1/C2 remain future phases.
