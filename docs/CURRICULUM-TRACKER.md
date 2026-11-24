@@ -337,3 +337,17 @@ Four separate end-of-level activity pages have now been created:
 ### Next audit priority
 
 A1 now has its four approved closing activities implemented at source level. Continue the detailed mapping/content audit for A2 Lessons 01–20, then verify B1-01 and proceed with the approved B1-02–06 batch. Schedule a dedicated browser/device QA pass for A1 end-of-level interactions before making runtime or offline claims.
+
+
+### 14.1 Public deployment smoke test (24 November 2026)
+
+A live browser smoke test was performed against the public GitHub Pages A1 course after the GitHub commits.
+
+- A1 course index loaded and displayed all four end-of-level activity cards.
+- **Module 25 review:** page rendered; all 12 correct answer choices were selected and the quiz control was located. The automated run did not confirm the final submit/result interaction, so quiz scoring is not marked runtime-verified.
+- **Module 26 project:** page rendered; all five task checkboxes were ticked and the completion button was clicked. The browser run reported the action was processed.
+- **Module 27 assessment:** page deployment and initial rendering were confirmed; the full six-checkbox completion flow was not completed.
+- **Module 28 readiness:** deployment was confirmed from the index navigation; the full readiness-choice/save flow was not completed.
+- No visible page errors were reported during the run.
+
+This was a limited public-site smoke test, not exhaustive QA. In particular, browser TTS audio output, saved state after reload, keyboard/screen-reader behaviour, Urdu RTL, Android layouts and offline service-worker behaviour remain unverified.
