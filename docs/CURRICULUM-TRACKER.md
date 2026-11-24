@@ -678,3 +678,26 @@ Four separate A2 closing pages were created, added to the A2 index and added to 
 
 ### Next work
 - Review B1 core 01–24 as a sequence and build separate closing modules 25–28: cumulative review, practical project, integrated skills assessment and readiness checkpoint.
+
+
+## 26. B1 end-of-level modules 25–28 — source implementation (24 November 2026)
+
+| Module | Approved outcome | Implemented activity |
+|---:|---|---|
+| 25 | Cumulative review and targeted gap repair | 16-question mixed review, answer explanations, 11 distinct targeted lesson links and personal revision plan; 12/16 is an activity completion target only |
+| 26 | Practical project: solve a study, work or relocation scenario in Spain | Six connected tasks: first-contact message, follow-up questions, problem/cause/consequence, negotiation, integrated action plan and mediation summary; local draft autosave and word-target/checklist completion |
+| 27 | Integrated skills assessment, including extended speaking and writing | Five listening questions, five reading questions, extended writing, spoken self-review and mediation; device-generated es-ES text-to-speech with transcript fallback, no automated productive-skill grading |
+| 28 | Final checkpoint, self-assessment and B2 readiness plan | 12 can-do self-ratings, strengths/gaps/next steps and learner-selected B2 route; no automated placement judgement |
+
+### Integration and source verification
+- Added four separate pages: `b1/b1-review.html`, `b1/b1-project.html`, `b1/b1-assessment.html`, `b1/b1-readiness.html`.
+- Added four closing-activity cards to the B1 index. The 24-core-lesson progress meter remains separate from the 0/4 closing-activity meter.
+- Preserved `ss-b1-done` for core lesson progress and introduced `ss-b1-end-done` for closing activities. Project, assessment and readiness drafts use their own localStorage keys.
+- Service-worker cache bumped to `spanish-seekho-v75`; all four new pages are in precache. Real offline operation has not been tested.
+- Re-fetched all four pages and the index/service worker. Review has 16 questions with valid answer indices and 11 unique repair links; project has six draft tasks and six self-checks with local autosave; assessment has five listening and five reading questions with valid keys; readiness has 12 can-do statements. Inline scripts in all four pages compiled successfully in the source check. Navigation links were checked.
+- Project completion requires minimum draft word counts for all six tasks plus all six self-checks. Assessment completion requires both objective quizzes, a minimum writing/mediation draft and at least three writing and speaking self-checks. Readiness completion requires all 12 ratings, gap/next-step notes and a selected route.
+- Latest GitHub Pages workflow run 45431309579 was pending at the last check. Browser automation could not start because the service wallet balance was insufficient. Public deployment, TTS playback, quiz interaction, mobile/RTL, accessibility, reload persistence and offline behaviour remain unverified.
+
+### Next work
+- Verify the latest Pages workflow and public B1 routes 17–28 when possible; test quiz, project, assessment and readiness interactions.
+- Review the full B1 01–28 sequence for language accuracy, level progression, answer keys and skill balance. Only after that review should B2 production begin.
