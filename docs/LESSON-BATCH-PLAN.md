@@ -79,3 +79,11 @@ Every completed batch should report:
 ## No one-by-one prompting
 
 When the owner says “continue,” “next,” “make more lessons,” or “continue B1,” interpret it as permission to prepare the next complete batch from the roadmap. Do not ask the owner to request each individual lesson. Ask only when a genuine decision or missing input prevents safe progress.
+
+
+
+## Approved 168-module curriculum
+
+The owner approved **168 modules across A1–C2 (28 per level)**. Follow [CURRICULUM-MASTER-PLAN.md](CURRICULUM-MASTER-PLAN.md) for the authoritative titles, outcomes and assessment model. This is a Spanish Seekho design decision, not a CEFR-mandated count.
+
+Before new lesson production, audit existing A1 01–25, A2 01–20 and B1-01 against the map. Preserve current URLs and progress; do not renumber blindly. The immediate content batch remains B1-02–06 after verifying B1-01 and the actual page conventions. B1-02 must deepen narrative cohesion rather than repeat B1-01. B2/C1/C2 remain future phases.
