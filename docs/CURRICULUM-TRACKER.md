@@ -381,7 +381,7 @@ Four separate end-of-level activity pages have now been created:
 
 ### Next audit priority
 
-A1 now has its four approved closing activities implemented at source level. Continue the detailed mapping/content audit for A2 Lessons 01–20, then verify B1-01 and proceed with the approved B1-02–06 batch. Schedule a dedicated browser/device QA pass for A1 end-of-level interactions before making runtime or offline claims.
+A1 now has its four approved closing activities implemented at source level. A2 core 01–24 and closing modules 25–28 are implemented and mapped. B1-01–06 are implemented; continue with B1-07–11 after the current source/live checks. Schedule dedicated browser/device QA for A1/A2 and B1-03–06 before making offline or accessibility claims.
 
 
 ### 14.1 Public deployment smoke test (24 November 2026)
