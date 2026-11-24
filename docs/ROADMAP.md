@@ -33,6 +33,7 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 7. A2 Lessons 06–10 source review: clarified present-perfect regional variation and improved the Madrid dialogue in A2-10. A2-08 confirmed as an interim starter checkpoint, not the end-of-level module 25.
 8. Limited live A2 smoke test: A2-06 quiz passed 6/6; A2-07 result message not observed despite source handler being present; A2-08–10 not interaction-tested. See tracker.
 9. A2 Lessons 11–15 source review: clarified mayor/menor size/age usage in A2-11 and corrected antiguo/a vs histórico/a in A2-13. Quiz/progress structures preserved.
+11. Limited live smoke test: A2-11, A2-12 and A2-13 each passed 8/8 and showed completion; A2-14/15 were visible but not interaction-tested. See tracker section 17.1.
 10. Limited live smoke test: A1 index and all four new end-of-level pages deployed; module 25 answer selection and module 26 completion-button interaction exercised; modules 27–28 only partially checked. See curriculum tracker for limits.
 
 ## Product and engineering principles
