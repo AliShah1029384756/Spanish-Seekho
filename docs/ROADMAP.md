@@ -24,11 +24,11 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 
 ## Next priorities
 
-1. **B1 post-build verification:** re-fetch and verify the latest source files, inspect the Pages workflow, then test public routes and quiz submissions for B1-17–24 when browser automation is available. The browser service could not start on the latest attempt due to insufficient wallet balance.
-2. **B1 end-of-level modules 25–28:** review the 24 core lessons, then create separate cumulative review, practical project, integrated skills assessment and readiness checkpoint pages.
+1. **B1 release verification:** inspect the latest Pages workflow (run 45431309579 was pending at the last check), then test public routes and interactions for B1-17–28 when browser automation is available. The browser service could not start on the latest attempt due to insufficient wallet balance.
+2. **B1 curriculum review:** review core lessons 01–24 and closing modules 25–28 as one coherent pathway, including Castilian usage, Roman Urdu translations, answer keys, assessment balance and progression. Do not begin B2 before this review.
 3. **Selected A1/A2 runtime follow-up:** test A2-07 result display and outstanding A2-14/15 and A2-17–20 quiz submissions; complete remaining A1 closing activity interactions.
-4. **Cross-course device/accessibility QA:** Android/mobile layout, Urdu RTL, keyboard/focus, screen-reader labels, TTS, reload persistence and actual offline/PWA behaviour remain unverified. Service-worker cache is v74; precache configuration is not proof of offline functionality.
-5. **Keep B1 in order:** do not begin B2 until B1 core lessons 01–24 and separate closing modules 25–28 are developed and reviewed.
+4. **Cross-course device/accessibility QA:** Android/mobile layout, Urdu RTL, keyboard/focus, screen-reader labels, TTS, reload persistence and actual offline/PWA behaviour remain unverified. Service-worker cache is v75; precache configuration is not proof of offline functionality.
+5. **B2 planning:** after B1 review and release checks, map B2 lessons against the approved master plan before authoring the first batch.
 
 ## Completed A2 work snapshot (24 November 2026)
 
@@ -103,3 +103,12 @@ The 168 count is Spanish Seekho's design choice, not a CEFR requirement. Each le
 - B1 index now lists 24 lessons and progress out of 24; lesson navigation continues 21→22→23→24. Service-worker cache v74 precaches lessons 22–24.
 - Source re-fetch checks passed: 24 sequential index cards, 24/24 progress, eight questions and valid answer indices per new lesson, unique IDs, 6/8 threshold, sequential navigation and v74 precache entries. GitHub Pages run 45429610127 was in progress at the last check. Browser automation could not start because its service wallet balance was insufficient; do not claim public routes or quiz submissions have been tested.
 - Next: B1 closing modules 25–28 after core review.
+
+
+## B1 end-of-level modules 25–28 (24 November 2026)
+
+- Added the four approved closing activities as separate pages and linked them from the B1 index: cumulative review/gap repair, practical study/work/relocation project, integrated skills assessment and B2 readiness plan.
+- Module 25 contains 16 questions, explanations, lesson-specific repair links and a personal revision plan. Module 26 contains six connected production/mediation tasks with local autosave and task completion checks. Module 27 samples listening, reading, writing, speaking self-review and mediation; device TTS is clearly identified and transcript fallback is available. Module 28 contains 12 self-ratings and a learner-owned B2 plan.
+- Core progress (24 lessons) remains separate from closing-activity progress (4 activities). New localStorage key: ss-b1-end-done; core key ss-b1-done is unchanged.
+- Service-worker cache v75 includes all four closing pages. Source checks and inline-script compilation passed; browser automation could not start because its wallet balance was insufficient. Latest Pages workflow run 45431309579 was pending at last check.
+- Next: verify publication and live interactions, then review B1 01–28 before B2.
