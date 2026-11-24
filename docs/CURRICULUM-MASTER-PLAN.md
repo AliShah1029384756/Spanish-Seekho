@@ -447,7 +447,7 @@ Review transitions, descriptor mapping, skill coverage, placement/progress repor
 Repository documentation dated 24 November 2026 records:
 - A1: core lessons 01–25 exist; separate end-of-level activities 25–28 are implemented and deployed. A limited public-site smoke test covered the index and exercised parts of modules 25–26; full interaction/device QA remains pending.
 - A2: core lessons 01–23 and separate end-of-level activities 25–28 are deployed and source-verified. All 24 approved core outcomes have strong internal mapping evidence after targeted revisions and three new lessons; this is not external CEFR validation. Live smoke tests: lessons 21–23 each passed 8/8; module 25 passed 16/16; module 26 project completion saved; module 27 listening/reading 5/5 each and save; module 28 readiness plan saved. Service-worker cache v69 includes A2 lessons 21–23 and closing pages 25–28; real offline behaviour remains untested.
-- B1: Lesson 01 exists; pathway started.
+- B1: Lessons 01–06 are deployed and source-verified. B1-01 and B1-02 passed live 8/8 quiz/completion tests; B1-03–06 page/quiz controls are live, with their submission flows not yet interaction-tested. B1 remains an expanding pathway, not a complete CEFR course.
 - Spain Life: six modules documented.
 - Full 168-module curriculum: **approved and planned; not implemented in full**.
 - B2, C1 and C2: planned; no completion claim.
@@ -483,8 +483,9 @@ This is a repository-level planning snapshot, not a page-by-page audit. “Exist
 | A2 | 21–23 | Implemented and deployed — modules 02, 16 and 20 | Live quiz flows passed 8/8; broader device/accessibility/offline QA remains pending |
 | A2 | 24 | Strong internal mapping — A2-20 strengthened | Verify integrated personal, public and work/study tasks; keep separate from end-of-level assessment |
 | A2 | 25–28 | Implemented and deployed — separate closing activities | Live smoke-tested: review 16/16; project completion; listening/reading 5/5; readiness plan save. Broader device QA remains pending |
-| B1 | 01 | Existing — verification/mapping pending | Inspect actual page and map to B1-01 |
-| B1 | 02–28 | Planned | Produce coherent batches, starting with 02–06 |
+| B1 | 01 | Implemented and deployed — module 01 | Live 8/8 quiz/completion verified; narrative opening lesson mapped |
+| B1 | 02–06 | Implemented and deployed — modules 02–06 | Live pages/index verified; B1-02 passed 8/8; B1-03–06 quiz submission QA pending |
+| B1 | 07–28 | Planned | Continue in coherent batches against the approved B1 sequence |
 | B2 | 01–28 | Planned | Begin after B1 progression is complete and reviewed |
 | C1 | 01–28 | Planned | Begin after B2 progression is complete and reviewed |
 | C2 | 01–28 | Planned | Begin after C1 progression is complete and reviewed |
