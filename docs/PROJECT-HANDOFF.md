@@ -46,7 +46,7 @@ A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 is only 
 
 ## Current production priority
 
-Reconcile all A2 Lessons 01–20 against approved core modules 01–24, identify overlaps and remaining gaps, and plan the smallest non-duplicative additions. Include A2-07 result display and A2-14/15 plus A2-16–20 interactions in the dedicated browser QA list. Then verify B1-01 and produce B1-02–06 as a coherent batch. A1's four closing activities are implemented at source level; schedule browser/device, keyboard, RTL and offline QA before making runtime claims.
+A2 core curriculum reconciliation is complete. The tracker records 15 strong outcomes, 5 partial outcomes and 4 gaps. Next: apply targeted revisions to A2-02/13/14-or-18/16/20; create A2-21–23 for modules 02/16/20; then create separate closing modules 25–28. Include A2-07 result display and A2-14/15 plus A2-17–20 interactions in the dedicated browser QA list. After A2 core/closing work, verify B1-01 and produce B1-02–06 as a coherent batch. A1's four closing activities are implemented at source level; schedule browser/device, keyboard, RTL and offline QA before making runtime claims.
 
 ## Batch-first working agreement
 
@@ -107,3 +107,8 @@ This is Spanish Seekho's own curriculum structure, not a lesson count prescribed
 - A2-20 final practice: eight keys checked; replaced English checklist phrases incorrectly tagged as Spanish with Spanish can-do statements and English meanings. Useful integrated practice, but not a full module 26 trip project, module 27 four-skill assessment or module 28 readiness plan.
 - All five pages retain URLs, eight-question quizzes, 6/8 thresholds, lesson IDs and `ss-a2-done`. Three edited pages were re-fetched and verified.
 - Limited live browser smoke test: A2-16–20 all loaded with eight quiz questions and submit controls; A2-16 passed a targeted 8/8 interaction and displayed its score/completion panel. A2-17–20 submission flows remain untested. See tracker section 18.1. TTS, reload persistence, mobile/RTL, accessibility and offline behaviour remain unverified.
+
+
+## A2 core curriculum reconciliation (24 November 2026)
+
+All 24 approved A2 core outcomes have now been compared with the 20 existing lesson pages. The tracker records 15 strong mappings, 5 partial mappings and 4 gaps (modules 02, 16, 20 plus the unfilled portion of module 14 is counted as partial; see the row-level statuses). Existing pages and progress were preserved. Minimum plan: targeted revisions to A2-02, A2-13, A2-14/A2-18, A2-16 and A2-20; add A2-21–23 for modules 02, 16 and 20; then build distinct end-of-level modules 25–28. A2-08 and A2-19 remain interim/revision pages; A2-20 remains integrated practice, not an official end-of-level assessment.
