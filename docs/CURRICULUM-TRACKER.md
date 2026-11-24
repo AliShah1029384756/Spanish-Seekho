@@ -1,6 +1,6 @@
 # Spanish Seekho — Curriculum Audit Tracker
 
-_Status: A1 Lessons 01–25 source-reviewed; A1 end-of-level modules 25–28 implemented and source-verified. A2 Lessons 01–20 source-reviewed with targeted improvements in A2-01, A2-10, A2-11, A2-13, A2-18, A2-19 and A2-20. A2 curriculum reconciliation, A2 closing modules and programme-wide runtime testing remain pending._  
+_Status: A1 Lessons 01–25 source-reviewed; A1 end-of-level modules 25–28 implemented. A2 core lessons 01–23 and separate end-of-level modules 25–28 implemented, mapped and live-smoke-tested. B1 Lessons 01–06 implemented and deployed; B1-01 and B1-02 live quiz completion verified. Programme-wide device/accessibility/offline QA remains pending._  
 _Audit date: 24 November 2026_  
 _Baseline: `docs/CURRICULUM-MASTER-PLAN.md` (approved 168-module target)_
 
@@ -11,8 +11,8 @@ _Baseline: `docs/CURRICULUM-MASTER-PLAN.md` (approved 168-module target)_
 ### Inspected
 
 - Fetched the individual A1 lesson files 01–25.
-- Fetched the individual A2 lesson files 01–20.
-- Fetched B1 Lesson 01.
+- Fetched the individual A2 lesson files 01–23 and separate end-of-level pages 25–28.
+- Fetched B1 Lessons 01–06.
 - Checked page titles, visible section headings, presence of quiz/checkpoint patterns, language control references and local progress-storage references.
 - Compared visible topics with the approved A1–C2 map in the Curriculum Master Plan.
 
@@ -109,9 +109,9 @@ The URLs below are existing public lesson paths. Preserve them and existing lear
 | [A2-19](../a2/lesson-19.html) | Grammar and communication review | 05–07, 14, 19, 20, 23; 25 candidate | Review page spanning several grammar areas; not a dedicated module 20 linking/sequencing lesson or a complete module 25 gap-repair review |
 | [A2-20](../a2/lesson-20.html) | Integrated final practice, invitation reading/reply, speaking/writing, can-do checklist | 24 partial; 26/27/28 candidates | Useful integrated practice, but no separate listening-comprehension task, scored productive-skill rubric, trip-planning project or readiness plan; not modules 26–28 |
 
-| [A2-21](../a2/lesson-21.html) | Home, neighbourhood and local services | 02 | New lesson — strong module 02 mapping; source-verified, live deployment pending |
-| [A2-22](../a2/lesson-22.html) | Public services, forms and appointments | 16 | New lesson — strong module 16 mapping; local procedures explicitly vary; source-verified, live deployment pending |
-| [A2-23](../a2/lesson-23.html) | Connectors and sequencing events | 20 | New lesson — strong module 20 mapping; source-verified, live deployment pending |
+| [A2-21](../a2/lesson-21.html) | Home, neighbourhood and local services | 02 | New lesson — strong module 02 mapping; deployed and live 8/8 verified |
+| [A2-22](../a2/lesson-22.html) | Public services, forms and appointments | 16 | New lesson — strong module 16 mapping; local procedures explicitly vary; deployed and live 8/8 verified |
+| [A2-23](../a2/lesson-23.html) | Connectors and sequencing events | 20 | New lesson — strong module 20 mapping; deployed and live 8/8 verified |
 
 ### A2 reconciled outcome coverage — all 24 approved core modules
 
@@ -154,17 +154,22 @@ The 20 original lessons and the three new lessons (21–23), together with the t
 
 ### Remaining A2 work
 
-1. Complete live/browser and device QA for A2-02/13/14/16/20 and new A2-21–23; verify quiz results, completion, saved progress, TTS, mobile/RTL, accessibility and offline behaviour.
-2. Create distinct A2 closing modules 25–28: cumulative review and targeted gap repair; practical trip/week-planning project; integrated listening/reading/speaking/writing assessment; final checkpoint and B1 readiness plan.
+1. Complete selected A2 runtime/device QA: A2-07 result display and A2-14/15 plus A2-17–20 quiz submissions; also test reload persistence, TTS, mobile/RTL, accessibility and offline behaviour.
+2. Verify B1-01–06 content and continue the next coherent B1 batch from lesson 07 after planning against the master map.
 3. Preserve existing URLs, lesson IDs and the `ss-a2-done` progress key. Do not overwrite A2-08, A2-19 or A2-20.
 
 ## 5. B1 inventory
 
 | Existing page | Visible topic | Candidate approved module | Initial status / note |
 |---|---|---|---|
-| [B1-01](../b1/lesson-01.html) | Narrating past events naturally; indefinido/imperfecto focus, background, interruption, connectors, Málaga story, speaking/writing prompts and quiz | B1-01 | Existing — mapping candidate; verify language depth, accuracy, task quality and progression |
+| [B1-01](../b1/lesson-01.html) | Narrating past events naturally; indefinido/imperfecto focus, background, interruption, connectors, Málaga story, speaking/writing prompts and quiz | B1-01 | Strong — source-reviewed and live 8/8 quiz/completion verified |
+| [B1-02](../b1/lesson-02.html) | Building coherent stories with sequence, contrast and background detail | B1-02 | New — source-reviewed; live page/quiz controls verified; 8/8 interaction passed |
+| [B1-03](../b1/lesson-03.html) | Experiences and achievements; present perfect vs indefinido in context | B1-03 | New — source-reviewed; live page/quiz controls verified |
+| [B1-04](../b1/lesson-04.html) | Life changes and milestones; soler + infinitive and past/present comparison | B1-04 | New — source-reviewed; live page/quiz controls verified |
+| [B1-05](../b1/lesson-05.html) | Expressing opinions with reasons and examples | B1-05 | New — source-reviewed; live page/quiz controls verified |
+| [B1-06](../b1/lesson-06.html) | Agreeing/disagreeing diplomatically and keeping discussion moving | B1-06 | New — source-reviewed; live page/quiz controls verified |
 
-B1-01's visible sections are consistent with the planned opening narrative module. B1-02 should deepen narrative cohesion and discourse structure rather than repeat the introductory tense contrast. B1-02–28 remain planned pending further implementation verification.
+B1-01's opening narrative module is verified. B1-02 extends narrative cohesion and discourse structure rather than repeating the introductory tense contrast. B1-03–06 continue the first unit and begin the opinions/interaction unit. B1-07–28 remain planned.
 
 ## 6. Cross-course implementation checks
 
@@ -543,3 +548,31 @@ Four separate A2 closing pages were created, added to the A2 index and added to 
 - These checks were performed in the browser test session. Local progress is device/browser-specific; they do not alter another learner's device.
 - Service worker cache was bumped to `spanish-seekho-v69`; all four new A2 closing pages were added to precache. Actual offline behaviour, cache refresh on a real Android device, TTS audio quality, mobile/RTL layout, keyboard/screen-reader accessibility and reload persistence still require dedicated device QA.
 - No official CEFR test, certificate, automated speaking score or automated writing grade is claimed.
+
+
+## 20. B1 Lessons 01–06 — opening batch and verification (24 November 2026)
+
+### B1-01 verification
+
+- Existing lesson focuses on indefinido vs imperfecto in narrative context, background, interruption, sequence connectors and a Málaga story.
+- Eight answer keys and 6/8 threshold were checked at source level. Live browser test selected all eight correct answers and displayed **“Your score: 8 / 8. Lesson completed — well done!”**, the B1 Lesson 01 completion panel and **“Progress saved on this device; all lessons remain open.”**
+- Mapping: strong evidence for approved B1 module 01.
+
+### B1-02–06 batch
+
+| Lesson | Title | Main progression |
+|---:|---|---|
+| 02 | Building coherent stories | Sequence, contrast, cause/result connectors and background detail; extends B1-01 rather than repeating its tense introduction |
+| 03 | Experiences and achievements | Present perfect vs indefinido, open vs finished time periods, irregular participles and experience interviews |
+| 04 | Life changes and milestones | Past/present comparisons, *soler + infinitive*, milestones and continuing effects |
+| 05 | Expressing opinions with reasons | Viewpoint phrases, reasons, examples and balanced arguments |
+| 06 | Agreeing and disagreeing diplomatically | Full/partial agreement, respectful disagreement, clarification and compromise |
+
+### Source and live verification
+
+- All five new pages are linked from the B1 index; progress now tracks 0–6 under the existing `ss-b1-done` key. B1-01 now links forward to B1-02.
+- Each new lesson has eight quiz questions, three answer options per question, valid answer indices, a 6/8 pass threshold, unique lesson completion ID and the existing `ss-b1-done` key. All 40 new answer keys were source-checked.
+- Service-worker cache bumped to `spanish-seekho-v70`; B1-02–06 added to precache.
+- Live browser verification confirmed the B1 index displays six lessons and B1-02–06 each load with their expected heading, eight questions and submit button. B1-02 passed a targeted 8/8 quiz and displayed its completion panel and progress-saving message.
+- The initial combined browser run only selected three B1-02 answers before its execution budget ended; a dedicated follow-up completed all eight and passed. B1-03–06 quiz submissions have not yet been interaction-tested.
+- Broader TTS, reload persistence, mobile/Android, Urdu RTL, keyboard/screen-reader accessibility and offline behaviour remain untested. B1 is an expanding pathway, not a complete CEFR B1 course.
