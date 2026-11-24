@@ -1,6 +1,6 @@
 # Spanish Seekho — Curriculum Audit Tracker
 
-_Status: A1 Lessons 01–25 source-reviewed; A1 end-of-level modules 25–28 implemented and source-verified. A2 Lessons 01–05 source-reviewed with one targeted clarification. Remaining A2/B1 detailed QA and programme-wide runtime testing are pending._  
+_Status: A1 Lessons 01–25 source-reviewed; A1 end-of-level modules 25–28 implemented and source-verified. A2 Lessons 01–10 source-reviewed with targeted clarifications in A2-01 and A2-10. Remaining A2/B1 detailed QA and programme-wide runtime testing are pending._  
 _Audit date: 24 November 2026_  
 _Baseline: `docs/CURRICULUM-MASTER-PLAN.md` (approved 168-module target)_
 
@@ -93,11 +93,11 @@ The URLs below are existing public lesson paths. Preserve them and existing lear
 | [A2-03](../a2/lesson-03.html) | Work, studies, obligations, advice and job interview | 03 | Detailed source review: strong module 03 candidate; *tener que*, *hay que* and *deber* are distinguished accurately at starter level |
 | [A2-04](../a2/lesson-04.html) | Hotel/accommodation, reservations, polite requests and simple problems | 11, 14 | Detailed source review: accommodation is covered; transport situations are absent (module 11 partial). Polite requests/permission examples support module 14, but obligation is not developed here |
 | [A2-05](../a2/lesson-05.html) | Opinions, preferences, agreement/disagreement, near-future plans and arrangements | 04, 09, 23 | Detailed source review: modules 09 and 23 have clear coverage; module 04 is partial because giving reasons for choices is not developed explicitly |
-| [A2-06](../a2/lesson-06.html) | Social life, invitations and arrangements | 10, 21 | Existing — mapping candidate; check accepting/declining and register |
-| [A2-07](../a2/lesson-07.html) | Health, appointments and medical visits | 13 | Existing — mapping candidate |
-| [A2-08](../a2/lesson-08.html) | A2 review and checkpoint | 25 candidate | Needs review; verify cumulative coverage and targeted gap repair |
-| [A2-09](../a2/lesson-09.html) | Directions and places in town | 12 | Existing — mapping candidate |
-| [A2-10](../a2/lesson-10.html) | Present perfect and experiences | 07 | Existing — mapping candidate; verify Spain usage and contrast with other past forms |
+| [A2-06](../a2/lesson-06.html) | Social life, invitations, accepting/declining and suggestions | 10, 21 | Detailed source review: module 21 strongly covered; module 10 partially supported through arranging and changing a plan. Informal tú and formal usted examples are distinguished |
+| [A2-07](../a2/lesson-07.html) | Health, symptoms, appointments and pharmacy communication | 13 | Detailed source review: strong module 13 coverage; includes communication phrases and a clear non-diagnostic/medicine-advice boundary |
+| [A2-08](../a2/lesson-08.html) | Interim review and starter checkpoint covering Lessons 01–07 | — | Detailed source review: 7-topic checklist and 12-question checkpoint accurately labelled as an internal starter milestone, not full A2 or approved end-of-level module 25. Directions and present perfect are not included because they appear in later lessons |
+| [A2-09](../a2/lesson-09.html) | Directions, places in town, public transport question and polite commands | 12 | Detailed source review: strong module 12 candidate; informal tú and polite usted command forms are distinguished; quiz keys checked |
+| [A2-10](../a2/lesson-10.html) | Present perfect, recent time periods and life experiences | 07 | Detailed source review: forms and irregular participles checked; added regional-variation nuance to avoid a rigid Spain/Latin America split; dialogue now answers *¿Has estado…?* with *He estado…* |
 | [A2-11](../a2/lesson-11.html) | Comparisons | 19 | Existing — mapping candidate; compare with preferences/reasons in A2-14 |
 | [A2-12](../a2/lesson-12.html) | Advice and obligation | 14 | Existing — mapping candidate; permission/request coverage needs review |
 | [A2-13](../a2/lesson-13.html) | Describing people and places | 01, 18 | Partial / overlap; A2 depth beyond A1 needs review |
@@ -375,3 +375,25 @@ Reviewed all five source files in detail: visible explanations, Spanish forms/ex
 ### Verification limits
 
 This was a detailed source-level review. It does not establish browser runtime correctness, mobile/Android layout, Urdu RTL quality, keyboard/screen-reader accessibility, speech output quality or persistence after reload. No live interaction test was performed for this A2 batch.
+
+
+## 16. A2 Lessons 06–10 — detailed source review and same-pass optimization (24 November 2026)
+
+Reviewed visible lesson content, Spanish examples and translations, Castilian pronunciation aids, register, quiz questions/answer keys, score thresholds, completion handlers and local progress references.
+
+| Lesson | Findings | Action |
+|---|---|---|
+| A2-06 — Social life, invitations and arrangements | Invitation forms (*¿Quieres…?*, *¿Te apetece…?*, *¿Te gustaría…?*), accepting/declining, suggestions, *quedar* and *¿Te viene bien?* are natural. Formal *¿Le gustaría venir?* is distinguished from informal *tú*. Six quiz keys checked; no incorrect key found. | No lesson edit needed. Mapping: module 21 strongly covered; module 10 partly supported through arrangements and proposing another day. |
+| A2-07 — Health, appointments and medical visits | Appointment, symptom, clinic and pharmacy phrases are accurate. *Me duele* vs *me duelen*, *desde ayer* and *desde hace dos días* examples are sound. The lesson clearly frames phrases as communication support, not diagnosis or medicine recommendations. Six quiz keys checked; no incorrect key found. | No lesson edit needed. Strong module 13 candidate. |
+| A2-08 — Review and A2 checkpoint | Reviews seven topics from the first seven A2 lessons, has a matching seven-item can-do checklist and 12-question checkpoint with 9/12 threshold. The footer correctly identifies it as an internal starter milestone, not a full A2 qualification. | No lesson edit needed. Corrected curriculum mapping: this is an interim checkpoint, not approved end-of-level module 25. It does not cover directions or present perfect because those are introduced in later lessons. |
+| A2-09 — Directions and places in town | Place vocabulary, polite openings, informal *tú* commands and polite *usted* commands are correctly distinguished. The public-transport question and distance expressions are appropriate. Eight quiz keys checked; no incorrect key found. | No lesson edit needed. Strong module 12 candidate. |
+| A2-10 — Present perfect and experiences | *Haber* forms, regular participles and common irregulars (*visto, hecho, dicho, escrito, puesto, abierto*) are correct. Time-expression examples are useful for Spain-focused learning. Eight quiz keys checked; no incorrect key found. | Added a nuance note: use varies by region and speaker; avoid treating Spain and all of Latin America as two uniform blocks. In the Madrid dialogue, changed the response to *Sí, he estado dos veces* to directly answer *¿Has estado alguna vez en Madrid?* |
+
+### Progress and verification
+
+- A2-06 and A2-07: six questions each; 4/6 completion threshold.
+- A2-08: twelve questions; 9/12 checkpoint threshold.
+- A2-09 and A2-10: eight questions each; 6/8 completion threshold.
+- All five retain their original page URLs, lesson completion IDs and `ss-a2-done` progress key. No quiz threshold or answer key was changed.
+- Re-fetched all five pages after the change. Confirmed the A2-10 regional-usage note and dialogue correction; confirmed quiz structures and progress references remain present.
+- Source-level review only. No browser interaction, mobile/Android, RTL, keyboard/screen-reader or reload-persistence testing was performed for this batch.
