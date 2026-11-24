@@ -397,3 +397,15 @@ Reviewed visible lesson content, Spanish examples and translations, Castilian pr
 - All five retain their original page URLs, lesson completion IDs and `ss-a2-done` progress key. No quiz threshold or answer key was changed.
 - Re-fetched all five pages after the change. Confirmed the A2-10 regional-usage note and dialogue correction; confirmed quiz structures and progress references remain present.
 - Source-level review only. No browser interaction, mobile/Android, RTL, keyboard/screen-reader or reload-persistence testing was performed for this batch.
+
+
+### 16.1 Limited public-site smoke test (24 November 2026)
+
+A live browser test opened the public A2 index and confirmed all 20 lesson links, including Lessons 06–10.
+
+- **A2-06:** page heading and six-question quiz rendered; all six correct choices were selected; submit action displayed 6/6 and the completion message.
+- **A2-07:** page heading and six-question quiz rendered; all six correct choices were selected and submit was attempted. The browser agent did not observe the score/completion message. Source inspection confirms the expected `quizResult` element and submit handler are present and structurally parallel to A2-06. Treat this as an unresolved runtime observation, not a confirmed code defect.
+- **A2-08, A2-09, A2-10:** not interaction-tested in this browser run due to execution budget. Their source files, quiz handlers and progress references were inspected and re-fetched after the A2-10 edit.
+- Audio output and state persistence after reload were not tested.
+
+This is partial smoke testing, not complete runtime QA. Investigate A2-07's result display during the dedicated browser QA pass.
