@@ -243,3 +243,29 @@ A1-03 already contained the first-of-month date rule (*el primero de…*) and ca
 ### 11.3 Next batch
 
 Continue with **A1 Lessons 16–20** using the combined workflow: review content and quiz, fix verified issues in the same pass, verify the changed files, then update this tracker. Avoid opening a second repair cycle for already-reviewed lessons unless a cross-lesson inconsistency or new evidence requires it.
+
+
+## 12. Detailed content review — A1 Lessons 16–20 (24 November 2026)
+
+**Review scope:** Visible lesson content, examples, quiz answer keys and source-level completion logic reviewed. No browser/device runtime test was performed.
+
+| Page | Review result | Findings |
+|---|---|---|
+| A1-16 — Town and directions | Reviewed; no blocker or incorrect quiz key found | Place vocabulary, *hay* vs *está*, location prepositions, *de + el = del*, direction commands and polite request examples are broadly accurate. Clarified *estación de tren* / *estación de autobuses* and *parada de autobús* so learners can distinguish a station from a bus stop more precisely. |
+| A1-17 — Shopping, prices and quantities | Reviewed; no blocker or incorrect quiz key found | *Cuesta/cuestan*, quantity phrases with *de*, prices, *quisiera*, payment and receipt examples are appropriate. Decimal comma example (2,50 €) is suitable for Spain. No code/content change required. |
+| A1-18 — Daily routine and hobbies | Reviewed; no blocker or incorrect quiz key found | Reflexive routine phrases, time-of-day expressions, frequency adverbs, *me gusta/me gustan* and activity examples are broadly accurate. The explanation correctly warns against adding a second *no* after *nunca* in the simple examples. No change required. |
+| A1-19 — Starter review and checkpoint | Reviewed; all 12 quiz keys checked | The 12-item quiz keys and 9/12 (75%) pass threshold are consistent. The page appropriately states that it is an internal starter milestone, not an official CEFR exam or completed A1 qualification. Its footer incorrectly said only Lessons 01–19 were available although Lesson 20 exists; corrected to **Lessons 01–20 available**. The checklist is a self-reflection aid, not a full CEFR assessment. |
+| A1-20 — Weather and seasons | Reviewed; no blocker or incorrect quiz key found | Weather patterns (*hace*, *llueve*, *nieva*, *está nublado*, *hay tormenta*), seasons, temperature and clothing examples are broadly accurate. The page appropriately labels pronunciation guides as approximations and acknowledges regional variation. No change required. |
+
+### 12.1 Optimizations and verification
+
+- A1-16: clarified station/bus-station/bus-stop vocabulary in the existing usage note.
+- A1-19: corrected the available-lesson count from 01–19 to 01–20; retained its non-certification disclaimer and 9/12 pass threshold.
+- Both changed lesson files were fetched again from GitHub and the intended text was verified.
+- No lesson URL, ID, completion threshold or progress-storage key was changed.
+- No incorrect keyed answers were identified in Lessons 16–20 during source review.
+- Runtime quiz interaction, browser/device persistence, speech synthesis, mobile layout, Urdu RTL and accessibility are still untested.
+
+### 12.2 A1 review status and next step
+
+Detailed source review now covers **A1 Lessons 01–20**. Continue with **A1 Lessons 21–25**, using the same combined review-and-fix workflow. After A1-25, audit the four approved closing modules (26–28 plus the module-25 review) against the actual implementation before claiming the full A1 pathway is complete.
