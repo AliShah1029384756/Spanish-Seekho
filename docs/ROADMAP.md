@@ -36,3 +36,18 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 - Do not gate access to later lessons behind quiz completion.
 - Preserve learner progress and existing direct lesson links.
 - Do not claim features or course completeness without implementation and testing.
+
+
+
+## Approved 168-module curriculum target
+
+The owner approved a complete **168-module A1–C2 curriculum: 28 modules per level**. The authoritative level outcomes, full module sequence, assessment standard and phased implementation are in [CURRICULUM-MASTER-PLAN.md](CURRICULUM-MASTER-PLAN.md).
+
+The 168 count is Spanish Seekho's design choice, not a CEFR requirement. Each level has 24 core teaching modules and four closing modules (revision, practical project, integrated assessment, readiness checkpoint). This is a plan, not implemented content. Do not claim full CEFR alignment, accreditation or certification without the documented review and evidence.
+
+### Immediate sequence
+1. Audit existing A1 01–25, A2 01–20 and B1-01 against the master map. Mark Existing / Needs revision / Partial / Gap / Planned.
+2. Preserve existing lesson URLs and local progress; do not renumber blindly.
+3. Verify B1-01, then create B1-02–06 as a coherent five-lesson batch.
+4. Update the master-plan status, handoff and roadmap after verified implementation.
+5. Continue B1 before proceeding to B2, then C1 and C2 in order.
