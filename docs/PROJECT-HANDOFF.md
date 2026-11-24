@@ -46,7 +46,7 @@ A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 is only 
 
 ## Current production priority
 
-A2 core curriculum reconciliation is complete. The tracker records 14 strong outcomes, 7 partial outcomes and 3 gaps. Next: apply targeted revisions to A2-02/13/14-or-18/16/20; create A2-21–23 for modules 02/16/20; then create separate closing modules 25–28. Include A2-07 result display and A2-14/15 plus A2-17–20 interactions in the dedicated browser QA list. After A2 core/closing work, verify B1-01 and produce B1-02–06 as a coherent batch. A1's four closing activities are implemented at source level; schedule browser/device, keyboard, RTL and offline QA before making runtime claims.
+A2 core curriculum reconciliation and source-level implementation are complete: all 24 outcomes have strong internal mapping evidence. Five existing pages were strengthened (A2-02/13/14/16/20), and A2-21–23 were created for modules 02/16/20. The live-site test immediately after the commits still showed the previous 01–20 deployment; verify GitHub Pages publication before claiming the new pages are live. Next: complete runtime QA, then create separate closing modules 25–28. Include A2-07 result display, A2-14/15 and A2-17–23 quiz interactions in the dedicated browser QA list. After A2 closing work, verify B1-01 and produce B1-02–06 as a coherent batch. A1's four closing activities are implemented at source level; schedule browser/device, keyboard, RTL and offline QA before making runtime claims.
 
 ## Batch-first working agreement
 
@@ -112,3 +112,12 @@ This is Spanish Seekho's own curriculum structure, not a lesson count prescribed
 ## A2 core curriculum reconciliation (24 November 2026)
 
 All 24 approved A2 core outcomes have now been compared with the 20 existing lesson pages. The tracker records 15 strong mappings, 5 partial mappings and 4 gaps (modules 02, 16, 20 plus the unfilled portion of module 14 is counted as partial; see the row-level statuses). Existing pages and progress were preserved. Minimum plan: targeted revisions to A2-02, A2-13, A2-14/A2-18, A2-16 and A2-20; add A2-21–23 for modules 02, 16 and 20; then build distinct end-of-level modules 25–28. A2-08 and A2-19 remain interim/revision pages; A2-20 remains integrated practice, not an official end-of-level assessment.
+
+
+## A2 core coverage and new lessons 21–23 (24 November 2026)
+
+- All 24 approved A2 core outcomes now have strong internal mapping evidence. This is the project's outcome-level mapping judgement, not external CEFR validation or accreditation. The detailed matrix and overlap decisions are in tracker section 4.
+- Strengthened existing pages: A2-02 (past/present routine comparison), A2-13 (relationships and connected descriptions), A2-14 (permission), A2-16 (follow-up questions), and A2-20 (integrated personal/public/work-study tasks).
+- Created A2-21 (module 02: home/neighbourhood/local services), A2-22 (module 16: public services/forms/appointments), and A2-23 (module 20: connectors/sequencing). Each has eight authored quiz questions, a 6/8 threshold, a unique completion ID and the existing ss-a2-done storage key.
+- Source verification passed for all three new files and their index links. A live browser pass immediately after commits still saw the older deployed A2 index (01–20) and returned 404 for the new routes. Do not claim the pages are live until a later deployment check succeeds.
+- A2 closing modules 25–28 remain unbuilt. Preserve A2-08, A2-19 and A2-20; create the four closing activities as distinct pages.
