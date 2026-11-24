@@ -37,8 +37,9 @@ A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 is only 
 - Other A1 lessons 01–24 are recorded in README/course files; inspect them before planning new content.
 
 ### A2
-- Lessons 13–20: descriptions; preferences/reasons; plans/arrangements; travel experiences/problems; technology/communication; everyday problems/solutions; grammar and communication review; integrated final practice/checkpoint.
-- Each new A2 lesson in the previous handoff includes an 8-question quiz. 6/8 saves progress under `ss-a2-done`. Later lessons remain directly accessible; quiz completion does not gate access.
+- Core lessons 13–23: descriptions; preferences/reasons; plans/arrangements; travel experiences/problems; technology/communication; everyday problems/solutions; grammar review; integrated practice; home/neighbourhood/local services; public services/forms/appointments; connectors and sequencing.
+- Separate end-of-level modules 25–28: cumulative review, short-trip project, integrated four-skills assessment and B1 readiness plan.
+- Core lesson quizzes use the existing `ss-a2-done` key; end activities use `ss-a2-end-done`. Later lessons remain directly accessible; quiz completion does not gate access.
 
 ### B1
 - Lesson 01: narrating past events naturally; contrast indefinido and imperfecto, scene-setting, interruptions, sequence connectors, a practical Málaga story, speaking and 100–120-word writing prompts.
@@ -131,3 +132,10 @@ All 24 approved A2 core outcomes have now been compared with the 20 existing les
 - Module 27 integrated skills: listening 5/5, reading 5/5, writing sample entered, five self-checks marked and local save confirmed. Speaking is self-reviewed, not machine-scored.
 - Module 28 readiness: ten can-do checks, personal gap plan and B1 next-step choice saved.
 - All four cards and routes were verified live. Offline behaviour, real-device cache refresh, TTS quality, Android/RTL, accessibility and reload persistence remain untested. See tracker section 19.
+
+
+## Current A2 closing status (24 November 2026)
+
+- Modules 25–28 are now implemented as separate deployed pages and listed in the A2 index. Module 25 passed a live 16/16 review quiz; module 26's five-task project completion was saved; module 27's listening and reading both scored 5/5 and its assessment save completed; module 28's ten can-do items, gap plan and B1 next-step choice were saved.
+- Service-worker cache is v69 and includes all four A2 closing pages. Real offline operation remains untested.
+- Next priority: verify B1-01 against the approved map, then create B1-02–06 as one coherent batch. Keep broader A2 device/accessibility QA in the roadmap without blocking B1 content planning.
