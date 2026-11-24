@@ -471,6 +471,8 @@ The 168-module target and six-level structure are approved decisions. Changes to
 
 ## 14. Initial module-status register
 
+**Live audit record:** [CURRICULUM-TRACKER.md](CURRICULUM-TRACKER.md) contains the first repository-backed inventory and candidate mappings for A1 01–25, A2 01–20 and B1-01. It distinguishes file/topic presence from completed quality assurance. Consult and update the tracker during the audit; this summary register remains a high-level status snapshot.
+
 This is a repository-level planning snapshot, not a page-by-page audit. “Existing—mapping pending” means the repository documents pages for this range, but their exact match to the new master outcomes has not yet been checked.
 
 | Level | Module range | Initial status | Required next action |
