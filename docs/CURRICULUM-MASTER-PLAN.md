@@ -446,7 +446,7 @@ Review transitions, descriptor mapping, skill coverage, placement/progress repor
 
 Repository documentation dated 24 November 2026 records:
 - A1: core lessons 01–25 exist; separate end-of-level activities 25–28 are implemented and deployed. A limited public-site smoke test covered the index and exercised parts of modules 25–26; full interaction/device QA remains pending.
-- A2: lessons 01–20 exist; starter pathway.
+- A2: lessons 01–23 exist at source level. The 24 approved core outcomes now have strong internal mapping evidence after targeted revisions and three new lessons; this is not external CEFR validation. New pages' live GitHub Pages deployment is pending verification. Separate closing modules 25–28 are still planned.
 - B1: Lesson 01 exists; pathway started.
 - Spain Life: six modules documented.
 - Full 168-module curriculum: **approved and planned; not implemented in full**.
@@ -479,9 +479,9 @@ This is a repository-level planning snapshot, not a page-by-page audit. “Exist
 |---|---|---|---|
 | A1 | 01–25 | Existing — mapping pending | Inspect each lesson and map to outcomes; preserve URLs/progress |
 | A1 | 25–28 | Implemented at source level | Separate pages for cumulative review/gap repair, practical project, integrated skills assessment and readiness checkpoint; runtime QA pending |
-| A2 | 01–20 | Reconciled — 14 strong, 7 partial, 3 gaps across 24 outcomes | See CURRICULUM-TRACKER.md; apply five targeted revisions, add A2-21–23 for modules 02/16/20, then strengthen module 24 integration |
-| A2 | 21–23 | Planned — core modules 02, 16 and 20 | Add home/neighbourhood/local services, public services/forms, and connectors/sequencing; preserve all existing lesson URLs |
-| A2 | 24 | Existing — partial module 24 candidate | Strengthen A2-20 with personal, public and work/study integrated tasks; do not treat it as an end-of-level assessment |
+| A2 | 01–20 | Source-reviewed and strengthened; mapped across all 24 core outcomes | See CURRICULUM-TRACKER.md for targeted revisions and cross-lesson mappings |
+| A2 | 21–23 | Created at source level — modules 02, 16 and 20 | Verify GitHub Pages deployment and run quiz/progress QA; preserve all existing lesson URLs |
+| A2 | 24 | Strong internal mapping — A2-20 strengthened | Verify integrated personal, public and work/study tasks; keep separate from end-of-level assessment |
 | A2 | 25–28 | Planned — separate closing activities | Create cumulative review/gap repair, practical project, four-skill assessment and readiness plan after core coverage is closed |
 | B1 | 01 | Existing — verification/mapping pending | Inspect actual page and map to B1-01 |
 | B1 | 02–28 | Planned | Produce coherent batches, starting with 02–06 |
