@@ -1,6 +1,6 @@
 # Spanish Seekho — Curriculum Audit Tracker
 
-_Status: A1 Lessons 01–25 source-reviewed; A1 end-of-level modules 25–28 implemented and source-verified. A2/B1 detailed QA and programme-wide runtime testing remain pending._  
+_Status: A1 Lessons 01–25 source-reviewed; A1 end-of-level modules 25–28 implemented and source-verified. A2 Lessons 01–05 source-reviewed with one targeted clarification. Remaining A2/B1 detailed QA and programme-wide runtime testing are pending._  
 _Audit date: 24 November 2026_  
 _Baseline: `docs/CURRICULUM-MASTER-PLAN.md` (approved 168-module target)_
 
@@ -88,11 +88,11 @@ The URLs below are existing public lesson paths. Preserve them and existing lear
 
 | Existing page | Visible topic | Candidate approved A2 module(s) | Initial mapping status / note |
 |---|---|---|---|
-| [A2-01](../a2/lesson-01.html) | Completed past events / yesterday | 06 | Existing — mapping candidate; check contrast with imperfecto |
-| [A2-02](../a2/lesson-02.html) | Past habits and background | 05, 08 | Existing — mapping candidate; compare with A2-01 |
-| [A2-03](../a2/lesson-03.html) | Work, studies and duties | 03 | Existing — mapping candidate |
-| [A2-04](../a2/lesson-04.html) | Travel, hotel, accommodation and requests | 11, 14 | Partial / overlap; inspect transport coverage |
-| [A2-05](../a2/lesson-05.html) | Opinions, preferences and future plans | 04, 09, 23 | Partial / overlap; explicit agreement/disagreement may be missing |
+| [A2-01](../a2/lesson-01.html) | Completed past events / yesterday; regular indefinido with brief irregular preview | 06 | Detailed source review: suitable module 06 candidate. Added clarification that *hablamos* is identical in present and preterite; context distinguishes it |
+| [A2-02](../a2/lesson-02.html) | Past habits, descriptions and imperfecto/indefinido contrast | 05, 08 | Detailed source review: module 05 is a strong candidate; module 08 is partial because present-day routine comparison is not developed |
+| [A2-03](../a2/lesson-03.html) | Work, studies, obligations, advice and job interview | 03 | Detailed source review: strong module 03 candidate; *tener que*, *hay que* and *deber* are distinguished accurately at starter level |
+| [A2-04](../a2/lesson-04.html) | Hotel/accommodation, reservations, polite requests and simple problems | 11, 14 | Detailed source review: accommodation is covered; transport situations are absent (module 11 partial). Polite requests/permission examples support module 14, but obligation is not developed here |
+| [A2-05](../a2/lesson-05.html) | Opinions, preferences, agreement/disagreement, near-future plans and arrangements | 04, 09, 23 | Detailed source review: modules 09 and 23 have clear coverage; module 04 is partial because giving reasons for choices is not developed explicitly |
 | [A2-06](../a2/lesson-06.html) | Social life, invitations and arrangements | 10, 21 | Existing — mapping candidate; check accepting/declining and register |
 | [A2-07](../a2/lesson-07.html) | Health, appointments and medical visits | 13 | Existing — mapping candidate |
 | [A2-08](../a2/lesson-08.html) | A2 review and checkpoint | 25 candidate | Needs review; verify cumulative coverage and targeted gap repair |
@@ -351,3 +351,27 @@ A live browser smoke test was performed against the public GitHub Pages A1 cours
 - No visible page errors were reported during the run.
 
 This was a limited public-site smoke test, not exhaustive QA. In particular, browser TTS audio output, saved state after reload, keyboard/screen-reader behaviour, Urdu RTL, Android layouts and offline service-worker behaviour remain unverified.
+
+
+## 15. A2 Lessons 01–05 — detailed source review and same-pass optimization (24 November 2026)
+
+Reviewed all five source files in detail: visible explanations, Spanish forms/examples, English meanings, Roman Urdu/Urdu pronunciation aids, quiz questions and answer keys, scoring handlers, completion IDs and local progress references.
+
+| Lesson | Review result | Curriculum mapping / remaining gap |
+|---|---|---|
+| A2-01 — Completed past events | Regular -ar and -er/-ir pretérito endings and sample forms are accurate. The short *hacer*, *ir/ser* and *tener* irregular preview is correctly labelled as additional preview. Quiz keys checked; no incorrect key found. | Module 06 candidate. A short note was added to explain that *hablamos* is identical in present and preterite, with time expressions/context distinguishing the meaning. |
+| A2-02 — Past habits and descriptions | Imperfect regular endings and the three irregular verbs (*ser, ir, ver*) are presented accurately. The imperfecto/indefinido contrast is appropriately labelled a beginner guide rather than an absolute rule. Quiz keys checked; no incorrect key found. | Strong module 05 candidate. Module 08 remains partial: past habit vs completed event is contrasted, but present-day routines are not explicitly compared. |
+| A2-03 — Work, studies and duties | Work/study vocabulary, *ser* for roles, *tener que*, general *hay que*, advice with *deber*, and the short job-interview dialogue are accurate for the intended scope. Quiz keys checked; no incorrect key found. | Strong module 03 candidate. |
+| A2-04 — Travel and accommodation | Hotel vocabulary, reservations, check-in/out, polite requests, simple complaints and adjective agreement examples are sound. Quiz keys checked; no incorrect key found. | Module 11 is partial because transport situations are not included. Polite requests and a permission question support module 14, but obligation is not developed in this page. |
+| A2-05 — Opinions, preferences and plans | *Creo que*, *me parece que*, *gustar/gustan*, positive/negative agreement responses and *ir a + infinitive* examples are accurate. Quiz keys checked; no incorrect key found. | Clear candidates for modules 09 and 23. Module 04 is partial because reasons for choices are not explicitly practised. |
+
+### Same-pass change
+
+- A2-01: added a concise note showing *Hoy hablamos* vs *Ayer hablamos*, explaining the present/preterite form overlap.
+- No other lesson content was changed because the review did not identify a verified factual or answer-key error that justified editing.
+- All five lessons retain their original URLs, six-question quizzes, 4/6 completion threshold, lesson completion IDs and `ss-a2-done` progress key.
+- Re-fetched all five files after the change. Confirmed the new A2-01 note is present and the existing quiz/progress structures remain intact.
+
+### Verification limits
+
+This was a detailed source-level review. It does not establish browser runtime correctness, mobile/Android layout, Urdu RTL quality, keyboard/screen-reader accessibility, speech output quality or persistence after reload. No live interaction test was performed for this A2 batch.
