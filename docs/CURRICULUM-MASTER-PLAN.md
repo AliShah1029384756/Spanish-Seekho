@@ -446,7 +446,7 @@ Review transitions, descriptor mapping, skill coverage, placement/progress repor
 
 Repository documentation dated 24 November 2026 records:
 - A1: core lessons 01–25 exist; separate end-of-level activities 25–28 are implemented and deployed. A limited public-site smoke test covered the index and exercised parts of modules 25–26; full interaction/device QA remains pending.
-- A2: lessons 01–23 are deployed and source-verified. All 24 approved core outcomes have strong internal mapping evidence after targeted revisions and three new lessons; this is not external CEFR validation. Live smoke tests confirmed lessons 21–23 each passed 8/8 and showed completion. Separate closing modules 25–28 are still planned. Service-worker cache v68 includes lessons 21–23; real offline behaviour remains untested.
+- A2: core lessons 01–23 and separate end-of-level activities 25–28 are deployed and source-verified. All 24 approved core outcomes have strong internal mapping evidence after targeted revisions and three new lessons; this is not external CEFR validation. Live smoke tests: lessons 21–23 each passed 8/8; module 25 passed 16/16; module 26 project completion saved; module 27 listening/reading 5/5 each and save; module 28 readiness plan saved. Service-worker cache v69 includes A2 lessons 21–23 and closing pages 25–28; real offline behaviour remains untested.
 - B1: Lesson 01 exists; pathway started.
 - Spain Life: six modules documented.
 - Full 168-module curriculum: **approved and planned; not implemented in full**.
@@ -480,9 +480,9 @@ This is a repository-level planning snapshot, not a page-by-page audit. “Exist
 | A1 | 01–25 | Existing — mapping pending | Inspect each lesson and map to outcomes; preserve URLs/progress |
 | A1 | 25–28 | Implemented at source level | Separate pages for cumulative review/gap repair, practical project, integrated skills assessment and readiness checkpoint; runtime QA pending |
 | A2 | 01–20 | Source-reviewed and strengthened; mapped across all 24 core outcomes | See CURRICULUM-TRACKER.md for targeted revisions and cross-lesson mappings |
-| A2 | 21–23 | Created at source level — modules 02, 16 and 20 | Verify GitHub Pages deployment and run quiz/progress QA; preserve all existing lesson URLs |
+| A2 | 21–23 | Implemented and deployed — modules 02, 16 and 20 | Live quiz flows passed 8/8; broader device/accessibility/offline QA remains pending |
 | A2 | 24 | Strong internal mapping — A2-20 strengthened | Verify integrated personal, public and work/study tasks; keep separate from end-of-level assessment |
-| A2 | 25–28 | Planned — separate closing activities | Create cumulative review/gap repair, practical project, four-skill assessment and readiness plan after core coverage is closed |
+| A2 | 25–28 | Implemented and deployed — separate closing activities | Live smoke-tested: review 16/16; project completion; listening/reading 5/5; readiness plan save. Broader device QA remains pending |
 | B1 | 01 | Existing — verification/mapping pending | Inspect actual page and map to B1-01 |
 | B1 | 02–28 | Planned | Produce coherent batches, starting with 02–06 |
 | B2 | 01–28 | Planned | Begin after B1 progression is complete and reviewed |
