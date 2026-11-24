@@ -488,7 +488,7 @@ This is a repository-level planning snapshot, not a page-by-page audit. “Exist
 | B1 | 07–11 | Implemented and deployed — modules 07–11 | Live pages/index verified; B1-07 passed 8/8; B1-08–11 quiz submission QA pending |
 | B1 | 12–16 | Implemented and deployed | Live routes 12–16 confirmed; quiz submission QA pending |
 | B1 | 17–21 | Implemented at source; Pages workflow succeeded | Post-build live route and quiz QA pending; browser automation unavailable on latest attempt |
-| B1 | 22–24 | Implemented at source; latest publication not yet verified | Relative clauses, reported information and integrated communication; re-fetch and live QA pending |
+| B1 | 22–24 | Implemented and source-verified; Pages workflow in progress at last check | Relative clauses, reported information and integrated communication; live route/quiz QA pending |
 | B1 | 25–28 | Planned | Build separate cumulative review, practical project, integrated assessment and readiness checkpoint |
 | B2 | 01–28 | Planned | Begin after B1 progression is complete and reviewed |
 | C1 | 01–28 | Planned | Begin after B2 progression is complete and reviewed |
