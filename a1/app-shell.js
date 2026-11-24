@@ -9,6 +9,9 @@
     document.documentElement.lang = isUrdu ? "ur" : "en";
     document.documentElement.dir = isUrdu ? "rtl" : "ltr";
     document.body.dir = isUrdu ? "rtl" : "ltr";
+    document.querySelectorAll(".es").forEach(el => {
+      if (!el.hasAttribute("lang")) el.setAttribute("lang", "es");
+    });
     const button = document.getElementById("languageButton");
     if (button) button.textContent = labels[language] + " \u25BE";
     document.querySelectorAll("[data-language-choice]").forEach(choice => {
@@ -45,7 +48,9 @@
 
   if (!document.querySelector(".mobile-nav")) {
     const inA2 = /\/a2(\/|$)/.test(location.pathname);
+    const inB1 = /\/b1(\/|$)/.test(location.pathname);
     const a1base = inA2 ? "../a1/" : "";
+    const practiceHref = inB1 ? "../a1/practice.html" : a1base + "practice.html";
     const homeHref = "../index.html";
     const path = location.pathname;
     const isLesson = /lesson-\d+\.html$/.test(path);
@@ -56,7 +61,7 @@
     nav.innerHTML =
       '<a href="' + homeHref + '"><span aria-hidden="true">\u2302</span><small>Home</small></a>' +
       '<a class="' + (!isLesson && !isPractice ? "active" : "") + '" href="' + a1base + 'index.html"' + (!isLesson && !isPractice ? ' aria-current="page"' : "") + '><span aria-hidden="true">\u25A4</span><small>Learn</small></a>' +
-      '<a class="' + (isPractice ? "active" : "") + '" href="' + a1base + 'practice.html"' + (isPractice ? ' aria-current="page"' : "") + '><span aria-hidden="true">\u2726</span><small>Practice</small></a>' +
+      '<a class="' + (isPractice ? "active" : "") + '" href="' + practiceHref + '"' + (isPractice ? ' aria-current="page"' : "") + '><span aria-hidden="true">\u2726</span><small>Practice</small></a>' +
       '<a href="' + a1base + 'index.html#progressText"><span aria-hidden="true">\u25D4</span><small>Progress</small></a>' +
       '<button type="button" id="navLanguage"><span aria-hidden="true">\u6587</span><small>Language</small></button>';
     document.body.append(nav);

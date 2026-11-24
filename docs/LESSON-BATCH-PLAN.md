@@ -21,20 +21,21 @@ Check the latest repository before each batch. The 24 November 2026 documentatio
 |---|---:|---|
 | A1 | 01–25 | Starter pathway |
 | A2 | Core lessons 01–23 + separate modules 25–28 | Core outcomes mapped; end-of-level activities deployed and smoke-tested |
-| B1 | 01–24 | Core lesson source implemented; B1-01–16 deployed in earlier checks; 17–24 latest route verification pending |
+| B1 | 01–24 + separate 25–28 | Full source review completed; corrections applied; fresh deployment and live route/interaction QA pending |
 
 A1 and A2 must not be advertised as complete CEFR syllabi. B1 must not be advertised as a complete course.
 
 ## Next planned work
 
-B1 core lessons 01–24 and separate closing modules 25–28 are now implemented at source. Latest Pages workflow run 45431309579 was pending at the last check. Browser automation could not start because its service wallet balance was insufficient, so public route and interaction checks remain pending.
+B1 core Lessons 01–24 and closing modules 25–28 are implemented and have completed the consolidated source-level review. The immediate next task is release verification, not another lesson batch:
 
-The latest batch follows the approved master map:
-1. B1-22: relative clauses and adding useful detail (que, quien/quienes, donde, lo que).
-2. B1-23: reported statements and questions, including common tense/time shifts.
-3. B1-24: integrated B1 communication — tell, explain, discuss and propose.
+1. Confirm the fresh GitHub Pages workflow for the current source corrections.
+2. Verify the B1 index, all 24 core lesson routes and four closing-module routes.
+3. Test representative/all core quiz submissions and the primary Module 25–28 interactions without clearing existing learner progress.
+4. Record any remaining defects and fix them in the same pass.
+5. Begin B2 mapping only after B1 release verification is complete.
 
-Next phase: verify B1 publication and live routes/interactions for lessons 17–28, then review the full B1 01–28 curriculum and language quality. Do not start B2 before that review.
+Browser automation could not start during the source review because the browser service wallet balance was negative. Source-level checks are complete; runtime checks must not be inferred from them.
 
 ## Batch workflow
 

@@ -1,6 +1,6 @@
 # Spanish Seekho — Curriculum Audit Tracker
 
-_Status: A1 Lessons 01–25 source-reviewed; A1 end-of-level modules 25–28 implemented. A2 core lessons 01–23 and separate end-of-level modules 25–28 implemented, mapped and live-smoke-tested. B1 Lessons 01–21 implemented at source; lessons 01–16 live, 17–21 Pages build succeeded but post-build route verification and quiz interaction remain pending. Programme-wide device/accessibility/offline QA remains pending._  
+_Status: A1 Lessons 01–25 source-reviewed; A2 core lessons 01–23 and separate modules 25–28 implemented and mapped; B1 core lessons 01–24 and closing modules 25–28 source-reviewed; live B1 route/interaction QA and programme-wide device/accessibility QA remain pending._
 _Audit date: 24 November 2026_  
 _Baseline: `docs/CURRICULUM-MASTER-PLAN.md` (approved 168-module target)_
 
@@ -160,26 +160,36 @@ The 20 original lessons and the three new lessons (21–23), together with the t
 
 ## 5. B1 inventory
 
-| Existing page | Visible topic | Candidate approved module | Initial status / note |
-|---|---|---|---|
-| [B1-01](../b1/lesson-01.html) | Narrating past events naturally; indefinido/imperfecto focus, background, interruption, connectors, Málaga story, speaking/writing prompts and quiz | B1-01 | Strong — source-reviewed and live 8/8 quiz/completion verified |
-| [B1-02](../b1/lesson-02.html) | Building coherent stories with sequence, contrast and background detail | B1-02 | New — source-reviewed; live page/quiz controls verified; 8/8 interaction passed |
-| [B1-03](../b1/lesson-03.html) | Experiences and achievements; present perfect vs indefinido in context | B1-03 | New — source-reviewed; live page/quiz controls verified |
-| [B1-04](../b1/lesson-04.html) | Life changes and milestones; soler + infinitive and past/present comparison | B1-04 | New — source-reviewed; live page/quiz controls verified |
-| [B1-05](../b1/lesson-05.html) | Expressing opinions with reasons and examples | B1-05 | New — source-reviewed; live page/quiz controls verified |
-| [B1-06](../b1/lesson-06.html) | Agreeing/disagreeing diplomatically and keeping discussion moving | B1-06 | New — source-reviewed; live page/quiz controls verified |
-| [B1-07](../b1/lesson-07.html) | Supporting an argument and considering another viewpoint | B1-07 | New — source-reviewed; deployed and live 8/8 completion verified |
-| [B1-08](../b1/lesson-08.html) | Clarifying and reformulating | B1-08 | New — source-reviewed; deployed, eight questions and submit control verified |
-| [B1-09](../b1/lesson-09.html) | Future predictions and promises | B1-09 | New — source-reviewed; deployed, eight questions and submit control verified |
-| [B1-10](../b1/lesson-10.html) | Hypothetical situations and polite requests | B1-10 | New — source-reviewed; deployed, eight questions and submit control verified |
-| [B1-11](../b1/lesson-11.html) | Plans, intentions and possible outcomes | B1-11 | New — source-reviewed; deployed, eight questions and submit control verified |
-| [B1-12](../b1/lesson-12.html) | Making decisions and weighing options | B1-12 | New — source-reviewed; GitHub Pages deployment pending |
-| [B1-13](../b1/lesson-13.html) | Work experience and responsibilities | B1-13 | New — source-reviewed; GitHub Pages deployment pending |
-| [B1-14](../b1/lesson-14.html) | Education, skills and learning goals | B1-14 | New — source-reviewed; GitHub Pages deployment pending |
-| [B1-15](../b1/lesson-15.html) | Applications and professional self-presentation | B1-15 | New — source-reviewed; GitHub Pages deployment pending |
-| [B1-16](../b1/lesson-16.html) | Social issues and everyday change | B1-16 | New — source-reviewed; GitHub Pages deployment pending |
+The full 24-lesson source inventory now maps one-to-one to the approved B1 core sequence. Every row below has received the full source review recorded in section 27; this is not a live-browser or device-QA claim.
 
-B1-01's opening narrative module is verified. B1-02 extends narrative cohesion and discourse structure rather than repeating the introductory tense contrast. B1-03–04 complete the first narrative/experience unit; B1-05–08 cover opinions and interaction; B1-09–11 begin plans/predictions. B1-12–16 have been created at source level; GitHub Pages publication is pending. B1-17–28 remain planned.
+| Lesson | Approved outcome | Main content |
+|---:|---|---|
+| 01 | Narrating past events naturally | Indefinido/imperfecto, background, interruption and story sequencing |
+| 02 | Building coherent stories | Sequence, contrast, background and result connectors |
+| 03 | Experiences and achievements | Present perfect vs indefinido in context |
+| 04 | Life changes and milestones | Past habits, completed changes and present relevance |
+| 05 | Expressing opinions with reasons | Viewpoint, reasons, examples and balanced argument |
+| 06 | Agreeing and disagreeing diplomatically | Full/partial agreement, respectful disagreement and alternatives |
+| 07 | Supporting an argument | Position, reasons, evidence and another viewpoint |
+| 08 | Clarifying and reformulating | Clarification, checking understanding and paraphrase |
+| 09 | Future predictions and promises | Future simple, irregular stems, predictions and present assumptions |
+| 10 | Hypothetical situations and polite requests | Conditional, polite requests and si + imperfect subjunctive pattern |
+| 11 | Plans, intentions and possible outcomes | Plans, predictions and alternatives |
+| 12 | Making decisions and weighing options | Compare alternatives, drawbacks and justified decisions |
+| 13 | Work experience and responsibilities | Duties, teamwork, deadlines and workplace communication |
+| 14 | Education, skills and learning goals | Training, strengths, progress and goals |
+| 15 | Applications and professional self-presentation | Truthful applications, strengths and interviews |
+| 16 | Social issues and everyday change | Trends, causes, effects and balanced viewpoints |
+| 17 | Causes, consequences and result connectors | Cause/result clauses, connectors and effects |
+| 18 | Proposing solutions, negotiating and reaching agreement | Proposals, polite disagreement, compromise and action |
+| 19 | Advice, recommendations and expressing necessity | Advice, subjunctive triggers, obligation and optional actions |
+| 20 | Complaints, claims and resolving service problems | Formal complaints, evidence and requested remedies |
+| 21 | Common subjunctive in context | Present subjunctive for wishes, advice, importance and reactions |
+| 22 | Relative clauses and adding useful detail | que, quien/quienes, donde, lo que and punctuation |
+| 23 | Reported information and retelling | Reported statements/questions and common tense/time shifts |
+| 24 | Integrated B1 communication | Narrate, explain, discuss, negotiate and recommend |
+
+B1 closing modules 25–28 are separate activities, not additional core lessons. See section 26 for their implementation and section 27 for the consolidated source review. Existing lesson URLs and IDs remain unchanged. Live route/interaction QA is still pending.
 
 ## 6. Cross-course implementation checks
 
@@ -701,3 +711,34 @@ Four separate A2 closing pages were created, added to the A2 index and added to 
 ### Next work
 - Verify the latest Pages workflow and public B1 routes 17–28 when possible; test quiz, project, assessment and readiness interactions.
 - Review the full B1 01–28 sequence for language accuracy, level progression, answer keys and skill balance. Only after that review should B2 production begin.
+
+
+## 27. B1 full curriculum review and same-pass corrections (24 November 2026)
+
+### Curriculum and language review
+
+- Reviewed B1 Lessons 01–24 against all six units and the approved master-plan outcomes. The progression moves from narration/experience, through opinions and interaction, future/conditional planning, work/study and social contexts, problem-solving, then subjunctive, relative clauses, reported information and integrated communication.
+- Reviewed all 24 lesson bodies for grammar explanations, Spanish examples, Castilian usage, Roman Urdu/English meanings, dialogue/register, CEFR progression, overlap and independent production tasks. The applied communication in Lessons 17–20 extends rather than replaces the earlier opinion/interaction work.
+- Reviewed all 192 core quiz items and answer options. Every lesson has eight questions, three options per question, one defensible keyed answer, explanations, a 6/8 completion threshold and the existing `ss-b1-done` key with its original `lesson-01`–`lesson-24` IDs.
+- Reviewed closing modules 25–28: Module 25 has 16 mixed questions and targeted repair links; Module 26 has six connected project tasks and six self-checks; Module 27 has five listening and five reading questions plus writing, speaking self-review and mediation; Module 28 has 12 self-ratings and a learner-owned plan. These are learning activities, not official CEFR assessments or certification.
+
+### Verified corrections applied in the same pass
+
+- Corrected unit labels in Lessons 02–16 to the approved grouping: 01–04 = Unit 01; 05–08 = Unit 02; 09–12 = Unit 03; 13–16 = Unit 04. Lessons 17–20 remain Unit 05 and 21–24 Unit 06.
+- Corrected the Lesson 09 English meaning of `Mañana te llamaré después de la reunión` to “I will call you after the meeting.”
+- Corrected an accidental English wording error in Lesson 18 and made a Lesson 21 dialogue phrase more idiomatic in Spanish.
+- Rewrote three mixed English/Spanish task instructions in Lesson 22 as complete Spanish instructions, retaining the Roman Urdu meanings.
+- Corrected Module 27's listening transcript and its TTS copy: the message now explicitly states that the Wednesday room is occupied, so the Thursday rescheduling question has evidence in the audio/text.
+- Fixed the shared mobile navigation so B1 pages link “Practice” to the existing A1 practice deck rather than a nonexistent `b1/practice.html` route. Spanish `.es` elements now receive `lang="es"` for assistive technology. Existing progress keys and lesson URLs are unchanged.
+
+### Source-level verification and release limits
+
+- Re-fetched changed source files; all 24 lesson inline scripts and the four closing-module inline scripts compile. All core answer indices are within their option arrays; Module 25's 16 keys and Module 27's 10 objective-question keys were reviewed. The B1 index has 24 core cards plus four separate closing activities; previous/next links remain sequential; `ss-b1-done` and `ss-b1-end-done` remain separate.
+- Service-worker cache is now `spanish-seekho-v76`; it precaches the B1 index, all 24 lessons and all four closing pages. This is cache configuration, not proof of offline operation.
+- Latest pre-change GitHub Pages workflow run 45432169704 (run 571) completed successfully for commit `a21a007394bfc0e7f99326b6971a262a0ab2de70`. The new source corrections require a fresh Pages run; verify that run before claiming the corrected build is published.
+- Live browser automation could not start because the browser service wallet was below zero. Therefore this pass is source-level only: live routes, quiz submissions, project/assessment/readiness interactions, TTS, Android/mobile, keyboard/screen-reader, Urdu RTL, reload persistence and actual offline behaviour remain unverified.
+- The language preference currently changes text direction and stores the preference; it does not translate every lesson into Urdu or English. B1 instructions still include English in places, so full multilingual parity is not claimed.
+
+### Decision
+
+B1 is **source-reviewed but not release-verified**. Do not begin B2 production until a fresh deployment is confirmed and live route/interaction QA is completed. No lesson numbering, URL or learner-progress key was changed.

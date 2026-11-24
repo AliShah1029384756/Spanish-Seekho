@@ -24,11 +24,11 @@ Important: the audit confirms files and visible topic/section structures, not fu
 
 - A1: core lessons 01–25; separate end-of-level activities 25–28 now implemented; 60-item practice deck. These are source-verified additions, not yet browser/device QA approved.
 - A2: core pathway lessons 01–23 plus separate end-of-level modules 25–28. All 24 core outcomes have strong internal mapping evidence. Closing pages have been deployed and their primary interactions smoke-tested; see tracker sections 4, 18.2 and 19.
-- B1: Core lessons 01–24 implemented at source and integrated into the index; B1-17–21 Pages workflow success is recorded, but post-build browser verification is pending. B1-22–24 have just been created and source integration is complete; latest Pages publication and browser QA are pending. Earlier live quiz evidence remains limited to B1-01, B1-02 and B1-07 passing 8/8. Pathway remains incomplete.
+- B1: Core lessons 01–24 and separate closing modules 25–28 are implemented and have received a consolidated source-level curriculum/language/quiz review. Corrections include unit labels, one translation, Spanish phrasing, Module 27 listening evidence and B1 mobile navigation. A fresh Pages build and live route/interaction QA remain pending; earlier live 8/8 evidence is limited to B1-01, B1-02 and B1-07. Do not begin B2 until release QA is complete.
 - Spain Life: 6 modules.
-- Current service-worker cache version: `spanish-seekho-v74`; four A1 end-of-level pages, A2 lessons 21–23, A2 end-of-level modules 25–28, and B1 lessons 01–24 are in its precache list. This configures update caching; real offline behaviour remains untested.
+- Current service-worker cache version: `spanish-seekho-v76`; four A1 end-of-level pages, A2 lessons 21–23, A2 end-of-level modules 25–28, and B1 lessons 01–24 are in its precache list. This configures update caching; real offline behaviour remains untested.
 
-A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 is only beginning. Inspect current files before assuming this snapshot is still current.
+A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 now has 24 core lessons and four closing activities at source level, but remains source-reviewed rather than release-verified. No official CEFR accreditation or certification is claimed. Inspect current files before assuming this snapshot is still current.
 
 ## Recent documented lesson coverage
 
@@ -42,12 +42,15 @@ A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 is only 
 - Core lesson quizzes use the existing `ss-a2-done` key; end activities use `ss-a2-end-done`. Later lessons remain directly accessible; quiz completion does not gate access.
 
 ### B1
-- Lesson 01: narrating past events naturally; contrast indefinido and imperfecto, scene-setting, interruptions, sequence connectors, a practical Málaga story, speaking and 100–120-word writing prompts.
-- Includes an 8-question quiz; 6/8 saves progress under `ss-b1-done`. Lesson access is open; completion does not gate later lessons.
+- Core Lessons 01–24 cover the six approved units: narratives/experiences; opinions/interaction; future/conditional/plans; work/study/society; causes/negotiation/advice/complaints; subjunctive/relative clauses/reported information/integrated communication.
+- Each core lesson has an eight-question quiz, a 6/8 threshold and the preserved `ss-b1-done` key with stable lesson IDs. Lessons remain open in any order.
+- Separate closing modules 25–28 provide cumulative review, a practical project, integrated skills practice and a self-directed readiness plan. They use `ss-b1-end-done` and are not official CEFR assessments.
 
 ## Current production priority
 
-A2 core curriculum reconciliation and source-level implementation are complete: all 24 outcomes have strong internal mapping evidence. Five existing pages were strengthened (A2-02/13/14/16/20), and A2-21–23 were created for modules 02/16/20. The live-site test immediately after the commits still showed the previous 01–20 deployment; verify GitHub Pages publication before claiming the new pages are live. Next: complete runtime QA, then create separate closing modules 25–28. Include A2-07 result display, A2-14/15, A2-17–20 and A2-22/23 quiz interactions in the dedicated browser QA list; A2-16 and A2-21–23 have confirmed 8/8 completion flows. After A2 closing work, verify B1-01 and produce B1-02–06 as a coherent batch. A1's four closing activities are implemented at source level; schedule browser/device, keyboard, RTL and offline QA before making runtime claims.
+B1 core lessons 01–24 and closing modules 25–28 have now received a consolidated source-level review and same-pass corrections. The remaining immediate gate is a fresh GitHub Pages build plus live route/interaction QA for B1-01–28. Browser automation was unavailable because its service wallet balance was negative; do not convert source checks into runtime claims. B1 is not ready for B2 production until the deployment and live QA gate is cleared.
+
+After B1 release verification, continue the selected A1/A2 runtime follow-up and programme-wide Android/mobile, Urdu RTL, keyboard/screen-reader, TTS, reload-persistence and offline checks. The current language preference changes layout direction but does not translate every lesson; full multilingual parity is not claimed.
 
 ## Batch-first working agreement
 
@@ -78,11 +81,10 @@ A2 core curriculum reconciliation and source-level implementation are complete: 
 
 ## Next steps
 
-1. Verify latest GitHub Pages publication and public routes for B1-22–24; test quiz submissions for B1-17–24 when browser QA is available.
-2. Create separate B1 end-of-level modules 25–28 after reviewing core lessons 01–24.
-3. Continue selected A1/A2 runtime follow-up and broader device/accessibility QA without confusing source checks with live results.
-4. Keep selected A1/A2/B1 quiz interactions and programme-wide Android/mobile, Urdu RTL, accessibility, TTS, reload-persistence and offline QA on the verification backlog.
-5. Update this handoff, tracker, roadmap and batch plan after each verified batch.
+1. Confirm the fresh Pages workflow for the source corrections and verify the deployed B1 index, 24 lesson routes and four closing-module routes.
+2. Run live quiz/completion checks across B1 and exercise Modules 25–28 without clearing existing learner progress.
+3. Only after B1 release verification, begin B2 mapping against the approved master plan.
+4. Continue selected A1/A2 runtime follow-up and programme-wide Android/mobile, Urdu RTL, keyboard/screen-reader, TTS, reload-persistence and offline QA.
 
 ## Handoff rule
 
@@ -204,3 +206,13 @@ All 24 approved A2 core outcomes have now been compared with the 20 existing les
 - Source re-fetch checks passed: review has 16 valid-key questions and 11 distinct repair links; project has six draft fields/checks and autosave; assessment has five listening and five reading questions with valid keys and compiled inline JS; readiness has 12 can-do items and local save; index and service-worker references are present. Inline JS in all four new pages compiled successfully with the source checker.
 - GitHub Pages workflow run 45431309579 was pending at the last status check. Browser automation remains unavailable due to insufficient service wallet balance; no live route, audio, quiz interaction or mobile test is claimed.
 - Next: inspect the latest Pages workflow, perform post-build browser checks for B1-17–28 when browser automation is available, then complete the B1 curriculum/language review before starting B2.
+
+
+## B1 full curriculum review and same-pass fixes (24 November 2026)
+
+- Completed a source-level review of B1 Lessons 01–24 against all six approved units, including grammar, Castilian usage, translations, register, dialogues, progression, overlap and production tasks. Reviewed all 192 core quiz items and their answer keys; every core lesson retains eight questions, the 6/8 threshold, unique existing lesson ID and `ss-b1-done` progress key.
+- Reviewed closing modules 25–28 and their separate `ss-b1-end-done` tracking. Module 25 has 16 cumulative questions and repair links; Module 26 has six project tasks; Module 27 has five listening and five reading questions plus writing/speaking self-review and mediation; Module 28 has 12 self-ratings and a personal plan. None is an official CEFR grade.
+- Fixed incorrect unit labels in Lessons 02–16, the Lesson 09 translation, an English typo in Lesson 18, an unnatural Lesson 21 phrase, three mixed-language Lesson 22 prompts and missing evidence in the Module 27 listening transcript.
+- Fixed the shared B1 mobile-nav practice link and added `lang="es"` to Spanish `.es` elements. Preserved lesson URLs, IDs and progress keys. Service-worker cache is `spanish-seekho-v76` and precaches all B1 routes.
+- Source scripts and quiz-index structures compile/check successfully. The last confirmed Pages run before these edits was 45432169704 (run 571), success for commit `a21a007394bfc0e7f99326b6971a262a0ab2de70`; a fresh run is required for this update. Browser automation could not start because the service wallet was negative, so live route, interaction, mobile, TTS and offline checks remain pending.
+- B1 is source-reviewed but not release-verified. Do not begin B2 until a fresh deployment and live route/interaction QA are complete.
