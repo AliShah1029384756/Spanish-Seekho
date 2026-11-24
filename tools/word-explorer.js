@@ -6,7 +6,7 @@ const statusBox = $("status");
 const results = $("results");
 const languageSelect = $("explainLanguage");
 const searchButton = $("searchButton");
-const STORAGE_KEY = "ss-word-explorer-cache-v2";
+const STORAGE_KEY = "ss-word-explorer-cache-v3";
 const CACHE_TTL = 7 * 24 * 60 * 60 * 1000;
 let activeRequest = 0;
 
@@ -50,7 +50,7 @@ function setStatus(message, kind = "") {
 }
 function escapeHTML(value) {
   return String(value ?? "").replace(/[&<>"']/g, (char) => ({
-    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+    "&":"&","<":"<",">":">",'"':""","'":"&#39;"
   }[char]));
 }
 function cacheRead(key) {
@@ -113,6 +113,44 @@ function cleanWiktionaryExtract(raw) {
   return kept.join("\n").trim().slice(0, 1100);
 }
 
+/** Extract 1–3 short, clean Spanish definition sentences for translation */
+function extractShortDefs(rawSpanish) {
+  if (!rawSpanish) return "";
+  const text = String(rawSpanish)
+    .replace(/\n+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  // Pull numbered senses like "1 Something. 2 Something else."
+  const senses = [];
+  const re = /(?:^|\s)(\d+)\s+([^0-9]+?)(?=(?:\s+\d+\s)|$)/g;
+  let m;
+  while ((m = re.exec(text)) !== null && senses.length < 3) {
+    let sense = m[2].trim()
+      .replace(/Sinónimos?:.*$/i, "")
+      .replace(/Relacionados?:.*$/i, "")
+      .replace(/Antónimos?:.*$/i, "")
+      .replace(/Uso:.*$/i, "")
+      .replace(/Ejemplo:.*$/i, "")
+      .replace(/\s+/g, " ")
+      .trim();
+    // Keep first sentence-ish chunk
+    const cut = sense.search(/[.!?。]/);
+    if (cut > 20 && cut < 180) sense = sense.slice(0, cut + 1);
+    else sense = sense.slice(0, 160);
+    if (sense.length > 12) senses.push(sense);
+  }
+
+  if (senses.length) return senses.join(" · ");
+
+  // Fallback: first 180 chars of cleaned text
+  return text
+    .replace(/Sinónimos?:.*$/i, "")
+    .replace(/Relacionados?:.*$/i, "")
+    .slice(0, 180)
+    .trim();
+}
+
 function normaliseDictionary(payload, term) {
   if (!Array.isArray(payload) || !payload.length) return null;
   const entry = payload[0];
@@ -148,7 +186,8 @@ async function lookupDictionary(term) {
           audio: "",
           meanings: [{ partOfSpeech: "Spanish Wiktionary", definitions: [{ definition: extract, example: "", synonyms: [], antonyms: [] }] }],
           source: "Spanish Wiktionary",
-          sourceUrl: "https://es.wiktionary.org/wiki/" + encodeURIComponent(page.title || term)
+          sourceUrl: "https://es.wiktionary.org/wiki/" + encodeURIComponent(page.title || term),
+          rawSpanish: extract
         };
       }
     }
@@ -166,7 +205,8 @@ async function lookupDictionary(term) {
         audio: "",
         meanings: [{ partOfSpeech: "Wiktionary entry", definitions: [{ definition: extract, example: "", synonyms: [], antonyms: [] }] }],
         source: "Spanish Wiktionary",
-        sourceUrl: wiki.content_urls?.desktop?.page || ("https://es.wiktionary.org/wiki/" + encodeURIComponent(term))
+        sourceUrl: wiki.content_urls?.desktop?.page || ("https://es.wiktionary.org/wiki/" + encodeURIComponent(term)),
+        rawSpanish: extract
       };
     }
   } catch (_) {}
@@ -176,7 +216,10 @@ async function lookupDictionary(term) {
     const url = "https://api.dictionaryapi.dev/api/v2/entries/es/" + encodeURIComponent(term);
     const payload = await fetchJSON(url);
     const result = normaliseDictionary(payload, term);
-    if (result) return result;
+    if (result) {
+      result.rawSpanish = (result.meanings || []).flatMap(m => m.definitions.map(d => d.definition)).join(" · ");
+      return result;
+    }
   } catch (_) {}
 
   throw new Error("Is lafz ka result nahi mila. Spelling check karein, ya koi doosra Spanish word try karein.");
@@ -186,20 +229,20 @@ function isBadTranslation(text, original) {
   if (!text) return true;
   const t = text.trim().toLowerCase();
   const o = (original || "").toLowerCase();
-  // Common garbage patterns from MyMemory
   if (t.length < 2) return true;
   if (t === o) return true;
-  if (/^(query|translation|error|not found)/i.test(t)) return true;
+  if (/^(query|translation|error|not found|mymemory warning)/i.test(t)) return true;
   if (t.includes("which language") || t.includes("کونسی زبان") || t.includes("آپ کونسی")) return true;
-  if (t.length > 80 && !t.includes(" ")) return true; // single long token usually bad
+  if (t.includes("you used all available free translations")) return true;
+  if (t.length > 80 && !t.includes(" ")) return true;
   return false;
 }
 
 async function translate(text, target) {
   if (!text) return "";
   const lang = target === "ur" || target === "roman" ? "ur" : "en";
-  // Prefer short clean text
-  const q = text.slice(0, 120).replace(/\n+/g, " ").trim();
+  const q = text.slice(0, 180).replace(/\n+/g, " ").trim();
+  if (!q) return "";
   const url = "https://api.mymemory.translated.net/get?q=" + encodeURIComponent(q) + "&langpair=es%7C" + lang;
   try {
     const data = await fetchJSON(url);
@@ -239,12 +282,11 @@ function getFallbackMeaning(term, target) {
   if (!entry) return null;
   if (target === "en") return entry.en;
   if (target === "ur") return entry.ur;
-  return entry.roman; // roman
+  return entry.roman;
 }
 
-function renderResult(data, translation, target, cached = false, fromFallback = false) {
+function renderResult(data, translation, target, cached = false, fromFallback = false, defTranslation = "") {
   const isUrdu = target === "ur";
-  const isRoman = target === "roman";
   let translationLabel;
   if (target === "en") translationLabel = "English meaning";
   else if (target === "ur") translationLabel = "اردو معنی";
@@ -255,14 +297,36 @@ function renderResult(data, translation, target, cached = false, fromFallback = 
   const allSynonyms = unique(data.meanings.flatMap(m => m.definitions.flatMap(d => d.synonyms)));
   const allAntonyms = unique(data.meanings.flatMap(m => m.definitions.flatMap(d => d.antonyms)));
 
-  const meaningHTML = data.meanings.map(meaning => {
-    const defs = meaning.definitions.slice(0, 6).map((d, index) => `
-      <div class="sense">
-        <div class="definition"><b>${index + 1}.</b> ${escapeHTML(d.definition)}</div>
-        ${d.example ? `<div class="example"><strong>${escapeHTML(d.example)}</strong><span>Example</span></div>` : ""}
-      </div>`).join("");
-    return `<section class="detail-section"><h3 class="section-title">${escapeHTML(meaning.partOfSpeech || "Meaning")}</h3>${defs}</section>`;
-  }).join("");
+  // Prefer translated short definition when available
+  let meaningHTML = "";
+  if (defTranslation) {
+    const label = target === "en" ? "Simple explanation" : target === "ur" ? "سادہ وضاحت" : "Simple explanation (Roman Urdu / Urdu)";
+    meaningHTML = `
+      <section class="detail-section">
+        <h3 class="section-title">${label}</h3>
+        <div class="sense">
+          <div class="definition" ${isUrdu ? 'dir="rtl" lang="ur"' : ""}>${escapeHTML(defTranslation)}</div>
+        </div>
+      </section>`;
+  } else {
+    // Fallback: show original (may be Spanish)
+    meaningHTML = data.meanings.map(meaning => {
+      const defs = meaning.definitions.slice(0, 4).map((d, index) => `
+        <div class="sense">
+          <div class="definition"><b>${index + 1}.</b> ${escapeHTML(d.definition)}</div>
+          ${d.example ? `<div class="example"><strong>${escapeHTML(d.example)}</strong><span>Example</span></div>` : ""}
+        </div>`).join("");
+      return `<section class="detail-section"><h3 class="section-title">${escapeHTML(meaning.partOfSpeech || "Meaning")}</h3>${defs}</section>`;
+    }).join("");
+  }
+
+  // Optional: show compact original Spanish under a toggle-like note
+  const originalSpanish = data.rawSpanish ? String(data.rawSpanish).slice(0, 350) : "";
+  const originalBlock = originalSpanish && defTranslation ? `
+    <section class="detail-section">
+      <h3 class="section-title">Original (Spanish Wiktionary)</h3>
+      <p class="empty-detail" style="font-size:0.9em;opacity:0.85">${escapeHTML(originalSpanish)}${data.rawSpanish.length > 350 ? "…" : ""}</p>
+    </section>` : "";
 
   const tags = (label, values) => values.length ? `<section class="detail-section"><h3 class="section-title">${label}</h3><div class="tag-list">${values.map(v => `<span class="tag">${escapeHTML(v)}</span>`).join("")}</div></section>` : "";
 
@@ -273,7 +337,7 @@ function renderResult(data, translation, target, cached = false, fromFallback = 
       <div class="word-heading">
         <div>
           <h2>${escapeHTML(data.word)}</h2>
-          <div class="word-meta">${data.phonetic ? "Pronunciation: " + escapeHTML(data.phonetic) + " · " : ""}Spanish · ${data.meanings.map(m => escapeHTML(m.partOfSpeech)).filter(Boolean).join(", ")}</div>
+          <div class="word-meta">${data.phonetic ? "Pronunciation: " + escapeHTML(data.phonetic) + " · " : ""}Spanish · ${escapeHTML(data.source || "Dictionary")}</div>
         </div>
         <div class="word-actions">
           <button class="tool-button" id="playWord" type="button">▶ Listen</button>
@@ -283,13 +347,14 @@ function renderResult(data, translation, target, cached = false, fromFallback = 
       <p class="translation-main" ${isUrdu ? 'dir="rtl" lang="ur"' : ""}>${escapeHTML(displayTranslation)}</p>
       <div class="translation-sub">${translationLabel}${cached ? " · Saved result" : ""}</div>
       ${meaningHTML}
+      ${originalBlock}
       ${tags("Synonyms", allSynonyms)}
       ${tags("Antonyms", allAntonyms)}
       <section class="detail-section">
         <h3 class="section-title">More language help</h3>
         <p class="empty-detail">Noun gender, plural forms, idioms, collocations aur full verb tables is dictionary response mein nahi aate. Ye baad mein specialist data se add kiye ja sakte hain.</p>
       </section>
-      <div class="source-line">Dictionary source: <a href="${escapeHTML(data.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHTML(data.source)}</a>. Translation: MyMemory + curated fallback. Machine translations approximate ho sakti hain.</div>
+      <div class="source-line">Dictionary source: <a href="${escapeHTML(data.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHTML(data.source)}</a>. Definitions are translated for learners — machine translations approximate ho sakti hain.</div>
     </article>`;
 
   $("playWord").addEventListener("click", () => speakSpanish(data.word));
@@ -319,11 +384,10 @@ async function search(term = input.value) {
 
   results.hidden = true;
 
-  // Instant curated fallback for common words
   const fallbackMeaning = getFallbackMeaning(query, target);
 
   if (cached) {
-    renderResult(cached.dictionary, cached.translation, target, true);
+    renderResult(cached.dictionary, cached.translation, target, true, false, cached.defTranslation || "");
     results.hidden = false;
     setStatus("Saved result dikhaya ja raha hai. Fresh lookup ke liye dobara search karein.");
     return;
@@ -337,22 +401,32 @@ async function search(term = input.value) {
     const dictionary = await lookupDictionary(query);
     if (requestId !== activeRequest) return;
 
+    // 1) Word-level translation
     let translation = await translate(dictionary.word, target);
     if (requestId !== activeRequest) return;
 
-    // Prefer curated fallback when online translation is bad or missing
     if (fallbackMeaning && (isBadTranslation(translation, dictionary.word) || !translation)) {
       translation = fallbackMeaning;
     }
 
-    cacheWrite(cacheKey, { dictionary, translation });
-    renderResult(dictionary, translation, target, false, !!fallbackMeaning && translation === fallbackMeaning);
+    // 2) Translate short definition so learners don't see raw Spanish
+    let defTranslation = "";
+    const shortSpanish = extractShortDefs(dictionary.rawSpanish || dictionary.meanings?.[0]?.definitions?.[0]?.definition || "");
+    if (shortSpanish && shortSpanish.length > 8) {
+      defTranslation = await translate(shortSpanish, target);
+      if (requestId !== activeRequest) return;
+      if (isBadTranslation(defTranslation, shortSpanish)) defTranslation = "";
+    }
+
+    cacheWrite(cacheKey, { dictionary, translation, defTranslation });
+    renderResult(dictionary, translation, target, false, !!fallbackMeaning && translation === fallbackMeaning, defTranslation);
     results.hidden = false;
-    setStatus("Result load ho gaya. Kuch details source se missing ho sakti hain.");
+    setStatus(defTranslation
+      ? "Result load ho gaya — meaning aapki selected language mein explain kiya gaya hai."
+      : "Result load ho gaya. Kuch details source se missing ho sakti hain.");
   } catch (error) {
     if (requestId !== activeRequest) return;
 
-    // Last resort: show curated meaning if available
     if (fallbackMeaning) {
       const miniDict = {
         word: query,
@@ -362,14 +436,14 @@ async function search(term = input.value) {
         source: "Spanish Seekho curated",
         sourceUrl: "https://alishah1029384756.github.io/Spanish-Seekho/"
       };
-      renderResult(miniDict, fallbackMeaning, target, false, true);
+      renderResult(miniDict, fallbackMeaning, target, false, true, "");
       results.hidden = false;
       setStatus("Online dictionary fail hua, lekin curated meaning dikhaya gaya.", "error");
       return;
     }
 
     if (cached) {
-      renderResult(cached.dictionary, cached.translation, target, true);
+      renderResult(cached.dictionary, cached.translation, target, true, false, cached.defTranslation || "");
       results.hidden = false;
       setStatus("Live lookup fail. Saved result dikhaya ja raha hai.", "error");
     } else {
