@@ -40,3 +40,9 @@ If the user says "next", "continue", or asks for more lessons, choose the highes
 ## Final report
 
 State changed files, commit/deployment evidence, tests actually run, known limitations and the next recommended batch. Do not imply a live deployment has updated merely because a GitHub commit was created.
+
+
+
+## Approved 168-module curriculum (24 November 2026)
+
+The owner approved a full A1–C2 target of **168 modules: 28 per level**. Read `docs/CURRICULUM-MASTER-PLAN.md` as the authoritative sequence and outcomes. This is our own course architecture, not a CEFR-prescribed lesson count. Each level has 24 core modules plus revision, practical project, integrated skills assessment and readiness checkpoint (modules 25–28). Existing A1/A2/B1 lessons must be mapped before adding or renumbering; preserve links and progress. The 168 modules are planned, not implemented. Never claim official CEFR accreditation or certification.
