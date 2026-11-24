@@ -459,3 +459,14 @@ Reviewed the five lesson pages in detail: explanations, Spanish examples and Eng
 ### Mapping conclusion after A2-01–20 source review
 
 The 20 existing pages provide a useful starter pathway, but they do not yet constitute the approved A2 core modules 01–24. Clear remaining work includes module 02 (home/neighbourhood/local services), module 14 permission, module 16 public services/forms, module 18 richer connected description, module 20 connectors/sequencing, fuller module 22 follow-up questions and a more complete module 24 integrated outcome. A2-08 and A2-19 are review pages, not approved module 25. A2-20 is a practice/checkpoint candidate, not evidence that modules 26–28 are complete. Reconcile the full A2 map before creating lessons 21–24 or any closing modules.
+
+
+### 18.1 Limited live public-site smoke test (24 November 2026)
+
+- A2 index loaded and exposed all lesson links.
+- A2-16–20 each loaded with the expected heading, exactly eight rendered questions and an enabled quiz submit control.
+- A2-18 register note, A2-19 regional-usage wording, and all five Spanish A2-20 *Puedo…* checklist statements were visible on the deployed site.
+- The first broad browser pass did not capture a result message after its Lesson 16 submission; this was treated as inconclusive rather than a confirmed defect.
+- A dedicated follow-up test then selected all eight exact correct options on A2-16, observed the counter reach 8/8, and submitted. The deployed page displayed **“Your score: 8 / 8. Lesson completed!”**, **“Progress saved on this device. All lessons remain open.”**, and revealed the completion panel. This confirms the Lesson 16 quiz result/completion flow works.
+- A2-17, A2-18, A2-19 and A2-20 quiz submission/score/completion interactions were not tested in this run. Their page load, eight-question rendering and submit controls were confirmed.
+- TTS audio, saved progress after reload, mobile/Android, Urdu RTL, keyboard/screen-reader accessibility and offline behaviour remain untested. This is limited smoke testing, not exhaustive runtime QA.
