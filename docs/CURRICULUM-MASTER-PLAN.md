@@ -445,7 +445,7 @@ Review transitions, descriptor mapping, skill coverage, placement/progress repor
 ## 12. Current status snapshot
 
 Repository documentation dated 24 November 2026 records:
-- A1: core lessons 01–25 exist; separate end-of-level activities 25–28 have now been implemented at source level. Runtime/device QA remains pending.
+- A1: core lessons 01–25 exist; separate end-of-level activities 25–28 are implemented and deployed. A limited public-site smoke test covered the index and exercised parts of modules 25–26; full interaction/device QA remains pending.
 - A2: lessons 01–20 exist; starter pathway.
 - B1: Lesson 01 exists; pathway started.
 - Spain Life: six modules documented.
