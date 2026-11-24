@@ -31,7 +31,8 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 5. Continue to defer JSON/data-driven rendering unless a demonstrated maintenance problem justifies a tested proof of concept.
 6. A2 Lessons 01–05 source review: one clarity note added to A2-01; quiz/progress structures preserved.
 7. A2 Lessons 06–10 source review: clarified present-perfect regional variation and improved the Madrid dialogue in A2-10. A2-08 confirmed as an interim starter checkpoint, not the end-of-level module 25.
-8. Limited live smoke test: A1 index and all four new end-of-level pages deployed; module 25 answer selection and module 26 completion-button interaction exercised; modules 27–28 only partially checked. See curriculum tracker for limits.
+8. Limited live A2 smoke test: A2-06 quiz passed 6/6; A2-07 result message not observed despite source handler being present; A2-08–10 not interaction-tested. See tracker.
+9. Limited live smoke test: A1 index and all four new end-of-level pages deployed; module 25 answer selection and module 26 completion-button interaction exercised; modules 27–28 only partially checked. See curriculum tracker for limits.
 
 ## Product and engineering principles
 
