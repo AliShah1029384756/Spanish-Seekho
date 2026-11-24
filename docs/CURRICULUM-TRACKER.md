@@ -523,3 +523,23 @@ The 20 existing pages provide a useful starter pathway, but they do not yet cons
 - This is a limited live smoke test. Reload persistence, TTS audio, Android/mobile layout, Urdu RTL, keyboard/screen-reader accessibility and offline/PWA behaviour remain untested.
 
 - Final result for A2-21/22/23: all three live quiz/completion paths passed 8/8; all three new routes and index cards are deployed. This does not replace broader device, TTS, persistence or accessibility QA.
+
+
+## 19. A2 end-of-level modules 25–28 — implementation and live QA (24 November 2026)
+
+Four separate A2 closing pages were created, added to the A2 index and added to the service-worker precache list. They use the independent `ss-a2-end-done` key; core lesson completion remains under `ss-a2-done`. Existing A2-08, A2-19 and A2-20 were not overwritten.
+
+| Module | Page | Purpose and implementation | Live verification |
+|---:|---|---|---|
+| 25 | `a2/a2-review.html` | 16-question cumulative review with 12/16 internal revision target, explanations and targeted links to core lessons | Live quiz passed 16/16; “Review target reached — well done!” displayed |
+| 26 | `a2/a2-project.html` | Five-task short-trip project: transport, accommodation, itinerary, food/local services and problem-solving; drafts and checks saved locally | All five textareas filled, all five checkboxes ticked; completion button displayed “Project marked complete on this device. Shabash!” |
+| 27 | `a2/a2-assessment.html` | Integrated listening, reading, speaking and writing tasks. Listening uses browser TTS; productive tasks are self-reviewed, not automatically scored | Listening 5/5, reading 5/5; writing sample entered; all five self-checks ticked; save displayed “Assessment activity saved on this device. Review your notes before moving to the readiness plan.” |
+| 28 | `a2/a2-readiness.html` | Ten can-do statements, personal gap plan and three B1 next-step choices | All ten boxes checked, gap plan entered, B1 option selected; save displayed “Your readiness plan is saved on this device. You can update it any time.” |
+
+### Deployment and QA limits
+
+- A later live-site check confirmed all four end-of-level cards appear in a separate A2 index section and all four exact routes load with expected headings and controls.
+- Module 25 quiz, module 26 project completion, module 27 listening/reading and save flow, and module 28 readiness save flow were exercised in the browser.
+- These checks were performed in the browser test session. Local progress is device/browser-specific; they do not alter another learner's device.
+- Service worker cache was bumped to `spanish-seekho-v69`; all four new A2 closing pages were added to precache. Actual offline behaviour, cache refresh on a real Android device, TTS audio quality, mobile/RTL layout, keyboard/screen-reader accessibility and reload persistence still require dedicated device QA.
+- No official CEFR test, certificate, automated speaking score or automated writing grade is claimed.
