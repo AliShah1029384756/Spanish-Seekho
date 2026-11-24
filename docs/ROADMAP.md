@@ -35,7 +35,7 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 9. A2 Lessons 11–15 source review: clarified mayor/menor size/age usage in A2-11 and corrected antiguo/a vs histórico/a in A2-13. Quiz/progress structures preserved.
 10. A2 Lessons 16–20 source review: added tú/usted register note in A2-18, qualified the present-perfect rationale in A2-19 and corrected the Spanish can-do checklist in A2-20. All 40 answer keys and progress structures checked; details in tracker section 18.
 11. Limited live smoke test: A2-11, A2-12 and A2-13 each passed 8/8 and showed completion; A2-14/15 were visible but not interaction-tested. See tracker section 17.1.
-12. A2-16–20 source review complete; live browser interactions still pending. Include A2-07 result display and A2-14–20 in dedicated runtime QA.
+12. A2-16–20 source review complete. Live smoke test confirmed all five pages and quizzes render; A2-16 passed a targeted 8/8 completion interaction. A2-17–20 submission flows remain untested. See tracker section 18.1.
 10. Limited live smoke test: A1 index and all four new end-of-level pages deployed; module 25 answer selection and module 26 completion-button interaction exercised; modules 27–28 only partially checked. See curriculum tracker for limits.
 
 ## Product and engineering principles
