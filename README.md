@@ -95,3 +95,8 @@ The A1 starter pathway (25 lessons), four practice modes and six Spain Life modu
 
 ## License
 MIT — see [LICENSE](LICENSE).
+
+
+## Curriculum standard
+
+Spanish Seekho's approved long-term target is a 168-module programme across CEFR A1–C2 (28 modules per level). This is our own curriculum structure, not a CEFR-prescribed lesson count. Existing A1/A2 pathways and the first B1 lesson are being mapped against the plan; the full programme is not yet implemented. See the [Curriculum Master Plan](docs/CURRICULUM-MASTER-PLAN.md) for level outcomes, all 168 planned modules, assessment principles and implementation phases.
