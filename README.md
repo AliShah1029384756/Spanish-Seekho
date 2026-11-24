@@ -37,8 +37,10 @@ Open: [A1 course](https://alishah1029384756.github.io/Spanish-Seekho/a1/)
 
 These twenty-five lessons are a beginner starter pathway, not a claim that the full CEFR A1 syllabus has been completed.
 
-#### A2 starter pathway (20 lessons)
-Lessons 01–20 are available. Topics include past experiences and habits, work and study, travel, opinions, plans, healthcare, directions, present perfect, comparisons, advice and obligation, descriptions, preferences, technology, everyday problems, and an integrated final checkpoint. A2 remains an expanding starter pathway, not a claim that the complete CEFR A2 syllabus is finished.
+#### A2 starter pathway (23 core lessons + 4 end-of-level activities)
+Core lessons 01–23 are available. Topics include past experiences and habits, work and study, travel, opinions, plans, healthcare, directions, present perfect, comparisons, advice and obligation, descriptions, preferences, technology, everyday problems, home and neighbourhood, public services and connected storytelling. The 24 approved core outcomes have been mapped internally; this is not external CEFR validation or a claim of official proficiency.
+
+Separate end-of-level activities are also available: cumulative review and gap repair (25), practical trip project (26), integrated listening/reading/speaking/writing practice (27), and final self-assessment/readiness plan (28). Speaking and writing are self-reviewed, not automatically graded. A2 remains a developing course, not an accredited or complete CEFR qualification.
 
 Open: [A2 course](https://alishah1029384756.github.io/Spanish-Seekho/a2/)
 
@@ -91,7 +93,7 @@ Open `index.html` or serve the folder. Service worker needs HTTPS or localhost.
 GitHub Pages: Settings → Pages → Deploy from branch `main` / (root).
 
 ## Status
-The A1 starter pathway (25 lessons), four practice modes and six Spain Life modules are implemented. A first static QA pass is underway; deeper Spanish content review, Urdu RTL/device testing and offline verification remain. A2 has a 20-lesson starter pathway (not a complete CEFR A2 syllabus). B1 has started with its first lesson (not a complete CEFR B1 syllabus).
+The A1 starter pathway (25 lessons), four practice modes and six Spain Life modules are implemented. A2 has 23 core lessons and separate end-of-level activities 25–28; all 24 core outcomes have internal mapping evidence and the new quizzes/project/assessment/readiness flows have received limited live smoke testing. Deeper Android/RTL, accessibility, TTS and offline verification remain. B1 has started with its first lesson (not a complete CEFR B1 syllabus).
 
 ## License
 MIT — see [LICENSE](LICENSE).
@@ -99,4 +101,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Curriculum standard
 
-Spanish Seekho's approved long-term target is a 168-module programme across CEFR A1–C2 (28 modules per level). This is our own curriculum structure, not a CEFR-prescribed lesson count. Existing A1/A2 pathways and the first B1 lesson are being mapped against the plan; the full programme is not yet implemented. See the [Curriculum Master Plan](docs/CURRICULUM-MASTER-PLAN.md) for level outcomes, all 168 planned modules, assessment principles and implementation phases.
+Spanish Seekho's approved long-term target is a 168-module programme across CEFR A1–C2 (28 modules per level). This is our own curriculum structure, not a CEFR-prescribed lesson count. A1/A2 pathways and the first B1 lesson are being mapped against the plan; the full programme is not yet implemented. See the [Curriculum Master Plan](docs/CURRICULUM-MASTER-PLAN.md) for level outcomes, all 168 planned modules, assessment principles and implementation phases.
