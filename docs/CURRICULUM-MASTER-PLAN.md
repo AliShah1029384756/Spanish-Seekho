@@ -446,12 +446,12 @@ Review transitions, descriptor mapping, skill coverage, placement/progress repor
 
 Repository documentation dated 24 November 2026 records:
 - A1: core lessons 01–25 exist; separate end-of-level activities 25–28 are implemented and deployed. A limited public-site smoke test covered the index and exercised parts of modules 25–26; full interaction/device QA remains pending.
-- A2: core lessons 01–23 and separate end-of-level activities 25–28 are deployed and source-verified. All 24 approved core outcomes have strong internal mapping evidence after targeted revisions and three new lessons; this is not external CEFR validation. Live smoke tests: lessons 21–23 each passed 8/8; module 25 passed 16/16; module 26 project completion saved; module 27 listening/reading 5/5 each and save; module 28 readiness plan saved. Service-worker cache v69 includes A2 lessons 21–23 and closing pages 25–28; real offline behaviour remains untested.
+- A2: core lessons 01–23 and separate end-of-level activities 25–28 are deployed and source-verified. All 24 approved core outcomes have strong internal mapping evidence after targeted revisions and three new lessons; this is not external CEFR validation. Live smoke tests: lessons 21–23 each passed 8/8; module 25 passed 16/16; module 26 project completion saved; module 27 listening/reading 5/5 each and save; module 28 readiness plan saved. Service-worker cache v70 includes A2 lessons 21–23 and closing pages 25–28 plus B1 lessons 01–06; real offline behaviour remains untested.
 - B1: Lessons 01–06 are deployed and source-verified. B1-01 and B1-02 passed live 8/8 quiz/completion tests; B1-03–06 page/quiz controls are live, with their submission flows not yet interaction-tested. B1 remains an expanding pathway, not a complete CEFR course.
 - Spain Life: six modules documented.
 - Full 168-module curriculum: **approved and planned; not implemented in full**.
 - B2, C1 and C2: planned; no completion claim.
-- A2 core modules 01–24 have been mapped internally; A1 mapping and B1 progression review remain in progress. No external CEFR validation or accreditation is claimed.
+- A2 core modules 01–24 and B1 modules 01–06 have internal mapping evidence; A1 mapping and B1 progression beyond module 06 remain in progress. No external CEFR validation or accreditation is claimed.
 
 Refresh this snapshot from actual repository code before each production batch.
 
