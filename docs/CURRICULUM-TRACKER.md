@@ -1,6 +1,6 @@
 # Spanish Seekho — Curriculum Audit Tracker
 
-_Status: A1 Lessons 01–25 source-reviewed; A1 end-of-level modules 25–28 implemented. A2 core lessons 01–23 and separate end-of-level modules 25–28 implemented, mapped and live-smoke-tested. B1 Lessons 01–06 implemented and deployed; B1-01 and B1-02 live quiz completion verified. Programme-wide device/accessibility/offline QA remains pending._  
+_Status: A1 Lessons 01–25 source-reviewed; A1 end-of-level modules 25–28 implemented. A2 core lessons 01–23 and separate end-of-level modules 25–28 implemented, mapped and live-smoke-tested. B1 Lessons 01–21 implemented at source; lessons 01–16 live, 17–21 Pages build succeeded but post-build route verification and quiz interaction remain pending. Programme-wide device/accessibility/offline QA remains pending._  
 _Audit date: 24 November 2026_  
 _Baseline: `docs/CURRICULUM-MASTER-PLAN.md` (approved 168-module target)_
 
@@ -631,3 +631,27 @@ Four separate A2 closing pages were created, added to the A2 index and added to 
 - Service-worker cache is v72 and includes B1-12–16 in its precache list.
 - A live browser check was run before the GitHub Pages build for the latest commit had completed: the public index still showed 11 cards and the new lesson-12 URL returned 404. GitHub Actions showed the Pages deployment for the v72 commit pending. Do not claim B1-12–16 are live until the deployment completes and a fresh cache-busting check confirms the routes.
 - No live quiz interaction has yet been run for B1-12–16. B1-07 passed 8/8; B1-08–11 page/quiz controls are live but their quiz submissions remain untested.
+
+ 
+## 23. B1 Lessons 17–21 — implementation and deployment verification (24 November 2026)
+
+| Lesson | Approved outcome | Main content delivered |
+|---:|---|---|
+| 17 | Causes, consequences and result connectors | porque, como, ya que, debido a, así que, por eso, por lo tanto, provocar and afectar a |
+| 18 | Proposing solutions, negotiating and reaching agreement | podríamos, ¿qué te parece si…?, polite disagreement, compromise and actionable agreements |
+| 19 | Advice, recommendations and expressing necessity | deberías, recomendar/aconsejar que + subjunctive, es necesario que, conviene and no hace falta que |
+| 20 | Complaints, claims and resolving service problems | Formal complaint language, evidence, requested remedies and Spain's hoja de reclamaciones context |
+| 21 | Common subjunctive in recommendations, wishes and reactions | Present subjunctive formation, common irregulars, wishes, recommendations, reactions and indicative contrast |
+
+### Source and integration verification
+- Created five complete static HTML lesson pages, each with learning objectives, five teaching sections, model dialogue, speaking/writing challenge, eight three-option quiz questions and explanations.
+- All 40 answer keys were checked against the authored options; all indices are valid. Each page uses the established 6/8 threshold, unique `lesson-17` through `lesson-21` completion ID and existing `ss-b1-done` storage key. Inline scripts passed JavaScript syntax compilation.
+- Added cards 17–21 to the B1 index; source index now has 21 cards and progress is calculated out of 21. B1-16 now links forward to B1-17; lesson navigation continues sequentially through B1-21.
+- Corrected each new page's title/description metadata and added explicit measurable learning objectives.
+- Bumped service-worker cache to `spanish-seekho-v73` and added all five new lesson routes to precache. This configures cache refresh; real offline behaviour is not verified.
+
+### Deployment check and limitation
+- A cache-busting browser run still saw the previous 16-card deployment and 404 responses for lessons 17–21. This run occurred while the GitHub Pages deployment for the latest source commit was still completing.
+- GitHub Actions subsequently reported the `pages build and deployment` workflow for head commit `36c9bcd52bb7bcdbf95b3f3b237d558599a0ed54` as **completed / success** (run 45426795301). This is deployment-workflow evidence, not a fresh post-build browser verification of the five routes.
+- Therefore, source integration and the Pages build are confirmed; post-build public-route verification and all five live quiz submissions remain pending. Do not claim the lessons are browser-tested or that their quizzes passed.
+- Next content batch: B1-22–24 (relative clauses, reported information, integrated B1 communication). B1 closing modules 25–28 follow after core 24.
