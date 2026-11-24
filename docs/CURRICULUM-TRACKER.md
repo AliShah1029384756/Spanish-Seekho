@@ -516,8 +516,10 @@ The 20 existing pages provide a useful starter pathway, but they do not yet cons
 
 - The first immediate browser check ran before GitHub Pages had propagated the new commits and saw the old 01–20 index/404 routes. A later independent live check confirmed deployment had completed: the A2 index displayed 23 lesson cards and all three new lesson URLs loaded.
 - Lesson 21: heading and eight quiz questions rendered; all eight exact correct options were selected and submitted. Public page displayed 8/8 and “Lesson completed!” with its completion panel. This confirms the new lesson's quiz/result/completion path.
-- Lesson 22: heading, eight quiz questions and submit control confirmed. The browser identified the correct options but did not complete submission; numeric score and completion panel remain unverified.
-- Lesson 23: heading, eight quiz questions and submit control confirmed. Correct answer keys were independently checked against source; the browser report did not reliably exercise the quiz submission. Numeric score and completion panel remain unverified.
+- Lesson 22: heading, eight quiz questions and submit control confirmed. A targeted live submission selected all eight correct answers and displayed 8/8, the "Lesson completed!" message, the completion panel and the progress-saving message.
+- Lesson 23: heading, eight quiz questions and submit control confirmed. A targeted live submission selected all eight correct answers and displayed 8/8, the "Lesson completed!" message, the completion panel and the progress-saving message.
 - Source verification after deployment confirmed each new page has eight three-option questions, valid answer indices, a unique lesson completion ID (lesson-21/22/23) and the existing `ss-a2-done` storage key. Index links for all three pages are present.
 - The earlier A2-16 result display observation was resolved by a targeted 8/8 test: result text, progress-saving message and completion panel all appeared. See section 18.1.
 - This is a limited live smoke test. Reload persistence, TTS audio, Android/mobile layout, Urdu RTL, keyboard/screen-reader accessibility and offline/PWA behaviour remain untested.
+
+- Final result for A2-21/22/23: all three live quiz/completion paths passed 8/8; all three new routes and index cards are deployed. This does not replace broader device, TTS, persistence or accessibility QA.
