@@ -479,7 +479,7 @@ This is a repository-level planning snapshot, not a page-by-page audit. “Exist
 |---|---|---|---|
 | A1 | 01–25 | Existing — mapping pending | Inspect each lesson and map to outcomes; preserve URLs/progress |
 | A1 | 25–28 | Implemented at source level | Separate pages for cumulative review/gap repair, practical project, integrated skills assessment and readiness checkpoint; runtime QA pending |
-| A2 | 01–20 | Existing — mapping pending | Inspect each lesson and map to outcomes; identify gaps and duplication |
+| A2 | 01–20 | Existing — source-reviewed; partial mapping and gaps documented | See CURRICULUM-TRACKER.md sections 4 and 18; reconcile module coverage before adding non-duplicative content |
 | A2 | 21–28 | Planned | Map, then create missing core modules and end-of-level modules |
 | B1 | 01 | Existing — verification/mapping pending | Inspect actual page and map to B1-01 |
 | B1 | 02–28 | Planned | Produce coherent batches, starting with 02–06 |
