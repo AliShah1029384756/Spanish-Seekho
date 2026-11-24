@@ -24,9 +24,9 @@ Important: the audit confirms files and visible topic/section structures, not fu
 
 - A1: core lessons 01–25; separate end-of-level activities 25–28 now implemented; 60-item practice deck. These are source-verified additions, not yet browser/device QA approved.
 - A2: core pathway lessons 01–23 plus separate end-of-level modules 25–28. All 24 core outcomes have strong internal mapping evidence. Closing pages have been deployed and their primary interactions smoke-tested; see tracker sections 4, 18.2 and 19.
-- B1: Lessons 01–11 deployed; B1-01, B1-02 and B1-07 passed live 8/8 completion tests; B1-03–06 and B1-08–11 page/quiz controls verified, submission flows pending. Pathway remains incomplete.
+- B1: Lessons 01–11 deployed; lessons 12–16 created at source level, latest GitHub Pages publication pending. B1-01, B1-02 and B1-07 passed live 8/8 completion tests; other live quiz submission flows remain pending. Pathway remains incomplete.
 - Spain Life: 6 modules.
-- Current service-worker cache version: `spanish-seekho-v71`; four A1 end-of-level pages, A2 lessons 21–23, A2 end-of-level modules 25–28, and B1 lessons 01–11 are in its precache list. Real offline behaviour remains untested.
+- Current service-worker cache version: `spanish-seekho-v72`; four A1 end-of-level pages, A2 lessons 21–23, A2 end-of-level modules 25–28, and B1 lessons 01–16 are in its precache list. Real offline behaviour remains untested.
 
 A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 is only beginning. Inspect current files before assuming this snapshot is still current.
 
@@ -156,4 +156,12 @@ All 24 approved A2 core outcomes have now been compared with the 20 existing les
 - Each page has eight three-option questions, a 6/8 pass threshold, unique lesson ID and ss-b1-done progress key; all 40 answer keys were source-checked.
 - B1 index source includes 11 lesson cards; cache-busting live check confirmed all 11 cards and service-worker v71. The first browser run showed the older six-card cached index, which was resolved by query-string cache-busting verification.
 - B1-07 passed live 8/8 with completion panel. B1-08–11 pages, headings, quiz counts and submit controls verified; their quiz submissions remain untested.
-- Next batch: B1-12–16 (decisions/advantages/disadvantages, work experience, education/skills, applications/interviews, social issues). See master map and batch plan.
+- B1-12–16 have now been created at source level: decisions/options; work experience; education/skills; applications/interviews; social issues. Their GitHub Pages deployment is pending; verify the routes and index with cache-busting after the latest Pages build succeeds. Next content batch after publication: B1-17–21.
+
+
+## B1 Lessons 12–16 source implementation (24 November 2026)
+
+- Created B1-12–16 for the approved Unit 3–4 outcomes: decisions/advantages, work experience, education/skills, applications/interviews and social issues.
+- Each new page has eight quiz questions, 6/8 threshold, unique lesson ID and ss-b1-done storage. All 40 answer keys passed source-level index validation.
+- B1 index source contains cards 01–16 and progress out of 16; service-worker cache v72 precaches all five new pages. The latest GitHub Pages workflow was still pending when the live browser check ran; the public index showed the previous 11 cards and lesson-12 route returned 404. Do not report the new pages as live until a later cache-busting check succeeds.
+- Next content batch after deployment: B1-17–21, following the master map.
