@@ -16,17 +16,17 @@ Free, practical, mobile-first Spanish learning for Pakistani learners. Roman Urd
 
 An initial repository inventory and topic-to-curriculum mapping has been completed for A1 lessons 01–25, A2 lessons 01–20 and B1 Lesson 01. See [CURRICULUM-TRACKER.md](CURRICULUM-TRACKER.md) for page-by-page candidate mappings, initial gaps, overlaps, evidence limits and next actions.
 
-Detailed review updates (24 November 2026): A1 Lessons 01–20 have now had visible content, examples, quiz answer keys and source-level completion logic reviewed. The combined workflow is in use: review, implement verified small fixes/optimizations in the same pass, re-fetch and verify, then record findings. Targeted changes have been applied to A1-01, A1-02, A1-05, A1-06, A1-08, A1-14, A1-15, A1-16 and A1-19; URLs, lesson IDs, completion thresholds and progress-storage keys were preserved. A1-08 remains a starter checkpoint, not a full CEFR A1 assessment. A1-15's weekday for 18 November 2026 was corrected to Wednesday. A1-19's available lesson count was corrected to 01–20. The detailed source review of A1 Lessons 21–25 is now complete. Targeted optimizations were applied to A1-21, A1-22 and A1-23; all five lesson quizzes and completion logic were checked, with existing 8-question sets, 6/8 thresholds, IDs and storage keys preserved. Next task: verify the actual implementation against the approved A1 closing modules 25–28 (cumulative review/gap repair, practical project, integrated skills assessment, and end-level checkpoint/readiness plan), identifying existing, partial and missing components before adding anything. This remains source-level review, not browser/device runtime QA.
+Detailed review updates (24 November 2026): A1 Lessons 01–20 have now had visible content, examples, quiz answer keys and source-level completion logic reviewed. The combined workflow is in use: review, implement verified small fixes/optimizations in the same pass, re-fetch and verify, then record findings. Targeted changes have been applied to A1-01, A1-02, A1-05, A1-06, A1-08, A1-14, A1-15, A1-16 and A1-19; URLs, lesson IDs, completion thresholds and progress-storage keys were preserved. A1-08 remains a starter checkpoint, not a full CEFR A1 assessment. A1-15's weekday for 18 November 2026 was corrected to Wednesday. A1-19's available lesson count was corrected to 01–20. The detailed source review of A1 Lessons 21–25 is complete. Targeted optimizations were applied to A1-21, A1-22 and A1-23; all five lesson quizzes and completion logic were checked, with existing 8-question sets, 6/8 thresholds, IDs and storage keys preserved. The four approved A1 closing activities are now implemented as separate pages: a1-review.html (module 25), a1-project.html (26), a1-assessment.html (27), and a1-readiness.html (28). The existing lesson-25.html (Education, school and studies) was preserved as a core lesson mapped to module 20; no public lesson URL or existing learner progress was overwritten. The A1 index now lists the four end-of-level activities separately and tracks them under ss-a1-end-done; the service-worker cache was updated to v67. All new files, index links and cache entries were fetched and source-verified. No browser/device runtime or offline testing was performed.
 
 Important: the audit confirms files and visible topic/section structures, not full pedagogical or Spanish-language quality. Quiz presence, language-control references and localStorage references were observed in the pages; runtime behaviour, answer-key correctness, CEFR coverage, Urdu RTL, accessibility, mobile and offline behaviour remain unverified. Existing lesson URLs and learner progress must be preserved. Do not treat review/checkpoint pages as completed CEFR end-of-level assessments without review.
 
 ## Current documented course state
 
-- A1: lessons 01–25; 60-item practice deck.
+- A1: core lessons 01–25; separate end-of-level activities 25–28 now implemented; 60-item practice deck. These are source-verified additions, not yet browser/device QA approved.
 - A2: lessons 01–20; Lesson 20 is integrated final practice and self-assessment.
 - B1: Lesson 01 available; pathway started, not complete.
 - Spain Life: 6 modules.
-- Cache noted in the previous handoff: `spanish-seekho-v63`; inspect the current service worker before changing it.
+- Current service-worker cache version: `spanish-seekho-v67`; four A1 end-of-level pages are in its precache list. Real offline behaviour remains untested.
 
 A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 is only beginning. Inspect current files before assuming this snapshot is still current.
 
@@ -46,7 +46,7 @@ A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 is only 
 
 ## Current production priority
 
-Continue B1 after Lesson 01, after verifying the latest repository state and exact file conventions. Build a coherent sequence, not isolated disconnected topics. Candidate directions include connected storytelling, opinions and reasons, experiences and change, plans and possibilities, work/study, social communication, problems/solutions, and integrated practice. Use `docs/LESSON-BATCH-PLAN.md` to select the next batch.
+Continue the detailed content and curriculum mapping audit for **A2 Lessons 01–20**, applying the combined review-and-fix workflow. Then verify B1-01 and produce B1-02–06 as a coherent batch. A1's four closing activities are implemented at source level; schedule browser/device, keyboard, RTL and offline QA before making runtime claims.
 
 ## Batch-first working agreement
 
@@ -77,11 +77,11 @@ Continue B1 after Lesson 01, after verifying the latest repository state and exa
 
 ## Next steps
 
-1. Inspect B1 Lesson 01 and the current course structure.
-2. Plan and generate the next complete B1 batch (normally 5 lessons; up to 6–8 if suitable).
-3. Validate Spanish content, Roman Urdu explanations, quizzes, navigation, progress, mobile layout and RTL.
-4. Update this handoff and `docs/ROADMAP.md` with actual work and the next range.
-5. Schedule deeper Android, RTL, PWA and offline QA as a dedicated QA phase.
+1. Begin detailed A2 Lessons 01–05 review, mapping and same-pass corrections; preserve URLs and `ss-a2-done` progress.
+2. Continue A2 in contiguous batches through Lesson 20; reconcile overlap and missing outcomes.
+3. Verify B1-01, then produce B1-02–06 as a coherent batch.
+4. Run a dedicated browser/device QA pass for A1 end modules: quiz interactions, drafts/checklists, TTS fallback, keyboard/focus, mobile/RTL and service-worker/offline behaviour.
+5. Update this handoff, tracker and roadmap after each verified batch.
 
 ## Handoff rule
 
