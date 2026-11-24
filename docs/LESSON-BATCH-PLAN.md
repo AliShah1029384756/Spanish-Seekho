@@ -21,23 +21,20 @@ Check the latest repository before each batch. The 24 November 2026 documentatio
 |---|---:|---|
 | A1 | 01–25 | Starter pathway |
 | A2 | Core lessons 01–23 + separate modules 25–28 | Core outcomes mapped; end-of-level activities deployed and smoke-tested |
-| B1 | 01–16 | Deployed; routes 12–16 confirmed live with quiz controls |
+| B1 | 01–24 | Core lesson source implemented; B1-01–16 deployed in earlier checks; 17–24 latest route verification pending |
 
 A1 and A2 must not be advertised as complete CEFR syllabi. B1 must not be advertised as a complete course.
 
 ## Next planned work
 
-B1-12–16 are deployed and routes were confirmed live. B1-17–21 are now implemented; source quiz/progress checks passed and the latest Pages workflow succeeded. The first browser check preceded deployment completion and saw stale routes, so post-build route/quiz verification remains pending.
+B1 core lessons 01–24 are now implemented at source. Lessons 17–21 have a successful Pages workflow record but still need a fresh post-build browser check; lessons 22–24 have just been added and also need publication and browser verification. The browser automation service could not start on the latest attempt because its wallet balance was insufficient.
 
-The next planned batch B1-22–24 follows the approved map:
+The latest batch follows the approved master map:
+1. B1-22: relative clauses and adding useful detail (que, quien/quienes, donde, lo que).
+2. B1-23: reported statements and questions, including common tense/time shifts.
+3. B1-24: integrated B1 communication — tell, explain, discuss and propose.
 
-1. Causes, consequences and result connectors.
-2. Proposing solutions, negotiating and reaching agreement.
-3. Advice, recommendations and expressing necessity.
-4. Complaints, claims and resolving service problems.
-5. Common subjunctive in recommendations, wishes and reactions.
-
-These topics continue the sequence after B1-06 without repeating the opening narrative or opinion lessons.
+Next content phase: review B1 core 01–24 and build separate closing modules 25–28. Do not start B2 before B1 closing activities are complete and reviewed.
 
 ## Batch workflow
 
@@ -87,4 +84,4 @@ A1 and A2 inventories have been reviewed and mapped; A2 core modules 01–24 hav
 
 ## Current next batch
 
-B1-17–21 are source-implemented and the latest GitHub Pages workflow completed successfully; do not claim live browser verification until a fresh post-build check succeeds. Continue with B1-22–24 as a three-lesson batch, then create B1 closing modules 25–28.
+B1-22–24 are now implemented at source. Re-fetch and verify all three files, inspect Pages workflow status, and complete live route/quiz QA when browser automation is available. Then create B1 closing modules 25–28.
