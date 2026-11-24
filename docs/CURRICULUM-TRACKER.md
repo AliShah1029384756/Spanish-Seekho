@@ -152,3 +152,29 @@ B1-01's visible sections are consistent with the planned opening narrative modul
 ## 8. Completion rule
 
 A row may move to **Complete** only after the mapped learning outcome is explicitly covered, the lesson's Spanish and teaching are reviewed, its practice and answer key are checked, integration is verified, and relevant QA evidence is recorded. A file existing, a quiz appearing, or a page being linked is not enough.
+
+
+## 9. Detailed content review — A1 Lessons 01–05 (24 November 2026)
+
+**Review scope:** Read the visible lesson content and examples, inspect the quiz questions and answer keys, and check the completion/progress-writing logic in the lesson scripts. This was a source review only; no browser/device runtime test was performed. Existing lesson files and public URLs were not changed.
+
+| Page | Review result | Findings and minimal improvement recommendations |
+|---|---|---|
+| A1-01 — Greetings and introductions | Content and quiz reviewed; no blocker found | Core greetings, informal/formal name questions and dialogue examples are appropriate beginner material. The formal-use note currently groups “older people” with formal situations; clarify that formality depends on context, relationship and preference, not age alone. The Spain pronunciation note is appropriately qualified. |
+| A1-02 — Alphabet and pronunciation | Content and quiz reviewed; no blocker found | Five-vowel foundation, silent h, ñ, ll, j, c/z and stress rules are broadly sound. The English “bed” comparison for Spanish **e** is only approximate and may suggest a more open vowel than intended; make the approximation caveat explicit. The r/rr section names the contrast but would benefit from a simple rule/example for tapped **r** (e.g. *pero*) versus trilled **rr** (e.g. *perro*, and word-initial r). The page is a selected-sounds introduction, not yet a complete alphabet/letter-name reference. |
+| A1-03 — Numbers, dates and time | Content and quiz reviewed; no blocker found | Number forms, basic clock expressions, weekdays and sample dates are appropriate. Add one concise date rule: **el primero de…** for the first day of a month; use cardinal numbers for other dates (e.g. **el dos de junio**). The page says months are a starter and does not yet teach the full month list; retain that scope transparently. |
+| A1-04 — People, family and countries | Content and quiz reviewed; no blocker found | Family vocabulary, **ser**, **tener**, country/nationality examples and gender/number forms are broadly accurate. The examples correctly show *pakistaní* as gender-invariant and *español/española* as changing with gender. No correction required from this pass. |
+| A1-05 — Everyday objects and places | Content and quiz reviewed; no blocker found | Articles, object/room vocabulary, **¿Dónde está…?**, location phrases, **hay** versus **está**, and the short dialogue are broadly accurate. Consider distinguishing **habitación** (“room”) from **dormitorio** (“bedroom”) rather than presenting “room / bedroom” as fully interchangeable. The lesson introduces several location prepositions but does not yet teach a complete spatial-language set. |
+
+### Cross-page quiz and progress checks
+
+- Quiz answer keys inspected for all five pages; no incorrect keyed answer was identified in this pass.
+- The scripts shuffle answer options while recalculating the correct option index, and completion is recorded after the configured passing threshold (the threshold differs by lesson).
+- Completion uses the existing 'ss-a1-done' localStorage key and lesson-specific IDs. No storage-key or URL migration was made.
+- These are source-level findings only. Actual quiz interaction, speech playback, localStorage persistence, language switching, mobile layout and assistive-technology behaviour remain untested.
+
+### Batch decision
+
+- **No lesson rewrite is justified from this review.**
+- Keep the five pages and their existing URLs. Apply the small clarity improvements when the A1 repair pass is scheduled, rather than introducing a separate duplicate lesson.
+- Continue with **A1 Lessons 06–10** for the next detailed review batch.
