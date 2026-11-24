@@ -467,3 +467,22 @@ Refresh this snapshot from actual repository code before each production batch.
 8. Multiple AIs may write non-overlapping ranges only; one integrator owns final review and integration.
 
 The 168-module target and six-level structure are approved decisions. Changes to the total, level structure, language policy or assessment model require an explicit owner decision and an update to this document. Individual titles/order may be refined when an audit or expert review demonstrates a better progression; record the reason and preserve outcomes.
+
+
+## 14. Initial module-status register
+
+This is a repository-level planning snapshot, not a page-by-page audit. “Existing—mapping pending” means the repository documents pages for this range, but their exact match to the new master outcomes has not yet been checked.
+
+| Level | Module range | Initial status | Required next action |
+|---|---|---|---|
+| A1 | 01–25 | Existing — mapping pending | Inspect each lesson and map to outcomes; preserve URLs/progress |
+| A1 | 26–28 | Planned | Create project, integrated assessment and readiness checkpoint if not already present |
+| A2 | 01–20 | Existing — mapping pending | Inspect each lesson and map to outcomes; identify gaps and duplication |
+| A2 | 21–28 | Planned | Map, then create missing core modules and end-of-level modules |
+| B1 | 01 | Existing — verification/mapping pending | Inspect actual page and map to B1-01 |
+| B1 | 02–28 | Planned | Produce coherent batches, starting with 02–06 |
+| B2 | 01–28 | Planned | Begin after B1 progression is complete and reviewed |
+| C1 | 01–28 | Planned | Begin after B2 progression is complete and reviewed |
+| C2 | 01–28 | Planned | Begin after C1 progression is complete and reviewed |
+
+Update this register only after inspecting actual files. A module is “complete” only when its content, integration, assessment and relevant QA have been checked. If an existing page covers only part of a proposed module, record Partial or Needs revision rather than marking it complete.
