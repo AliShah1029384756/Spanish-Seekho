@@ -178,3 +178,30 @@ A row may move to **Complete** only after the mapped learning outcome is explici
 - **No lesson rewrite is justified from this review.**
 - Keep the five pages and their existing URLs. Apply the small clarity improvements when the A1 repair pass is scheduled, rather than introducing a separate duplicate lesson.
 - Continue with **A1 Lessons 06–10** for the next detailed review batch.
+
+
+## 10. Detailed content review — A1 Lessons 06–10 (24 November 2026)
+
+**Review scope:** Read visible lesson content and examples, inspect quiz questions/answer keys, and check source-level completion logic. This was not a browser/device runtime test. No lesson source files, public URLs or progress keys were changed.
+
+| Page | Review result | Findings and minimal improvement recommendations |
+|---|---|---|
+| A1-06 — Food, cafés and shopping | Content and quiz reviewed; no blocker found | Core food vocabulary, polite ordering, prices, payment and café dialogue are suitable beginner material. The note correctly identifies *agua* as feminine despite singular *el agua*. Add the useful agreement example **el agua fría** (feminine adjective) and remind learners that the plural is **las aguas**. The formal label for **¿Qué quiere?** is valid when addressing *usted*; keep the subject/register explicit so it is not confused with *¿Qué quieres?*. |
+| A1-07 — Daily routine and basic grammar | Content and quiz reviewed; no blocker found | The beginner explanations of **ser**, **estar**, **tener**, **ir** and **querer** include sensible caveats against treating “permanent vs temporary” as an absolute rule. Examples and quiz keys reviewed are sound. Keep the current caveats; they prevent a common oversimplification. Some Urdu-script pronunciation snippets contain bracketed fragments and should be polished in a later pronunciation/RTL pass, not treated as Spanish grammar errors. |
+| A1-08 — Review and A1 checkpoint | Content and quiz reviewed; all keyed answers checked | The 10 quiz answers are correctly keyed and the stated 7/10 completion threshold matches the source logic. However, the “first 7 lessons” review is selective: alphabet/pronunciation and much of numbers, dates and time are not meaningfully represented in the review or checkpoint questions. Keep this as an **early starter checkpoint**, not a full cumulative A1 review or an approved end-of-level assessment. Expand its coverage when the dedicated review module is designed. |
+| A1-09 — Personal information and questions | Content and quiz reviewed; no blocker found | Question words, personal details, **vivir/hablar** conjugations, *tú/usted* contrast and the Spain-specific *vosotros* forms are appropriate. The examples **Hablo urdu e inglés** and **¿Cuántos años tienes?** are correct. No content correction required from this pass. |
+| A1-10 — Articles, gender and plurals | Content and quiz reviewed; no blocker found | Definite/indefinite articles, grammatical gender, common endings, exceptions and plural patterns are broadly accurate. The page appropriately labels ending patterns as clues rather than absolute rules. Consider cross-linking the earlier **el agua** exception and, at a later stage, briefly noting unchanged plurals for some nouns ending in -s/-x. No quiz-key error found. |
+
+### Cross-page quiz and progress checks
+
+- Quiz answer keys inspected for all five pages; no incorrect keyed answer was identified in this pass.
+- The option-shuffle logic preserves the correct answer index after shuffling in the inspected scripts.
+- Lesson completion is written to the existing 'ss-a1-done' key with lesson-specific IDs. Lesson 08 uses its stated 7/10 threshold; the other inspected pages use their configured thresholds.
+- These are source-level observations only. Actual browser interaction, localStorage persistence, speech synthesis, language switching, mobile layout, Urdu RTL and accessibility remain untested.
+
+### Batch decision
+
+- **No full lesson rewrite is justified from this review.**
+- Record small clarity improvements for A1-06 and A1-10; the more meaningful curriculum issue is A1-08's selective checkpoint coverage.
+- Preserve existing URLs and progress keys.
+- Continue with **A1 Lessons 11–15** for the next detailed review batch.
