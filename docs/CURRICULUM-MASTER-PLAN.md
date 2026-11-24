@@ -451,7 +451,7 @@ Repository documentation dated 24 November 2026 records:
 - Spain Life: six modules documented.
 - Full 168-module curriculum: **approved and planned; not implemented in full**.
 - B2, C1 and C2: planned; no completion claim.
-- A1/A2/B1 existing content has not yet been fully mapped against this master plan.
+- A2 core modules 01–24 have been mapped internally; A1 mapping and B1 progression review remain in progress. No external CEFR validation or accreditation is claimed.
 
 Refresh this snapshot from actual repository code before each production batch.
 
