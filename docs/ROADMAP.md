@@ -36,7 +36,7 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 10. A2 Lessons 16–20 source review: added tú/usted register note in A2-18, qualified the present-perfect rationale in A2-19 and corrected the Spanish can-do checklist in A2-20. All 40 answer keys and progress structures checked; details in tracker section 18.
 11. Limited live smoke test: A2-11, A2-12 and A2-13 each passed 8/8 and showed completion; A2-14/15 were visible but not interaction-tested. See tracker section 17.1.
 12. A2-16–20 source review complete. Live smoke test confirmed all five pages and quizzes render; A2-16 passed a targeted 8/8 completion interaction. A2-17–20 submission flows remain untested. See tracker section 18.1.
-13. Full A2 01–20 to 24-outcome reconciliation completed; all 24 outcomes now have strong internal mapping evidence after five targeted revisions and three new lessons. Source files/index are committed and a later live check confirmed 23 lesson cards and deployed routes 21–23. Lesson 21 passed 8/8; Lessons 22–23 submissions remain untested. See tracker section 4.
+13. Full A2 01–20 to 24-outcome reconciliation completed; all 24 outcomes now have strong internal mapping evidence after five targeted revisions and three new lessons. Source files/index are committed and a later live check confirmed 23 lesson cards and deployed routes 21–23. Lessons 21, 22 and 23 each passed live 8/8 submissions with completion panels visible. See tracker section 4.
 10. Limited live smoke test: A1 index and all four new end-of-level pages deployed; module 25 answer selection and module 26 completion-button interaction exercised; modules 27–28 only partially checked. See curriculum tracker for limits.
 
 ## Product and engineering principles
@@ -62,4 +62,4 @@ The 168 count is Spanish Seekho's design choice, not a CEFR requirement. Each le
 4. Update the master-plan status, handoff and roadmap after verified implementation.
 5. Continue B1 before proceeding to B2, then C1 and C2 in order.
 
-14. A2-21–23 deployment confirmed on GitHub Pages; Lesson 21 passed live 8/8 completion. Lessons 22/23 submission flows remain pending. See tracker section 18.2.
+14. A2-21–23 deployment confirmed on GitHub Pages; Lessons 21–23 each passed live 8/8 completion flows. See tracker section 18.2.
