@@ -173,8 +173,13 @@ The 20 original lessons and the three new lessons (21–23), together with the t
 | [B1-09](../b1/lesson-09.html) | Future predictions and promises | B1-09 | New — source-reviewed; deployed, eight questions and submit control verified |
 | [B1-10](../b1/lesson-10.html) | Hypothetical situations and polite requests | B1-10 | New — source-reviewed; deployed, eight questions and submit control verified |
 | [B1-11](../b1/lesson-11.html) | Plans, intentions and possible outcomes | B1-11 | New — source-reviewed; deployed, eight questions and submit control verified |
+| [B1-12](../b1/lesson-12.html) | Making decisions and weighing options | B1-12 | New — source-reviewed; GitHub Pages deployment pending |
+| [B1-13](../b1/lesson-13.html) | Work experience and responsibilities | B1-13 | New — source-reviewed; GitHub Pages deployment pending |
+| [B1-14](../b1/lesson-14.html) | Education, skills and learning goals | B1-14 | New — source-reviewed; GitHub Pages deployment pending |
+| [B1-15](../b1/lesson-15.html) | Applications and professional self-presentation | B1-15 | New — source-reviewed; GitHub Pages deployment pending |
+| [B1-16](../b1/lesson-16.html) | Social issues and everyday change | B1-16 | New — source-reviewed; GitHub Pages deployment pending |
 
-B1-01's opening narrative module is verified. B1-02 extends narrative cohesion and discourse structure rather than repeating the introductory tense contrast. B1-03–04 complete the first narrative/experience unit; B1-05–08 cover opinions and interaction; B1-09–11 begin plans/predictions. B1-12–28 remain planned.
+B1-01's opening narrative module is verified. B1-02 extends narrative cohesion and discourse structure rather than repeating the introductory tense contrast. B1-03–04 complete the first narrative/experience unit; B1-05–08 cover opinions and interaction; B1-09–11 begin plans/predictions. B1-12–16 have been created at source level; GitHub Pages publication is pending. B1-17–28 remain planned.
 
 ## 6. Cross-course implementation checks
 
@@ -607,3 +612,22 @@ Four separate A2 closing pages were created, added to the A2 index and added to 
 - B1-07 passed all eight correct answers: 8/8, “Lesson completed — well done!”, completion panel visible and progress saved.
 - B1-08–11 quiz submission/result interactions remain untested. B1-03–06 quiz submission interactions also remain pending.
 - TTS, reload persistence, Android/mobile, Urdu RTL, accessibility and actual offline behaviour remain untested.
+
+
+## 22. B1 Lessons 12–16 — source implementation (24 November 2026)
+
+| Lesson | Topic | Main outcome |
+|---:|---|---|
+| 12 | Making decisions and weighing options | Compare alternatives, advantages/drawbacks and justify a decision |
+| 13 | Work experience and responsibilities | Describe duties, teamwork, deadlines and workplace communication |
+| 14 | Education, skills and learning goals | Explain training, strengths, progress and learning goals |
+| 15 | Applications and professional self-presentation | Prepare a truthful application and answer common interview questions |
+| 16 | Social issues and everyday change | Discuss trends, possible causes/effects and balanced viewpoints |
+
+### Source verification
+
+- All five lesson pages were created and re-fetched. Each contains eight three-option quiz questions, valid answer indices, a 6/8 threshold, unique completion ID and the existing `ss-b1-done` progress key. All 40 answer keys were source-checked.
+- B1 index source contains lesson cards 01–16 and a progress counter out of 16. B1-11 links forward to B1-12.
+- Service-worker cache is v72 and includes B1-12–16 in its precache list.
+- A live browser check was run before the GitHub Pages build for the latest commit had completed: the public index still showed 11 cards and the new lesson-12 URL returned 404. GitHub Actions showed the Pages deployment for the v72 commit pending. Do not claim B1-12–16 are live until the deployment completes and a fresh cache-busting check confirms the routes.
+- No live quiz interaction has yet been run for B1-12–16. B1-07 passed 8/8; B1-08–11 page/quiz controls are live but their quiz submissions remain untested.
