@@ -498,7 +498,7 @@ Reviewed the five lesson pages in detail: explanations, Spanish examples and Eng
 
 ### Mapping conclusion after A2-01–20 source review
 
-The 20 existing pages provide a useful starter pathway, but they do not yet constitute the approved A2 core modules 01–24. Clear remaining work includes module 02 (home/neighbourhood/local services), module 14 permission, module 16 public services/forms, module 18 richer connected description, module 20 connectors/sequencing, fuller module 22 follow-up questions and a more complete module 24 integrated outcome. A2-08 and A2-19 are review pages, not approved module 25. A2-20 is a practice/checkpoint candidate, not evidence that modules 26–28 are complete. Reconcile the full A2 map before creating lessons 21–24 or any closing modules.
+Historical baseline before the new A2-21–23 lessons and targeted revisions; it is superseded by the complete 24-outcome matrix above and the implementation record in sections 18.2–19. A2-08 and A2-19 remain interim/revision pages, not approved module 25; A2-20 remains core module 24 practice, distinct from module 27.
 
 
 ### 18.1 Limited live public-site smoke test (24 November 2026)
