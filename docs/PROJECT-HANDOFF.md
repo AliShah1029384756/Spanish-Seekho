@@ -24,9 +24,9 @@ Important: the audit confirms files and visible topic/section structures, not fu
 
 - A1: core lessons 01–25; separate end-of-level activities 25–28 now implemented; 60-item practice deck. These are source-verified additions, not yet browser/device QA approved.
 - A2: core pathway lessons 01–23 plus separate end-of-level modules 25–28. All 24 core outcomes have strong internal mapping evidence. Closing pages have been deployed and their primary interactions smoke-tested; see tracker sections 4, 18.2 and 19.
-- B1: Lesson 01 available; pathway started, not complete.
+- B1: Lessons 01–06 deployed; B1-01 and B1-02 passed live 8/8 completion tests; B1-03–06 page/quiz controls verified, submission flows pending. Pathway remains incomplete.
 - Spain Life: 6 modules.
-- Current service-worker cache version: `spanish-seekho-v69`; four A1 end-of-level pages, A2 lessons 21–23 and A2 end-of-level modules 25–28 are in its precache list. Real offline behaviour remains untested.
+- Current service-worker cache version: `spanish-seekho-v70`; four A1 end-of-level pages, A2 lessons 21–23, A2 end-of-level modules 25–28, and B1 lessons 01–06 are in its precache list. Real offline behaviour remains untested.
 
 A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 is only beginning. Inspect current files before assuming this snapshot is still current.
 
@@ -139,3 +139,12 @@ All 24 approved A2 core outcomes have now been compared with the 20 existing les
 - Modules 25–28 are now implemented as separate deployed pages and listed in the A2 index. Module 25 passed a live 16/16 review quiz; module 26's five-task project completion was saved; module 27's listening and reading both scored 5/5 and its assessment save completed; module 28's ten can-do items, gap plan and B1 next-step choice were saved.
 - Service-worker cache is v69 and includes all four A2 closing pages. Real offline operation remains untested.
 - Next priority: verify B1-01 against the approved map, then create B1-02–06 as one coherent batch. Keep broader A2 device/accessibility QA in the roadmap without blocking B1 content planning.
+
+
+## B1 opening batch 01–06 (24 November 2026)
+
+- B1-01 (narrating past events naturally) source-reviewed and live-tested 8/8 with completion panel.
+- Created B1-02–06 as a coherent progression: story cohesion; present perfect vs indefinido experiences; life changes and milestones; developing opinions with reasons; diplomatic agreement/disagreement.
+- B1 index displays six lesson cards; B1-02–06 each have eight quiz questions, 6/8 threshold, unique lesson IDs and ss-b1-done progress storage. All 40 answer keys were source-checked.
+- Live tests: B1-02 passed 8/8 with completion panel; B1-03–06 headings, eight questions and submit controls verified, but quiz submissions remain untested. Service-worker cache v70 includes B1-02–06.
+- Next content batch: B1-07–11. See tracker section 20 and the master map.
