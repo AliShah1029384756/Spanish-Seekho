@@ -24,9 +24,9 @@ Important: the audit confirms files and visible topic/section structures, not fu
 
 - A1: core lessons 01–25; separate end-of-level activities 25–28 now implemented; 60-item practice deck. These are source-verified additions, not yet browser/device QA approved.
 - A2: core pathway lessons 01–23 plus separate end-of-level modules 25–28. All 24 core outcomes have strong internal mapping evidence. Closing pages have been deployed and their primary interactions smoke-tested; see tracker sections 4, 18.2 and 19.
-- B1: Lessons 01–11 deployed; lessons 12–16 created at source level, latest GitHub Pages publication pending. B1-01, B1-02 and B1-07 passed live 8/8 completion tests; other live quiz submission flows remain pending. Pathway remains incomplete.
+- B1: Core lessons 01–24 implemented at source and integrated into the index; B1-17–21 Pages workflow success is recorded, but post-build browser verification is pending. B1-22–24 have just been created and source integration is complete; latest Pages publication and browser QA are pending. Earlier live quiz evidence remains limited to B1-01, B1-02 and B1-07 passing 8/8. Pathway remains incomplete.
 - Spain Life: 6 modules.
-- Current service-worker cache version: `spanish-seekho-v72`; four A1 end-of-level pages, A2 lessons 21–23, A2 end-of-level modules 25–28, and B1 lessons 01–16 are in its precache list. Real offline behaviour remains untested.
+- Current service-worker cache version: `spanish-seekho-v74`; four A1 end-of-level pages, A2 lessons 21–23, A2 end-of-level modules 25–28, and B1 lessons 01–24 are in its precache list. This configures update caching; real offline behaviour remains untested.
 
 A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 is only beginning. Inspect current files before assuming this snapshot is still current.
 
@@ -78,9 +78,9 @@ A2 core curriculum reconciliation and source-level implementation are complete: 
 
 ## Next steps
 
-1. Continue with B1-22–24: relative clauses, reported information and integrated B1 communication, following the approved master map.
-2. After B1 core lessons 01–24, create separate end-of-level modules 25–28.
-3. Re-check B1-17–21 public routes after the successful Pages workflow and complete their quiz submissions when live browser testing is available.
+1. Verify latest GitHub Pages publication and public routes for B1-22–24; test quiz submissions for B1-17–24 when browser QA is available.
+2. Create separate B1 end-of-level modules 25–28 after reviewing core lessons 01–24.
+3. Continue selected A1/A2 runtime follow-up and broader device/accessibility QA without confusing source checks with live results.
 4. Keep selected A1/A2/B1 quiz interactions and programme-wide Android/mobile, Urdu RTL, accessibility, TTS, reload-persistence and offline QA on the verification backlog.
 5. Update this handoff, tracker, roadmap and batch plan after each verified batch.
 
@@ -179,3 +179,14 @@ All 24 approved A2 core outcomes have now been compared with the 20 existing les
 - B1 index source now lists 21 cards and progress out of 21. B1-16 links forward to B1-17. Service-worker cache v73 precaches lessons 17–21.
 - A browser check still saw the previous 16-card deployment and 404 routes while the Pages build was completing. GitHub Actions subsequently reported Pages build/deployment run 45426795301 for head commit 36c9bcd52bb7bcdbf95b3f3b237d558599a0ed54 completed successfully. Fresh post-build browser route and quiz checks are still required.
 - Next content batch: B1-22–24 (relative clauses, reported information and integrated B1 communication), then distinct closing modules 25–28. Keep broader device/accessibility/offline QA in the roadmap.
+
+
+## B1 Lessons 22–24 source implementation (24 November 2026)
+
+- Created B1-22 (relative clauses: que, quien, donde and lo que), B1-23 (reported statements and questions, with common tense/time shifts), and B1-24 (integrated B1 storytelling, reasons, negotiation and recommendations).
+- Each page includes explicit learning objectives, five teaching sections, Spanish examples with Roman Urdu meanings, model dialogue, a production task and eight three-option quiz questions with explanations.
+- All three use the established 6/8 threshold, unique completion IDs lesson-22 through lesson-24 and the existing ss-b1-done storage key. Later lessons remain open regardless of completion.
+- Added all three cards to the B1 index; B1-21 now links to B1-22 and new lessons navigate 22→23→24. Corrected the progress display to 24 total lessons (the previous source incorrectly displayed “of 16” despite 21 cards).
+- Bumped service-worker cache to v74 and added B1-22–24 to precache. Real offline behaviour is not tested.
+- Source files were created and index/navigation/cache updates committed. Live browser QA was unavailable because the browser automation service reported an insufficient wallet balance before starting; no live route or quiz success is claimed. The next source check must re-fetch the changed files and inspect the current Pages workflow.
+- Next: complete B1 closing modules 25–28 after core review, while keeping B1-17–24 post-build browser checks on the QA backlog.
