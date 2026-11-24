@@ -24,9 +24,9 @@ Important: the audit confirms files and visible topic/section structures, not fu
 
 - A1: core lessons 01–25; separate end-of-level activities 25–28 now implemented; 60-item practice deck. These are source-verified additions, not yet browser/device QA approved.
 - A2: core pathway lessons 01–23 plus separate end-of-level modules 25–28. All 24 core outcomes have strong internal mapping evidence. Closing pages have been deployed and their primary interactions smoke-tested; see tracker sections 4, 18.2 and 19.
-- B1: Lessons 01–06 deployed; B1-01 and B1-02 passed live 8/8 completion tests; B1-03–06 page/quiz controls verified, submission flows pending. Pathway remains incomplete.
+- B1: Lessons 01–11 deployed; B1-01, B1-02 and B1-07 passed live 8/8 completion tests; B1-03–06 and B1-08–11 page/quiz controls verified, submission flows pending. Pathway remains incomplete.
 - Spain Life: 6 modules.
-- Current service-worker cache version: `spanish-seekho-v70`; four A1 end-of-level pages, A2 lessons 21–23, A2 end-of-level modules 25–28, and B1 lessons 01–06 are in its precache list. Real offline behaviour remains untested.
+- Current service-worker cache version: `spanish-seekho-v71`; four A1 end-of-level pages, A2 lessons 21–23, A2 end-of-level modules 25–28, and B1 lessons 01–11 are in its precache list. Real offline behaviour remains untested.
 
 A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 is only beginning. Inspect current files before assuming this snapshot is still current.
 
@@ -148,3 +148,12 @@ All 24 approved A2 core outcomes have now been compared with the 20 existing les
 - B1 index displays six lesson cards; B1-02–06 each have eight quiz questions, 6/8 threshold, unique lesson IDs and ss-b1-done progress storage. All 40 answer keys were source-checked.
 - Live tests: B1-02 passed 8/8 with completion panel; B1-03–06 headings, eight questions and submit controls verified, but quiz submissions remain untested. Service-worker cache v70 includes B1-02–06.
 - Next content batch: B1-07–11. See tracker section 20 and the master map.
+
+
+## B1 Lessons 07–11 (24 November 2026)
+
+- Created B1-07–11: supporting arguments; clarification/reformulation; future predictions/promises; hypothetical situations/polite requests; plans/intentions/outcomes.
+- Each page has eight three-option questions, a 6/8 pass threshold, unique lesson ID and ss-b1-done progress key; all 40 answer keys were source-checked.
+- B1 index source includes 11 lesson cards; cache-busting live check confirmed all 11 cards and service-worker v71. The first browser run showed the older six-card cached index, which was resolved by query-string cache-busting verification.
+- B1-07 passed live 8/8 with completion panel. B1-08–11 pages, headings, quiz counts and submit controls verified; their quiz submissions remain untested.
+- Next batch: B1-12–16 (decisions/advantages/disadvantages, work experience, education/skills, applications/interviews, social issues). See master map and batch plan.
