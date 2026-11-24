@@ -269,3 +269,37 @@ Continue with **A1 Lessons 16–20** using the combined workflow: review content
 ### 12.2 A1 review status and next step
 
 Detailed source review now covers **A1 Lessons 01–20**. Continue with **A1 Lessons 21–25**, using the same combined review-and-fix workflow. After A1-25, audit the four approved closing modules (26–28 plus the module-25 review) against the actual implementation before claiming the full A1 pathway is complete.
+
+
+## 13. Detailed content review — A1 Lessons 21–25 (24 November 2026)
+
+**Review scope:** Visible content, Spanish examples, quiz answer keys, and source-level completion/progress logic reviewed. This is not browser/device runtime QA.
+
+| Page | Review result | Findings |
+|---|---|---|
+| A1-21 — At home and household | Reviewed; no blocker or incorrect quiz key found | Household vocabulary and examples are broadly accurate. Clarified the dialogue's *dos habitaciones* to *dos dormitorios* because its English translation specifically said “two bedrooms”; this removes ambiguity between rooms and bedrooms. |
+| A1-22 — Clothes and what you wear | Reviewed; no blocker or incorrect quiz key found | Clothing vocabulary, *llevar* vs *ponerse*, and colour agreement are broadly accurate. Expanded the colour note to explain plural agreement too: *azul/verde* remain unchanged for masculine/feminine singular, while plural forms are *azules/verdes*. |
+| A1-23 — Body parts and basic health | Reviewed; no incorrect quiz key found | Body-part vocabulary and *me duele/me duelen* examples are suitable for beginner language learning. Replaced a sample pharmacy line prescribing “two tablets a day” with a safer language example advising consultation with a pharmacist; a beginner language lesson should not imply a medicine or dosage recommendation. The page already carries an educational-not-medical-advice disclaimer. |
+| A1-24 — Jobs and professions | Reviewed; no blocker or incorrect quiz key found | Profession gender forms, *ser + profession*, workplaces with *en*, and informal/formal questions are broadly accurate. |
+| A1-25 — Education and studies | Reviewed; no blocker or incorrect quiz key found | Spain-oriented school vocabulary (*colegio*, *instituto*, *universidad*), study verbs, and examples are broadly accurate; regional variation is acknowledged. |
+
+### 13.1 Quiz and progress logic
+
+- All five lessons contain 8 questions with answer explanations.
+- Each lesson retains its existing 6/8 completion threshold.
+- Each lesson retains the `ss-a1-done` localStorage key and its existing lesson identifier (lesson-21 through lesson-25).
+- No incorrect keyed answers were identified in this source review.
+
+### 13.2 Optimizations and verification
+
+- A1-21: clarified “two bedrooms” as *dos dormitorios*.
+- A1-22: added plural adjective examples *camisas azules* and *pantalones verdes*.
+- A1-23: removed the example dosage instruction and replaced it with a consultation phrase.
+- All three changed lesson files were fetched again from GitHub and the intended updates were verified.
+- Lesson paths, IDs, quiz sizes, thresholds and progress-storage keys were preserved.
+- No changes were needed in A1-24 or A1-25.
+- Runtime interaction, speech playback, device persistence, responsive layout, RTL and accessibility remain untested.
+
+### 13.3 A1 detailed review status
+
+Detailed source review now covers **A1 Lessons 01–25**. Next, verify the approved A1 closing modules and their actual implementation: module 25 cumulative review/gap repair, module 26 practical action-oriented project, module 27 integrated skills assessment, and module 28 end-level checkpoint/self-assessment/readiness plan. Do not equate the existing Lesson 25 page with all four closing modules. Record which components exist, are partial, or are missing before designing additions.
