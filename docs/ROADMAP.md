@@ -101,5 +101,5 @@ The 168 count is Spanish Seekho's design choice, not a CEFR requirement. Each le
 - Added relative clauses (22), reported information (23) and integrated B1 communication (24), following the approved master map.
 - Each page has learning objectives, five teaching sections, Spanish examples with Roman Urdu meanings, dialogue, production task and eight quiz questions. Existing 6/8 threshold and ss-b1-done progress key are preserved with unique lesson IDs.
 - B1 index now lists 24 lessons and progress out of 24; lesson navigation continues 21→22→23→24. Service-worker cache v74 precaches lessons 22–24.
-- Browser automation could not start because its service wallet balance was insufficient. Do not claim public routes or quiz submissions have been tested. Re-fetch source and inspect the Pages workflow before marking deployment confirmed.
+- Source re-fetch checks passed: 24 sequential index cards, 24/24 progress, eight questions and valid answer indices per new lesson, unique IDs, 6/8 threshold, sequential navigation and v74 precache entries. GitHub Pages run 45429610127 was in progress at the last check. Browser automation could not start because its service wallet balance was insufficient; do not claim public routes or quiz submissions have been tested.
 - Next: B1 closing modules 25–28 after core review.
