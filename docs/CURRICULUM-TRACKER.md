@@ -1,6 +1,6 @@
 # Spanish Seekho — Curriculum Audit Tracker
 
-_Status: A1 Lessons 01–25 source-reviewed; A1 end-of-level modules 25–28 implemented and source-verified. A2 Lessons 01–10 source-reviewed with targeted clarifications in A2-01 and A2-10. Remaining A2/B1 detailed QA and programme-wide runtime testing are pending._  
+_Status: A1 Lessons 01–25 source-reviewed; A1 end-of-level modules 25–28 implemented and source-verified. A2 Lessons 01–15 source-reviewed with targeted clarifications in A2-01, A2-10, A2-11 and A2-13. Remaining A2/B1 detailed QA and programme-wide runtime testing are pending._  
 _Audit date: 24 November 2026_  
 _Baseline: `docs/CURRICULUM-MASTER-PLAN.md` (approved 168-module target)_
 
@@ -98,11 +98,11 @@ The URLs below are existing public lesson paths. Preserve them and existing lear
 | [A2-08](../a2/lesson-08.html) | Interim review and starter checkpoint covering Lessons 01–07 | — | Detailed source review: 7-topic checklist and 12-question checkpoint accurately labelled as an internal starter milestone, not full A2 or approved end-of-level module 25. Directions and present perfect are not included because they appear in later lessons |
 | [A2-09](../a2/lesson-09.html) | Directions, places in town, public transport question and polite commands | 12 | Detailed source review: strong module 12 candidate; informal tú and polite usted command forms are distinguished; quiz keys checked |
 | [A2-10](../a2/lesson-10.html) | Present perfect, recent time periods and life experiences | 07 | Detailed source review: forms and irregular participles checked; added regional-variation nuance to avoid a rigid Spain/Latin America split; dialogue now answers *¿Has estado…?* with *He estado…* |
-| [A2-11](../a2/lesson-11.html) | Comparisons | 19 | Existing — mapping candidate; compare with preferences/reasons in A2-14 |
-| [A2-12](../a2/lesson-12.html) | Advice and obligation | 14 | Existing — mapping candidate; permission/request coverage needs review |
-| [A2-13](../a2/lesson-13.html) | Describing people and places | 01, 18 | Partial / overlap; A2 depth beyond A1 needs review |
-| [A2-14](../a2/lesson-14.html) | Preferences and giving reasons | 04, 19, 23 | Existing — mapping candidate; avoid duplication with A2-05 |
-| [A2-15](../a2/lesson-15.html) | Making plans and arrangements | 09, 10 | Partial / overlap with A2-05 and A2-06 |
+| [A2-11](../a2/lesson-11.html) | Comparatives: más/menos/tan and irregular comparatives | 19 | Detailed source review: strong module 19 coverage. Added nuance that mayor/menor are especially common for age/rank/amount; use más grande/más pequeño for ordinary physical size |
+| [A2-12](../a2/lesson-12.html) | Advice, specific obligation and general necessity | 14 | Detailed source review: advice (deber), personal obligation (tener que) and general necessity (hay que) are accurately distinguished. Permission is not taught in this lesson and remains a module 14 gap |
+| [A2-13](../a2/lesson-13.html) | Describing people, appearance, neighbourhoods and places | 01, 18 | Detailed source review: useful expansion of personal descriptions and places; added accurate distinction antiguo/a (old/ancient/former) vs histórico/a (historic). More connected detail still needed for full module 18 |
+| [A2-14](../a2/lesson-14.html) | Preferences, reasons, agreement and disagreement | 04, 19, 23 | Detailed source review: module 04 and 23 well represented; module 19 partial through preferences/reasons but no comparative language. Avoid duplication with A2-05 |
+| [A2-15](../a2/lesson-15.html) | Near-future plans, meeting arrangements and time coordination | 09, 10 | Detailed source review: strong module 09 and 10 coverage. Distinct from A2-05/06 when focused on concrete scheduling and changing arrangements |
 | [A2-16](../a2/lesson-16.html) | Travel experiences and problems | 11, 15, 22 | Partial / overlap; useful travel/problem language |
 | [A2-17](../a2/lesson-17.html) | Technology and communication | 17 | Existing — mapping candidate |
 | [A2-18](../a2/lesson-18.html) | Everyday problems and solutions | 15 | Existing — mapping candidate; distinguish complaints, polite requests and solutions |
@@ -409,3 +409,23 @@ A live browser test opened the public A2 index and confirmed all 20 lesson links
 - Audio output and state persistence after reload were not tested.
 
 This is partial smoke testing, not complete runtime QA. Investigate A2-07's result display during the dedicated browser QA pass.
+
+
+## 17. A2 Lessons 11–15 — detailed source review and same-pass optimization (24 November 2026)
+
+Reviewed lesson explanations, Spanish examples and translations, Castilian pronunciation aids, register, all quiz questions and keyed answers, completion thresholds, progress IDs and local-storage logic.
+
+| Lesson | Findings | Same-pass action / mapping |
+|---|---|---|
+| A2-11 — Comparisons | más/menos + adjective/adverb/noun + que, tan + adjective/adverb + como, tanto/a/os/as + noun + como, and irregular comparatives mejor/peor/mayor/menor are introduced accurately. Eight quiz keys checked; no incorrect key found. | Clarified that mayor/menor are especially common for age and relative rank/amount; for ordinary physical size use más grande/más pequeño. Strong module 19 candidate. |
+| A2-12 — Advice and obligation | deber + infinitive, tener que + infinitive and impersonal hay que + infinitive are correctly differentiated. The important contrast between no tienes que (not necessary) and no debes (should not) is sound. Eight quiz keys checked; no incorrect key found. | No content edit required. Strong module 14 coverage for advice/obligation; permission is not included and remains a gap. |
+| A2-13 — Describing people and places | Personality/appearance adjectives, ser for characteristics, estar for states/location, tener for features, llevar for clothing/accessories, hay for existence and cerca de are accurate. Eight quiz keys checked; no incorrect key found. | Corrected a vocabulary translation: antiguo/a means old/ancient/former depending on context, not simply historic; added histórico/a for historic. Candidate for modules 01 and 18; more connected detail is still needed for full module 18. |
+| A2-14 — Preferences and giving reasons | gustar/gustan, preferir, porque, por eso, también, sin embargo, estar de acuerdo and me apetece examples are natural and accurate. Eight quiz keys checked; no incorrect key found. | No content edit required. Strong module 04/23 coverage; module 19 is only partial because comparisons are not practised here. |
+| A2-15 — Making plans and arrangements | ir a + infinitive, quedar, time phrases, changing meeting times and polite responses are accurate and practical. Eight quiz keys checked; no incorrect key found. | No content edit required. Strong module 09/10 coverage; its concrete scheduling focus keeps it distinct from the general preference/invitation content in A2-05/06. |
+
+### Progress and verification
+
+- A2-11 to A2-15 each contain an eight-question quiz with a 6/8 completion threshold.
+- All retain their original URLs, lesson IDs, ss-a2-done progress key and existing completion behaviour.
+- Re-fetched the two changed lesson files and verified the new wording. No quiz keys, thresholds, lesson IDs or progress storage were changed.
+- Source-level review only. No live browser interaction, mobile/Android, Urdu RTL, keyboard/screen-reader or reload-persistence testing was performed for this batch.
