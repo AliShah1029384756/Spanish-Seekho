@@ -54,15 +54,16 @@ The owner approved a complete **168-module A1–C2 curriculum: 28 modules per le
 The 168 count is Spanish Seekho's design choice, not a CEFR requirement. Each level has 24 core teaching modules and four closing modules (revision, practical project, integrated assessment, readiness checkpoint). This is a plan, not implemented content. Do not claim full CEFR alignment, accreditation or certification without the documented review and evidence.
 
 ### Immediate sequence
-1. A1/A2 inventories and A2 core mapping are documented; continue B1 in approved order with lessons 07–11.
-2. Preserve existing lesson URLs and local progress; do not renumber blindly.
-3. Update the master-plan status, handoff and roadmap after each verified batch.
-4. Continue B1 before proceeding to B2, then C1 and C2 in order.
+1. Complete post-build live verification for B1-17–21; their source checks and Pages workflow success are recorded above.
+2. Produce B1-22–24 (relative clauses, reported information and integrated communication).
+3. Build B1 end-of-level modules 25–28 after core 24.
+4. Preserve existing lesson URLs and local progress; do not renumber blindly.
+5. Continue B1 before proceeding to B2, then C1 and C2 in order.
 
 14. A2-21–23 deployment confirmed on GitHub Pages; Lessons 21–23 each passed live 8/8 completion flows. See tracker section 18.2.
 
 15. A2 end-of-level modules 25–28 created, added to A2 index and precached under service-worker v69. Live checks: module 25 = 16/16; module 26 project completion saved; module 27 listening/reading = 5/5 each and save; module 28 readiness plan saved. See tracker section 19. Real offline/device/accessibility QA remains pending.
-16. Next priority: verify B1-01 against the approved B1 map, then produce B1-02–06 as a complete batch. Preserve existing URLs and local progress.
+16. B1-17–21 implemented at source; current next batch is B1-22–24, followed by B1 closing modules 25–28.
 
 
 ## Completed B1 opening batch (24 November 2026)
