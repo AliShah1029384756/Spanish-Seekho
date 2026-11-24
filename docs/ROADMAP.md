@@ -24,10 +24,12 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 
 ## Next priorities
 
-0. Inspect current B1 lesson files and generate the next coherent batch after Lesson 01 (normally 5 lessons; 6–8 if scope and output budget permit).
-1. Validate lesson content and integration: Spanish accuracy, answer keys, lesson sequence, navigation, progress persistence, mobile layout and Urdu RTL.
-2. Evaluate JSON/data-driven rendering only after inspecting the current architecture. If useful, prototype one lesson and test it before considering any migration.
-3. Real-device testing (Android, RTL, PWA, offline) in the dedicated final QA phase.
+1. Continue the initial curriculum audit using [CURRICULUM-TRACKER.md](CURRICULUM-TRACKER.md): detailed A1 content review, then A2 overlap/gap review, then B1-01 verification.
+2. Decide the smallest necessary repairs or integrated activities; do not duplicate already-taught topics or renumber existing URLs.
+3. After B1-01 verification, produce B1-02–06 as a coherent five-lesson batch, following the approved B1 sequence.
+4. Validate Spanish accuracy, answer keys, lesson sequence, navigation, progress persistence, mobile layout and Urdu RTL for each change.
+5. Evaluate JSON/data-driven rendering only if a demonstrated maintenance problem justifies it; prototype one lesson before considering migration.
+6. Real-device testing (Android, RTL, PWA, offline) in the dedicated QA phase.
 
 ## Product and engineering principles
 
