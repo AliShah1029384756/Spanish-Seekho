@@ -5,11 +5,11 @@ _Last updated: 24 November 2026_
 ## Implemented learning content (documented snapshot)
 
 - A1: core lessons 01–25 + expanded practice (60-item deck) + separate end-of-level modules 25–28 (cumulative review, practical project, integrated skills practice, readiness plan).
-- A2: lessons 01–20 (Lesson 20 = integrated practice and self-assessment; not a complete end-of-level assessment).
+- A2: core lessons 01–23 plus separate end-of-level modules 25–28. All 24 core outcomes have strong internal mapping evidence; this is not official CEFR certification.
 - B1: Lesson 01 (narrating past events naturally; pathway started).
 - Spain Life: 6 modules.
 - A1 Lesson 25 remains Education, school and studies; it was preserved and mapped to core module 20. The new cumulative review uses a separate URL.
-- A2 lessons 13–20: descriptions, preferences/reasons, plans, travel problems, technology, everyday solutions, grammar review and integrated practice. The 20-page pathway still has core-module gaps and no verified A2 closing modules 25–28.
+- A2 lessons 13–23: descriptions, preferences/reasons, plans, travel problems, technology, everyday solutions, review, integrated practice, home/neighbourhood, public services and connectors/sequencing. Separate closing modules 25–28 are deployed and smoke-tested.
 
 **Product truth:** A1/A2 are expanding starter pathways, not complete CEFR syllabi. B1 has only started.
 
@@ -24,7 +24,7 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 
 ## Next priorities
 
-1. A2 Lessons 01–23 are source-reviewed and source-level implementation now provides strong internal mapping for all 24 approved core outcomes. Five existing pages were strengthened and A2-21–23 added for modules 02/16/20. Live deployment is confirmed; finish quiz/runtime QA, then build separate closing modules 25–28.
+1. A2 core 01–24 and separate end-of-level modules 25–28 are implemented and deployed. Remaining A2 QA is broader device/TTS/reload/offline/accessibility verification plus selected older quiz flows; do not delay B1-01 mapping while waiting for exhaustive device QA.
 2. Apply verified content corrections in the same review pass; preserve all existing URLs and learner progress.
 3. Verify B1-01, then produce B1-02–06 as a coherent five-lesson batch.
 4. Run dedicated A1 end-of-level runtime QA: assessment interactions, local drafts, TTS fallback, keyboard/focus, mobile/RTL and real offline/PWA behaviour.
@@ -35,7 +35,7 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 9. A2 Lessons 11–15 source review: clarified mayor/menor size/age usage in A2-11 and corrected antiguo/a vs histórico/a in A2-13. Quiz/progress structures preserved.
 10. A2 Lessons 16–20 source review: added tú/usted register note in A2-18, qualified the present-perfect rationale in A2-19 and corrected the Spanish can-do checklist in A2-20. All 40 answer keys and progress structures checked; details in tracker section 18.
 11. Limited live smoke test: A2-11, A2-12 and A2-13 each passed 8/8 and showed completion; A2-14/15 were visible but not interaction-tested. See tracker section 17.1.
-12. Service worker bumped to v68; A2-21–23 added to the precache list. Real offline behaviour remains untested.
+12. Service worker bumped to v68 for A2-21–23; real offline behaviour remains untested.
 12. A2-16–20 source review complete. Live smoke test confirmed all five pages and quizzes render; A2-16 passed a targeted 8/8 completion interaction. A2-17–20 submission flows remain untested. See tracker section 18.1.
 13. Full A2 01–20 to 24-outcome reconciliation completed; all 24 outcomes now have strong internal mapping evidence after five targeted revisions and three new lessons. Source files/index are committed and a later live check confirmed 23 lesson cards and deployed routes 21–23. Lessons 21, 22 and 23 each passed live 8/8 submissions with completion panels visible. See tracker section 4.
 10. Limited live smoke test: A1 index and all four new end-of-level pages deployed; module 25 answer selection and module 26 completion-button interaction exercised; modules 27–28 only partially checked. See curriculum tracker for limits.
@@ -64,3 +64,6 @@ The 168 count is Spanish Seekho's design choice, not a CEFR requirement. Each le
 5. Continue B1 before proceeding to B2, then C1 and C2 in order.
 
 14. A2-21–23 deployment confirmed on GitHub Pages; Lessons 21–23 each passed live 8/8 completion flows. See tracker section 18.2.
+
+15. A2 end-of-level modules 25–28 created, added to A2 index and precached under service-worker v69. Live checks: module 25 = 16/16; module 26 project completion saved; module 27 listening/reading = 5/5 each and save; module 28 readiness plan saved. See tracker section 19. Real offline/device/accessibility QA remains pending.
+16. Next priority: verify B1-01 against the approved B1 map, then produce B1-02–06 as a complete batch. Preserve existing URLs and local progress.
