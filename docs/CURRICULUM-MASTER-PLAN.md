@@ -447,11 +447,11 @@ Review transitions, descriptor mapping, skill coverage, placement/progress repor
 Repository documentation dated 24 November 2026 records:
 - A1: core lessons 01–25 exist; separate end-of-level activities 25–28 are implemented and deployed. A limited public-site smoke test covered the index and exercised parts of modules 25–26; full interaction/device QA remains pending.
 - A2: core lessons 01–23 and separate end-of-level activities 25–28 are deployed and source-verified. All 24 approved core outcomes have strong internal mapping evidence after targeted revisions and three new lessons; this is not external CEFR validation. Live smoke tests: lessons 21–23 each passed 8/8; module 25 passed 16/16; module 26 project completion saved; module 27 listening/reading 5/5 each and save; module 28 readiness plan saved. Service-worker cache v72 includes A2 lessons 21–23 and closing pages 25–28 plus B1 lessons 01–16; real offline behaviour remains untested.
-- B1: Lessons 01–16 are deployed; 12–16 routes were confirmed live with headings, quizzes and submit controls. Lessons 17–21 are source-implemented with all 40 quiz keys checked; latest Pages workflow succeeded, but a fresh post-build browser route/quiz check remains pending. B1 remains an expanding pathway, not a complete CEFR course.
+- B1: Core lessons 01–24 and separate closing activities 25–28 are implemented at source and integrated into the B1 index. B1-01–16 have earlier deployment evidence; post-build route/interaction verification for 17–28 is pending. Closing module source checks passed, but live routes, quiz interactions, project save, TTS and readiness interactions have not been browser-tested. B1 remains a Spanish Seekho learning pathway, not an accredited or externally validated CEFR qualification. Service-worker cache v75 includes B1 core and closing pages; actual offline operation remains untested.
 - Spain Life: six modules documented.
 - Full 168-module curriculum: **approved and planned; not implemented in full**.
 - B2, C1 and C2: planned; no completion claim.
-- A2 core modules 01–24 and B1 modules 01–06 have internal mapping evidence; A1 mapping and B1 progression beyond module 06 remain in progress. No external CEFR validation or accreditation is claimed.
+- A2 core modules 01–24 have strong internal mapping evidence. B1 core 01–24 has been authored against the approved topic sequence, but the complete 01–24 descriptor mapping and language review remain pending. No external CEFR validation or accreditation is claimed.
 
 Refresh this snapshot from actual repository code before each production batch.
 
@@ -487,9 +487,9 @@ This is a repository-level planning snapshot, not a page-by-page audit. “Exist
 | B1 | 02–06 | Implemented and deployed — modules 02–06 | Live pages/index verified; B1-02 passed 8/8; B1-03–06 quiz submission QA pending |
 | B1 | 07–11 | Implemented and deployed — modules 07–11 | Live pages/index verified; B1-07 passed 8/8; B1-08–11 quiz submission QA pending |
 | B1 | 12–16 | Implemented and deployed | Live routes 12–16 confirmed; quiz submission QA pending |
-| B1 | 17–21 | Implemented at source; Pages workflow succeeded | Post-build live route and quiz QA pending; browser automation unavailable on latest attempt |
-| B1 | 22–24 | Implemented and source-verified; Pages workflow in progress at last check | Relative clauses, reported information and integrated communication; live route/quiz QA pending |
-| B1 | 25–28 | Planned | Build separate cumulative review, practical project, integrated assessment and readiness checkpoint |
+| B1 | 17–21 | Implemented at source; prior Pages workflow succeeded | Post-build live route and quiz QA pending; browser automation unavailable on latest attempt |
+| B1 | 22–24 | Implemented and source-verified | Relative clauses, reported information and integrated communication; latest v75 publication and live QA pending |
+| B1 | 25–28 | Implemented at source and integrated into B1 index | Four closing activities source-checked; latest v75 publication, live interaction QA and full B1 curriculum review pending |
 | B2 | 01–28 | Planned | Begin after B1 progression is complete and reviewed |
 | C1 | 01–28 | Planned | Begin after B2 progression is complete and reviewed |
 | C2 | 01–28 | Planned | Begin after C1 progression is complete and reviewed |
