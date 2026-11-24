@@ -29,9 +29,9 @@ Spanish Seekho is a free, practical, mobile-first Spanish-learning platform for 
 As recorded in the repository handoff and README on 24 November 2026:
 
 - A1 starter pathway: lessons 01–25.
-- A2 starter pathway: lessons 01–20.
+- A2 starter pathway: core lessons 01–23 plus separate end-of-level activities 25–28.
 - B1 pathway: lesson 01 available; pathway has started, not completed.
-- A1 and A2 are starter pathways, not claims that every CEFR requirement is covered.
+- A1 and A2 are starter pathways, not claims that every CEFR requirement is externally validated or officially certified. A2's 24 core outcomes have internal mapping evidence; its four separate end-of-level activities are implemented and smoke-tested.
 - B1 must be expanded in a coherent sequence and must not be described as a complete B1 course.
 
 Always inspect the latest repository and handoff before choosing lesson numbers. Never assume this snapshot is still current.
