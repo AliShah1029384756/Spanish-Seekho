@@ -26,7 +26,7 @@ Important: the audit confirms files and visible topic/section structures, not fu
 - A2: lessons 01–20; Lesson 20 is integrated practice and a self-checkpoint, not a complete end-of-level assessment or modules 26–28.
 - B1: Lesson 01 available; pathway started, not complete.
 - Spain Life: 6 modules.
-- Current service-worker cache version: `spanish-seekho-v67`; four A1 end-of-level pages are in its precache list. Real offline behaviour remains untested.
+- Current service-worker cache version: `spanish-seekho-v68`; four A1 end-of-level pages and A2 lessons 21–23 are in its precache list. Real offline behaviour remains untested.
 
 A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 is only beginning. Inspect current files before assuming this snapshot is still current.
 
@@ -118,6 +118,6 @@ All 24 approved A2 core outcomes have now been compared with the 20 existing les
 
 - All 24 approved A2 core outcomes now have strong internal mapping evidence. This is the project's outcome-level mapping judgement, not external CEFR validation or accreditation. The detailed matrix and overlap decisions are in tracker section 4.
 - Strengthened existing pages: A2-02 (past/present routine comparison), A2-13 (relationships and connected descriptions), A2-14 (permission), A2-16 (follow-up questions), and A2-20 (integrated personal/public/work-study tasks).
-- Created A2-21 (module 02: home/neighbourhood/local services), A2-22 (module 16: public services/forms/appointments), and A2-23 (module 20: connectors/sequencing). Each has eight authored quiz questions, a 6/8 threshold, a unique completion ID and the existing ss-a2-done storage key.
+- Created A2-21 (module 02: home/neighbourhood/local services), A2-22 (module 16: public services/forms/appointments), and A2-23 (module 20: connectors/sequencing). Each has eight authored quiz questions, a 6/8 threshold, a unique completion ID and the existing ss-a2-done storage key. Bumped the service-worker cache to v68 and added all three new pages to precache so previously cached A2 index/pages are refreshed on update.
 - Source verification passed for all three new files and their index links. The first browser pass saw deployment delay/old 01–20 index, but a later live check confirmed all three new cards and routes are deployed. Lessons 21–23 each passed 8/8 with visible completion panels and progress-saving messages. See tracker section 18.2.
 - A2 closing modules 25–28 remain unbuilt. Preserve A2-08, A2-19 and A2-20; create the four closing activities as distinct pages.
