@@ -24,11 +24,11 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 
 ## Next priorities
 
-1. **B1-17–21 deployment QA:** verify the five new routes after the successful Pages build, then test quiz completion. Source checks and answer-key syntax checks passed; public browser run occurred before deployment finished.
-2. **Selected A2 runtime follow-up:** test A2-07 result display and A2-14/15 plus A2-17–20 quiz submissions. A2-16 and A2-21–23 have confirmed live completion flows; A2-25–28 closing activities have received primary interaction smoke tests.
-3. **Cross-course device/accessibility QA:** test Android/mobile layout, Urdu RTL, keyboard/focus, screen-reader labels, TTS availability, reload persistence and actual offline/PWA behaviour. The service-worker cache is v73 and includes A2 core lessons 21–23, A2 closing modules 25–28 and B1 lessons 01–21; offline behaviour is still unverified.
-4. **A1 end-of-level follow-up:** complete module 25 submission/result, module 27 full completion and module 28 interaction tests; preserve all existing A1 progress and URLs.
-5. **Continue B1 in order:** B1-01–16 are deployed; B1-17–21 are implemented and their Pages workflow succeeded, with post-build browser verification pending. Next content batch is B1-22–24, then B1 closing modules 25–28. Do not begin B2 until B1 progression has been developed and reviewed.
+1. **B1 post-build verification:** re-fetch and verify the latest source files, inspect the Pages workflow, then test public routes and quiz submissions for B1-17–24 when browser automation is available. The browser service could not start on the latest attempt due to insufficient wallet balance.
+2. **B1 end-of-level modules 25–28:** review the 24 core lessons, then create separate cumulative review, practical project, integrated skills assessment and readiness checkpoint pages.
+3. **Selected A1/A2 runtime follow-up:** test A2-07 result display and outstanding A2-14/15 and A2-17–20 quiz submissions; complete remaining A1 closing activity interactions.
+4. **Cross-course device/accessibility QA:** Android/mobile layout, Urdu RTL, keyboard/focus, screen-reader labels, TTS, reload persistence and actual offline/PWA behaviour remain unverified. Service-worker cache is v74; precache configuration is not proof of offline functionality.
+5. **Keep B1 in order:** do not begin B2 until B1 core lessons 01–24 and separate closing modules 25–28 are developed and reviewed.
 
 ## Completed A2 work snapshot (24 November 2026)
 
@@ -94,3 +94,12 @@ The 168 count is Spanish Seekho's design choice, not a CEFR requirement. Each le
 - B1 index source lists 21 lessons; service-worker cache v73 precaches 17–21.
 - The first live browser pass preceded completion of the latest Pages build and saw stale 16-card content/404s. GitHub Pages workflow run 45426795301 later completed successfully for latest source commit; fresh browser verification remains pending.
 - Next batch: B1-22–24, then end-of-level modules 25–28. Broader device/offline/accessibility QA remains outstanding.
+
+
+## B1 Lessons 22–24 source batch (24 November 2026)
+
+- Added relative clauses (22), reported information (23) and integrated B1 communication (24), following the approved master map.
+- Each page has learning objectives, five teaching sections, Spanish examples with Roman Urdu meanings, dialogue, production task and eight quiz questions. Existing 6/8 threshold and ss-b1-done progress key are preserved with unique lesson IDs.
+- B1 index now lists 24 lessons and progress out of 24; lesson navigation continues 21→22→23→24. Service-worker cache v74 precaches lessons 22–24.
+- Browser automation could not start because its service wallet balance was insufficient. Do not claim public routes or quiz submissions have been tested. Re-fetch source and inspect the Pages workflow before marking deployment confirmed.
+- Next: B1 closing modules 25–28 after core review.
