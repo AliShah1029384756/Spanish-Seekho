@@ -23,10 +23,10 @@ Important: the audit confirms files and visible topic/section structures, not fu
 ## Current documented course state
 
 - A1: core lessons 01–25; separate end-of-level activities 25–28 now implemented; 60-item practice deck. These are source-verified additions, not yet browser/device QA approved.
-- A2: lessons 01–20; Lesson 20 is integrated practice and a self-checkpoint, not a complete end-of-level assessment or modules 26–28.
+- A2: core pathway lessons 01–23 plus separate end-of-level modules 25–28. All 24 core outcomes have strong internal mapping evidence. Closing pages have been deployed and their primary interactions smoke-tested; see tracker sections 4, 18.2 and 19.
 - B1: Lesson 01 available; pathway started, not complete.
 - Spain Life: 6 modules.
-- Current service-worker cache version: `spanish-seekho-v68`; four A1 end-of-level pages and A2 lessons 21–23 are in its precache list. Real offline behaviour remains untested.
+- Current service-worker cache version: `spanish-seekho-v69`; four A1 end-of-level pages, A2 lessons 21–23 and A2 end-of-level modules 25–28 are in its precache list. Real offline behaviour remains untested.
 
 A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 is only beginning. Inspect current files before assuming this snapshot is still current.
 
@@ -121,3 +121,13 @@ All 24 approved A2 core outcomes have now been compared with the 20 existing les
 - Created A2-21 (module 02: home/neighbourhood/local services), A2-22 (module 16: public services/forms/appointments), and A2-23 (module 20: connectors/sequencing). Each has eight authored quiz questions, a 6/8 threshold, a unique completion ID and the existing ss-a2-done storage key. Bumped the service-worker cache to v68 and added all three new pages to precache so previously cached A2 index/pages are refreshed on update.
 - Source verification passed for all three new files and their index links. The first browser pass saw deployment delay/old 01–20 index, but a later live check confirmed all three new cards and routes are deployed. Lessons 21–23 each passed 8/8 with visible completion panels and progress-saving messages. See tracker section 18.2.
 - A2 closing modules 25–28 remain unbuilt. Preserve A2-08, A2-19 and A2-20; create the four closing activities as distinct pages.
+
+
+## A2 end-of-level modules 25–28 (24 November 2026)
+
+- Created separate pages: `a2/a2-review.html`, `a2/a2-project.html`, `a2/a2-assessment.html`, `a2/a2-readiness.html`; added four cards to the A2 index and all routes to service-worker precache v69.
+- Module 25 cumulative review: 16/16 live, targeted revision links and 12/16 review target.
+- Module 26 practical trip project: five written task drafts and five checklist items completed in live browser test; completion status confirmed.
+- Module 27 integrated skills: listening 5/5, reading 5/5, writing sample entered, five self-checks marked and local save confirmed. Speaking is self-reviewed, not machine-scored.
+- Module 28 readiness: ten can-do checks, personal gap plan and B1 next-step choice saved.
+- All four cards and routes were verified live. Offline behaviour, real-device cache refresh, TTS quality, Android/RTL, accessibility and reload persistence remain untested. See tracker section 19.
