@@ -46,7 +46,7 @@ A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 is only 
 
 ## Current production priority
 
-A2 core curriculum reconciliation is complete. The tracker records 15 strong outcomes, 5 partial outcomes and 4 gaps. Next: apply targeted revisions to A2-02/13/14-or-18/16/20; create A2-21–23 for modules 02/16/20; then create separate closing modules 25–28. Include A2-07 result display and A2-14/15 plus A2-17–20 interactions in the dedicated browser QA list. After A2 core/closing work, verify B1-01 and produce B1-02–06 as a coherent batch. A1's four closing activities are implemented at source level; schedule browser/device, keyboard, RTL and offline QA before making runtime claims.
+A2 core curriculum reconciliation is complete. The tracker records 14 strong outcomes, 7 partial outcomes and 3 gaps. Next: apply targeted revisions to A2-02/13/14-or-18/16/20; create A2-21–23 for modules 02/16/20; then create separate closing modules 25–28. Include A2-07 result display and A2-14/15 plus A2-17–20 interactions in the dedicated browser QA list. After A2 core/closing work, verify B1-01 and produce B1-02–06 as a coherent batch. A1's four closing activities are implemented at source level; schedule browser/device, keyboard, RTL and offline QA before making runtime claims.
 
 ## Batch-first working agreement
 
