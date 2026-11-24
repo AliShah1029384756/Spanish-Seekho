@@ -4,11 +4,11 @@ _Last updated: 24 November 2026_
 
 ## Implemented learning content (documented snapshot)
 
-- A1: lessons 01–25 + expanded practice (60-item deck).
+- A1: core lessons 01–25 + expanded practice (60-item deck) + separate end-of-level modules 25–28 (cumulative review, practical project, integrated skills practice, readiness plan).
 - A2: lessons 01–20 (Lesson 20 = integrated final practice and self-assessment).
 - B1: Lesson 01 (narrating past events naturally; pathway started).
 - Spain Life: 6 modules.
-- Lesson 25: Education, school and studies (A1).
+- A1 Lesson 25 remains Education, school and studies; it was preserved and mapped to core module 20. The new cumulative review uses a separate URL.
 - A2 lessons 13–20: descriptions, preferences/reasons, plans, travel problems, technology, everyday solutions, grammar review and final checkpoint.
 
 **Product truth:** A1/A2 are expanding starter pathways, not complete CEFR syllabi. B1 has only started.
@@ -20,16 +20,15 @@ _Last updated: 24 November 2026_
 - Updated `AGENTS.md` to require the new documentation and enforce batch-first lesson production.
 - Updated `docs/PROJECT-HANDOFF.md` with the project mission, multi-AI handoff, verified documented course snapshot, and architecture caveats.
 
-These are documentation/process changes. They do **not** implement a JSON lesson engine, automated validation, or automated batch generation.
+These are documentation/process changes. They do **not** implement a JSON lesson engine, automated validation, or automated batch generation. The A1 end-of-level activity pages are implemented as static HTML/vanilla JavaScript.
 
 ## Next priorities
 
-1. Continue the initial curriculum audit using [CURRICULUM-TRACKER.md](CURRICULUM-TRACKER.md): detailed A1 content review, then A2 overlap/gap review, then B1-01 verification.
-2. Decide the smallest necessary repairs or integrated activities; do not duplicate already-taught topics or renumber existing URLs.
-3. After B1-01 verification, produce B1-02–06 as a coherent five-lesson batch, following the approved B1 sequence.
-4. Validate Spanish accuracy, answer keys, lesson sequence, navigation, progress persistence, mobile layout and Urdu RTL for each change.
-5. Evaluate JSON/data-driven rendering only if a demonstrated maintenance problem justifies it; prototype one lesson before considering migration.
-6. Real-device testing (Android, RTL, PWA, offline) in the dedicated QA phase.
+1. Continue detailed A2 content/curriculum mapping from Lessons 01–05, then proceed in contiguous batches through Lesson 20.
+2. Apply verified content corrections in the same review pass; preserve all existing URLs and learner progress.
+3. Verify B1-01, then produce B1-02–06 as a coherent five-lesson batch.
+4. Run dedicated A1 end-of-level runtime QA: assessment interactions, local drafts, TTS fallback, keyboard/focus, mobile/RTL and real offline/PWA behaviour.
+5. Continue to defer JSON/data-driven rendering unless a demonstrated maintenance problem justifies a tested proof of concept.
 
 ## Product and engineering principles
 
