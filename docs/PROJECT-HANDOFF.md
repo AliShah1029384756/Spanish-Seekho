@@ -156,7 +156,7 @@ All 24 approved A2 core outcomes have now been compared with the 20 existing les
 - Each page has eight three-option questions, a 6/8 pass threshold, unique lesson ID and ss-b1-done progress key; all 40 answer keys were source-checked.
 - B1 index source includes 11 lesson cards; cache-busting live check confirmed all 11 cards and service-worker v71. The first browser run showed the older six-card cached index, which was resolved by query-string cache-busting verification.
 - B1-07 passed live 8/8 with completion panel. B1-08–11 pages, headings, quiz counts and submit controls verified; their quiz submissions remain untested.
-- B1-12–16 have now been created at source level: decisions/options; work experience; education/skills; applications/interviews; social issues. Their GitHub Pages deployment is pending; verify the routes and index with cache-busting after the latest Pages build succeeds. Next content batch after publication: B1-17–21.
+- B1-12–16 are deployed and were confirmed live: the index showed 16 cards and all five routes loaded with eight quiz questions and submit controls. Their quiz submissions remain untested.
 
 
 ## B1 Lessons 12–16 source implementation (24 November 2026)
@@ -165,3 +165,17 @@ All 24 approved A2 core outcomes have now been compared with the 20 existing les
 - Each new page has eight quiz questions, 6/8 threshold, unique lesson ID and ss-b1-done storage. All 40 answer keys passed source-level index validation.
 - B1 index source contains cards 01–16 and progress out of 16; service-worker cache v72 precaches all five new pages. The latest GitHub Pages workflow was still pending when the live browser check ran; the public index showed the previous 11 cards and lesson-12 route returned 404. Do not report the new pages as live until a later cache-busting check succeeds.
 - Next content batch after deployment: B1-17–21, following the master map.
+
+
+## B1 Lessons 12–16 deployment confirmation (24 November 2026)
+
+- Cache-busting live browser check confirmed the B1 index displays all 16 lesson cards and direct routes 12–16 load with expected headings, eight quiz questions and submit controls.
+- Quiz submissions for B1-12–16 remain untested. See tracker section 22.
+
+## B1 Lessons 17–21 implementation (24 November 2026)
+
+- Created B1-17–21 for the approved Unit 5 and first Unit 6 outcomes: causes/consequences; negotiation; advice/necessity; complaints/service problems; common present subjunctive.
+- Added explicit learning objectives, teaching sections, model dialogues, speaking/writing tasks and eight-question quizzes. All 40 answer keys and progress handlers were source-checked; JavaScript syntax compilation passed.
+- B1 index source now lists 21 cards and progress out of 21. B1-16 links forward to B1-17. Service-worker cache v73 precaches lessons 17–21.
+- A browser check still saw the previous 16-card deployment and 404 routes while the Pages build was completing. GitHub Actions subsequently reported Pages build/deployment run 45426795301 for head commit 36c9bcd52bb7bcdbf95b3f3b237d558599a0ed54 completed successfully. Fresh post-build browser route and quiz checks are still required.
+- Next content batch: B1-22–24 (relative clauses, reported information and integrated B1 communication), then distinct closing modules 25–28. Keep broader device/accessibility/offline QA in the roadmap.
