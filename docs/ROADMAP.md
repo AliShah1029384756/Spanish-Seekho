@@ -5,11 +5,11 @@ _Last updated: 24 November 2026_
 ## Implemented learning content (documented snapshot)
 
 - A1: core lessons 01–25 + expanded practice (60-item deck) + separate end-of-level modules 25–28 (cumulative review, practical project, integrated skills practice, readiness plan).
-- A2: lessons 01–20 (Lesson 20 = integrated final practice and self-assessment).
+- A2: lessons 01–20 (Lesson 20 = integrated practice and self-assessment; not a complete end-of-level assessment).
 - B1: Lesson 01 (narrating past events naturally; pathway started).
 - Spain Life: 6 modules.
 - A1 Lesson 25 remains Education, school and studies; it was preserved and mapped to core module 20. The new cumulative review uses a separate URL.
-- A2 lessons 13–20: descriptions, preferences/reasons, plans, travel problems, technology, everyday solutions, grammar review and final checkpoint.
+- A2 lessons 13–20: descriptions, preferences/reasons, plans, travel problems, technology, everyday solutions, grammar review and integrated practice. The 20-page pathway still has core-module gaps and no verified A2 closing modules 25–28.
 
 **Product truth:** A1/A2 are expanding starter pathways, not complete CEFR syllabi. B1 has only started.
 
@@ -24,7 +24,7 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 
 ## Next priorities
 
-1. A2 Lessons 01–15 are now source-reviewed; continue detailed content/curriculum mapping from Lessons 16–20, then reconcile all 20 lessons against the approved A2 map.
+1. A2 Lessons 01–20 are now source-reviewed; reconcile all 20 against approved modules 01–24, then plan the smallest non-duplicative additions and A2 closing modules 25–28.
 2. Apply verified content corrections in the same review pass; preserve all existing URLs and learner progress.
 3. Verify B1-01, then produce B1-02–06 as a coherent five-lesson batch.
 4. Run dedicated A1 end-of-level runtime QA: assessment interactions, local drafts, TTS fallback, keyboard/focus, mobile/RTL and real offline/PWA behaviour.
@@ -33,7 +33,9 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 7. A2 Lessons 06–10 source review: clarified present-perfect regional variation and improved the Madrid dialogue in A2-10. A2-08 confirmed as an interim starter checkpoint, not the end-of-level module 25.
 8. Limited live A2 smoke test: A2-06 quiz passed 6/6; A2-07 result message not observed despite source handler being present; A2-08–10 not interaction-tested. See tracker.
 9. A2 Lessons 11–15 source review: clarified mayor/menor size/age usage in A2-11 and corrected antiguo/a vs histórico/a in A2-13. Quiz/progress structures preserved.
+10. A2 Lessons 16–20 source review: added tú/usted register note in A2-18, qualified the present-perfect rationale in A2-19 and corrected the Spanish can-do checklist in A2-20. All 40 answer keys and progress structures checked; details in tracker section 18.
 11. Limited live smoke test: A2-11, A2-12 and A2-13 each passed 8/8 and showed completion; A2-14/15 were visible but not interaction-tested. See tracker section 17.1.
+12. A2-16–20 source review complete; live browser interactions still pending. Include A2-07 result display and A2-14–20 in dedicated runtime QA.
 10. Limited live smoke test: A1 index and all four new end-of-level pages deployed; module 25 answer selection and module 26 completion-button interaction exercised; modules 27–28 only partially checked. See curriculum tracker for limits.
 
 ## Product and engineering principles
