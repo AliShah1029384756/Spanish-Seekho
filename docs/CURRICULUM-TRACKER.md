@@ -1,6 +1,6 @@
 # Spanish Seekho — Curriculum Audit Tracker
 
-_Status: Initial repository inventory and curriculum mapping completed; detailed pedagogical/content QA pending._  
+_Status: A1 Lessons 01–25 source-reviewed; A1 end-of-level modules 25–28 implemented and source-verified. A2/B1 detailed QA and programme-wide runtime testing remain pending._  
 _Audit date: 24 November 2026_  
 _Baseline: `docs/CURRICULUM-MASTER-PLAN.md` (approved 168-module target)_
 
@@ -303,3 +303,37 @@ Detailed source review now covers **A1 Lessons 01–20**. Continue with **A1 Les
 ### 13.3 A1 detailed review status
 
 Detailed source review now covers **A1 Lessons 01–25**. Next, verify the approved A1 closing modules and their actual implementation: module 25 cumulative review/gap repair, module 26 practical action-oriented project, module 27 integrated skills assessment, and module 28 end-level checkpoint/self-assessment/readiness plan. Do not equate the existing Lesson 25 page with all four closing modules. Record which components exist, are partial, or are missing before designing additions.
+
+
+## 14. A1 end-of-level modules 25–28 — implementation verification (24 November 2026)
+
+The repository inventory showed that the existing file `a1/lesson-25.html` is **Education, school and studies** (a core-topic lesson mapped to approved module 20), not the approved cumulative review. It was preserved without renumbering or overwriting. The existing A1 lesson progress key and lesson IDs remain unchanged.
+
+Four separate end-of-level activity pages have now been created:
+
+| Approved module | New page | Implemented content | Completion / evidence |
+|---|---|---|---|
+| 25 — Cumulative review and targeted gap repair | [a1-review.html](../a1/a1-review.html) | 12 mixed A1 questions, explanations, missed-topic links and targeted lesson revision | 9/12 review target; records module-25 in the separate `ss-a1-end-done` key |
+| 26 — Practical project: introduce yourself and handle a day of basic tasks in Spain | [a1-project.html](../a1/a1-project.html) | Five linked tasks: introduction, café order, directions, shopping/payment and asking for basic help; model phrases, speaking prompts and saved written drafts | Learner marks each of five task checklists; records module-26 separately |
+| 27 — Integrated listening, reading, speaking and writing assessment | [a1-assessment.html](../a1/a1-assessment.html) | Browser TTS listening message with questions, reading message with questions, self-reviewed speaking prompts, short writing task and mediation task | Six self-review checks; no automated speaking/writing grade. TTS is browser-generated, not a professional recording |
+| 28 — Final checkpoint, self-assessment and A2 readiness plan | [a1-readiness.html](../a1/a1-readiness.html) | A1 can-do checklist, gap plan and learner choice of next step before A2 | Saves the personal readiness choice and module-28 completion locally; not a CEFR placement test |
+
+### Integration and preservation
+
+- Added all four activities to the A1 course index in a separate **A1 · End-of-level** section.
+- Kept the existing 25 lesson links and lesson numbering intact; the existing A1 lesson progress counter remains a 25-lesson counter, with a separate 0–4 end-of-level activity count.
+- Added all four new pages to the service-worker precache and incremented the cache from `spanish-seekho-v66` to `spanish-seekho-v67`.
+- New end-of-level completion uses `ss-a1-end-done`; project, assessment and readiness drafts use separate keys. Existing `ss-a1-done` learner progress is not migrated, cleared or overwritten.
+- Direct access remains open. No completion gate was added.
+
+### Verification limits
+
+- Confirmed all four new files exist on GitHub, have page metadata and load the shared A1 app shell.
+- Confirmed the A1 index contains all four links and the service worker lists all four pages under the new cache version.
+- Source-level review only. No browser execution, JavaScript runtime test, Android/RTL test, screen-reader/keyboard audit or real offline/PWA test was performed.
+- Module 27's listening activity depends on browser text-to-speech availability. Speaking and writing are self-reviewed and are not automatically assessed.
+- These activities are internal learning resources, not official CEFR exams, certificates or proof of A1 proficiency.
+
+### Next audit priority
+
+A1 now has its four approved closing activities implemented at source level. Continue the detailed mapping/content audit for A2 Lessons 01–20, then verify B1-01 and proceed with the approved B1-02–06 batch. Schedule a dedicated browser/device QA pass for A1 end-of-level interactions before making runtime or offline claims.
