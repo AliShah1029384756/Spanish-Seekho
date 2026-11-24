@@ -44,8 +44,8 @@ Separate end-of-level activities are also available: cumulative review and gap r
 
 Open: [A2 course](https://alishah1029384756.github.io/Spanish-Seekho/a2/)
 
-### B1 intermediate pathway (first 6 lessons)
-B1 Lessons 01–06 are available: narrative storytelling, experiences and achievements, life changes, expressing opinions with reasons, and diplomatic agreement/disagreement. B1 is still an expanding pathway, not a complete CEFR B1 syllabus.
+### B1 intermediate pathway (first 11 lessons)
+B1 Lessons 01–11 are available: narrative storytelling, experiences and achievements, life changes, opinions and arguments, clarification, future predictions, conditional requests, and plans/possibilities. B1 is still an expanding pathway, not a complete CEFR B1 syllabus.
 
 Open: [B1 course](https://alishah1029384756.github.io/Spanish-Seekho/b1/)
 
@@ -93,7 +93,7 @@ Open `index.html` or serve the folder. Service worker needs HTTPS or localhost.
 GitHub Pages: Settings → Pages → Deploy from branch `main` / (root).
 
 ## Status
-The A1 starter pathway (25 lessons), four practice modes and six Spain Life modules are implemented. A2 has 23 core lessons and separate end-of-level activities 25–28; all 24 core outcomes have internal mapping evidence and the new quizzes/project/assessment/readiness flows have received limited live smoke testing. Deeper Android/RTL, accessibility, TTS and offline verification remain. B1 has six lessons (not a complete CEFR B1 syllabus).
+The A1 starter pathway (25 lessons), four practice modes and six Spain Life modules are implemented. A2 has 23 core lessons and separate end-of-level activities 25–28; all 24 core outcomes have internal mapping evidence and the new quizzes/project/assessment/readiness flows have received limited live smoke testing. Deeper Android/RTL, accessibility, TTS and offline verification remain. B1 has eleven lessons (not a complete CEFR B1 syllabus).
 
 ## License
 MIT — see [LICENSE](LICENSE).
