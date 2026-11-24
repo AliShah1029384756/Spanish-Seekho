@@ -44,8 +44,8 @@ Separate end-of-level activities are also available: cumulative review and gap r
 
 Open: [A2 course](https://alishah1029384756.github.io/Spanish-Seekho/a2/)
 
-### B1 intermediate pathway (started)
-The first B1 lesson is available: narrating past events naturally with indefinido vs imperfecto, background description and story connectors. B1 is just beginning; this is not a complete CEFR B1 syllabus.
+### B1 intermediate pathway (first 6 lessons)
+B1 Lessons 01–06 are available: narrative storytelling, experiences and achievements, life changes, expressing opinions with reasons, and diplomatic agreement/disagreement. B1 is still an expanding pathway, not a complete CEFR B1 syllabus.
 
 Open: [B1 course](https://alishah1029384756.github.io/Spanish-Seekho/b1/)
 
@@ -93,7 +93,7 @@ Open `index.html` or serve the folder. Service worker needs HTTPS or localhost.
 GitHub Pages: Settings → Pages → Deploy from branch `main` / (root).
 
 ## Status
-The A1 starter pathway (25 lessons), four practice modes and six Spain Life modules are implemented. A2 has 23 core lessons and separate end-of-level activities 25–28; all 24 core outcomes have internal mapping evidence and the new quizzes/project/assessment/readiness flows have received limited live smoke testing. Deeper Android/RTL, accessibility, TTS and offline verification remain. B1 has started with its first lesson (not a complete CEFR B1 syllabus).
+The A1 starter pathway (25 lessons), four practice modes and six Spain Life modules are implemented. A2 has 23 core lessons and separate end-of-level activities 25–28; all 24 core outcomes have internal mapping evidence and the new quizzes/project/assessment/readiness flows have received limited live smoke testing. Deeper Android/RTL, accessibility, TTS and offline verification remain. B1 has six lessons (not a complete CEFR B1 syllabus).
 
 ## License
 MIT — see [LICENSE](LICENSE).
@@ -101,4 +101,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Curriculum standard
 
-Spanish Seekho's approved long-term target is a 168-module programme across CEFR A1–C2 (28 modules per level). This is our own curriculum structure, not a CEFR-prescribed lesson count. A1/A2 pathways and the first B1 lesson are being mapped against the plan; the full programme is not yet implemented. See the [Curriculum Master Plan](docs/CURRICULUM-MASTER-PLAN.md) for level outcomes, all 168 planned modules, assessment principles and implementation phases.
+Spanish Seekho's approved long-term target is a 168-module programme across CEFR A1–C2 (28 modules per level). This is our own curriculum structure, not a CEFR-prescribed lesson count. A2 core outcomes have internal mapping evidence; B1 is being expanded in order against the approved map. The full programme is not yet implemented. See the [Curriculum Master Plan](docs/CURRICULUM-MASTER-PLAN.md) for level outcomes, all 168 planned modules, assessment principles and implementation phases.
