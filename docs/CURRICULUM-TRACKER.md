@@ -510,3 +510,14 @@ The 20 existing pages provide a useful starter pathway, but they do not yet cons
 - A dedicated follow-up test then selected all eight exact correct options on A2-16, observed the counter reach 8/8, and submitted. The deployed page displayed **“Your score: 8 / 8. Lesson completed!”**, **“Progress saved on this device. All lessons remain open.”**, and revealed the completion panel. This confirms the Lesson 16 quiz result/completion flow works.
 - A2-17, A2-18, A2-19 and A2-20 quiz submission/score/completion interactions were not tested in this run. Their page load, eight-question rendering and submit controls were confirmed.
 - TTS audio, saved progress after reload, mobile/Android, Urdu RTL, keyboard/screen-reader accessibility and offline behaviour remain untested. This is limited smoke testing, not exhaustive runtime QA.
+
+
+### 18.2 New A2 Lessons 21–23 — deployment and live smoke test (24 November 2026)
+
+- The first immediate browser check ran before GitHub Pages had propagated the new commits and saw the old 01–20 index/404 routes. A later independent live check confirmed deployment had completed: the A2 index displayed 23 lesson cards and all three new lesson URLs loaded.
+- Lesson 21: heading and eight quiz questions rendered; all eight exact correct options were selected and submitted. Public page displayed 8/8 and “Lesson completed!” with its completion panel. This confirms the new lesson's quiz/result/completion path.
+- Lesson 22: heading, eight quiz questions and submit control confirmed. The browser identified the correct options but did not complete submission; numeric score and completion panel remain unverified.
+- Lesson 23: heading, eight quiz questions and submit control confirmed. Correct answer keys were independently checked against source; the browser report did not reliably exercise the quiz submission. Numeric score and completion panel remain unverified.
+- Source verification after deployment confirmed each new page has eight three-option questions, valid answer indices, a unique lesson completion ID (lesson-21/22/23) and the existing `ss-a2-done` storage key. Index links for all three pages are present.
+- The earlier A2-16 result display observation was resolved by a targeted 8/8 test: result text, progress-saving message and completion panel all appeared. See section 18.1.
+- This is a limited live smoke test. Reload persistence, TTS audio, Android/mobile layout, Urdu RTL, keyboard/screen-reader accessibility and offline/PWA behaviour remain untested.
