@@ -24,7 +24,7 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 
 ## Next priorities
 
-1. A2 Lessons 01–20 are source-reviewed and reconciled against all 24 approved core outcomes: 14 strong, 7 partial, 3 gaps. Apply targeted revisions, add A2-21–23 for modules 02/16/20, strengthen A2-20 for module 24, then build separate closing modules 25–28.
+1. A2 Lessons 01–23 are source-reviewed and source-level implementation now provides strong internal mapping for all 24 approved core outcomes. Five existing pages were strengthened and A2-21–23 added for modules 02/16/20. Verify live deployment, finish runtime QA, then build separate closing modules 25–28.
 2. Apply verified content corrections in the same review pass; preserve all existing URLs and learner progress.
 3. Verify B1-01, then produce B1-02–06 as a coherent five-lesson batch.
 4. Run dedicated A1 end-of-level runtime QA: assessment interactions, local drafts, TTS fallback, keyboard/focus, mobile/RTL and real offline/PWA behaviour.
@@ -36,7 +36,7 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 10. A2 Lessons 16–20 source review: added tú/usted register note in A2-18, qualified the present-perfect rationale in A2-19 and corrected the Spanish can-do checklist in A2-20. All 40 answer keys and progress structures checked; details in tracker section 18.
 11. Limited live smoke test: A2-11, A2-12 and A2-13 each passed 8/8 and showed completion; A2-14/15 were visible but not interaction-tested. See tracker section 17.1.
 12. A2-16–20 source review complete. Live smoke test confirmed all five pages and quizzes render; A2-16 passed a targeted 8/8 completion interaction. A2-17–20 submission flows remain untested. See tracker section 18.1.
-13. Full A2 01–20 to 24-outcome reconciliation completed: 14 strong, 7 partial, 3 gaps. See tracker section 4 for the outcome matrix, overlap decisions and minimum completion plan.
+13. Full A2 01–20 to 24-outcome reconciliation completed; all 24 outcomes now have strong internal mapping evidence after five targeted revisions and three new lessons. Source files/index are committed, but the immediate live-site test still saw the previous 01–20 deployment. Verify publication before claiming live status. See tracker section 4.
 10. Limited live smoke test: A1 index and all four new end-of-level pages deployed; module 25 answer selection and module 26 completion-button interaction exercised; modules 27–28 only partially checked. See curriculum tracker for limits.
 
 ## Product and engineering principles
