@@ -726,6 +726,7 @@ Four separate A2 closing pages were created, added to the A2 index and added to 
 
 - Corrected unit labels in Lessons 02–16 to the approved grouping: 01–04 = Unit 01; 05–08 = Unit 02; 09–12 = Unit 03; 13–16 = Unit 04. Lessons 17–20 remain Unit 05 and 21–24 Unit 06.
 - Corrected the Lesson 09 English meaning of `Mañana te llamaré después de la reunión` to “I will call you after the meeting.”
+- Replaced the overlapping Part 5 prompts in Lessons 17–24 with distinct guided-practice exercises, retaining Part 7 as the independent production challenge. Corrected the Lesson 23 reported-speech example so `venir` matches the “come” meaning.
 - Corrected an accidental English wording error in Lesson 18 and made a Lesson 21 dialogue phrase more idiomatic in Spanish.
 - Rewrote three mixed English/Spanish task instructions in Lesson 22 as complete Spanish instructions, retaining the Roman Urdu meanings.
 - Corrected Module 27's listening transcript and its TTS copy: the message now explicitly states that the Wednesday room is occupied, so the Thursday rescheduling question has evidence in the audio/text.
@@ -734,8 +735,8 @@ Four separate A2 closing pages were created, added to the A2 index and added to 
 ### Source-level verification and release limits
 
 - Re-fetched changed source files; all 24 lesson inline scripts and the four closing-module inline scripts compile. All core answer indices are within their option arrays; Module 25's 16 keys and Module 27's 10 objective-question keys were reviewed. The B1 index has 24 core cards plus four separate closing activities; previous/next links remain sequential; `ss-b1-done` and `ss-b1-end-done` remain separate.
-- Service-worker cache is now `spanish-seekho-v76`; it precaches the B1 index, all 24 lessons and all four closing pages. This is cache configuration, not proof of offline operation.
-- The source-correction commit `a0379b1b4cc1f289b14e48e566fb5ff62326bf9d` was built and deployed successfully by GitHub Pages workflow run 45459503106 (run 573); both build and deploy jobs succeeded. The subsequent documentation-only commit does not alter page source. This confirms deployment workflow success, not live route or interaction behaviour.
+- Service-worker cache is now `spanish-seekho-v78`; it precaches the B1 index, all 24 lessons and all four closing pages. This is cache configuration, not proof of offline operation.
+- The latest B1 content commit `2705fab84ccabe9d71979f3437313cd775d4f789` was built and deployed successfully by GitHub Pages workflow run 45460248990 (run 578); build, deploy and status-report jobs succeeded. This confirms deployment workflow success, not live route or interaction behaviour.
 - Live browser automation could not start because the browser service wallet was below zero. Therefore this pass is source-level only: live routes, quiz submissions, project/assessment/readiness interactions, TTS, Android/mobile, keyboard/screen-reader, Urdu RTL, reload persistence and actual offline behaviour remain unverified.
 - The language preference currently changes text direction and stores the preference; it does not translate every lesson into Urdu or English. B1 instructions still include English in places, so full multilingual parity is not claimed.
 

@@ -29,7 +29,7 @@ A1 and A2 must not be advertised as complete CEFR syllabi. B1 must not be advert
 
 B1 core Lessons 01–24 and closing modules 25–28 are implemented and have completed the consolidated source-level review. The immediate next task is release verification, not another lesson batch:
 
-1. Pages build/deploy for source commit `a0379b1b4cc1f289b14e48e566fb5ff62326bf9d` succeeded in run 573; verify the deployed routes.
+1. Pages build/deploy for latest B1 content commit `2705fab84ccabe9d71979f3437313cd775d4f789` succeeded in run 578; verify the deployed routes.
 2. Verify the B1 index, all 24 core lesson routes and four closing-module routes.
 3. Test representative/all core quiz submissions and the primary Module 25–28 interactions without clearing existing learner progress.
 4. Record any remaining defects and fix them in the same pass.
@@ -85,4 +85,4 @@ A1 and A2 inventories have been reviewed and mapped; A2 core modules 01–24 hav
 
 ## Current next batch
 
-No new lesson batch is scheduled. B1 core 01–24 and closing modules 25–28 have completed source-level curriculum review. Complete live route/interaction QA first; do not begin B2 until that release gate is cleared. The current service-worker cache is `spanish-seekho-v76`.
+No new lesson batch is scheduled. B1 core 01–24 and closing modules 25–28 have completed source-level curriculum review. Complete live route/interaction QA first; do not begin B2 until that release gate is cleared. The current service-worker cache is `spanish-seekho-v78`.

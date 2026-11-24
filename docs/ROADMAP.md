@@ -6,7 +6,7 @@ _Last updated: 24 November 2026_
 
 - A1: core lessons 01–25 + expanded practice (60-item deck) + separate end-of-level modules 25–28 (cumulative review, practical project, integrated skills practice, readiness plan).
 - A2: core lessons 01–23 plus separate end-of-level modules 25–28. All 24 core outcomes have strong internal mapping evidence; this is not official CEFR certification.
-- B1: core lessons 01–24 and closing modules 25–28 implemented and source-reviewed; same-pass corrections are recorded below. The source-correction commit was deployed successfully in Pages run 45459503106 (run 573); live route/interaction QA remains pending. B1 is not release-verified.
+- B1: core lessons 01–24 and closing modules 25–28 implemented and source-reviewed; same-pass corrections are recorded below. The latest B1 content commit was deployed successfully in Pages run 45460248990 (run 578); live route/interaction QA remains pending. B1 is not release-verified.
 - Spain Life: 6 modules.
 - A1 Lesson 25 remains Education, school and studies; it was preserved and mapped to core module 20. The new cumulative review uses a separate URL.
 - A2 lessons 13–23: descriptions, preferences/reasons, plans, travel problems, technology, everyday solutions, review, integrated practice, home/neighbourhood, public services and connectors/sequencing. Separate closing modules 25–28 are deployed and smoke-tested.
@@ -27,7 +27,7 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 1. **B1 release verification:** the source-correction commit deployed successfully in Pages run 45459503106 (run 573). Verify the B1 index, all 24 lesson routes and four closing routes; exercise core quiz completion and closing-module interactions when browser automation is available.
 2. **B1 release gate:** the full 01–28 source review is complete, but B1 is not ready for B2 until live route/interaction QA is completed. Do not begin B2 prematurely.
 3. **Selected A1/A2 runtime follow-up:** test outstanding quiz submissions and closing-activity interactions without disturbing existing progress.
-4. **Cross-course device/accessibility QA:** Android/mobile layout, Urdu RTL, keyboard/focus, screen-reader labels, TTS, reload persistence and actual offline/PWA behaviour remain unverified. Service-worker cache is v76; precache configuration is not proof of offline functionality.
+4. **Cross-course device/accessibility QA:** Android/mobile layout, Urdu RTL, keyboard/focus, screen-reader labels, TTS, reload persistence and actual offline/PWA behaviour remain unverified. Service-worker cache is v78; precache configuration is not proof of offline functionality.
 
 ## Completed A2 work snapshot (24 November 2026)
 
@@ -118,6 +118,7 @@ The 168 count is Spanish Seekho's design choice, not a CEFR requirement. Each le
 - Reviewed Lessons 01–24 against the six-unit master plan, including grammar, Castilian usage, translations, register, dialogue, progression, overlap and learner production. Reviewed all 192 core quiz questions and keys; all lesson IDs, 6/8 thresholds and `ss-b1-done` progress behaviour are preserved.
 - Reviewed closing modules 25–28 and separate `ss-b1-end-done` tracking. Module 25 has 16 cumulative questions; Module 26 has six connected project tasks; Module 27 has five listening and five reading questions plus writing, speaking self-review and mediation; Module 28 has 12 self-ratings and a learner-owned plan.
 - Corrected Lessons 02–16 unit labels, Lesson 09's English translation, a Lesson 18 typo, Lesson 21 phrasing, Lesson 22's mixed-language prompts and the missing reason in Module 27's listening transcript.
-- Fixed B1 mobile navigation's Practice route and applied `lang="es"` to Spanish `.es` content. Service-worker cache v76 precaches all B1 pages. Source JavaScript and quiz structures pass checks.
-- The source-correction commit `a0379b1b4cc1f289b14e48e566fb5ff62326bf9d` was built and deployed successfully in Pages run 45459503106 (run 573), with build and deploy jobs both successful. Browser automation could not start due to a negative service wallet balance. Live route, quiz, module interaction, mobile/RTL, TTS and offline tests remain pending.
+- Replaced overlapping Part 5 production prompts in Lessons 17–24 with distinct guided practice; Part 7 remains the independent production challenge. Aligned the Lesson 23 reported-speech example and its translation.
+- Fixed B1 mobile navigation's Practice route and applied `lang="es"` to Spanish `.es` content. Service-worker cache v78 precaches all B1 pages. Source JavaScript and quiz structures pass checks.
+- The latest B1 content commit `2705fab84ccabe9d71979f3437313cd775d4f789` was built and deployed successfully in Pages run 45460248990 (run 578), with build, deploy and status-report jobs successful. Browser automation could not start due to a negative service wallet balance. Live route, quiz, module interaction, mobile/RTL, TTS and offline tests remain pending.
 - B1 is source-reviewed, not release-verified. B2 remains blocked until deployment and live QA are complete.
