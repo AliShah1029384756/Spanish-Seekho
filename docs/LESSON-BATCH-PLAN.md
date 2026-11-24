@@ -27,7 +27,7 @@ A1 and A2 must not be advertised as complete CEFR syllabi. B1 must not be advert
 
 ## Next planned work
 
-B1 core lessons 01–24 are now implemented at source. Lessons 17–21 have a successful Pages workflow record but still need a fresh post-build browser check; lessons 22–24 have just been added and also need publication and browser verification. The browser automation service could not start on the latest attempt because its wallet balance was insufficient.
+B1 core lessons 01–24 are implemented at source. Lessons 17–21 have a successful Pages workflow record but still need a fresh post-build browser check; lessons 22–24 have been re-fetched and source-verified. Latest Pages workflow run 45429610127 was in progress at the last check. The browser automation service could not start on the latest attempt because its wallet balance was insufficient, so public route and quiz interaction checks remain pending.
 
 The latest batch follows the approved master map:
 1. B1-22: relative clauses and adding useful detail (que, quien/quienes, donde, lo que).
