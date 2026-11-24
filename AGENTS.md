@@ -1,7 +1,8 @@
 # AI Agent Instructions
 
 Read these before doing work:
-1. `docs/PROJECT-HANDOFF.md`
+1. `docs/PROJECT-SPECIFICATION.md` (product and requirements baseline)
+2. `docs/PROJECT-HANDOFF.md`
 2. `docs/ROADMAP.md`
 3. `docs/LESSON-PRODUCTION-PLAYBOOK.md`
 4. `docs/LESSON-BATCH-PLAN.md`
