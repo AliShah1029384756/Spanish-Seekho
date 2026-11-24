@@ -6,7 +6,7 @@ _Last updated: 24 November 2026_
 
 - A1: core lessons 01–25 + expanded practice (60-item deck) + separate end-of-level modules 25–28 (cumulative review, practical project, integrated skills practice, readiness plan).
 - A2: core lessons 01–23 plus separate end-of-level modules 25–28. All 24 core outcomes have strong internal mapping evidence; this is not official CEFR certification.
-- B1: lessons 01–11 (narratives, experiences, opinions/interaction, arguments, clarification, future, conditional and planning); pathway started, incomplete.
+- B1: lessons 01–11 deployed; lessons 12–16 created at source level, publication pending. B1 remains incomplete.
 - Spain Life: 6 modules.
 - A1 Lesson 25 remains Education, school and studies; it was preserved and mapped to core module 20. The new cumulative review uses a separate URL.
 - A2 lessons 13–23: descriptions, preferences/reasons, plans, travel problems, technology, everyday solutions, review, integrated practice, home/neighbourhood, public services and connectors/sequencing. Separate closing modules 25–28 are deployed and smoke-tested.
@@ -24,11 +24,11 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 
 ## Next priorities
 
-1. **B1-12–16:** continue with decisions and advantages/disadvantages, work experience, education/skills, applications/interviews and social issues. B1-01–11 are implemented; selected quiz submission interactions remain for broader QA.
+1. **B1-17–21:** after B1-12–16 deployment is confirmed, continue with causes/consequences, proposing solutions, advice/necessity and complaints/service problems, following the approved map. Selected quiz interactions remain for broader QA.
 2. **Selected A2 runtime follow-up:** test A2-07 result display and A2-14/15 plus A2-17–20 quiz submissions. A2-16 and A2-21–23 have confirmed live completion flows; A2-25–28 closing activities have received primary interaction smoke tests.
-3. **Cross-course device/accessibility QA:** test Android/mobile layout, Urdu RTL, keyboard/focus, screen-reader labels, TTS availability, reload persistence and actual offline/PWA behaviour. The service-worker cache is v71 and includes A2 core lessons 21–23, A2 closing modules 25–28 and B1 lessons 01–11; offline behaviour is still unverified.
+3. **Cross-course device/accessibility QA:** test Android/mobile layout, Urdu RTL, keyboard/focus, screen-reader labels, TTS availability, reload persistence and actual offline/PWA behaviour. The service-worker cache is v72 and includes A2 core lessons 21–23, A2 closing modules 25–28 and B1 lessons 01–16; offline behaviour is still unverified.
 4. **A1 end-of-level follow-up:** complete module 25 submission/result, module 27 full completion and module 28 interaction tests; preserve all existing A1 progress and URLs.
-5. **Continue B1 in order:** B1-01–11 are deployed; create B1-12–16 as the next contiguous batch. Do not begin B2 until B1 progression has been developed and reviewed.
+5. **Continue B1 in order:** B1-01–11 are deployed and B1-12–16 are at source level awaiting publication. Verify deployment, then create B1-17–21. Do not begin B2 until B1 progression has been developed and reviewed.
 
 ## Completed A2 work snapshot (24 November 2026)
 
@@ -77,3 +77,10 @@ The 168 count is Spanish Seekho's design choice, not a CEFR requirement. Each le
 - B1-07–11 are deployed and linked from the B1 index. Cache-busting live check confirmed all 11 cards and service-worker v71.
 - B1-07 passed 8/8 and displayed its completion panel. B1-08–11 page/quiz/submit controls verified; submission interactions remain pending.
 - Next batch B1-12–16 follows the approved master map.
+
+
+## B1 Lessons 12–16 source batch (24 November 2026)
+
+- Created five lessons for decisions/options, work experience, education/skills, applications/interviews and social issues. Source quiz/progress checks passed; 40 answer keys checked.
+- B1 index source now has 16 cards and cache v72 precaches lessons 01–16. The first live browser test preceded the latest Pages build and saw the older 11-card index plus 404 for lesson 12. Publication remains pending verification.
+- Next batch after publication: B1-17–21.
