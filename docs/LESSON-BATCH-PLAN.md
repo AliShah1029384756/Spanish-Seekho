@@ -33,7 +33,7 @@ B1 core Lessons 01–24 and closing modules 25–28 are implemented and have com
 2. Verify the B1 index, all 24 core lesson routes and four closing-module routes.
 3. Test representative/all core quiz submissions and the primary Module 25–28 interactions without clearing existing learner progress.
 4. Record any remaining defects and fix them in the same pass.
-5. Begin B2 mapping only after B1 release verification is complete.
+5. B2 mapping/authoring may proceed in parallel by explicit owner decision; B1 release verification remains pending and is not waived.
 
 Browser automation could not start during the source review because the browser service wallet balance was negative. Source-level checks are complete; runtime checks must not be inferred from them.
 
@@ -81,11 +81,11 @@ When the owner says “continue,” “next,” “make more lessons,” or “c
 
 The owner approved **168 modules across A1–C2 (28 per level)**. Follow [CURRICULUM-MASTER-PLAN.md](CURRICULUM-MASTER-PLAN.md) for the authoritative titles, outcomes and assessment model. This is a Spanish Seekho design decision, not a CEFR-mandated count.
 
-A1 and A2 inventories have been reviewed and mapped; A2 core modules 01–24 have strong internal coverage evidence and separate end-of-level modules 25–28 are implemented. B1 core lessons 01–24 and closing modules 25–28 are now implemented at source. Preserve current URLs and progress; do not renumber blindly. The immediate work is publication verification, outstanding live interaction QA and a full B1 01–28 curriculum review. B2/C1/C2 remain future phases.
+A1 and A2 inventories have been reviewed and mapped; A2 core modules 01–24 have strong internal coverage evidence and separate end-of-level modules 25–28 are implemented. B1 core lessons 01–24 and closing modules 25–28 are now implemented at source. Preserve current URLs and progress; do not renumber blindly. The immediate work is publication verification, outstanding live interaction QA and a full B1 01–28 curriculum review. B2 authoring has now started with Lessons 01–04; C1/C2 remain future phases.
 
 ## Current next batch
 
-No new lesson batch is scheduled. B1 core 01–24 and closing modules 25–28 have completed source-level curriculum review. Complete live route/interaction QA first; do not begin B2 until that release gate is cleared. The current service-worker cache is `spanish-seekho-v79`.
+No new lesson batch is scheduled. B1 core 01–24 and closing modules 25–28 have completed source-level curriculum review. B1 live route/interaction QA remains owner-pending. B2 authoring is now authorised in parallel; the B1 release gate is not waived. Current service-worker cache: spanish-seekho-v80.
 
 
 ## B1 release gate — owner browser QA pending (25 November 2026)
