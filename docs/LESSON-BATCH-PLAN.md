@@ -105,3 +105,14 @@ The owner explicitly asked to proceed with B2 while leaving B1 live/browser QA f
 B2 opening batch now exists at b2/index.html and b2/lesson-01.html through b2/lesson-04.html. The homepage links to the new pathway. B2 service-worker precache was advanced to spanish-seekho-v80 and includes the four lessons and index. The first batch covers Unit 1: narrative perspective; complex past-time relationships; reconstructing events and conflicting accounts; and personal, historical and professional narratives. The next authoring range is **B2 Lessons 05–08** (argument, debate, persuasion and counterarguments).
 
 Assistant-run browser testing was not performed, as requested. Source-level inspection only; live route, quiz interaction, persistence, TTS, mobile, accessibility, RTL and offline behaviour remain unverified.
+
+
+## B2 batch update — Lessons 05–08 (25 November 2026)
+
+Added source pages `b2/lesson-05.html` through `b2/lesson-08.html` and integrated them into `b2/index.html`. The second unit covers building strong arguments; debate, agreement and disagreement; persuasion, claims and evidence; and counterarguments with balanced opinions. Each new lesson contains measurable outcomes, six teaching sections with Spain-Spanish examples and English translations, audio-trigger buttons using the existing `data-say` pattern, a speaking/writing production task, and an eight-question checkpoint. Passing remains 6/8 and completion uses the existing `ss-b2-done` local progress key; lessons remain unlocked.
+
+The B2 index now lists eight available lessons across two units and calculates progress out of eight. The homepage description now reflects eight available lessons. Service-worker cache is `spanish-seekho-v81` and its precache list includes B2 Lessons 01–08. Lesson 04 already points to the B2 pathway rather than a nonexistent Lesson 05 in its previous navigation slot; Lesson 05 continues to Lesson 06.
+
+Source-level checks only. No browser or live-site testing was performed. B2 route loading, quiz interaction, local persistence, TTS, mobile layout, accessibility, Urdu RTL and offline behaviour remain pending. **B1 owner QA remains pending and is not waived**; keep the checklist in tracker section 28 unchanged until the owner supplies test evidence.
+
+Next B2 authoring range: Lessons 09–12, subject to the approved B2 curriculum map and overlap review.
