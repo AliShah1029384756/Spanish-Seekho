@@ -812,3 +812,14 @@ Next B2 authoring range: Lessons 13–16, Unit 04 — professional and academic 
 
 
 Production handoff after this batch: the next planned B2 authoring range is **Lessons 13–16, Unit 04 — Professional and academic communication** (meetings/presentations/collaboration; reports/proposals/formal correspondence; academic discussion/source-based writing; workplace conflict/feedback/negotiation), as specified in the approved curriculum master plan. B1 owner-run browser QA remains pending.
+
+
+## 25 November 2026 — B2 Lessons 13–16 source and integration review
+
+- Added `b2/lesson-13.html` through `b2/lesson-16.html` as Unit 04, Professional and academic communication.
+- Coverage: meeting participation, presentations and action summaries; report structure, evidence, proposals and formal correspondence; academic discussion, paraphrase, attribution, source comparison and methodological limitations; neutral conflict descriptions, constructive feedback, negotiation and written agreements.
+- Each lesson contains three learning outcomes, six teaching sections with 12 Spanish examples/English translations and 12 `data-say` controls, one integrated speaking/writing task, and eight quiz questions with explanations. Passing remains 6/8; stable IDs are `lesson-13`–`lesson-16`; progress remains under `ss-b2-done`; no lesson locking was introduced.
+- Integrated all four lessons into the B2 index and homepage directory. B2 index progress denominator is now 16; homepage and pathway copy now state 16 lessons/four units. Service worker advanced to `spanish-seekho-v84` and precaches B2 lessons 01–16.
+- Source-level checks confirmed the four files exist, each has 8 quiz items and 12 audio controls, homepage has 16 unique direct B2 lesson links, index has 16 unique lesson links, and precache includes 16 B2 lesson routes. Lesson 14 formal correspondence examples received a wording refinement during review.
+- Browser/live testing was not performed. Route rendering, quiz submissions, persistence, TTS, mobile, accessibility, Urdu RTL and offline behaviour remain pending. B1 owner QA checklist in section 28 remains unchanged and pending.
+- Next B2 authoring range: Lessons 17–20. This is not an official CEFR qualification or accreditation claim.
