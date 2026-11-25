@@ -24,7 +24,7 @@ Important: the audit confirms files and visible topic/section structures, not fu
 
 - A1: core lessons 01–25; separate end-of-level activities 25–28 now implemented; 60-item practice deck. These are source-verified additions, not yet browser/device QA approved.
 - A2: core pathway lessons 01–23 plus separate end-of-level modules 25–28. All 24 core outcomes have strong internal mapping evidence. Closing pages have been deployed and their primary interactions smoke-tested; see tracker sections 4, 18.2 and 19.
-- B1: Core lessons 01–24 and separate closing modules 25–28 are implemented and have received a consolidated source-level curriculum/language/quiz review. Corrections include unit labels, one translation, Spanish phrasing, Module 27 listening evidence and B1 mobile navigation. The latest B1 content commit was built and deployed successfully in Pages run 45460248990 (run 578); live route/interaction QA remains pending. Earlier live 8/8 evidence is limited to B1-01, B1-02 and B1-07. Do not begin B2 until release QA is complete.
+- B1: Core lessons 01–24 and separate closing modules 25–28 are implemented and have received a consolidated source-level curriculum/language/quiz review. Corrections include unit labels, one translation, Spanish phrasing, Module 27 listening evidence and B1 mobile navigation. The latest B1 content commit was built and deployed successfully in Pages run 45460248990 (run 578); live route/interaction QA remains pending. Earlier live 8/8 evidence is limited to B1-01, B1-02 and B1-07. B2 authoring may proceed in parallel by explicit owner decision dated 25 November 2026; B1 release QA remains pending and is not waived.
 - Spain Life: 6 modules.
 - Current service-worker cache version: `spanish-seekho-v79` (bumped after the Word Explorer definition-translation source update; runtime behaviour still requires QA); four A1 end-of-level pages, A2 lessons 21–23, A2 end-of-level modules 25–28, and B1 index, lessons 01–24 and closing modules 25–28 are in its precache list. This configures update caching; real offline behaviour remains untested.
 
@@ -48,7 +48,7 @@ A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 now has 
 
 ## Current production priority
 
-B1 core lessons 01–24 and closing modules 25–28 have now received a consolidated source-level review and same-pass corrections. The latest B1 content commit has a successful GitHub Pages build/deploy (run 578); the remaining immediate gate is live route/interaction QA for B1-01–28. Browser automation was unavailable because its service wallet balance was negative; do not convert source checks into runtime claims. B1 is not ready for B2 production until the deployment and live QA gate is cleared.
+B1 core lessons 01–24 and closing modules 25–28 have now received a consolidated source-level review and same-pass corrections. The latest B1 content commit has a successful GitHub Pages build/deploy (run 578); the remaining immediate gate is live route/interaction QA for B1-01–28. Browser automation was unavailable because its service wallet balance was negative; do not convert source checks into runtime claims. B1 is not release-verified until live QA is cleared. The owner has separately authorised B2 content authoring to proceed in parallel.
 
 After B1 release verification, continue the selected A1/A2 runtime follow-up and programme-wide Android/mobile, Urdu RTL, keyboard/screen-reader, TTS, reload-persistence and offline checks. The current language preference changes layout direction but does not translate every lesson; full multilingual parity is not claimed.
 
@@ -216,7 +216,7 @@ All 24 approved A2 core outcomes have now been compared with the 20 existing les
 - Replaced repeated production prompts in Lessons 17–24 with distinct guided practice and kept Part 7 as independent production; aligned the Lesson 23 reported-speech example with its Roman Urdu meaning.
 - Fixed the shared B1 mobile-nav practice link and added `lang="es"` to Spanish `.es` elements. Preserved lesson URLs, IDs and progress keys. Service-worker cache is `spanish-seekho-v78` and precaches all B1 routes.
 - Source scripts and quiz-index structures compile/check successfully. The latest B1 content commit `2705fab84ccabe9d71979f3437313cd775d4f789` was built and deployed successfully by Pages run 45460248990 (run 578), with build, deploy and status-report jobs successful. Browser automation could not start because the service wallet was negative, so live route, interaction, mobile, TTS and offline checks remain pending.
-- B1 is source-reviewed but not release-verified. Do not begin B2 until a fresh deployment and live route/interaction QA are complete.
+- B1 is source-reviewed but not release-verified. B2 authoring is now owner-authorised in parallel; B1 route/interaction QA remains pending.
 
 
 ## B1 live QA handoff — owner testing pending (25 November 2026)
@@ -225,12 +225,12 @@ All 24 approved A2 core outcomes have now been compared with the 20 existing les
 - Browser automation did not start: the service reported a negative wallet balance (-$0.24). Therefore no assistant-run live browser checks were performed in this pass.
 - GitHub Pages workflow run 45461408731 (run 583), for documentation commit `bf805171fc83212c78edf25e270ea2a6bcd24cc6`, is now confirmed `completed / success`. This confirms the Pages workflow completed; it does not confirm every public route or interaction.
 - **Human/browser QA remains pending and is assigned to the project owner.** Please test the B1 index, all 24 lesson routes, closing modules 25–28, quiz submissions/completion, progress persistence after reload, project/assessment/readiness interactions, speech playback and transcript fallback, mobile layout/navigation, Urdu RTL, keyboard/accessibility basics, and offline/service-worker behaviour.
-- Record actual results and reproducible defects in the QA section of `docs/CURRICULUM-TRACKER.md`. Do not mark any untested item as passed. B1 remains source-reviewed and deployed, but not release-verified; keep B2 on hold until owner QA is recorded and reviewed.
+- Record actual results and reproducible defects in the QA section of `docs/CURRICULUM-TRACKER.md`. Do not mark any untested item as passed. B1 remains source-reviewed and deployed, but not release-verified. B2 authoring is owner-authorised in parallel; the B1 QA checklist remains pending.
 
 
 ## Documentation deployment confirmation — 25 November 2026
 
-GitHub Pages workflow run **#587** (`45530273768`) for commit `b3f478aa4945ab7bbfc647e7f3c7847a32942114` is now **completed / success**. This confirms the documentation commit passed through the Pages deployment workflow. It does **not** replace owner-run live QA or verify individual routes, interactions, audio, persistence, mobile layout, accessibility, or offline behaviour. B1 remains **source-reviewed and deployed, but not release-verified**. The owner QA checklist remains pending in `docs/CURRICULUM-TRACKER.md` section 28; keep B2 on hold until those checks and any resulting fixes are recorded.
+GitHub Pages workflow run **#587** (`45530273768`) for commit `b3f478aa4945ab7bbfc647e7f3c7847a32942114` is now **completed / success**. This confirms the documentation commit passed through the Pages deployment workflow. It does **not** replace owner-run live QA or verify individual routes, interactions, audio, persistence, mobile layout, accessibility, or offline behaviour. B1 remains **source-reviewed and deployed, but not release-verified**. The owner QA checklist remains pending in `docs/CURRICULUM-TRACKER.md` section 28; B2 authoring may continue in parallel by owner decision; B1 QA and any resulting fixes must still be recorded before B1 is called release-verified.
 
 
 ## B2 development status — owner-authorised parallel start (25 November 2026)
