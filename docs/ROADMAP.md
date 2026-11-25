@@ -174,3 +174,9 @@ Production handoff after this batch: the next planned B2 authoring range is **Le
 ## 25 November 2026 — B2 Lessons 13–16 completed at source level
 
 B2 Unit 04 is now integrated: Lesson 13 meetings/presentations/collaboration; Lesson 14 reports/proposals/formal correspondence; Lesson 15 academic discussion/source-based writing; Lesson 16 workplace conflict/feedback/negotiation. Four lesson pages include six teaching sections each, 12 Spanish examples with English translations and audio controls, an integrated production task, and eight-question quiz checkpoints. Existing B2 progress key and 6/8 pass threshold are preserved. B2 index/homepage now expose 16 lessons; service worker is v84 with all B2 lessons 01–16 precached. Source checks only; no browser/live interaction, mobile, accessibility, TTS, RTL or offline test was performed. B1 owner QA remains pending. Next B2 range: Lessons 17–20.
+
+## 25 November 2026 — B2 Lessons 17–20 implemented and integrated
+
+Unit 05, Media, society and contemporary issues, now contains Lesson 17 news/interviews/public debate; Lesson 18 social change, technology and ethics; Lesson 19 culture, identity and intercultural perspectives; Lesson 20 multi-source summarising and comparison. Each has six teaching sections, 12 translated Spanish examples/audio controls, three outcomes, one productive task and an eight-question checkpoint. Existing progress key and 6/8 threshold are retained. Index/homepage now expose 20 lessons; service worker v85 precaches B2 01–20. Unit-boundary navigation was connected through Lessons 04, 08, 12 and 16.
+
+Source checks only; browser/live interaction, TTS, mobile, accessibility, RTL and offline behaviour remain unverified. B1 owner QA remains pending. Next B2 batch: Lessons 21–24, Unit 06 — precision and flexible interaction.
