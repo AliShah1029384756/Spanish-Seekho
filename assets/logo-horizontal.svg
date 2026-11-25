@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 620" role="img" aria-labelledby="title desc"><title id="title">Spanish Seekho</title><desc id="desc">Horizontal Spanish Seekho logo with open book, rising arrow, compass and wordmark.</desc><g transform="translate(-65 75) scale(.58)"><g id="book-compass">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 400" role="img" aria-labelledby="title desc"><title id="title">Spanish Seekho</title><desc id="desc">Option 9 horizontal Spanish Seekho branding: green and Spanish-coloured open book, compass and rising arrow, wordmark and Learn Spanish Through Urdu tagline.</desc><g transform="translate(0 5) scale(.55)"><g id="book-compass">
 <defs>
  <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#218b5e"/><stop offset="1" stop-color="#075238"/></linearGradient>
  <linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f04432"/><stop offset="1" stop-color="#c91f25"/></linearGradient>
@@ -31,4 +31,4 @@
 <!-- Clean page edges and central fold -->
 <path d="M100 295 L100 483 M900 295 L900 483" stroke="#0a6848" stroke-width="10" fill="none"/>
 <path d="M112 468 C245 430 365 449 500 565 C635 449 755 430 888 468" fill="none" stroke="#fff" stroke-width="12"/>
-</g></g><text x="610" y="310" font-family="Arial,Helvetica,sans-serif" font-size="142" font-weight="800" font-style="italic" letter-spacing="-7" fill="#075238">Spanish</text><text x="620" y="470" font-family="Arial,Helvetica,sans-serif" font-size="142" font-weight="800" font-style="italic" letter-spacing="-7" fill="#202329">Seekho</text><path d="M620 520 Q1000 480 1400 520" fill="none" stroke="#d99a12" stroke-width="10" stroke-linecap="round"/></svg>
+</g><path d="M570 55 V335" stroke="#d99a12" stroke-width="5"/><text x="625" y="178" font-family="Arial,Helvetica,sans-serif" font-size="112" font-weight="800" letter-spacing="-4" fill="#075238">Spanish</text><text x="625" y="286" font-family="Arial,Helvetica,sans-serif" font-size="112" font-weight="800" letter-spacing="-4" fill="#202329">Seekho</text><path d="M625 318 H675 M1370 318 H1420" stroke="#d99a12" stroke-width="4"/><text x="700" y="330" font-family="Arial,Helvetica,sans-serif" font-size="38" letter-spacing="3" fill="#202329">Learn Spanish Through Urdu</text></svg>
