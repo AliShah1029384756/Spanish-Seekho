@@ -226,3 +226,8 @@ All 24 approved A2 core outcomes have now been compared with the 20 existing les
 - GitHub Pages workflow run 45461408731 (run 583), for documentation commit `bf805171fc83212c78edf25e270ea2a6bcd24cc6`, is now confirmed `completed / success`. This confirms the Pages workflow completed; it does not confirm every public route or interaction.
 - **Human/browser QA remains pending and is assigned to the project owner.** Please test the B1 index, all 24 lesson routes, closing modules 25–28, quiz submissions/completion, progress persistence after reload, project/assessment/readiness interactions, speech playback and transcript fallback, mobile layout/navigation, Urdu RTL, keyboard/accessibility basics, and offline/service-worker behaviour.
 - Record actual results and reproducible defects in the QA section of `docs/CURRICULUM-TRACKER.md`. Do not mark any untested item as passed. B1 remains source-reviewed and deployed, but not release-verified; keep B2 on hold until owner QA is recorded and reviewed.
+
+
+## Documentation deployment confirmation — 25 November 2026
+
+GitHub Pages workflow run **#587** (`45530273768`) for commit `b3f478aa4945ab7bbfc647e7f3c7847a32942114` is now **completed / success**. This confirms the documentation commit passed through the Pages deployment workflow. It does **not** replace owner-run live QA or verify individual routes, interactions, audio, persistence, mobile layout, accessibility, or offline behaviour. B1 remains **source-reviewed and deployed, but not release-verified**. The owner QA checklist remains pending in `docs/CURRICULUM-TRACKER.md` section 28; keep B2 on hold until those checks and any resulting fixes are recorded.
