@@ -217,3 +217,12 @@ All 24 approved A2 core outcomes have now been compared with the 20 existing les
 - Fixed the shared B1 mobile-nav practice link and added `lang="es"` to Spanish `.es` elements. Preserved lesson URLs, IDs and progress keys. Service-worker cache is `spanish-seekho-v78` and precaches all B1 routes.
 - Source scripts and quiz-index structures compile/check successfully. The latest B1 content commit `2705fab84ccabe9d71979f3437313cd775d4f789` was built and deployed successfully by Pages run 45460248990 (run 578), with build, deploy and status-report jobs successful. Browser automation could not start because the service wallet was negative, so live route, interaction, mobile, TTS and offline checks remain pending.
 - B1 is source-reviewed but not release-verified. Do not begin B2 until a fresh deployment and live route/interaction QA are complete.
+
+
+## B1 live QA handoff — owner testing pending (25 November 2026)
+
+- The owner has explicitly asked that assistant-run browser testing stop. Do not attempt further browser automation or spend on the browser service for this QA pass.
+- Browser automation did not start: the service reported a negative wallet balance (-$0.24). Therefore no assistant-run live browser checks were performed in this pass.
+- GitHub Pages workflow run 45461408731 (run 583), for documentation commit `bf805171fc83212c78edf25e270ea2a6bcd24cc6`, is now confirmed `completed / success`. This confirms the Pages workflow completed; it does not confirm every public route or interaction.
+- **Human/browser QA remains pending and is assigned to the project owner.** Please test the B1 index, all 24 lesson routes, closing modules 25–28, quiz submissions/completion, progress persistence after reload, project/assessment/readiness interactions, speech playback and transcript fallback, mobile layout/navigation, Urdu RTL, keyboard/accessibility basics, and offline/service-worker behaviour.
+- Record actual results and reproducible defects in the QA section of `docs/CURRICULUM-TRACKER.md`. Do not mark any untested item as passed. B1 remains source-reviewed and deployed, but not release-verified; keep B2 on hold until owner QA is recorded and reviewed.
