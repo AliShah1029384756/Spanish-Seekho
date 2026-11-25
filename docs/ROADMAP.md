@@ -25,7 +25,7 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 ## Next priorities
 
 1. **B1 release verification:** the final B1 content commit `2705fab84ccabe9d71979f3437313cd775d4f789` was deployed successfully in Pages run 45460248990 (run 578). The follow-up documentation commit `b5c05fec63d0cf3a14da3a36ea57f505ac9b66e3` also built and deployed successfully in run 45460473286 (run 579). Verify the B1 index, all 24 lesson routes and four closing routes; exercise core quiz completion and closing-module interactions when browser automation is available.
-2. **B1 release gate:** the full 01–28 source review is complete, but B1 is not ready for B2 until live route/interaction QA is completed. Do not begin B2 prematurely.
+2. **B1 release gate:** the full 01–28 source review is complete, but B1 live route/interaction QA remains pending. The owner has authorised B2 content authoring in parallel; this does not waive the B1 release gate.
 3. **Selected A1/A2 runtime follow-up:** test outstanding quiz submissions and closing-activity interactions without disturbing existing progress.
 4. **Cross-course device/accessibility QA:** Android/mobile layout, Urdu RTL, keyboard/focus, screen-reader labels, TTS, reload persistence and actual offline/PWA behaviour remain unverified. Service-worker cache is v79 after the Word Explorer source update; precache configuration is not proof of offline functionality.
 
@@ -129,7 +129,7 @@ The 168 count is Spanish Seekho's design choice, not a CEFR requirement. Each le
 - The owner asked the assistant not to run browser testing. No assistant-run live browser tests were performed; browser automation could not start because its service wallet balance was negative (-$0.24).
 - Pages workflow run 45461408731 (run 583), for commit `bf805171fc83212c78edf25e270ea2a6bcd24cc6`, is now completed successfully. This is deployment workflow confirmation only, not live route or interaction verification.
 - The owner will perform live QA later. Use the detailed checklist in `docs/CURRICULUM-TRACKER.md` section 28 and record actual results there.
-- Keep B1 marked **source-reviewed, not release-verified**. B2 remains on hold until owner testing is completed and reviewed.
+- Keep B1 marked **source-reviewed, not release-verified**. B2 authoring is owner-authorised in parallel; B1 QA remains pending until the owner records results.
 
 
 ## Documentation deployment confirmation — 25 November 2026
