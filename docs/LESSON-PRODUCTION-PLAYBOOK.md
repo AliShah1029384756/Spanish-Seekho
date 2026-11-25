@@ -177,3 +177,12 @@ The B2 index now lists eight available lessons across two units and calculates p
 Source-level checks only. No browser or live-site testing was performed. B2 route loading, quiz interaction, local persistence, TTS, mobile layout, accessibility, Urdu RTL and offline behaviour remain pending. **B1 owner QA remains pending and is not waived**; keep the checklist in tracker section 28 unchanged until the owner supplies test evidence.
 
 Next B2 authoring range: Lessons 09–12, subject to the approved B2 curriculum map and overlap review.
+
+
+## B2 batch update — Lessons 09–12 (25 November 2026)
+
+Unit 03 is now implemented at source through `b2/lesson-12.html`. Added Lessons 09–12 on complex subjunctive evaluation/influence, indicative–subjunctive meaning contrasts, conditional hypotheses/counterfactuals, and complex relative/subordinate/concessive clauses. Each module has learning outcomes, six teaching sections, two Spain-Spanish examples with English translations and `data-say` controls per section, a productive speaking/writing task, and an eight-item checkpoint. The pass threshold remains 6/8, completion remains on `ss-b2-done`, and lessons remain unlocked.
+
+The B2 index lists 12 available lessons across three units, homepage availability text reflects 12, and service-worker cache `spanish-seekho-v82` precaches B2 Lessons 01–12. Lesson 12 returns to the B2 index; Lesson 11 links forward to Lesson 12.
+
+This is source-level work only. No browser/live-site test was performed. B2 route and interaction QA remains pending, and **B1 owner QA remains pending and is not waived**. Preserve tracker section 28 until the owner supplies test evidence. Next B2 batch: Lessons 13–16, Unit 04 — professional and academic communication, following the approved curriculum map.
