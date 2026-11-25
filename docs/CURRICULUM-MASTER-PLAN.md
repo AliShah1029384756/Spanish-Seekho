@@ -495,3 +495,12 @@ This is a repository-level planning snapshot, not a page-by-page audit. “Exist
 | C2 | 01–28 | Planned | Begin after C1 progression is complete and reviewed |
 
 Update this register only after inspecting actual files. A module is “complete” only when its content, integration, assessment and relevant QA have been checked. If an existing page covers only part of a proposed module, record Partial or Needs revision rather than marking it complete.
+
+
+## B2 development status — owner-authorised parallel start (25 November 2026)
+
+The owner explicitly asked to proceed with B2 while leaving B1 live/browser QA for the owner to complete later. This is an authoring-schedule decision only: **B1 QA remains pending and B1 remains not release-verified**. Do not mark any B1 checklist item passed without owner evidence. B2 content development may proceed in parallel, but no claim of B1 release verification, B2 completion, official CEFR certification, or runtime testing is permitted.
+
+B2 opening batch now exists at b2/index.html and b2/lesson-01.html through b2/lesson-04.html. The homepage links to the new pathway. B2 service-worker precache was advanced to spanish-seekho-v80 and includes the four lessons and index. The first batch covers Unit 1: narrative perspective; complex past-time relationships; reconstructing events and conflicting accounts; and personal, historical and professional narratives. The next authoring range is **B2 Lessons 05–08** (argument, debate, persuasion and counterarguments).
+
+Assistant-run browser testing was not performed, as requested. Source-level inspection only; live route, quiz interaction, persistence, TTS, mobile, accessibility, RTL and offline behaviour remain unverified.
