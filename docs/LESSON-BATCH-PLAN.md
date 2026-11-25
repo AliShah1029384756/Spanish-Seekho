@@ -86,3 +86,8 @@ A1 and A2 inventories have been reviewed and mapped; A2 core modules 01–24 hav
 ## Current next batch
 
 No new lesson batch is scheduled. B1 core 01–24 and closing modules 25–28 have completed source-level curriculum review. Complete live route/interaction QA first; do not begin B2 until that release gate is cleared. The current service-worker cache is `spanish-seekho-v79`.
+
+
+## B1 release gate — owner browser QA pending (25 November 2026)
+
+The owner has asked that assistant-run browser testing stop; the owner will test later. No live browser checks were performed by the assistant because browser automation could not start with a negative service wallet balance. Pages workflow run 45461408731 (run 583) is completed successfully, but this is not route-level or functional verification. Follow the owner checklist in `docs/CURRICULUM-TRACKER.md` section 28. Keep B1 as source-reviewed/deployed but not release-verified; do not begin B2 until owner QA results and any fixes are recorded.
