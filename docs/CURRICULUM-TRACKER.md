@@ -853,3 +853,8 @@ Created `docs/B2-QUALITY-REVIEW.md` with source checks, CEFR Companion Volume re
 ## 25 November 2026 — B2 quality-refinement follow-up
 
 Added a twelfth Spanish example/audio control to Lessons 01 and 02 so all 24 core lessons now follow the same 12-example pattern. Expanded Module 27 with an asynchronous online discussion sequence (initial post, response, revised recommendation), interaction self-checks, and a four-dimension speaking/pronunciation rubric. Drafts, ratings and reflection notes save locally; the page does not record or automatically score speech. Updated the service-worker cache to `spanish-seekho-v93`. Source-level checks were performed; browser, mobile, TTS, offline and accessibility QA remain outstanding. Run #772 successfully deployed the preceding index correction; the current v93 batch requires its own successful Pages workflow before it is described as live.
+
+
+## 25 November 2026 — C1 planning gate
+
+Created `docs/C1-SCOPE-MAP-DRAFT.md` from the approved 28-module C1 sequence in `CURRICULUM-MASTER-PLAN.md`, with a provisional descriptor-coverage map and authoring quality gates. This is planning only: no C1 lesson pages have been authored. C1 production should begin after owner-run B2 browser/device QA and a qualified Spanish-language review of the B2 corpus or an agreed representative review plan. B2 remains a learning pathway, not an accredited CEFR examination. The C1 map is provisional and should be refined against the Council of Europe CEFR Companion Volume and Instituto Cervantes Plan Curricular.
