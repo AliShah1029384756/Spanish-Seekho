@@ -130,3 +130,8 @@ The 168 count is Spanish Seekho's design choice, not a CEFR requirement. Each le
 - Pages workflow run 45461408731 (run 583), for commit `bf805171fc83212c78edf25e270ea2a6bcd24cc6`, is now completed successfully. This is deployment workflow confirmation only, not live route or interaction verification.
 - The owner will perform live QA later. Use the detailed checklist in `docs/CURRICULUM-TRACKER.md` section 28 and record actual results there.
 - Keep B1 marked **source-reviewed, not release-verified**. B2 remains on hold until owner testing is completed and reviewed.
+
+
+## Documentation deployment confirmation — 25 November 2026
+
+GitHub Pages workflow run **#587** (`45530273768`) for commit `b3f478aa4945ab7bbfc647e7f3c7847a32942114` is now **completed / success**. This confirms the documentation commit passed through the Pages deployment workflow. It does **not** replace owner-run live QA or verify individual routes, interactions, audio, persistence, mobile layout, accessibility, or offline behaviour. B1 remains **source-reviewed and deployed, but not release-verified**. The owner QA checklist remains pending in `docs/CURRICULUM-TRACKER.md` section 28; keep B2 on hold until those checks and any resulting fixes are recorded.
