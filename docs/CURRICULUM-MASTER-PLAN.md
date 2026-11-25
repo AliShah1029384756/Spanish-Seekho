@@ -490,7 +490,7 @@ This is a repository-level planning snapshot, not a page-by-page audit. “Exist
 | B1 | 17–21 | Implemented at source; prior Pages workflow succeeded | Post-build live route and quiz QA pending; browser automation unavailable on latest attempt |
 | B1 | 22–24 | Implemented and source-verified | Relative clauses, reported information and integrated communication; latest v75 publication and live QA pending |
 | B1 | 25–28 | Implemented at source and integrated into B1 index | Four closing activities source-checked; latest v75 publication, live interaction QA and full B1 curriculum review pending |
-| B2 | 01–04 | Implemented at source; runtime QA pending | Continue with 05–08; B1 live QA remains a separate owner-pending release gate |
+| B2 | 01–20 | Implemented at source and integrated; browser/runtime QA pending | Five units and 20 core lessons are available; next 21–24; B1 owner QA remains a separate pending release gate |
 | C1 | 01–28 | Planned | Begin after B2 progression is complete and reviewed |
 | C2 | 01–28 | Planned | Begin after C1 progression is complete and reviewed |
 
@@ -524,3 +524,8 @@ Unit 03 is now implemented at source through `b2/lesson-12.html`. Added Lessons 
 The B2 index lists 12 available lessons across three units, homepage availability text reflects 12, and service-worker cache `spanish-seekho-v82` precaches B2 Lessons 01–12. Lesson 12 returns to the B2 index; Lesson 11 links forward to Lesson 12.
 
 This is source-level work only. No browser/live-site test was performed. B2 route and interaction QA remains pending, and **B1 owner QA remains pending and is not waived**. Preserve tracker section 28 until the owner supplies test evidence. Next B2 batch: Lessons 13–16, Unit 04 — professional and academic communication, following the approved curriculum map.
+
+
+## B2 implementation register update — 25 November 2026
+
+B2 Lessons 01–20 are now implemented at source and integrated into the pathway. Lessons 01–04 cover Unit 01, 05–08 Unit 02, 09–12 Unit 03, 13–16 Unit 04, and 17–20 Unit 05. The homepage and B2 index expose 20 lessons; service-worker v85 precaches B2 01–20. Lessons 17–20 source checks passed for six teaching sections, 12 translated Spanish examples/audio controls, eight valid quiz questions and inline JavaScript syntax. Browser/live runtime QA remains pending; do not describe B2 as release-verified or CEFR-accredited. Next core range: B2 Lessons 21–24, Unit 06 — precision and flexible interaction. B1 owner QA remains pending and is not waived.
