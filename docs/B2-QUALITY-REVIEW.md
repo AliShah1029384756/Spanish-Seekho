@@ -10,8 +10,8 @@
 - B2 core lessons 01–24 and closing activities 25–28 are present in the default branch.
 - Closing activities are linked from the B2 index and the homepage pathway summary.
 - B2 progress is displayed as 0–28 activities, combining the existing `ss-b2-done` core lesson key with the separate `ss-b2-end-done` closing-activity key. Existing lesson progress IDs and open access are preserved.
-- Service-worker cache is `spanish-seekho-v92`; all four closing activity routes are included in precache.
-- GitHub Pages workflow run **#768** for head `f05a5b06dd0c2a4ca1cbd2405d25224a035be748` completed successfully, including build, artifact upload and deployment. The subsequent B2 index status/navigation correction is a newer commit and requires its own deployment run before it can be described as live.
+- Service-worker cache is `spanish-seekho-v93`; all four closing activity routes are included in precache. Lessons 01–02 and the integrated assessment were refined in the current quality-review batch; confirm the workflow associated with this revision before treating those latest changes as live.
+- GitHub Pages workflow run **#772** for head `97237314738d03610b9b4000d7bbba89073af683` completed successfully, including build, artifact upload and deployment. It confirms the B2 index badge/navigation correction from that revision. The current v93 lesson/assessment refinements are newer source commits and need their own successful Pages run before they can be described as live.
 
 ## 2. Source-level structural checks
 
@@ -21,7 +21,7 @@
 - Lessons 01–24 each contain an eight-question quiz array.
 - All lessons retain `ss-b2-done` and the six-of-eight completion threshold.
 - Sequential previous-lesson navigation is present from Lesson 02 through Lesson 24; Lesson 01 returns to the B1 overview.
-- Lessons 03–24 have 12 Spanish audio controls each; Lessons 01–02 have 11 each.
+- All 24 lessons now have 12 Spanish example/audio controls each. Lessons 01–02 received one additional contextual example and matching audio control in this refinement batch.
 - The 24 lessons are organised into six coherent units: narratives/time; argumentation; grammar for meaning; professional/academic communication; media/society; precision/flexible interaction.
 
 ### Closing activities 25–28
@@ -33,6 +33,8 @@
 - Closing activities use `ss-b2-end-done`; core lesson progress storage is unchanged.
 - Sequential closing-module navigation was corrected: 25 → 26 → 27 → 28.
 - Completion indicators are learning records, not proficiency grades or official CEFR results.
+- Module 27 now includes an asynchronous online discussion task with an initial post, response, revised recommendation and interaction self-checks.
+- Module 27 also includes a four-dimension speaking/pronunciation reflection rubric: intelligibility, word stress/sound clarity, rhythm/phrasing and intonation/interaction. It is a self/peer/teacher reflection aid; the website does not record or automatically grade speech.
 
 ## 3. Sampled language and pedagogy review
 
@@ -52,7 +54,7 @@ The sequence broadly supports B2-oriented work with complex argument, profession
 
 The Council of Europe's CEFR Companion Volume includes expanded descriptors and scales for mediation, online interaction and plurilingual/pluricultural competence, in addition to reception, production and interaction. B2 mediation descriptors include conveying detailed information and arguments from complex but well-structured texts in relevant fields. Spanish Seekho's source synthesis, stakeholder summary and proposal mediation tasks support parts of this direction.
 
-**Priority gap for future refinement:** online interaction is not yet a clearly taught and assessed strand across B2. The course should add a purposeful online collaborative task (for example, a moderated written discussion, shared decision thread or asynchronous group proposal) with turn-taking, clarification, tone and response-to-feedback criteria. Pronunciation/phonological development also needs a more explicit progression and a human listening/speaking review rubric; browser TTS alone is not pronunciation assessment.
+**Remaining curriculum-level gap:** Module 27 now provides one explicit asynchronous online-interaction task and a speaking/pronunciation review rubric. These additions address the gap at the end-of-level assessment level, but a fuller online-interaction and phonological progression across the 24 core lessons would require a future curriculum revision. Browser TTS remains a model for listening, not pronunciation assessment.
 
 Official references:
 - Council of Europe, [CEFR Descriptors](https://www.coe.int/en/web/common-european-framework-reference-languages/cefr-descriptors).
@@ -63,14 +65,16 @@ Official references:
 
 - The six core-unit index badges still said “IN DEVELOPMENT” despite all 24 lessons being available; corrected to “AVAILABLE”.
 - The B2 index bottom navigation pointed to Lesson 24 as the latest available destination; changed to the B2 closing checkpoint (Module 28).
+- Lessons 01–02 had 11 examples/audio controls; each now has 12, matching the lesson pattern.
+- Module 27 lacked an explicit online interaction task and a structured speaking/pronunciation rubric; both are now included with local draft/rating persistence and no automated speech-scoring claim.
 - Closing-module previous links now follow the intended 25 → 26 → 27 → 28 sequence.
 
 ## 6. Not tested / owner QA required
 
 No real browser session or device interaction was performed. The following remain unverified:
-1. Live URL rendering for all 28 routes after the latest index correction deploys.
+1. Live URL rendering for all 28 routes after the latest v93 quality-refinement batch deploys.
 2. Quiz answer selection, score feedback, retry/reload behaviour and completion persistence.
-3. Draft autosave and restoration for Modules 25–27.
+3. Draft autosave and restoration for Modules 25–27, including all three online-interaction turns and pronunciation reflection notes/ratings.
 4. Speech synthesis availability, Spanish voice selection and transcript fallback on Android.
 5. Responsive layout, navigation and touch targets on mobile.
 6. Roman Urdu/Urdu RTL and mixed Spanish/English direction.
@@ -84,8 +88,8 @@ B1 owner-run QA remains pending and is not waived.
 
 1. Confirm the latest index correction deploys successfully.
 2. Complete owner-run browser/device QA using the existing B1 checklist plus the B2-specific items above; log reproducible defects rather than treating source checks as runtime proof.
-3. Add an explicit B2 online-interaction activity and a human-friendly pronunciation/speaking rubric if time and scope allow.
+3. Consider extending online interaction and phonological practice into selected B2 core lessons if time and scope allow; Module 27 now provides an end-of-level task and review rubric.
 4. Obtain a qualified Spanish-language review of the full B2 corpus before describing the curriculum as formally CEFR-validated.
 5. Only then finalise the C1 scope map, using the Companion Volume descriptors as the reference rather than simply increasing grammar difficulty.
 
-**Status:** B2 content and source integration are complete; source review has identified refinements; live/browser QA and formal pedagogical validation remain outstanding. Spanish Seekho is a learning resource, not an accredited CEFR examination or certificate.
+**Status:** B2 content, source integration and the identified Module 27 refinements are implemented in the repository; latest v93 deployment confirmation, live/browser QA and formal pedagogical validation remain outstanding. Spanish Seekho is a learning resource, not an accredited CEFR examination or certificate.
