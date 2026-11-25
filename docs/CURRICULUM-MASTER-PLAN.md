@@ -431,7 +431,7 @@ Verify B1-01 and current conventions. Produce B1-02–06 as a coherent five-less
 Audit existing 25 A1 and 20 A2 lessons, improve/add content for missing outcomes and skills, and add missing projects and integrated assessments. Preserve existing links and progress.
 
 ### Phase 3 — B2
-Build B2 in coherent batches once prerequisite pathways are stable.
+Build B2 in coherent batches. By explicit owner decision dated 25 November 2026, B2 authoring may proceed in parallel while B1 owner-run live QA remains pending; this does not mark B1 release-verified.
 
 ### Phase 4 — C1
 Build C1 around demanding texts, academic/professional tasks, nuance, critical comprehension and mediation. Obtain proficient review.
@@ -450,7 +450,7 @@ Repository documentation dated 24 November 2026 records:
 - B1: Core lessons 01–24 and separate closing activities 25–28 are implemented at source and integrated into the B1 index. B1-01–16 have earlier deployment evidence; post-build route/interaction verification for 17–28 is pending. Closing module source checks passed, but live routes, quiz interactions, project save, TTS and readiness interactions have not been browser-tested. B1 remains a Spanish Seekho learning pathway, not an accredited or externally validated CEFR qualification. Service-worker cache v75 includes B1 core and closing pages; actual offline operation remains untested.
 - Spain Life: six modules documented.
 - Full 168-module curriculum: **approved and planned; not implemented in full**.
-- B2, C1 and C2: planned; no completion claim.
+- B2: Lessons 01–04 implemented at source; remaining lessons planned. C1 and C2 remain planned; no completion claim.
 - A2 core modules 01–24 have strong internal mapping evidence. B1 core 01–24 has been authored against the approved topic sequence, but the complete 01–24 descriptor mapping and language review remain pending. No external CEFR validation or accreditation is claimed.
 
 Refresh this snapshot from actual repository code before each production batch.
@@ -490,7 +490,7 @@ This is a repository-level planning snapshot, not a page-by-page audit. “Exist
 | B1 | 17–21 | Implemented at source; prior Pages workflow succeeded | Post-build live route and quiz QA pending; browser automation unavailable on latest attempt |
 | B1 | 22–24 | Implemented and source-verified | Relative clauses, reported information and integrated communication; latest v75 publication and live QA pending |
 | B1 | 25–28 | Implemented at source and integrated into B1 index | Four closing activities source-checked; latest v75 publication, live interaction QA and full B1 curriculum review pending |
-| B2 | 01–28 | Planned | Begin after B1 progression is complete and reviewed |
+| B2 | 01–04 | Implemented at source; runtime QA pending | Continue with 05–08; B1 live QA remains a separate owner-pending release gate |
 | C1 | 01–28 | Planned | Begin after B2 progression is complete and reviewed |
 | C2 | 01–28 | Planned | Begin after C1 progression is complete and reviewed |
 
