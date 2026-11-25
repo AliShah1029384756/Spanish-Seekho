@@ -135,3 +135,12 @@ The 168 count is Spanish Seekho's design choice, not a CEFR requirement. Each le
 ## Documentation deployment confirmation — 25 November 2026
 
 GitHub Pages workflow run **#587** (`45530273768`) for commit `b3f478aa4945ab7bbfc647e7f3c7847a32942114` is now **completed / success**. This confirms the documentation commit passed through the Pages deployment workflow. It does **not** replace owner-run live QA or verify individual routes, interactions, audio, persistence, mobile layout, accessibility, or offline behaviour. B1 remains **source-reviewed and deployed, but not release-verified**. The owner QA checklist remains pending in `docs/CURRICULUM-TRACKER.md` section 28; keep B2 on hold until those checks and any resulting fixes are recorded.
+
+
+## B2 development status — owner-authorised parallel start (25 November 2026)
+
+The owner explicitly asked to proceed with B2 while leaving B1 live/browser QA for the owner to complete later. This is an authoring-schedule decision only: **B1 QA remains pending and B1 remains not release-verified**. Do not mark any B1 checklist item passed without owner evidence. B2 content development may proceed in parallel, but no claim of B1 release verification, B2 completion, official CEFR certification, or runtime testing is permitted.
+
+B2 opening batch now exists at b2/index.html and b2/lesson-01.html through b2/lesson-04.html. The homepage links to the new pathway. B2 service-worker precache was advanced to spanish-seekho-v80 and includes the four lessons and index. The first batch covers Unit 1: narrative perspective; complex past-time relationships; reconstructing events and conflicting accounts; and personal, historical and professional narratives. The next authoring range is **B2 Lessons 05–08** (argument, debate, persuasion and counterarguments).
+
+Assistant-run browser testing was not performed, as requested. Source-level inspection only; live route, quiz interaction, persistence, TTS, mobile, accessibility, RTL and offline behaviour remain unverified.
