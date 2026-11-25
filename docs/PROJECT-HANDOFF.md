@@ -269,3 +269,12 @@ Production handoff after this batch: the next planned B2 authoring range is **Le
 ## 25 November 2026 — B2 homepage discovery and directory integration
 
 A source audit found that the homepage lesson directory still exposed only B2 Lessons 01–04 even though `b2/index.html` and the service worker already contained Lessons 01–12. Updated the homepage directory to list all 12 available B2 lessons with direct routes, and advanced the service-worker cache to `spanish-seekho-v83` so clients can refresh the updated homepage shell. Source checks confirmed 12 unique homepage lesson links, 12 B2 index lesson links, all 12 lesson files exist, and the service worker precaches Lessons 01–12. This is a repository/source integration fix only; GitHub Pages publication and live/browser behaviour have not been independently verified. B1 owner QA remains pending.
+
+
+## 25 November 2026 — B2 Lessons 13–16 deployed
+
+Added B2 Unit 04, Professional and academic communication, with Lessons 13–16: meetings/presentations/collaboration; reports/proposals/formal correspondence; academic discussion/source-based writing; and workplace conflict/feedback/negotiation. Each page has three learning outcomes, six teaching sections with two Spain-Spanish examples and English translations per section, 12 existing `data-say` audio controls, a speaking/writing production task, and an eight-question checkpoint. The pass threshold remains 6/8 and completion uses the existing `ss-b2-done` key; lessons remain unlocked.
+
+Integrated the four routes into the B2 index and homepage directory; updated B2 progress from 12 to 16 available lessons; advanced the service-worker cache to `spanish-seekho-v84` and added Lessons 13–16 to precache. Source checks confirmed all four files, 12 audio controls and eight quiz items per lesson, 16 unique B2 lesson routes in the homepage directory, 16 lesson routes in the B2 index, and 16 B2 lesson precache entries. A formal-register wording refinement was applied to Lesson 14 after source review.
+
+This is source-level validation plus GitHub Pages workflow verification only. No browser or live visual/interaction testing was performed; route loading, quiz interaction, local progress persistence, speech playback, mobile/RTL, accessibility and offline behaviour remain unverified. B1 owner QA remains pending and is not waived. Next B2 authoring range: Lessons 17–20, subject to the approved curriculum map and overlap review.
