@@ -98,7 +98,7 @@ The owner approved **168 modules across A1–C2, with 28 modules per level**. Se
 
 This is Spanish Seekho's own curriculum structure, not a lesson count prescribed by CEFR. Each level contains 24 core teaching modules and four closing modules: cumulative revision, practical project, integrated skills assessment, and readiness checkpoint. The 168 modules are a planned target, not an implemented course. Existing A1 lessons 01–25 and A2 lessons 01–20 must be audited and mapped before changes; preserve direct URLs and progress. B1-01 must be verified before producing B1-02–06. Never claim official CEFR accreditation or certification.
 
-**Next sequence:** B1 core lessons 01–24 and separate closing modules 25–28 are now implemented at source. First verify the latest Pages publication and complete the outstanding B1 route/interaction and curriculum QA; begin B2 only after B1 has been reviewed.
+**Next sequence:** B1 owner live/browser QA remains pending and must be recorded separately. B2 authoring is owner-authorised in parallel; the next batch is B2 Lessons 05–08.
 
 
 ## A2 Lessons 16–20 source review (24 November 2026)
