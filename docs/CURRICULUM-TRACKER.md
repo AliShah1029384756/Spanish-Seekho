@@ -823,3 +823,13 @@ Production handoff after this batch: the next planned B2 authoring range is **Le
 - Source-level checks confirmed the four files exist, each has 8 quiz items and 12 audio controls, homepage has 16 unique direct B2 lesson links, index has 16 unique lesson links, and precache includes 16 B2 lesson routes. Lesson 14 formal correspondence examples received a wording refinement during review.
 - Browser/live testing was not performed. Route rendering, quiz submissions, persistence, TTS, mobile, accessibility, Urdu RTL and offline behaviour remain pending. B1 owner QA checklist in section 28 remains unchanged and pending.
 - Next B2 authoring range: Lessons 17–20. This is not an official CEFR qualification or accreditation claim.
+
+## 25 November 2026 — B2 Lessons 17–20 source and integration review
+
+- Added `b2/lesson-17.html` through `b2/lesson-20.html` for approved Unit 05, Media, society and contemporary issues.
+- Coverage: news framing, attributed claims, interviews and public debate; social change, technology benefits/limits, ethical principles and trade-offs; culture, identity, intercultural comparison and avoiding stereotypes; accurate summarising, source comparison, source limitations and synthesis.
+- Each lesson has three learning outcomes, six teaching sections with two Spanish examples and English translations each, 12 `data-say` controls, a speaking/writing production task, and eight quiz questions with explanations. Pass threshold 6/8; progress key `ss-b2-done`; all lessons remain unlocked.
+- Integrated Unit 05 into B2 index; corrected progress label/denominator to 20 and latest lesson route to Lesson 20. Homepage has 20 unique direct B2 lesson links. Service worker is `spanish-seekho-v85` and precaches B2 Lessons 01–20.
+- Connected Unit 01–04 boundary navigation: Lessons 04→05, 08→09, 12→13, and 16→17.
+- Source checks confirmed four files, six sections/12 audio controls/8 quiz items each, parseable inline JS, valid answer indices, 20 unique homepage routes, 20 index routes, and 20 B2 precache routes. No browser/live test was performed. Route rendering, quiz interaction, persistence, TTS, mobile, accessibility, RTL and offline QA remain pending. B1 owner QA checklist section 28 remains pending and unchanged.
+- Next range: B2 Lessons 21–24, Unit 06 — precision and flexible interaction. No official CEFR qualification claim is made.
