@@ -265,3 +265,7 @@ Next B2 authoring range: Lessons 13–16, Unit 04 — professional and academic 
 
 
 Production handoff after this batch: the next planned B2 authoring range is **Lessons 13–16, Unit 04 — Professional and academic communication** (meetings/presentations/collaboration; reports/proposals/formal correspondence; academic discussion/source-based writing; workplace conflict/feedback/negotiation), as specified in the approved curriculum master plan. B1 owner-run browser QA remains pending.
+
+## 25 November 2026 — B2 homepage discovery and directory integration
+
+A source audit found that the homepage lesson directory still exposed only B2 Lessons 01–04 even though `b2/index.html` and the service worker already contained Lessons 01–12. Updated the homepage directory to list all 12 available B2 lessons with direct routes, and advanced the service-worker cache to `spanish-seekho-v83` so clients can refresh the updated homepage shell. Source checks confirmed 12 unique homepage lesson links, 12 B2 index lesson links, all 12 lesson files exist, and the service worker precaches Lessons 01–12. This is a repository/source integration fix only; GitHub Pages publication and live/browser behaviour have not been independently verified. B1 owner QA remains pending.
