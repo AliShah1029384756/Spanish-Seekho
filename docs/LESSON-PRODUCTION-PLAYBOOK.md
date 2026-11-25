@@ -30,7 +30,7 @@ As recorded in the repository handoff and README on 24 November 2026:
 
 - A1 starter pathway: lessons 01–25.
 - A2 starter pathway: core lessons 01–23 plus separate end-of-level activities 25–28.
-- B1 pathway: core lessons 01–24 and separate closing modules 25–28 implemented at source and now source-reviewed. The latest B1 content commit deployed successfully in Pages run 578; live route/interaction QA remains pending. Do not begin B2 until B1 release verification is complete.
+- B1 pathway: core lessons 01–24 and separate closing modules 25–28 implemented at source and now source-reviewed. The latest B1 content commit deployed successfully in Pages run 578; live route/interaction QA remains pending. B2 authoring may proceed in parallel only because the owner explicitly authorised it on 25 November 2026; B1 live QA remains pending and is not waived.
 - A1 and A2 are starter pathways, not claims that every CEFR requirement is externally validated or officially certified. A2's 24 core outcomes have internal mapping evidence; its four separate end-of-level activities are implemented and smoke-tested.
 - B1 core lessons 01–24 and separate closing modules 25–28 have been source-reviewed and the source-correction commit deployed successfully in Pages run 573. The pathway is not release-verified until live route/interaction QA passes. Do not begin B2 before that gate. Do not describe B1 as an official qualification or accredited course.
 
@@ -157,3 +157,12 @@ A new AI must be able to continue from these documents and repository state with
 The owner approved a **168-module A1–C2 curriculum, 28 modules per level**. The complete sequence and outcomes are documented in [CURRICULUM-MASTER-PLAN.md](CURRICULUM-MASTER-PLAN.md). This is the project's own module count, not a CEFR-prescribed number. Each level has 24 core teaching modules plus cumulative revision, a practical project, integrated skills assessment and readiness checkpoint (modules 25–28).
 
 All lesson authors and reviewers must use the master map, map existing content before creating duplicates, and distinguish planned modules from implemented pages. A1/A2 existing lessons must not be renumbered or overwritten merely to fit the map. Use CEFR descriptors and Instituto Cervantes PCIC as references; never claim official accreditation or certification. An MCQ score alone does not establish CEFR proficiency.
+
+
+## B2 development status — owner-authorised parallel start (25 November 2026)
+
+The owner explicitly asked to proceed with B2 while leaving B1 live/browser QA for the owner to complete later. This is an authoring-schedule decision only: **B1 QA remains pending and B1 remains not release-verified**. Do not mark any B1 checklist item passed without owner evidence. B2 content development may proceed in parallel, but no claim of B1 release verification, B2 completion, official CEFR certification, or runtime testing is permitted.
+
+B2 opening batch now exists at b2/index.html and b2/lesson-01.html through b2/lesson-04.html. The homepage links to the new pathway. B2 service-worker precache was advanced to spanish-seekho-v80 and includes the four lessons and index. The first batch covers Unit 1: narrative perspective; complex past-time relationships; reconstructing events and conflicting accounts; and personal, historical and professional narratives. The next authoring range is **B2 Lessons 05–08** (argument, debate, persuasion and counterarguments).
+
+Assistant-run browser testing was not performed, as requested. Source-level inspection only; live route, quiz interaction, persistence, TTS, mobile, accessibility, RTL and offline behaviour remain unverified.
