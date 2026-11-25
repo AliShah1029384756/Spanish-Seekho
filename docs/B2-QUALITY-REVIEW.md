@@ -11,7 +11,7 @@
 - Closing activities are linked from the B2 index and the homepage pathway summary.
 - B2 progress is displayed as 0–28 activities, combining the existing `ss-b2-done` core lesson key with the separate `ss-b2-end-done` closing-activity key. Existing lesson progress IDs and open access are preserved.
 - Service-worker cache is `spanish-seekho-v93`; all four closing activity routes are included in precache. Lessons 01–02 and the integrated assessment were refined in the current quality-review batch; confirm the workflow associated with this revision before treating those latest changes as live.
-- GitHub Pages workflow run **#772** for head `97237314738d03610b9b4000d7bbba89073af683` completed successfully, including build, artifact upload and deployment. It confirms the B2 index badge/navigation correction from that revision. The current v93 lesson/assessment refinements are newer source commits and need their own successful Pages run before they can be described as live.
+- GitHub Pages workflow run **#772** for head `97237314738d03610b9b4000d7bbba89073af683` completed successfully, including build, artifact upload and deployment. It confirms the B2 index badge/navigation correction from that revision. GitHub Pages run **#776** for the v93 lesson/assessment source batch completed successfully, including build and deployment. Documentation updates in run **#779** also completed successfully.
 
 ## 2. Source-level structural checks
 
@@ -72,7 +72,7 @@ Official references:
 ## 6. Not tested / owner QA required
 
 No real browser session or device interaction was performed. The following remain unverified:
-1. Live URL rendering for all 28 routes after the latest v93 quality-refinement batch deploys.
+1. Owner-run live URL rendering for all 28 routes after the v93 quality-refinement deployment.
 2. Quiz answer selection, score feedback, retry/reload behaviour and completion persistence.
 3. Draft autosave and restoration for Modules 25–27, including all three online-interaction turns and pronunciation reflection notes/ratings.
 4. Speech synthesis availability, Spanish voice selection and transcript fallback on Android.
@@ -92,4 +92,4 @@ B1 owner-run QA remains pending and is not waived.
 4. Obtain a qualified Spanish-language review of the full B2 corpus before describing the curriculum as formally CEFR-validated.
 5. Only then finalise the C1 scope map, using the Companion Volume descriptors as the reference rather than simply increasing grammar difficulty.
 
-**Status:** B2 content, source integration and the identified Module 27 refinements are implemented in the repository; latest v93 deployment confirmation, live/browser QA and formal pedagogical validation remain outstanding. Spanish Seekho is a learning resource, not an accredited CEFR examination or certificate.
+**Status:** B2 content, source integration and Module 27 refinements are implemented and v93 is deployed (Pages runs #776 and #779 successful); live/browser QA and formal pedagogical validation remain outstanding. Spanish Seekho is a learning resource, not an accredited CEFR examination or certificate.
