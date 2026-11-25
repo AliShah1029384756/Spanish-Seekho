@@ -809,3 +809,6 @@ The B2 index now lists 12 available lessons across three units and calculates pr
 Source-level review only. No browser/live-site testing was performed. B2 routes, quizzes, persistence, TTS, mobile, accessibility, Urdu RTL and offline behaviour remain pending. **B1 owner QA remains pending and is not waived**; preserve tracker section 28 until owner evidence is supplied.
 
 Next B2 authoring range: Lessons 13–16, Unit 04 — professional and academic communication, following the approved master plan.
+
+
+Production handoff after this batch: the next planned B2 authoring range is **Lessons 13–16, Unit 04 — Professional and academic communication** (meetings/presentations/collaboration; reports/proposals/formal correspondence; academic discussion/source-based writing; workplace conflict/feedback/negotiation), as specified in the approved curriculum master plan. B1 owner-run browser QA remains pending.
