@@ -743,3 +743,33 @@ Four separate A2 closing pages were created, added to the A2 index and added to 
 ### Decision
 
 B1 is **source-reviewed but not release-verified**. Do not begin B2 production until a fresh deployment is confirmed and live route/interaction QA is completed. No lesson numbering, URL or learner-progress key was changed.
+
+
+## 28. B1 live/browser QA — owner testing pending (25 November 2026)
+
+### Status and responsibility
+
+- **Not tested by the assistant.** Browser automation was not run because its service wallet balance was negative (-$0.24). The owner explicitly asked that assistant-run testing stop and that this limitation be recorded for later owner testing.
+- GitHub Pages run 45461408731 (run 583), for commit `bf805171fc83212c78edf25e270ea2a6bcd24cc6`, completed successfully. This is deployment-workflow evidence only, not route-level or functional QA.
+- All items below are **pending owner verification**. Do not interpret this checklist as passed.
+
+### Owner QA checklist
+
+- [ ] Open the B1 index and confirm all 24 core lessons and four closing modules load.
+- [ ] Visit each route B1-01 through B1-24; check page content, navigation, and no 404/fatal errors.
+- [ ] Test quiz selection, submission, feedback, score threshold and completion state on representative lessons (preferably all lessons if practical).
+- [ ] Reload and revisit lessons; confirm existing progress persists and no learner data is lost.
+- [ ] Test Module 25 review quiz, answer feedback, repair links and revision-plan saving.
+- [ ] Test Module 26 project fields, self-checks, autosave and completion.
+- [ ] Test Module 27 listening playback, transcript fallback, reading answers, writing/speaking self-review and saving.
+- [ ] Test Module 28 self-ratings, notes, route choice and saving.
+- [ ] Check speech/TTS support and fallback on the actual target device/browser.
+- [ ] Check Android/mobile layout, navigation, touch targets, overflow and text clipping.
+- [ ] Check Urdu RTL and mixed Spanish/Latin text direction.
+- [ ] Check keyboard focus and accessible labels on key controls.
+- [ ] Test offline reload/service-worker cache after a successful online visit.
+- [ ] Record browser/device, date, routes tested, pass/fail, and exact reproduction steps for each defect.
+
+### Release decision
+
+B1 remains **source-reviewed and Pages-workflow-deployed, but not release-verified**. The owner will perform the live checks later. Do not begin B2 until the checklist is completed, defects are addressed, and the results are reviewed and recorded here. Do not claim TTS, mobile, accessibility, persistence or offline behaviour has passed until directly tested.
