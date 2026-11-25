@@ -169,3 +169,8 @@ Next B2 authoring range: Lessons 13–16, Unit 04 — professional and academic 
 
 
 Production handoff after this batch: the next planned B2 authoring range is **Lessons 13–16, Unit 04 — Professional and academic communication** (meetings/presentations/collaboration; reports/proposals/formal correspondence; academic discussion/source-based writing; workplace conflict/feedback/negotiation), as specified in the approved curriculum master plan. B1 owner-run browser QA remains pending.
+
+
+## 25 November 2026 — B2 Lessons 13–16 completed at source level
+
+B2 Unit 04 is now integrated: Lesson 13 meetings/presentations/collaboration; Lesson 14 reports/proposals/formal correspondence; Lesson 15 academic discussion/source-based writing; Lesson 16 workplace conflict/feedback/negotiation. Four lesson pages include six teaching sections each, 12 Spanish examples with English translations and audio controls, an integrated production task, and eight-question quiz checkpoints. Existing B2 progress key and 6/8 pass threshold are preserved. B2 index/homepage now expose 16 lessons; service worker is v84 with all B2 lessons 01–16 precached. Source checks only; no browser/live interaction, mobile, accessibility, TTS, RTL or offline test was performed. B1 owner QA remains pending. Next B2 range: Lessons 17–20.
