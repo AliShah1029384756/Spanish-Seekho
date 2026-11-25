@@ -122,3 +122,11 @@ The 168 count is Spanish Seekho's design choice, not a CEFR requirement. Each le
 - Fixed B1 mobile navigation's Practice route and applied `lang="es"` to Spanish `.es` content. Service-worker cache v78 precaches all B1 pages. Source JavaScript and quiz structures pass checks.
 - The latest B1 content commit `2705fab84ccabe9d71979f3437313cd775d4f789` was built and deployed successfully in Pages run 45460248990 (run 578), with build, deploy and status-report jobs successful. Browser automation could not start due to a negative service wallet balance. Live route, quiz, module interaction, mobile/RTL, TTS and offline tests remain pending.
 - B1 is source-reviewed, not release-verified. B2 remains blocked until deployment and live QA are complete.
+
+
+## B1 live QA — owner will test later (25 November 2026)
+
+- The owner asked the assistant not to run browser testing. No assistant-run live browser tests were performed; browser automation could not start because its service wallet balance was negative (-$0.24).
+- Pages workflow run 45461408731 (run 583), for commit `bf805171fc83212c78edf25e270ea2a6bcd24cc6`, is now completed successfully. This is deployment workflow confirmation only, not live route or interaction verification.
+- The owner will perform live QA later. Use the detailed checklist in `docs/CURRICULUM-TRACKER.md` section 28 and record actual results there.
+- Keep B1 marked **source-reviewed, not release-verified**. B2 remains on hold until owner testing is completed and reviewed.
