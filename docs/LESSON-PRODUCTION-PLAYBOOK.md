@@ -32,7 +32,7 @@ As recorded in the repository handoff and README on 24 November 2026:
 - A2 starter pathway: core lessons 01–23 plus separate end-of-level activities 25–28.
 - B1 pathway: core lessons 01–24 and separate closing modules 25–28 implemented at source and now source-reviewed. The latest B1 content commit deployed successfully in Pages run 578; live route/interaction QA remains pending. B2 authoring may proceed in parallel only because the owner explicitly authorised it on 25 November 2026; B1 live QA remains pending and is not waived.
 - A1 and A2 are starter pathways, not claims that every CEFR requirement is externally validated or officially certified. A2's 24 core outcomes have internal mapping evidence; its four separate end-of-level activities are implemented and smoke-tested.
-- B1 core lessons 01–24 and separate closing modules 25–28 have been source-reviewed and the source-correction commit deployed successfully in Pages run 573. The pathway is not release-verified until live route/interaction QA passes. Do not begin B2 before that gate. Do not describe B1 as an official qualification or accredited course.
+- B1 core lessons 01–24 and separate closing modules 25–28 have been source-reviewed and the source-correction commit deployed successfully in Pages run 573. The pathway is not release-verified until live route/interaction QA passes. B2 authoring may proceed in parallel only by the owner's explicit decision dated 25 November 2026; the B1 release gate remains pending. Do not describe B1 as an official qualification or accredited course.
 
 Always inspect the latest repository and handoff before choosing lesson numbers. Never assume this snapshot is still current.
 
