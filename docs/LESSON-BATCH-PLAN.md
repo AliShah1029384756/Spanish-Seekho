@@ -130,3 +130,8 @@ Next B2 authoring range: Lessons 13–16, Unit 04 — professional and academic 
 
 
 Production handoff after this batch: the next planned B2 authoring range is **Lessons 13–16, Unit 04 — Professional and academic communication** (meetings/presentations/collaboration; reports/proposals/formal correspondence; academic discussion/source-based writing; workplace conflict/feedback/negotiation), as specified in the approved curriculum master plan. B1 owner-run browser QA remains pending.
+
+
+## 25 November 2026 — Completed batch: B2 Lessons 13–16
+
+Unit 04, Professional and academic communication, is implemented and integrated. Topics: meetings/presentations/collaboration; reports/proposals/formal correspondence; academic discussion/source-based writing; workplace conflict/feedback/negotiation. Four pages have six teaching sections, 12 translated Spanish examples/audio controls, a production task and eight-question quiz each. Existing `ss-b2-done` key and 6/8 threshold retained. Index/homepage count 16; service worker v84 precaches B2 01–16. Source validation only; browser/live QA remains pending. B1 owner QA remains pending. **Next batch: B2 Lessons 17–20**, following the approved curriculum map.
