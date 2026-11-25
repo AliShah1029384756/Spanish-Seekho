@@ -85,7 +85,7 @@ A1 and A2 inventories have been reviewed and mapped; A2 core modules 01–24 hav
 
 ## Current next batch
 
-No new lesson batch is scheduled. B1 core 01–24 and closing modules 25–28 have completed source-level curriculum review. B1 live route/interaction QA remains owner-pending. B2 authoring is now authorised in parallel; the B1 release gate is not waived. Current service-worker cache: spanish-seekho-v80.
+Next lesson batch: **B2 Lessons 05–08** (argument, debate, persuasion and counterarguments). B1 owner live QA remains pending and must not be marked passed without owner evidence. B2 authoring is authorised in parallel; the B1 release gate is not waived. Current service-worker cache: spanish-seekho-v80.
 
 
 ## B1 release gate — owner browser QA pending (25 November 2026)
