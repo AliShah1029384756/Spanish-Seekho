@@ -170,3 +170,10 @@ Source-level verification and live/browser QA are distinct. Browser rendering, q
 At the owner's explicit request, continued C1 authoring while the previous GitHub Pages workflow remained pending. Added Unit 03 Lessons 09–12: implicit meaning/assumptions/bias; argument and evidence evaluation; interpreting extended spoken material; and multi-source synthesis. Each lesson has three learning outcomes, six teaching sections, 12 Spain-Spanish examples with English translations/audio controls, a production task and eight explained quiz questions. Existing `ss-c1-done` progress key and 6/8 completion indicator remain unchanged; lessons are not locked.
 
 C1 index now lists 12 lessons, progress denominator is 12, homepage summary says twelve lessons, and service-worker cache v97 precaches the new routes. Source verification and successful Pages deployment are separate gates; neither browser/device QA nor deployment success is claimed here. Next planned range: C1 Lessons 13–16, Unit 04 — Style, register and language choice.
+
+
+## 26 November 2026 — C1 Lessons 13–16 completed
+
+Created and integrated Unit 04: Lesson 13 formal/neutral/informal/specialised registers; Lesson 14 idioms, collocations, connotation and lexical precision; Lesson 15 politeness, irony, humour and indirect communication; Lesson 16 regional variation in Spain and the wider Spanish-speaking world. Each has three learning outcomes, six teaching sections, 12 Spanish examples with English translations and Listen controls, an independent production task, and eight explained quiz questions. Existing `ss-c1-done` progress key and 6/8 threshold retained; all lessons remain open.
+
+C1 index/homepage now list 16 lessons across four units; progress denominator is 16. Service worker cache v98 precaches C1 Lessons 13–16. Source-level checks only; live/browser/device QA, Pages deployment confirmation, qualified Spanish-language review and programme-wide accessibility/offline checks remain pending. B1/B2 owner QA remains independently pending. Next batch: **C1 Lessons 17–20 — Complex grammar and expression**.
