@@ -903,3 +903,10 @@ Source checks only. Browser route/quiz testing, progress persistence, TTS, mobil
 Unit 05 pages 17–20 cover advanced mood/tense choices, complex clauses and stylistic compression, impersonal/passive/distancing strategies, and reformulation/qualification/rhetorical subtlety. Each includes three outcomes, six teaching sections, 12 translated Spanish examples with labelled speech controls, an independent production task and eight explained quiz items. Completion remains `ss-c1-done`, 6/8; lessons remain open.
 
 C1 index/homepage now expose 20 lessons across five units. Progress denominator corrected to 20. Service worker v99 precaches Lessons 17–20. Source checks only; live/browser/device QA, Pages deployment, qualified Spanish review, Urdu RTL, accessibility and offline testing remain pending. B1/B2 owner QA remains independently pending. No formal CEFR validation/accreditation is claimed.
+
+
+## 26 November 2026 — C1 Lessons 21–24 implemented; owner QA pending
+
+Completed Unit 06 — High-level interaction and mediation: Lesson 21 chairing and facilitating complex discussion; Lesson 22 explaining specialised concepts to different audiences; Lesson 23 resolving intercultural misunderstandings; Lesson 24 integrated C1 communication through analysis, synthesis and persuasion. Each lesson contains three learning outcomes, six teaching sections, 12 Spanish examples with English translations and labelled Listen controls, an independent production task, and eight explained quiz questions. Completion retains `ss-c1-done` and the 6/8 checkpoint; lessons remain open.
+
+Integrated Lessons 21–24 into the C1 index, corrected the progress denominator to 24, removed a duplicated Unit 05 block found during source review, updated homepage C1 availability, and advanced the service-worker cache to `spanish-seekho-v100` with Lessons 21–24 precached. Source validation is not browser/device QA; owner testing, qualified Spanish-language review, Urdu RTL, accessibility and offline/PWA checks remain pending. C1 core Lessons 01–24 are now authored; closing modules 25–28 remain planned.
