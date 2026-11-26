@@ -201,3 +201,11 @@ Created `docs/C1-SCOPE-MAP-DRAFT.md` from the approved 28-module C1 sequence in 
 ## 26 November 2026 — C1 opening batch (Lessons 01–04)
 
 C1 Unit 01 is authored and integrated: stance/certainty/nuance; cohesion and information structure; emphasis/word order/rhetorical effect; complex spoken discourse and extended explanations. Four pages, six teaching sections and 12 Spanish examples/audio controls per page, production tasks and eight-question checkpoints are included. C1 index and homepage pathway are linked; progress uses ss-c1-done; service worker is v94 with C1 index and Lessons 01–04 precached. Source integration is recorded; browser/device QA remains owner-pending. B1 and B2 live QA remain pending and neither pathway is release-verified. Next batch: C1 Lessons 05–08, Academic and professional mastery.
+
+## 26 November 2026 — C1 Lessons 05–08 implemented; owner QA pending
+
+Authored C1 Unit 02 Lessons 05–08: advanced presentations and audience adaptation; academic argument, critical response and discussion; research summaries, reports and formal proposals; professional negotiation, leadership and mediation. Each page includes three learning outcomes, six teaching sections, 12 Spain-Spanish model sentences with English translations and speech controls, an independent production task, and an eight-question checkpoint with explanations. A 6/8 pass records completion under `ss-c1-done`; lessons remain open.
+
+Integrated the four routes into the C1 index, expanded its progress denominator to eight available lessons, updated the homepage pathway, and advanced the service-worker cache to `spanish-seekho-v95` with all four new lesson routes precached. C1 Lessons 09–28 remain planned, not authored.
+
+Source-level verification and live/browser QA are distinct. Browser rendering, quiz interaction, reload persistence, TTS, mobile layout, Urdu RTL/mixed direction, keyboard/accessibility and offline behaviour remain pending owner testing. No formal CEFR validation or accreditation is claimed.
