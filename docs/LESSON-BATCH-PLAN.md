@@ -218,3 +218,8 @@ C2 Lessons 01–12 are integrated and source-checked; service-worker v104 precac
 ## Next batch — C2 Lessons 13–16
 
 Unit 04 — Expert interaction and mediation: (13) Leading complex discussions and managing disagreement; (14) Mediating between specialist and non-specialist audiences; (15) Negotiation, diplomacy and conflict-sensitive language; (16) Synthesising decisions and documenting collaborative outcomes. Keep the C2 progress key `ss-c2-done`, open access, and update the C2 index, homepage, service-worker precache/cache version and documentation in the same batch. Browser/device QA and qualified Spanish-language review remain pending.
+
+
+## Next batch — C2 Lessons 17–20
+
+Unit 05 — Language, culture and variation: (17) Advanced sociolinguistic variation and identity; (18) Pragmatics, humour and culturally situated meaning; (19) Intercultural interpretation and critical perspectives; (20) Adapting language across regions, communities and contexts. Maintain `ss-c2-done`, open access and 6/8 quiz threshold. Integrate index, homepage, service-worker cache/precache and documentation in the same batch. Browser/device QA and qualified Spanish review remain pending.
