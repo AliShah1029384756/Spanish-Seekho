@@ -223,3 +223,8 @@ Unit 04 — Expert interaction and mediation: (13) Leading complex discussions a
 ## Next batch — C2 Lessons 17–20
 
 Unit 05 — Language, culture and variation: (17) Advanced sociolinguistic variation and identity; (18) Pragmatics, humour and culturally situated meaning; (19) Intercultural interpretation and critical perspectives; (20) Adapting language across regions, communities and contexts. Maintain `ss-c2-done`, open access and 6/8 quiz threshold. Integrate index, homepage, service-worker cache/precache and documentation in the same batch. Browser/device QA and qualified Spanish review remain pending.
+
+
+## Next batch — C2 Lessons 21–24
+
+Unit 06 — Independent mastery and integrated performance: (21) Independent research and source evaluation; (22) Producing extended, nuanced and audience-aware discourse; (23) Integrated listening, reading, mediation and interaction; (24) C2 capstone: defending a complex position with precision. Maintain `ss-c2-done`, open access and 6/8 quiz threshold. Integrate index, homepage, service-worker cache/precache and documentation in the same batch. Browser/device QA and qualified Spanish review remain pending.
