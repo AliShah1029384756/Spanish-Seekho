@@ -196,3 +196,8 @@ Integrated all four modules into the B2 index, updated the index progress displa
 ## 25 November 2026 — C1 planning gate
 
 Created `docs/C1-SCOPE-MAP-DRAFT.md` from the approved 28-module C1 sequence in `CURRICULUM-MASTER-PLAN.md`, with a provisional descriptor-coverage map and authoring quality gates. This is planning only: no C1 lesson pages have been authored. C1 production should begin after owner-run B2 browser/device QA and a qualified Spanish-language review of the B2 corpus or an agreed representative review plan. B2 remains a learning pathway, not an accredited CEFR examination. The C1 map is provisional and should be refined against the Council of Europe CEFR Companion Volume and Instituto Cervantes Plan Curricular.
+
+
+## 26 November 2026 — C1 opening batch (Lessons 01–04)
+
+C1 Unit 01 is authored and integrated: stance/certainty/nuance; cohesion and information structure; emphasis/word order/rhetorical effect; complex spoken discourse and extended explanations. Four pages, six teaching sections and 12 Spanish examples/audio controls per page, production tasks and eight-question checkpoints are included. C1 index and homepage pathway are linked; progress uses ss-c1-done; service worker is v94 with C1 index and Lessons 01–04 precached. Source integration is recorded; browser/device QA remains owner-pending. B1 and B2 live QA remain pending and neither pathway is release-verified. Next batch: C1 Lessons 05–08, Academic and professional mastery.
