@@ -1,6 +1,6 @@
 # Roadmap
 
-_Last updated: 24 November 2026_
+_Last updated: 26 November 2026_
 
 ## Implemented learning content (documented snapshot)
 
@@ -11,7 +11,7 @@ _Last updated: 24 November 2026_
 - A1 Lesson 25 remains Education, school and studies; it was preserved and mapped to core module 20. The new cumulative review uses a separate URL.
 - A2 lessons 13–23: descriptions, preferences/reasons, plans, travel problems, technology, everyday solutions, review, integrated practice, home/neighbourhood, public services and connectors/sequencing. Separate closing modules 25–28 are deployed and smoke-tested.
 
-**Product truth:** A1/A2 are expanding starter pathways, not complete CEFR syllabi. B1 has only started.
+**Product truth:** A1/A2 remain expanding starter pathways, not complete CEFR syllabi. B1 and C1 have 24 core lessons plus four closing modules implemented; owner QA and expert language review remain pending. C2 has its first four Unit 01 lessons; the remaining 24 modules are planned.
 
 ## Documentation and workflow improvements
 
@@ -244,3 +244,10 @@ Integrated Lessons 21–24 into the C1 index, corrected the progress denominator
 Created four separate C1 end-of-level activities: `c1/c1-review.html` (Module 25, comprehensive six-unit review and gap-repair plan); `c1/c1-project.html` (Module 26, evidence-based practical communication project with audience adaptation, presentation, negotiation and decision notes); `c1/c1-assessment.html` (Module 27, structured self-assessment across reading, listening, writing, speaking and mediation); and `c1/c1-readiness.html` (Module 28, C2 readiness reflection and an eight-week next-stage learning plan). Each module includes three outcomes, six instructional sections, 12 Spain-Spanish model sentences with English translations and labelled speech controls, a capstone task, and an eight-question explained checkpoint. Closing-module completion uses the separate `ss-c1-end-done` key; core lesson progress `ss-c1-done` is unchanged. All activities remain open.
 
 Integrated the four modules into the C1 index and homepage pathway, corrected the stale core-progress label to 24 core lessons, and advanced service-worker cache to `spanish-seekho-v101` with all four closing routes precached. C1 now has 24 core lessons plus four closing modules. Source validation is separate from browser/device QA; owner testing, qualified Spanish-language review, accessibility, Urdu RTL and offline/PWA checks remain pending. No formal CEFR assessment, certification or C2 readiness determination is claimed.
+
+
+## 26 November 2026 — C1 deployment and C2 opening batch
+
+C1 Lessons 01–24 and closing modules 25–28 are implemented. C1 closing-module deployment and the final index/handoff update completed successfully in GitHub Actions run #897 (commit `0a92e001c018a16e268398a408554153aa3c96d8`). Owner browser/device QA and qualified Spanish review remain pending.
+
+C2 Unit 01 Lessons 01–04 are implemented and integrated into `c2/index.html` and the homepage. Service-worker cache v102 precaches the four C2 lesson routes and index. Source validation passed for structure, 12 labelled speech controls per lesson, eight explained quiz questions, valid answer indices, JavaScript syntax and progress tracking. Next batch: C2 Lessons 05–08, Synthesis across complex sources. Do not claim C2 completion or official CEFR certification.
