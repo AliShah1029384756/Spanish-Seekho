@@ -256,3 +256,8 @@ C2 Unit 01 Lessons 01–04 are implemented and integrated into `c2/index.html` a
 ## 26 November 2026 — C2 Unit 02 Lessons 05–08 integrated
 
 C2 now has eight source-integrated lessons across two units. Lessons 05–08 cover multi-source synthesis, argument reconstruction, specialist material evaluation and faithful summarising. C2 index and homepage reflect eight available lessons; service-worker v103 precaches the index and all eight C2 routes. Source checks passed for content structure, labelled speech controls, quiz answer indices/explanations, inline JavaScript and progress logic. Browser/device QA and qualified Spanish review remain pending. Next batch: C2 Lessons 09–12.
+
+
+## 26 November 2026 — C2 Unit 03 complete at source
+
+C2 Lessons 09–12 are implemented and integrated, bringing the source-available C2 core to 12 lessons across three units. Index, homepage and service-worker v104 updated; source checks passed for structure, labelled pronunciation controls, quiz answer keys/explanations, JavaScript and progress tracking. Browser/device QA and qualified Spanish review remain pending. Next batch: C2 Lessons 13–16 (Expert interaction and mediation).
