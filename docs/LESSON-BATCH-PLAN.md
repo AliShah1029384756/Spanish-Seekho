@@ -85,8 +85,7 @@ A1 and A2 inventories have been reviewed and mapped; A2 core modules 01–24 hav
 
 ## Current next batch
 
-Next lesson batch: **B2 Lessons 05–08** (argument, debate, persuasion and counterarguments). B1 owner live QA remains pending and must not be marked passed without owner evidence. B2 authoring is authorised in parallel; the B1 release gate is not waived. Current service-worker cache: spanish-seekho-v80.
-
+Next lesson batch: **C1 Lessons 09–12** (Critical reading and listening: implicit meaning, assumptions, bias, evidence evaluation and complex spoken input). C1 Lessons 01–08 are source-integrated; owner browser/device QA remains pending. B1 and B2 owner QA remain independently pending.
 
 ## B1 release gate — owner browser QA pending (25 November 2026)
 
@@ -155,3 +154,12 @@ Integrated all four modules into the B2 index, updated the index progress displa
 ## 25 November 2026 — C1 planning gate
 
 Created `docs/C1-SCOPE-MAP-DRAFT.md` from the approved 28-module C1 sequence in `CURRICULUM-MASTER-PLAN.md`, with a provisional descriptor-coverage map and authoring quality gates. This is planning only: no C1 lesson pages have been authored. C1 production should begin after owner-run B2 browser/device QA and a qualified Spanish-language review of the B2 corpus or an agreed representative review plan. B2 remains a learning pathway, not an accredited CEFR examination. The C1 map is provisional and should be refined against the Council of Europe CEFR Companion Volume and Instituto Cervantes Plan Curricular.
+
+
+## 26 November 2026 — C1 Lessons 05–08 implemented; owner QA pending
+
+Authored C1 Unit 02 Lessons 05–08: advanced presentations and audience adaptation; academic argument, critical response and discussion; research summaries, reports and formal proposals; professional negotiation, leadership and mediation. Each page includes three learning outcomes, six teaching sections, 12 Spain-Spanish model sentences with English translations and speech controls, an independent production task, and an eight-question checkpoint with explanations. A 6/8 pass records completion under `ss-c1-done`; lessons remain open.
+
+Integrated the four routes into the C1 index, expanded its progress denominator to eight available lessons, updated the homepage pathway, and advanced the service-worker cache to `spanish-seekho-v95` with all four new lesson routes precached. C1 Lessons 09–28 remain planned, not authored.
+
+Source-level verification and live/browser QA are distinct. Browser rendering, quiz interaction, reload persistence, TTS, mobile layout, Urdu RTL/mixed direction, keyboard/accessibility and offline behaviour remain pending owner testing. No formal CEFR validation or accreditation is claimed.
