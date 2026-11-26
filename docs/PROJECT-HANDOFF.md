@@ -1,6 +1,6 @@
 # Spanish Seekho Handoff
 
-_Updated: 24 November 2026_
+_Updated: 26 November 2026_
 
 ## Project specification
 
@@ -390,3 +390,10 @@ Integrated Lessons 21–24 into the C1 index, corrected the progress denominator
 Created four separate C1 end-of-level activities: `c1/c1-review.html` (Module 25, comprehensive six-unit review and gap-repair plan); `c1/c1-project.html` (Module 26, evidence-based practical communication project with audience adaptation, presentation, negotiation and decision notes); `c1/c1-assessment.html` (Module 27, structured self-assessment across reading, listening, writing, speaking and mediation); and `c1/c1-readiness.html` (Module 28, C2 readiness reflection and an eight-week next-stage learning plan). Each module includes three outcomes, six instructional sections, 12 Spain-Spanish model sentences with English translations and labelled speech controls, a capstone task, and an eight-question explained checkpoint. Closing-module completion uses the separate `ss-c1-end-done` key; core lesson progress `ss-c1-done` is unchanged. All activities remain open.
 
 Integrated the four modules into the C1 index and homepage pathway, corrected the stale core-progress label to 24 core lessons, and advanced service-worker cache to `spanish-seekho-v101` with all four closing routes precached. C1 now has 24 core lessons plus four closing modules. Source validation is separate from browser/device QA; owner testing, qualified Spanish-language review, accessibility, Urdu RTL and offline/PWA checks remain pending. No formal CEFR assessment, certification or C2 readiness determination is claimed.
+
+
+## 26 November 2026 — C1 release handoff
+
+C1 now has 24 core lessons across six units plus four separate closing modules (review, practical project, integrated self-assessment and C2 readiness plan). All 28 source files were fetched and structurally checked. Core lessons use `ss-c1-done`; closing modules use `ss-c1-end-done`; progress counters remain separate. Every C1 lesson and closing module has 12 labelled Spanish speech controls, a quiz/result flow and a 6/8 completion threshold. The C1 index links all 28 activities and labels the pathway as available with QA pending. Service-worker v101 includes the C1 index and all 28 activity routes in its precache list.
+
+Latest Pages workflow for the closing-module integration was still pending during this handoff update. Confirm the workflow for the latest commit before describing the four closing modules as live. Owner browser/device QA remains pending for C1 Lessons 09–28; the earlier owner report covers Lessons 01–08 only. Programme-wide QA still needs mobile/landscape, Urdu RTL and mixed-direction text, TTS availability/fallback, keyboard and screen-reader checks, persistence and offline/PWA testing. Qualified Spanish-language review remains outstanding. Do not claim official CEFR accreditation, certification or automatic C2 readiness.
