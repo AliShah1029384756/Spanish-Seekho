@@ -889,3 +889,10 @@ Source-level verification and live/browser QA are distinct. Browser rendering, q
 Authored Unit 03 Critical reading and listening: Lesson 09 implicit meaning/assumptions/bias; Lesson 10 complex arguments/evidence; Lesson 11 interviews, lectures and specialised talks; Lesson 12 synthesis of long and contrasting sources. Each lesson has three outcomes, six teaching sections, 12 translated Spain-Spanish examples/audio controls, an independent production task and eight explained quiz items. Passing remains 6/8 under `ss-c1-done`; access remains unlocked.
 
 Integrated all four routes into C1 index and homepage pathway; C1 progress denominator is now 12. Service worker cache v97 includes all four new routes. Source checks are to be completed before treating this batch as ready; browser/live QA remains pending. B1 and B2 owner QA remain independently pending. Landscape, full offline simulation, pure Urdu RTL and screen-reader verification remain outstanding.
+
+
+## 26 November 2026 — C1 Lessons 13–16 implemented; owner QA pending
+
+Unit 04 pages 13–16 are authored and integrated: register choice; idioms/collocations/connotation; politeness/irony/humour/indirect communication; regional variation. Each page includes three outcomes, six teaching sections, 12 Spanish examples with English translations and accessible speech controls, a production task and eight explained quiz questions. Completion uses `ss-c1-done` with a 6/8 threshold. C1 index and homepage now expose 16 lessons across four units; service worker v98 precaches the four new routes.
+
+Source checks only. Browser route/quiz testing, progress persistence, TTS, mobile, accessibility, Urdu RTL, offline behaviour, deployment verification and qualified Spanish-language review remain pending. B1/B2 owner QA remains independently pending. No formal CEFR validation or accreditation is claimed.
