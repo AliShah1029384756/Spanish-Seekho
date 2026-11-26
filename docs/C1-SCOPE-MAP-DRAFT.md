@@ -153,3 +153,10 @@ The Council of Europe provides descriptors and a framework; it does not prescrib
 ---
 
 **Current decision:** Keep C1 at the planning stage. Start Lesson 01 only after the B2 owner QA and review gate is satisfied or the owner explicitly authorises a parallel authoring schedule.
+
+
+## 8. Production status update — 26 November 2026
+
+C1 Lessons 01–04 are implemented and integrated in c1/lesson-01.html through c1/lesson-04.html, with c1/index.html as the pathway index. Modules 05–28 remain planned. C1 progress uses ss-c1-done and does not reuse earlier-level progress.
+
+Owner QA remains pending: live route rendering, quiz submissions, reload persistence, speech synthesis, mobile layout, Urdu RTL/mixed direction, keyboard/accessibility and offline/service-worker behaviour. B1 and B2 owner QA remain independently pending. This production update is not evidence of runtime testing or formal CEFR validation.
