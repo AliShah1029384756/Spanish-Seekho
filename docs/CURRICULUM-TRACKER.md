@@ -951,3 +951,8 @@ Lessons 09–12 source-integrated in Unit 03: persuasive rhetoric and sophistica
 ## C2 update — 26 November 2026 (Lessons 13–16)
 
 Unit 04 is now source-integrated: complex discussion facilitation; specialist-to-public mediation; negotiation and diplomacy; decision synthesis and collaborative records. C2 has 16 available core lessons across four units. Index denominator, homepage availability and service-worker v105 are aligned. Source checks passed for all four pages: structure, 12 labelled Listen controls, eight explained questions, answer indices, JavaScript syntax, progress key and 6/8 threshold. Browser/device QA and qualified Spanish review pending.
+
+
+## C2 update — 26 November 2026 (Lessons 17–20)
+
+Unit 05 is now source-integrated: sociolinguistic variation and identity; pragmatics, humour and culturally situated meaning; critical intercultural interpretation; regional/community/channel adaptation. C2 has 20 available core lessons across five units. Index denominator, homepage availability and service-worker v106 are aligned. Source checks passed for all four pages: structure, 12 labelled Listen controls, eight explained questions, answer indices, JavaScript syntax, progress key and 6/8 threshold. Browser/device QA and qualified Spanish review pending.
