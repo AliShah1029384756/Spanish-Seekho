@@ -163,3 +163,10 @@ Authored C1 Unit 02 Lessons 05–08: advanced presentations and audience adaptat
 Integrated the four routes into the C1 index, expanded its progress denominator to eight available lessons, updated the homepage pathway, and advanced the service-worker cache to `spanish-seekho-v95` with all four new lesson routes precached. C1 Lessons 09–28 remain planned, not authored.
 
 Source-level verification and live/browser QA are distinct. Browser rendering, quiz interaction, reload persistence, TTS, mobile layout, Urdu RTL/mixed direction, keyboard/accessibility and offline behaviour remain pending owner testing. No formal CEFR validation or accreditation is claimed.
+
+
+## 26 November 2026 — C1 Lessons 09–12 implemented (parallel authoring)
+
+At the owner's explicit request, continued C1 authoring while the previous GitHub Pages workflow remained pending. Added Unit 03 Lessons 09–12: implicit meaning/assumptions/bias; argument and evidence evaluation; interpreting extended spoken material; and multi-source synthesis. Each lesson has three learning outcomes, six teaching sections, 12 Spain-Spanish examples with English translations/audio controls, a production task and eight explained quiz questions. Existing `ss-c1-done` progress key and 6/8 completion indicator remain unchanged; lessons are not locked.
+
+C1 index now lists 12 lessons, progress denominator is 12, homepage summary says twelve lessons, and service-worker cache v97 precaches the new routes. Source verification and successful Pages deployment are separate gates; neither browser/device QA nor deployment success is claimed here. Next planned range: C1 Lessons 13–16, Unit 04 — Style, register and language choice.
