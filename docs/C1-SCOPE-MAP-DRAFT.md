@@ -182,3 +182,10 @@ C1 index/homepage now reflect 12 available lessons; service-worker cache v97 inc
 C1 Lessons 01–16 are now implemented at source and integrated in the C1 index across four units. Unit 03 (09–12) covers critical reading/listening and multi-source synthesis. Unit 04 (13–16) covers registers, idioms/collocations/connotation, pragmatics/irony/humour and regional variation. The next planned sequence is Unit 05, Lessons 17–20: advanced mood/tense choices; complex clauses and stylistic compression; impersonal/passive/distancing strategies; reformulation/qualification/rhetorical subtlety.
 
 The source implementation does not waive C1 browser/device QA, B1/B2 owner QA, qualified Spanish-language review, or deployment verification. No formal CEFR validation or accreditation is claimed.
+
+
+## 10. Production status update — 26 November 2026 (Lessons 17–20)
+
+C1 Lessons 01–20 are now implemented at source and integrated across five units. Unit 05 covers advanced mood/tense selection, complex clause structures and stylistic compression, passive/impersonal voice and distancing, and reformulation/qualification/rhetorical subtlety. Next planned Unit 06 (Lessons 21–24): chairing and facilitating complex discussion; explaining specialised concepts to different audiences; resolving intercultural misunderstandings; integrated C1 communication to analyse, synthesise and persuade.
+
+The source implementation does not waive C1 browser/device QA, B1/B2 owner QA, qualified Spanish-language review, or deployment verification. No formal CEFR validation or accreditation is claimed.
