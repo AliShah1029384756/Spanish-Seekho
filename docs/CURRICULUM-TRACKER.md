@@ -956,3 +956,8 @@ Unit 04 is now source-integrated: complex discussion facilitation; specialist-to
 ## C2 update — 26 November 2026 (Lessons 17–20)
 
 Unit 05 is now source-integrated: sociolinguistic variation and identity; pragmatics, humour and culturally situated meaning; critical intercultural interpretation; regional/community/channel adaptation. C2 has 20 available core lessons across five units. Index denominator, homepage availability and service-worker v106 are aligned. Source checks passed for all four pages: structure, 12 labelled Listen controls, eight explained questions, answer indices, JavaScript syntax, progress key and 6/8 threshold. Browser/device QA and qualified Spanish review pending.
+
+
+## C2 core curriculum complete — 26 November 2026
+
+All 24 C2 core lessons are source-integrated across six units. Lessons 21–24 cover independent research, extended discourse, integrated skills and the C2 capstone. Index denominator is 24; homepage and service-worker v107 are aligned. Source checks passed for all four pages: structure, 12 labelled Listen controls, eight explained questions, answer indices, JavaScript syntax, progress key and 6/8 threshold. Four closing modules remain to be authored. Browser/device QA and qualified Spanish review pending.
