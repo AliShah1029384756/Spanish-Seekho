@@ -961,3 +961,8 @@ Unit 05 is now source-integrated: sociolinguistic variation and identity; pragma
 ## C2 core curriculum complete — 26 November 2026
 
 All 24 C2 core lessons are source-integrated across six units. Lessons 21–24 cover independent research, extended discourse, integrated skills and the C2 capstone. Index denominator is 24; homepage and service-worker v107 are aligned. Source checks passed for all four pages: structure, 12 labelled Listen controls, eight explained questions, answer indices, JavaScript syntax, progress key and 6/8 threshold. Four closing modules remain to be authored. Browser/device QA and qualified Spanish review pending.
+
+
+## C2 final curriculum update — 26 November 2026
+
+All 24 core lessons across six units are source-integrated. Four closing modules are integrated: comprehensive review/gap repair; practical communication project; integrated C2 self-assessment; beyond-C2 development plan. Index now exposes all 28 items and tracks core and closing-module completion separately using `ss-c2-done` and `ss-c2-end-done`. Homepage and service-worker v108 precache updated. Source-level integration is not a substitute for owner browser/device QA or qualified Spanish review; both remain pending, as do RTL, accessibility and offline/PWA checks. No official CEFR certification is claimed.
