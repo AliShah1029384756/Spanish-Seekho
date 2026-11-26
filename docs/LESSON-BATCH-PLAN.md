@@ -203,3 +203,8 @@ Integrated the four modules into the C1 index and homepage pathway, corrected th
 ## 26 November 2026 — Current next batch: C2 Lessons 05–08
 
 C2 Unit 01 Lessons 01–04 are integrated, source-checked and included in service-worker v102. The next approved batch is C2 Unit 02 Lessons 05–08: synthesising multiple long spoken and written sources; reconstructing arguments and identifying hidden assumptions; evaluating specialised and unfamiliar material; producing concise, faithful and nuanced summaries. Preserve `ss-c2-done`, keep lessons open, and update the C2 index denominator, homepage summary, service-worker cache and documentation in the same batch. C1 browser/device QA and qualified Spanish-language review remain separate pending release gates.
+
+
+## 26 November 2026 — Current next batch: C2 Lessons 09–12
+
+C2 Lessons 01–08 are now integrated and source-checked. The next approved batch is Unit 03 — Rhetoric and advanced production: (09) Persuasive rhetoric and sophisticated argument; (10) Writing nuanced essays, reviews and critical commentary; (11) High-level professional and academic correspondence; (12) Editing for precision, rhythm, coherence and audience. Keep `ss-c2-done`, maintain open lesson access, and update the index denominator, homepage availability text, service-worker cache and documentation in the same batch. Browser/device QA and qualified Spanish-language review remain pending.
