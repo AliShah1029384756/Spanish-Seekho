@@ -946,3 +946,8 @@ Added Lessons 09–12 in Unit 03 (rhetoric and advanced production). All four pa
 ## C2 update — 26 November 2026
 
 Lessons 09–12 source-integrated in Unit 03: persuasive rhetoric and sophisticated argument; nuanced essays/reviews/critical commentary; high-level professional and academic correspondence; editing for precision, rhythm, coherence and audience. C2 now has 12 available core lessons across Units 01–03. Index progress denominator is 12; homepage and service-worker v104 reflect the same availability. Source checks passed for page structure, 12 labelled Listen controls per lesson, eight explained questions, valid answer indices, JavaScript syntax, progress key and 6/8 threshold. Runtime/browser QA and expert language review pending.
+
+
+## C2 update — 26 November 2026 (Lessons 13–16)
+
+Unit 04 is now source-integrated: complex discussion facilitation; specialist-to-public mediation; negotiation and diplomacy; decision synthesis and collaborative records. C2 has 16 available core lessons across four units. Index denominator, homepage availability and service-worker v105 are aligned. Source checks passed for all four pages: structure, 12 labelled Listen controls, eight explained questions, answer indices, JavaScript syntax, progress key and 6/8 threshold. Browser/device QA and qualified Spanish review pending.
