@@ -329,3 +329,11 @@ Source checks: four lesson files and index exist; each lesson has six sections, 
 - Programme-wide Android/mobile, TTS, Urdu RTL, keyboard/accessibility, persistence and offline/PWA QA remain pending.
 
 No formal CEFR validation, accreditation or certification is claimed.
+
+## 26 November 2026 — C1 Lessons 05–08 implemented; owner QA pending
+
+Authored C1 Unit 02 Lessons 05–08: advanced presentations and audience adaptation; academic argument, critical response and discussion; research summaries, reports and formal proposals; professional negotiation, leadership and mediation. Each page includes three learning outcomes, six teaching sections, 12 Spain-Spanish model sentences with English translations and speech controls, an independent production task, and an eight-question checkpoint with explanations. A 6/8 pass records completion under `ss-c1-done`; lessons remain open.
+
+Integrated the four routes into the C1 index, expanded its progress denominator to eight available lessons, updated the homepage pathway, and advanced the service-worker cache to `spanish-seekho-v95` with all four new lesson routes precached. C1 Lessons 09–28 remain planned, not authored.
+
+Source-level verification and live/browser QA are distinct. Browser rendering, quiz interaction, reload persistence, TTS, mobile layout, Urdu RTL/mixed direction, keyboard/accessibility and offline behaviour remain pending owner testing. No formal CEFR validation or accreditation is claimed.
