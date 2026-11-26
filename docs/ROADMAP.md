@@ -266,3 +266,8 @@ C2 Lessons 09–12 are implemented and integrated, bringing the source-available
 ## 26 November 2026 — C2 progress
 
 C2 Lessons 01–12 are source-integrated across Units 01–03. Unit 03 covers rhetoric and advanced production. Lessons 09–12 have passed source-level structure, quiz, navigation, JavaScript and progress checks. Remaining work: Lessons 13–24, four C2 closing modules, qualified Spanish review and owner browser/device QA. Next: Lessons 13–16, expert interaction and mediation.
+
+
+## 26 November 2026 — C2 progress update
+
+C2 Lessons 01–16 are source-integrated across Units 01–04. Lessons 13–16 cover expert interaction and mediation. Source validation passed for content structure, quizzes, navigation, JavaScript and progress logic. Remaining core work: Lessons 17–24; then four closing modules. Qualified Spanish review and owner browser/device QA remain outstanding. Next batch: Lessons 17–20, language, culture and variation.
