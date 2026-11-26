@@ -251,3 +251,8 @@ Integrated the four modules into the C1 index and homepage pathway, corrected th
 C1 Lessons 01–24 and closing modules 25–28 are implemented. C1 closing-module deployment and the final index/handoff update completed successfully in GitHub Actions run #897 (commit `0a92e001c018a16e268398a408554153aa3c96d8`). Owner browser/device QA and qualified Spanish review remain pending.
 
 C2 Unit 01 Lessons 01–04 are implemented and integrated into `c2/index.html` and the homepage. Service-worker cache v102 precaches the four C2 lesson routes and index. Source validation passed for structure, 12 labelled speech controls per lesson, eight explained quiz questions, valid answer indices, JavaScript syntax and progress tracking. Next batch: C2 Lessons 05–08, Synthesis across complex sources. Do not claim C2 completion or official CEFR certification.
+
+
+## 26 November 2026 — C2 Unit 02 Lessons 05–08 integrated
+
+C2 now has eight source-integrated lessons across two units. Lessons 05–08 cover multi-source synthesis, argument reconstruction, specialist material evaluation and faithful summarising. C2 index and homepage reflect eight available lessons; service-worker v103 precaches the index and all eight C2 routes. Source checks passed for content structure, labelled speech controls, quiz answer indices/explanations, inline JavaScript and progress logic. Browser/device QA and qualified Spanish review remain pending. Next batch: C2 Lessons 09–12.
