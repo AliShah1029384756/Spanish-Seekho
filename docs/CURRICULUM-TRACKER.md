@@ -1,6 +1,6 @@
 # Spanish Seekho — Curriculum Audit Tracker
 
-_Status: A1 Lessons 01–25 source-reviewed; A2 core pathway and closing modules implemented; B1 and C1 core lessons 01–24 plus separate closing modules 25–28 implemented/source-reviewed; live route/interaction QA, qualified Spanish review and programme-wide device/accessibility QA remain pending._
+_Status: A1 Lessons 01–25 source-reviewed; A2 core pathway and closing modules implemented; B1 and C1 core lessons 01–24 plus separate closing modules 25–28 implemented/source-reviewed; C2 Lessons 01–08 implemented/source-checked; live route/interaction QA, qualified Spanish review and programme-wide device/accessibility QA remain pending._
 _Audit date: 26 November 2026_  
 _Baseline: `docs/CURRICULUM-MASTER-PLAN.md` (approved 168-module target)_
 
@@ -931,3 +931,8 @@ This is structural/source evidence only. It does not establish Spanish-language 
 Created `c2/index.html` and C2 Lessons 01–04 in the approved sequence: (01) Precision, ambiguity and subtle distinctions; (02) Implication, inference, presupposition and allusion; (03) Idiom, metaphor, humour and wordplay; (04) Adapting voice, style and rhetorical impact. All four lesson pages were fetched from the default branch. Each contains three learning outcomes, six instructional sections, 12 Spanish model sentences with English translations and labelled pronunciation controls, an independent production task, and an eight-question explained quiz. Source checks confirmed valid answer indices, explanations, inline JavaScript syntax, the `ss-c2-done` progress key and the 6/8 completion threshold. The index lists exactly the four available lessons and tracks progress against four currently available lessons. Homepage navigation includes C2; service-worker v102 precaches the index and all four pages. Browser/device, live interaction, qualified Spanish review, Urdu RTL, accessibility and offline QA remain pending. Lessons 05–28 are planned, not implemented.
 
 C1 deployment correction: Actions run #897 succeeded for commit `0a92e001c018a16e268398a408554153aa3c96d8`; the earlier pending note in the C1 audit section is superseded by this successful run.
+
+
+## 26 November 2026 — C2 Unit 02 Lessons 05–08 source audit
+
+Added C2 Lessons 05–08 and integrated them into the C2 index, homepage summary and service-worker v103. Topics: multi-source synthesis; argument reconstruction and hidden assumptions; evaluation of specialised/unfamiliar material; concise, faithful and nuanced summaries. Each page has three learning outcomes, six instructional sections, 12 Spanish examples with English translations and labelled pronunciation controls, an independent production task and eight explained checkpoint questions. Source validation confirmed answer indices, explanations, JavaScript syntax, `ss-c2-done` and the 6/8 threshold. C2 index and homepage now report eight available lessons; the service worker precaches the index and all eight lesson routes. Browser/device, qualified Spanish review, RTL, accessibility and offline QA remain pending. Next batch is C2 Lessons 09–12.
