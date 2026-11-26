@@ -427,3 +427,10 @@ Source checks confirmed each new page has nine sections, 12 labelled Spanish pro
 C2 Lessons 09–12 are implemented: persuasive rhetoric and sophisticated argument; nuanced essays, reviews and critical commentary; high-level professional and academic correspondence; editing for precision, rhythm, coherence and audience. The C2 index lists 12 available core lessons across Units 01–03 and tracks progress against 12. Homepage availability text reflects 12 lessons. Service-worker cache v104 precaches the C2 index and Lessons 01–12.
 
 Source validation confirmed each new lesson has nine page sections, 12 labelled Spanish pronunciation controls, eight explained checkpoint questions with valid answer indices, valid inline JavaScript, `ss-c2-done` progress tracking and a 6/8 threshold. Lesson 12 correctly closes the current batch. Browser/device/runtime QA, qualified Spanish-language review, RTL, accessibility and offline/PWA QA remain pending. Next batch: C2 Lessons 13–16 (expert interaction and mediation).
+
+
+## 26 November 2026 — C2 Unit 04 batch integrated
+
+C2 Lessons 13–16 are implemented: leading complex discussions and managing disagreement; mediating between specialist and non-specialist audiences; negotiation, diplomacy and conflict-sensitive language; synthesising decisions and documenting collaborative outcomes. C2 index now lists 16 available core lessons across Units 01–04 and progress is measured against 16. Homepage availability text reflects 16 lessons. Service-worker cache v105 precaches C2 Lessons 01–16 and the C2 index.
+
+Source validation for Lessons 13–16 confirmed nine page sections, 12 labelled pronunciation controls, eight explained checkpoint questions with valid answer indices, valid inline JavaScript, `ss-c2-done` and the 6/8 completion threshold. Browser/device/runtime QA, qualified Spanish review, RTL, accessibility and offline/PWA QA remain pending. Next batch: C2 Lessons 17–20 (language, culture and variation).
