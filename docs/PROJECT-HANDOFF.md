@@ -448,3 +448,10 @@ Source validation for Lessons 17–20 confirmed nine page sections, 12 labelled 
 C2 Lessons 21–24 are implemented, completing all 24 core lessons across six units. Topics: independent research and rigorous source evaluation; extended nuanced and audience-aware discourse; integrated listening, reading, mediation and interaction; C2 capstone defending a complex position with precision. The C2 index lists 24 core lessons and separately marks four closing modules 25–28 as forthcoming. Progress denominator is 24. Homepage reflects all 24 core lessons and four closing modules in development. Service-worker cache v107 precaches C2 Lessons 01–24 and the C2 index.
 
 Source validation for Lessons 21–24 confirmed nine page sections, 12 labelled pronunciation controls, eight explained checkpoint questions with valid answer indices, valid inline JavaScript, `ss-c2-done` and the 6/8 completion threshold. Browser/device/runtime QA, qualified Spanish review, RTL, accessibility and offline/PWA QA remain pending. Next: build closing modules 25–28, then conduct a full C2 source audit and verify Pages deployment.
+
+
+## 26 November 2026 — C2 curriculum complete at source level
+
+C2 core Lessons 01–24 are integrated across six units. Four closing modules are now added: Module 25 comprehensive review and gap repair (`c2/c2-review.html`); Module 26 practical communication project (`c2/c2-project.html`); Module 27 integrated self-assessment (`c2/c2-assessment.html`); Module 28 beyond-C2 lifelong development plan (`c2/c2-readiness.html`). The C2 index lists all 24 core lessons and four closing modules, with separate local progress trackers (`ss-c2-done` and `ss-c2-end-done`). Homepage availability copy updated. Service-worker cache v108 precaches all four closing pages alongside C2 core assets.
+
+Source integration is complete; deployment and browser/device runtime QA must be confirmed separately. Qualified Spanish-language review, owner QA across mobile/desktop, RTL, accessibility and offline/PWA checks remain pending. Module checkpoints are learning activities, not official CEFR examinations or certification.
