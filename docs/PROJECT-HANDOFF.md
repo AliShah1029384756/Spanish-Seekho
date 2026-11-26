@@ -434,3 +434,10 @@ Source validation confirmed each new lesson has nine page sections, 12 labelled 
 C2 Lessons 13–16 are implemented: leading complex discussions and managing disagreement; mediating between specialist and non-specialist audiences; negotiation, diplomacy and conflict-sensitive language; synthesising decisions and documenting collaborative outcomes. C2 index now lists 16 available core lessons across Units 01–04 and progress is measured against 16. Homepage availability text reflects 16 lessons. Service-worker cache v105 precaches C2 Lessons 01–16 and the C2 index.
 
 Source validation for Lessons 13–16 confirmed nine page sections, 12 labelled pronunciation controls, eight explained checkpoint questions with valid answer indices, valid inline JavaScript, `ss-c2-done` and the 6/8 completion threshold. Browser/device/runtime QA, qualified Spanish review, RTL, accessibility and offline/PWA QA remain pending. Next batch: C2 Lessons 17–20 (language, culture and variation).
+
+
+## 26 November 2026 — C2 Unit 05 batch integrated
+
+C2 Lessons 17–20 are implemented: advanced sociolinguistic variation and identity; pragmatics, humour and culturally situated meaning; intercultural interpretation and critical perspectives; adapting language across regions, communities and contexts. C2 index now lists 20 available core lessons across Units 01–05, with progress measured against 20. Homepage availability text reflects 20 lessons. Service-worker cache v106 precaches C2 Lessons 01–20 and the C2 index.
+
+Source validation for Lessons 17–20 confirmed nine page sections, 12 labelled pronunciation controls, eight explained checkpoint questions with valid answer indices, valid inline JavaScript, `ss-c2-done` and the 6/8 completion threshold. Browser/device/runtime QA, qualified Spanish review, RTL, accessibility and offline/PWA QA remain pending. Next batch: C2 Lessons 21–24 (independent mastery and integrated performance).
