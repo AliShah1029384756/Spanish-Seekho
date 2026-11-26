@@ -896,3 +896,10 @@ Integrated all four routes into C1 index and homepage pathway; C1 progress denom
 Unit 04 pages 13–16 are authored and integrated: register choice; idioms/collocations/connotation; politeness/irony/humour/indirect communication; regional variation. Each page includes three outcomes, six teaching sections, 12 Spanish examples with English translations and accessible speech controls, a production task and eight explained quiz questions. Completion uses `ss-c1-done` with a 6/8 threshold. C1 index and homepage now expose 16 lessons across four units; service worker v98 precaches the four new routes.
 
 Source checks only. Browser route/quiz testing, progress persistence, TTS, mobile, accessibility, Urdu RTL, offline behaviour, deployment verification and qualified Spanish-language review remain pending. B1/B2 owner QA remains independently pending. No formal CEFR validation or accreditation is claimed.
+
+
+## 26 November 2026 — C1 Lessons 17–20 implemented; owner QA pending
+
+Unit 05 pages 17–20 cover advanced mood/tense choices, complex clauses and stylistic compression, impersonal/passive/distancing strategies, and reformulation/qualification/rhetorical subtlety. Each includes three outcomes, six teaching sections, 12 translated Spanish examples with labelled speech controls, an independent production task and eight explained quiz items. Completion remains `ss-c1-done`, 6/8; lessons remain open.
+
+C1 index/homepage now expose 20 lessons across five units. Progress denominator corrected to 20. Service worker v99 precaches Lessons 17–20. Source checks only; live/browser/device QA, Pages deployment, qualified Spanish review, Urdu RTL, accessibility and offline testing remain pending. B1/B2 owner QA remains independently pending. No formal CEFR validation/accreditation is claimed.
