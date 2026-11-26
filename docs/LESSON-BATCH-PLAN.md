@@ -233,3 +233,8 @@ Unit 06 — Independent mastery and integrated performance: (21) Independent res
 ## Next batch — C2 closing modules 25–28
 
 1. Comprehensive C2 review and gap repair. 2. Practical C2 communication/research project. 3. Integrated C2 self-assessment across listening, reading, writing, speaking and mediation (not an official exam). 4. C2 readiness and independent development plan. Keep these separate from the 24 core lessons using `ss-c2-end-done`; create two progress indicators on the index. Integrate homepage, service-worker cache/precache and documentation. Browser/device QA and qualified Spanish review remain pending.
+
+
+## C2 follow-through after Lessons 01–24 and closing modules
+
+The full C2 source curriculum is now integrated: 24 core lessons plus Modules 25–28. Next operational batch: verify the latest GitHub Pages deployment, inspect all C2 routes and progress tracking in a fresh browser session, collect owner device QA and qualified Spanish-language review, then repair any evidenced defects. Do not describe source-level completion as runtime QA or formal CEFR accreditation.
