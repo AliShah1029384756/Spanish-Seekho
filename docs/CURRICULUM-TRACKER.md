@@ -858,3 +858,19 @@ Added a twelfth Spanish example/audio control to Lessons 01 and 02 so all 24 cor
 ## 25 November 2026 — C1 planning gate
 
 Created `docs/C1-SCOPE-MAP-DRAFT.md` from the approved 28-module C1 sequence in `CURRICULUM-MASTER-PLAN.md`, with a provisional descriptor-coverage map and authoring quality gates. This is planning only: no C1 lesson pages have been authored. C1 production should begin after owner-run B2 browser/device QA and a qualified Spanish-language review of the B2 corpus or an agreed representative review plan. B2 remains a learning pathway, not an accredited CEFR examination. The C1 map is provisional and should be refined against the Council of Europe CEFR Companion Volume and Instituto Cervantes Plan Curricular.
+
+
+## 26 November 2026 — C1 opening batch implemented; owner QA pending
+
+C1 Lessons 01–04 (Unit 01: Precision, nuance and discourse) are authored: stance/certainty/distance/nuance; cohesion/information structure/connectors; emphasis/focus/word order/rhetorical effect; complex spoken discourse/extended explanations. Each page includes three outcomes, six teaching sections, 12 Spain-Spanish examples with English translations and speech buttons, an independent production task, and an eight-question checkpoint with explanations. A 6/8 pass threshold saves completion under the new ss-c1-done key; all lessons remain open. Existing level progress keys and routes are preserved.
+
+Created c1/index.html, integrated the C1 homepage pathway, and advanced the service-worker cache to spanish-seekho-v94 with the C1 index and four lesson routes precached. C1 Lessons 05–28 remain planned, not implemented.
+
+Source checks: four lesson files and index exist; each lesson has six sections, 12 Spanish examples/audio controls, eight quiz items and explanations; routes are linked from the C1 index; previous/next navigation is contiguous; progress key and 6/8 threshold are consistent; homepage route and service-worker entries are present. Browser/live rendering, quiz interaction, reload persistence, TTS, mobile layout, Urdu RTL/mixed direction, keyboard/accessibility and offline behaviour were not tested. **Owner QA is pending until the owner tests all four routes and reports evidence.**
+
+- B1: owner-run live/browser/device QA pending; not release-verified.
+- B2: owner-run live/browser/device QA pending; not release-verified.
+- C1: opening batch source-integrated; owner-run live/browser/device QA pending.
+- Programme-wide Android/mobile, TTS, Urdu RTL, keyboard/accessibility, persistence and offline/PWA QA remain pending.
+
+No formal CEFR validation, accreditation or certification is claimed.
