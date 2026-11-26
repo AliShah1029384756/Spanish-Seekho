@@ -1,7 +1,7 @@
 # Spanish Seekho — Curriculum Audit Tracker
 
-_Status: A1 Lessons 01–25 source-reviewed; A2 core lessons 01–23 and separate modules 25–28 implemented and mapped; B1 core lessons 01–24 and closing modules 25–28 source-reviewed; live B1 route/interaction QA and programme-wide device/accessibility QA remain pending._
-_Audit date: 24 November 2026_  
+_Status: A1 Lessons 01–25 source-reviewed; A2 core pathway and closing modules implemented; B1 and C1 core lessons 01–24 plus separate closing modules 25–28 implemented/source-reviewed; live route/interaction QA, qualified Spanish review and programme-wide device/accessibility QA remain pending._
+_Audit date: 26 November 2026_  
 _Baseline: `docs/CURRICULUM-MASTER-PLAN.md` (approved 168-module target)_
 
 > This tracker records what was found in the repository and how existing lessons appear to map to the approved curriculum. **“Existing” means a lesson file was found and its visible structure/topic was inspected; it does not mean the lesson has passed full Spanish, pedagogical, accessibility or device QA.** Do not mark a module complete until the relevant quality checks are evidenced.
@@ -917,3 +917,10 @@ Integrated Lessons 21–24 into the C1 index, corrected the progress denominator
 Created four separate C1 end-of-level activities: `c1/c1-review.html` (Module 25, comprehensive six-unit review and gap-repair plan); `c1/c1-project.html` (Module 26, evidence-based practical communication project with audience adaptation, presentation, negotiation and decision notes); `c1/c1-assessment.html` (Module 27, structured self-assessment across reading, listening, writing, speaking and mediation); and `c1/c1-readiness.html` (Module 28, C2 readiness reflection and an eight-week next-stage learning plan). Each module includes three outcomes, six instructional sections, 12 Spain-Spanish model sentences with English translations and labelled speech controls, a capstone task, and an eight-question explained checkpoint. Closing-module completion uses the separate `ss-c1-end-done` key; core lesson progress `ss-c1-done` is unchanged. All activities remain open.
 
 Integrated the four modules into the C1 index and homepage pathway, corrected the stale core-progress label to 24 core lessons, and advanced service-worker cache to `spanish-seekho-v101` with all four closing routes precached. C1 now has 24 core lessons plus four closing modules. Source validation is separate from browser/device QA; owner testing, qualified Spanish-language review, accessibility, Urdu RTL and offline/PWA checks remain pending. No formal CEFR assessment, certification or C2 readiness determination is claimed.
+
+
+## 26 November 2026 — C1 28-module structural source audit
+
+Fetched all 24 C1 core lesson files and all four closing-module files from the default branch. All 28 files were retrievable. Each core lesson source contains 12 labelled Spanish pronunciation controls, the existing `ss-c1-done` progress key, a quiz/result flow and the 6/8 completion threshold. Each closing-module source contains 12 labelled pronunciation controls, the separate `ss-c1-end-done` key, a quiz/result flow and the 6/8 threshold. The C1 index lists Lessons 01–24 and closing modules 25–28, and its two progress counters use separate storage keys with 24- and 4-module denominators. The service-worker source includes the C1 index, all 24 core lesson routes and all four closing routes in its precache list (`spanish-seekho-v101`). The C1 index status label was clarified to “AVAILABLE · QA PENDING” to distinguish implementation from release verification.
+
+This is structural/source evidence only. It does not establish Spanish-language correctness, answer-key validity, runtime quiz behaviour, browser rendering, local progress persistence, TTS output, keyboard/screen-reader accessibility, Urdu RTL, mobile layout or offline behaviour. GitHub Pages deployment for the latest commit remains pending at the time of this audit; do not mark C1 closing modules live until the matching Actions run succeeds.
