@@ -208,3 +208,8 @@ C2 Unit 01 Lessons 01–04 are integrated, source-checked and included in servic
 ## 26 November 2026 — Current next batch: C2 Lessons 09–12
 
 C2 Lessons 01–08 are now integrated and source-checked. The next approved batch is Unit 03 — Rhetoric and advanced production: (09) Persuasive rhetoric and sophisticated argument; (10) Writing nuanced essays, reviews and critical commentary; (11) High-level professional and academic correspondence; (12) Editing for precision, rhythm, coherence and audience. Keep `ss-c2-done`, maintain open lesson access, and update the index denominator, homepage availability text, service-worker cache and documentation in the same batch. Browser/device QA and qualified Spanish-language review remain pending.
+
+
+## 26 November 2026 — Current next batch: C2 Lessons 13–16
+
+C2 Lessons 01–12 are integrated and source-checked; service-worker v104 precaches all 12 lesson routes. Next approved batch is Unit 04 — Expert interaction and mediation: (13) Managing spontaneous, high-stakes discussion; (14) Mediating complex ideas across audiences and registers; (15) Negotiating disagreement and reconciling perspectives; (16) Interpreting tone, humour and culturally embedded meaning. Preserve `ss-c2-done`, keep lessons open, and update the C2 index denominator, homepage, service-worker cache and documentation in the same batch. Owner browser/device QA and qualified Spanish review remain pending.
