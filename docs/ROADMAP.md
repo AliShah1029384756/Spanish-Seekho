@@ -261,3 +261,8 @@ C2 now has eight source-integrated lessons across two units. Lessons 05–08 cov
 ## 26 November 2026 — C2 Unit 03 complete at source
 
 C2 Lessons 09–12 are implemented and integrated, bringing the source-available C2 core to 12 lessons across three units. Index, homepage and service-worker v104 updated; source checks passed for structure, labelled pronunciation controls, quiz answer keys/explanations, JavaScript and progress tracking. Browser/device QA and qualified Spanish review remain pending. Next batch: C2 Lessons 13–16 (Expert interaction and mediation).
+
+
+## 26 November 2026 — C2 progress
+
+C2 Lessons 01–12 are source-integrated across Units 01–03. Unit 03 covers rhetoric and advanced production. Lessons 09–12 have passed source-level structure, quiz, navigation, JavaScript and progress checks. Remaining work: Lessons 13–24, four C2 closing modules, qualified Spanish review and owner browser/device QA. Next: Lessons 13–16, expert interaction and mediation.
