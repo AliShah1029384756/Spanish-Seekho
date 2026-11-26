@@ -209,3 +209,10 @@ Authored C1 Unit 02 Lessons 05–08: advanced presentations and audience adaptat
 Integrated the four routes into the C1 index, expanded its progress denominator to eight available lessons, updated the homepage pathway, and advanced the service-worker cache to `spanish-seekho-v95` with all four new lesson routes precached. C1 Lessons 09–28 remain planned, not authored.
 
 Source-level verification and live/browser QA are distinct. Browser rendering, quiz interaction, reload persistence, TTS, mobile layout, Urdu RTL/mixed direction, keyboard/accessibility and offline behaviour remain pending owner testing. No formal CEFR validation or accreditation is claimed.
+
+
+## 26 November 2026 — C1 Unit 03 Lessons 09–12 authored and integrated
+
+Following the owner's explicit instruction to continue authoring while the previous Pages workflow was pending, created C1 Lessons 09–12 (Unit 03 — Critical reading and listening): implicit meaning/assumptions/bias; complex arguments/evidence; interviews, lectures and specialised talks; and synthesis of long, contrasting sources. Each lesson has three outcomes, six teaching sections, 12 Spain-Spanish examples with English translations and speech controls, an independent production task and an eight-question explained checkpoint. The 6/8 completion indicator saves to the existing `ss-c1-done` key; all lessons remain open.
+
+Integrated Unit 03 into the C1 index, changed the progress denominator to 12, updated the homepage C1 availability summary, and advanced the service-worker cache to `spanish-seekho-v97` with Lessons 09–12 precached. Source checks are pending completion; browser/device QA remains owner-pending. This parallel authoring decision does not mark the earlier deployment or C1 runtime QA as successful. C1 Lessons 13–28 remain planned.
