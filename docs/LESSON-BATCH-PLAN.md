@@ -1,6 +1,6 @@
 # Spanish Seekho — Batch Production Plan
 
-_Last updated: 24 November 2026_
+_Last updated: 26 November 2026_
 
 ## Operating decision
 
@@ -198,3 +198,8 @@ Integrated Lessons 21–24 into the C1 index, corrected the progress denominator
 Created four separate C1 end-of-level activities: `c1/c1-review.html` (Module 25, comprehensive six-unit review and gap-repair plan); `c1/c1-project.html` (Module 26, evidence-based practical communication project with audience adaptation, presentation, negotiation and decision notes); `c1/c1-assessment.html` (Module 27, structured self-assessment across reading, listening, writing, speaking and mediation); and `c1/c1-readiness.html` (Module 28, C2 readiness reflection and an eight-week next-stage learning plan). Each module includes three outcomes, six instructional sections, 12 Spain-Spanish model sentences with English translations and labelled speech controls, a capstone task, and an eight-question explained checkpoint. Closing-module completion uses the separate `ss-c1-end-done` key; core lesson progress `ss-c1-done` is unchanged. All activities remain open.
 
 Integrated the four modules into the C1 index and homepage pathway, corrected the stale core-progress label to 24 core lessons, and advanced service-worker cache to `spanish-seekho-v101` with all four closing routes precached. C1 now has 24 core lessons plus four closing modules. Source validation is separate from browser/device QA; owner testing, qualified Spanish-language review, accessibility, Urdu RTL and offline/PWA checks remain pending. No formal CEFR assessment, certification or C2 readiness determination is claimed.
+
+
+## 26 November 2026 — Current next batch: C2 Lessons 05–08
+
+C2 Unit 01 Lessons 01–04 are integrated, source-checked and included in service-worker v102. The next approved batch is C2 Unit 02 Lessons 05–08: synthesising multiple long spoken and written sources; reconstructing arguments and identifying hidden assumptions; evaluating specialised and unfamiliar material; producing concise, faithful and nuanced summaries. Preserve `ss-c2-done`, keep lessons open, and update the C2 index denominator, homepage summary, service-worker cache and documentation in the same batch. C1 browser/device QA and qualified Spanish-language review remain separate pending release gates.
