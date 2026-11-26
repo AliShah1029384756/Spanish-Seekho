@@ -276,3 +276,8 @@ C2 Lessons 01–16 are source-integrated across Units 01–04. Lessons 13–16 c
 ## 26 November 2026 — C2 progress update
 
 C2 Lessons 01–20 are source-integrated across Units 01–05. Lessons 17–20 cover language, culture and variation. Source validation passed for content structure, quizzes, navigation, JavaScript and progress logic. Remaining core work: Lessons 21–24, followed by four closing modules. Qualified Spanish review and owner browser/device QA remain outstanding. Next batch: Lessons 21–24, independent mastery and integrated C2 performance.
+
+
+## 26 November 2026 — C2 core pathway completed
+
+C2 core Lessons 01–24 are now source-integrated across all six units. Remaining curriculum work: four closing modules 25–28 (review, practical project, integrated assessment and readiness plan). Source-level checks for the final core batch passed. Next: create and integrate the four closing modules, then audit all 28 C2 modules and verify the live deployment. Qualified Spanish review and owner browser/device QA remain outstanding.
