@@ -413,3 +413,10 @@ Homepage navigation now includes C2. Service-worker cache is `spanish-seekho-v10
 C2 Lessons 05–08 are now implemented: synthesising multiple long spoken and written sources; reconstructing arguments and identifying hidden assumptions; evaluating specialised and unfamiliar material; producing concise, faithful and nuanced summaries. The C2 index now lists Lessons 01–08 across Units 01–02 and tracks progress against eight available core lessons. Homepage availability text is updated. Service-worker cache v103 precaches the C2 index and Lessons 01–08.
 
 Source checks on Lessons 05–08 confirmed nine page sections, 12 labelled pronunciation controls, eight explained quiz questions with valid answer indices, inline JavaScript syntax, the `ss-c2-done` progress key and the 6/8 completion threshold. These checks do not establish runtime/browser behaviour, Spanish expert review, mobile/RTL/accessibility or offline QA. Next batch: C2 Lessons 09–12 (Rhetoric and advanced production).
+
+
+## 26 November 2026 — C2 Unit 03 batch integrated
+
+C2 Lessons 09–12 are implemented: persuasive rhetoric and sophisticated argument; nuanced essays, reviews and critical commentary; high-level professional and academic correspondence; editing for precision, rhythm, coherence and audience. The C2 index and homepage now list 12 available lessons across Units 01–03. Service-worker cache v104 precaches the C2 index and Lessons 01–12.
+
+Source checks confirmed each new page has nine sections, 12 labelled Spanish pronunciation controls, eight explained quiz questions with valid answer indices, valid inline JavaScript, the `ss-c2-done` key and 6/8 completion threshold. This is not browser/device QA or expert Spanish review. Next batch: C2 Lessons 13–16, Expert interaction and mediation.
