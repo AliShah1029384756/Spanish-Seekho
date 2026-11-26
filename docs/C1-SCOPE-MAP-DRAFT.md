@@ -175,3 +175,10 @@ Source-level verification and live/browser QA are distinct. Browser rendering, q
 The owner explicitly authorised parallel authoring while the previous deployment workflow was pending. Lessons 09–12 now exist and are integrated: implicit meaning/assumptions/bias; complex arguments/evidence; interviews, lectures and specialised talks; synthesis of long and contrasting sources. Each contains three outcomes, six teaching sections, 12 translated Spain-Spanish examples/audio controls, an independent production task and an eight-question explained quiz. Progress remains in `ss-c1-done` with a 6/8 completion indicator and no access locks.
 
 C1 index/homepage now reflect 12 available lessons; service-worker cache v97 includes the four new routes. This authoring progress does not satisfy or waive B1/B2 owner QA, C1 browser QA, qualified Spanish-language review, or successful deployment verification. Lessons 13–28 remain planned.
+
+
+## 9. Production status update — 26 November 2026 (Lessons 09–16)
+
+C1 Lessons 01–16 are now implemented at source and integrated in the C1 index across four units. Unit 03 (09–12) covers critical reading/listening and multi-source synthesis. Unit 04 (13–16) covers registers, idioms/collocations/connotation, pragmatics/irony/humour and regional variation. The next planned sequence is Unit 05, Lessons 17–20: advanced mood/tense choices; complex clauses and stylistic compression; impersonal/passive/distancing strategies; reformulation/qualification/rhetorical subtlety.
+
+The source implementation does not waive C1 browser/device QA, B1/B2 owner QA, qualified Spanish-language review, or deployment verification. No formal CEFR validation or accreditation is claimed.
