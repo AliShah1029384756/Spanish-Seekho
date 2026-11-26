@@ -2,7 +2,7 @@
 
 **Date:** 25 November 2026  
 **Repository:** `AliShah1029384756/Spanish-Seekho`  
-**Status:** Planning draft only — no C1 lesson pages have been authored.  
+**Status:** C1 Lessons 01–08 implemented; Lessons 09–28 remain planned. Owner browser/device QA pending.  
 **Architecture:** 28 modules (24 core + 4 end-of-level modules), following the approved Spanish Seekho programme design.
 
 ## 1. C1 exit profile
@@ -157,6 +157,14 @@ The Council of Europe provides descriptors and a framework; it does not prescrib
 
 ## 8. Production status update — 26 November 2026
 
-C1 Lessons 01–04 are implemented and integrated in c1/lesson-01.html through c1/lesson-04.html, with c1/index.html as the pathway index. Modules 05–28 remain planned. C1 progress uses ss-c1-done and does not reuse earlier-level progress.
+C1 Lessons 01–08 are implemented and integrated in c1/lesson-01.html through c1/lesson-08.html, with c1/index.html as the pathway index. Modules 09–28 remain planned. C1 progress uses ss-c1-done and does not reuse earlier-level progress.
 
 Owner QA remains pending: live route rendering, quiz submissions, reload persistence, speech synthesis, mobile layout, Urdu RTL/mixed direction, keyboard/accessibility and offline/service-worker behaviour. B1 and B2 owner QA remain independently pending. This production update is not evidence of runtime testing or formal CEFR validation.
+
+## 26 November 2026 — C1 Lessons 05–08 implemented; owner QA pending
+
+Authored C1 Unit 02 Lessons 05–08: advanced presentations and audience adaptation; academic argument, critical response and discussion; research summaries, reports and formal proposals; professional negotiation, leadership and mediation. Each page includes three learning outcomes, six teaching sections, 12 Spain-Spanish model sentences with English translations and speech controls, an independent production task, and an eight-question checkpoint with explanations. A 6/8 pass records completion under `ss-c1-done`; lessons remain open.
+
+Integrated the four routes into the C1 index, expanded its progress denominator to eight available lessons, updated the homepage pathway, and advanced the service-worker cache to `spanish-seekho-v95` with all four new lesson routes precached. C1 Lessons 09–28 remain planned, not authored.
+
+Source-level verification and live/browser QA are distinct. Browser rendering, quiz interaction, reload persistence, TTS, mobile layout, Urdu RTL/mixed direction, keyboard/accessibility and offline behaviour remain pending owner testing. No formal CEFR validation or accreditation is claimed.
