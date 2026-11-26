@@ -441,3 +441,10 @@ Source validation for Lessons 13–16 confirmed nine page sections, 12 labelled 
 C2 Lessons 17–20 are implemented: advanced sociolinguistic variation and identity; pragmatics, humour and culturally situated meaning; intercultural interpretation and critical perspectives; adapting language across regions, communities and contexts. C2 index now lists 20 available core lessons across Units 01–05, with progress measured against 20. Homepage availability text reflects 20 lessons. Service-worker cache v106 precaches C2 Lessons 01–20 and the C2 index.
 
 Source validation for Lessons 17–20 confirmed nine page sections, 12 labelled pronunciation controls, eight explained checkpoint questions with valid answer indices, valid inline JavaScript, `ss-c2-done` and the 6/8 completion threshold. Browser/device/runtime QA, qualified Spanish review, RTL, accessibility and offline/PWA QA remain pending. Next batch: C2 Lessons 21–24 (independent mastery and integrated performance).
+
+
+## 26 November 2026 — C2 core curriculum complete
+
+C2 Lessons 21–24 are implemented, completing all 24 core lessons across six units. Topics: independent research and rigorous source evaluation; extended nuanced and audience-aware discourse; integrated listening, reading, mediation and interaction; C2 capstone defending a complex position with precision. The C2 index lists 24 core lessons and separately marks four closing modules 25–28 as forthcoming. Progress denominator is 24. Homepage reflects all 24 core lessons and four closing modules in development. Service-worker cache v107 precaches C2 Lessons 01–24 and the C2 index.
+
+Source validation for Lessons 21–24 confirmed nine page sections, 12 labelled pronunciation controls, eight explained checkpoint questions with valid answer indices, valid inline JavaScript, `ss-c2-done` and the 6/8 completion threshold. Browser/device/runtime QA, qualified Spanish review, RTL, accessibility and offline/PWA QA remain pending. Next: build closing modules 25–28, then conduct a full C2 source audit and verify Pages deployment.
