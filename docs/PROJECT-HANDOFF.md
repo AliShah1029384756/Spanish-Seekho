@@ -337,3 +337,12 @@ Authored C1 Unit 02 Lessons 05–08: advanced presentations and audience adaptat
 Integrated the four routes into the C1 index, expanded its progress denominator to eight available lessons, updated the homepage pathway, and advanced the service-worker cache to `spanish-seekho-v95` with all four new lesson routes precached. C1 Lessons 09–28 remain planned, not authored.
 
 Source-level verification and live/browser QA are distinct. Browser rendering, quiz interaction, reload persistence, TTS, mobile layout, Urdu RTL/mixed direction, keyboard/accessibility and offline behaviour remain pending owner testing. No formal CEFR validation or accreditation is claimed.
+
+
+## 26 November 2026 — C1 owner browser QA fixes
+
+Reviewed the owner-provided desktop/mobile browser QA report for C1 Lessons 01–08. The report confirmed core lesson rendering, six teaching sections, 12 Spanish examples, eight-question quizzes, 6/8 completion logic, local progress persistence, es-ES speech, mobile portrait layout and basic navigation. Landscape, full offline simulation, pure Urdu RTL and screen-reader testing remain incomplete or partial.
+
+The current repository source already lists C1 Lessons 01–08 on the C1 index and describes eight available lessons on the homepage; the reported “first four” display is therefore treated as a possible stale deployed page/service-worker cache and should be rechecked after the new cache activates. Fixed the C1 index progress label from a stale four-lesson denominator to eight. Removed Lesson 08’s link to the not-yet-authored Lesson 09 and replaced it with a “coming soon” notice. Added descriptive screen-reader labels to all 96 Listen buttons across C1 Lessons 01–08. Advanced the service-worker cache to `spanish-seekho-v96` so updated routes/assets are fetched.
+
+Source verification confirms the eight lesson routes are indexed, the progress label uses eight, Lesson 08 no longer links to Lesson 09, all 96 C1 audio controls have labels, and the service worker declares v96. These source checks do not replace a fresh browser test after deployment. Homepage source already states eight C1 lessons; no unnecessary homepage content edit was made. The owner should recheck the C1 index and homepage in a fresh session after deployment. Remaining QA: landscape, full offline simulation, pure Urdu RTL, screen-reader testing, and final owner recheck of the deployed index/cache.
