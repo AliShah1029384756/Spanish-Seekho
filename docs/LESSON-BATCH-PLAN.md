@@ -228,3 +228,8 @@ Unit 05 — Language, culture and variation: (17) Advanced sociolinguistic varia
 ## Next batch — C2 Lessons 21–24
 
 Unit 06 — Independent mastery and integrated performance: (21) Independent research and source evaluation; (22) Producing extended, nuanced and audience-aware discourse; (23) Integrated listening, reading, mediation and interaction; (24) C2 capstone: defending a complex position with precision. Maintain `ss-c2-done`, open access and 6/8 quiz threshold. Integrate index, homepage, service-worker cache/precache and documentation in the same batch. Browser/device QA and qualified Spanish review remain pending.
+
+
+## Next batch — C2 closing modules 25–28
+
+1. Comprehensive C2 review and gap repair. 2. Practical C2 communication/research project. 3. Integrated C2 self-assessment across listening, reading, writing, speaking and mediation (not an official exam). 4. C2 readiness and independent development plan. Keep these separate from the 24 core lessons using `ss-c2-end-done`; create two progress indicators on the index. Integrate homepage, service-worker cache/precache and documentation. Browser/device QA and qualified Spanish review remain pending.
