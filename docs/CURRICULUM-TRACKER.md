@@ -941,3 +941,8 @@ Added C2 Lessons 05–08 and integrated them into the C2 index, homepage summary
 ## 26 November 2026 — C2 Unit 03 Lessons 09–12 source audit
 
 Added Lessons 09–12 in Unit 03 (rhetoric and advanced production). All four pages were fetched and structurally checked: each has three outcomes, six teaching sections, 12 Spanish examples with English translations and labelled pronunciation controls, a production task, and eight explained quiz questions. Source validation confirmed answer indices, explanation strings, inline JavaScript syntax, `ss-c2-done` and the 6/8 threshold. C2 index and homepage now show 12 available lessons across Units 01–03; service-worker v104 precaches the index and all 12 lesson routes. Browser/device QA, qualified Spanish review, accessibility, Urdu RTL and offline QA remain pending. Next batch: C2 Lessons 13–16.
+
+
+## C2 update — 26 November 2026
+
+Lessons 09–12 source-integrated in Unit 03: persuasive rhetoric and sophisticated argument; nuanced essays/reviews/critical commentary; high-level professional and academic correspondence; editing for precision, rhythm, coherence and audience. C2 now has 12 available core lessons across Units 01–03. Index progress denominator is 12; homepage and service-worker v104 reflect the same availability. Source checks passed for page structure, 12 labelled Listen controls per lesson, eight explained questions, valid answer indices, JavaScript syntax, progress key and 6/8 threshold. Runtime/browser QA and expert language review pending.
