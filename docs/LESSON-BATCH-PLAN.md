@@ -213,3 +213,8 @@ C2 Lessons 01–08 are now integrated and source-checked. The next approved batc
 ## 26 November 2026 — Current next batch: C2 Lessons 13–16
 
 C2 Lessons 01–12 are integrated and source-checked; service-worker v104 precaches all 12 lesson routes. Next approved batch is Unit 04 — Expert interaction and mediation: (13) Managing spontaneous, high-stakes discussion; (14) Mediating complex ideas across audiences and registers; (15) Negotiating disagreement and reconciling perspectives; (16) Interpreting tone, humour and culturally embedded meaning. Preserve `ss-c2-done`, keep lessons open, and update the C2 index denominator, homepage, service-worker cache and documentation in the same batch. Owner browser/device QA and qualified Spanish review remain pending.
+
+
+## Next batch — C2 Lessons 13–16
+
+Unit 04 — Expert interaction and mediation: (13) Leading complex discussions and managing disagreement; (14) Mediating between specialist and non-specialist audiences; (15) Negotiation, diplomacy and conflict-sensitive language; (16) Synthesising decisions and documenting collaborative outcomes. Keep the C2 progress key `ss-c2-done`, open access, and update the C2 index, homepage, service-worker precache/cache version and documentation in the same batch. Browser/device QA and qualified Spanish-language review remain pending.
