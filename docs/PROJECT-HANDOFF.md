@@ -48,9 +48,18 @@ A1 and A2 are starter pathways, not claims of complete CEFR syllabi. B1 now has 
 
 ## Current production priority
 
-B1 core lessons 01–24 and closing modules 25–28 have now received a consolidated source-level review and same-pass corrections. The latest B1 content commit has a successful GitHub Pages build/deploy (run 578); the remaining immediate gate is live route/interaction QA for B1-01–28. Browser automation was unavailable because its service wallet balance was negative; do not convert source checks into runtime claims. B1 is not release-verified until live QA is cleared. The owner has separately authorised B2 content authoring to proceed in parallel.
+Phase 5's Master Implementation & Repair Tracker is complete and stored at `docs/MASTER-IMPLEMENTATION-REPAIR-TRACKER.md`. The ten-phase end-to-end execution plan is now documented in `docs/MASTER-EXECUTION-ROADMAP.md`.
 
-After B1 release verification, continue the selected A1/A2 runtime follow-up and programme-wide Android/mobile, Urdu RTL, keyboard/screen-reader, TTS, reload-persistence and offline checks. The current language preference changes layout direction but does not translate every lesson; full multilingual parity is not claimed.
+**Next authorized task: Phase 6.0 — Baseline Inventory & Evidence Freeze.** Before editing lessons, reconcile current A1–C2 files and routes against indexes, homepage, README, curriculum map, progress denominators and service-worker precache. Capture quiz inventory, localStorage keys and current live deployment/runtime status.
+
+Known items to carry into this baseline:
+- B1 live route/interaction QA remains pending; a prior successful Pages build is not a substitute.
+- Selected A1/A2 quiz and closing-activity runtime follow-up remains pending.
+- A2 source/index links and README describe 23 core lessons, while homepage and A2 index availability copy still says 20.
+- C2 current index/homepage show 24 core lessons plus four closing modules, but one residual status sentence still says only Lessons 01–12 are available.
+- Android/mobile, Urdu RTL, accessibility, TTS, persistence and actual offline/PWA behavior require test evidence.
+
+Do not begin curriculum rewrites until the baseline inventory and dependency review are complete. Deployment and live verification are required after each meaningful approved source batch. The current language controls do not establish full lesson translation parity.
 
 ## Batch-first working agreement
 
@@ -81,10 +90,11 @@ After B1 release verification, continue the selected A1/A2 runtime follow-up and
 
 ## Next steps
 
-1. Verify the deployed B1 index, 24 lesson routes and four closing-module routes; source-correction Pages run 573 completed successfully.
-2. Run live quiz/completion checks across B1 and exercise Modules 25–28 without clearing existing learner progress.
-3. Only after B1 release verification, begin B2 mapping against the approved master plan.
-4. Continue selected A1/A2 runtime follow-up and programme-wide Android/mobile, Urdu RTL, keyboard/screen-reader, TTS, reload-persistence and offline QA.
+1. Execute Phase 6.0 baseline inventory and evidence freeze using `docs/MASTER-EXECUTION-ROADMAP.md` and `docs/MASTER-IMPLEMENTATION-REPAIR-TRACKER.md`.
+2. Reconcile actual lesson/module counts, homepage/index/README status copy, routes, quiz inventory, progress keys and service-worker paths.
+3. Record B1 live QA, A1/A2 runtime follow-up and programme-wide mobile/RTL/accessibility/TTS/offline gaps without claiming untested behavior.
+4. After the baseline is accepted, complete Phase 6.1 factual corrections and Phase 6.2 indexing/documentation repairs in small batches.
+5. Deploy and live-verify each meaningful approved source batch; update the tracker, roadmap and handoff with exact evidence.
 
 ## Handoff rule
 
