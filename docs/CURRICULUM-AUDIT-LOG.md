@@ -355,3 +355,96 @@ Reviewer reports the following as accurate and worth preserving:
 
 Reviewer asks whether to begin C1–C2 audit or perform Phase 4 cross-level gap/progression analysis for recurring issues (imperfect subjunctive, vosotros, pronunciation consistency and quiz distractors). Under the agreed audit-first workflow, continue collecting the remaining C1–C2 audit first unless the user explicitly changes direction. Do not begin fixes or deployment during audit collection.
 
+
+
+## 10. C1–C2 curriculum audit (reviewer report received 2026-11-28)
+
+### 10.1 Scope, methodology and coverage
+
+Reviewer reports auditing both advanced levels:
+- C1: 24 core lessons plus four closing modules.
+- C2: 24 core lessons plus four closing modules.
+- Repository structure reportedly contains index.html, lesson-01.html through lesson-24.html, and review, project, assessment and readiness closing modules in each level.
+- Automated Python extraction reportedly covered Spanish rows, quiz arrays, Roman Urdu explanatory text and structural markers across all 48 core lessons. Full Spanish phrase lists and quiz data were extracted.
+- Deep manual linguistic/pedagogical review was performed on representative lessons spanning units and skills, not every paragraph of every lesson:
+  - C1: L01, L03, L05, L09, L13, L14, L16, L17, L21 and L24.
+  - C2: L01, L03, L05, L09, L13, L17, L21 and L24.
+- All eight closing modules received structural/content review.
+- 384 core quiz questions (eight per lesson × 48) were parsed for answer keys, option length, question language and distractor quality. Closing-module quizzes were inspected where present.
+- Automated cross-checks reportedly examined vosotros forms, potential Latin-American vocabulary, subjunctive density, longest-option bias and English-meta versus Spanish-production questions.
+- Not fully completed: line-by-line reading of every Roman Urdu sentence across all 48 lessons; live browser/TTS/PWA testing; native-speaker naturalness panel review.
+- The reviewer describes semantic naturalness assessment as sampled/pattern-based, with a residual possibility of isolated issues in unsampled paragraphs.
+
+Coverage statement: all 48 core lessons and eight closing modules were reportedly structurally inspected and content-extracted; deep manual review was representative and cross-unit, not exhaustive sentence-by-sentence review of every lesson. All findings remain reviewer-reported and await maintainer verification; live-site behaviour is not verified by this audit.
+
+### 10.2 Positive findings to preserve
+
+- Reviewer considers the curriculum genuinely advanced C1–C2 in topic and skill range: stance/calibration, cohesion and information structure, implicit meaning, register shifts, complex subordination, impersonal/passive distancing, intercultural mediation, synthesis of conflicting sources and rhetorical precision.
+- Spain/Castilian orientation is deliberate. C1 L16 contrasts ordenador/computadora, móvil/celular, distinción/seseo and vosotros/ustedes.
+- Peninsular idioms reported as natural and well chosen include echar balones fuera, estar en el ajo, callejón sin salida, andar por las ramas and dar en el clavo; C2 L03 also uses ironic ¡Menuda puntualidad!
+- Sampled Spanish was reported as almost uniformly grammatical, natural and appropriately advanced. No confirmed grammatical errors, missing accents or incorrect conjugations were identified in the deeply reviewed Spanish sets.
+- C1 L17 mood/tense contrasts were considered accurate and pedagogically clear.
+- Roman Urdu scaffolding was reported as generally functional for mood choice, register, synthesis and rhetorical effect, with useful warnings against literal translation.
+- Consistent lesson architecture (outcomes, skill boxes, 12 Spanish examples with Listen, practice prompt, eight-question quiz and completion tracking) supports learner orientation.
+- Closing modules are present and conceptually appropriate: review/gap repair, practical project, integrated assessment and readiness plan.
+- No widespread Latin-American substitution or basic-level recycling of B1/B2 content was found in the sampled advanced material.
+- C1 L16 and C2 L03 are positive models to preserve and potentially reference elsewhere.
+- Lesson IDs, navigation numbering, unit labels and closing-module sequencing were reported consistent with index pages (see C12-017 below).
+
+### 10.3 Systemic assessment and curriculum findings
+
+| ID | Location | Reviewer-reported finding | Why it matters / suggested action | Priority | Classification |
+|---|---|---|---|---|---|
+| C12-001 | C1 and C2 core quizzes, all 48 lessons | Correct answer reportedly longest in about 84% of 384 items; C1 samples ranged about 50–75%, C2 samples about 75–100%. | Strong answer-length cue permits guessing. Balance option length while retaining plausible Spanish distractors. | High | Systemic assessment-design error |
+| C12-002 | C1 and C2 core quizzes | Large majority reportedly use English meta-questions (e.g. "Which phrase…", "What should guide…") rather than Spanish comprehension or production. | Redesign a substantial share as Spanish-primary stems/options, cloze items or short production tasks with clear criteria. | High | Assessment / teaching-support issue |
+| C12-003 | C1–C2 overall | Vosotros forms reportedly occur almost exclusively in C1 L16 regional-variation lesson and are rare or absent elsewhere. | Practise Spain-specific address morphology naturally in later examples, including relevant imperative/subjunctive forms. | Medium | CEFR/curriculum gap; links to ES-005 |
+| C12-004 | C1–C2 quizzes and explanations | Heavy reliance on English grammatical metalanguage and conceptual recognition. | Increase Spanish-medium reflection, Spanish-primary prompts and actual production. | High | Teaching-support issue; links to QA-015 |
+
+### 10.4 Lesson-specific findings and positive models
+
+| ID | Location | Finding | Recommended action | Priority | Classification |
+|---|---|---|---|---|---|
+| C12-005 | C1 L16 | Contrasts ordenador/computadora, móvil/celular, vosotros/ustedes and distinción/seseo. Reviewer found this a strong regional-variation lesson. | Preserve; use as a reference model elsewhere. | — | Positive content |
+| C12-006 | C2 L03 | Idioms echar balones fuera, estar en el ajo, callejón sin salida and ironic ¡Menuda puntualidad! were considered natural Peninsular usage. | Preserve. | — | Positive content |
+| C12-007 | Multiple sampled lessons | Occasional examples have a slightly textbook-formal tone. | Where register permits, consider more conversational or journalistic variants. | Low | Stylistic improvement |
+| C12-008 | C1 Unit 05 / C2 Units 01–03 | Advanced mood, complex subordination, impersonal constructions and synthesis are present and reportedly sequenced sensibly. | Preserve progression; continue deepening production tasks. | — | Positive / minor gap |
+| C12-009 | C1–C2 overall | Productive assessment (extended writing/speaking with rubrics) reportedly relies heavily on self-report and has limited concrete performance criteria. | Strengthen rubrics and exemplars in closing modules and selected lessons. | Medium | CEFR/curriculum gap |
+| C12-010 | C2 review module | Reviewer reports relatively sparse marked Spanish examples compared with other modules. | Align the density of Spanish models with other closing modules. | Low | Teaching/support issue |
+| C12-011 | C1 L01 Q1–Q8; representative C2 L01, L12 and L24 | Answer keys reportedly appear correct and distractors are usually valid Spanish, but options are often markedly shorter than the correct answer. | Balance option length and increase Spanish-production items. | High | Assessment issue; overlaps C12-001 |
+| C12-012 | Closing assessment modules | Self-administered assessments reportedly have limited detailed writing/speaking rubrics. | Expand criteria and provide model answers. | Medium | Teaching-support issue |
+| C12-013 | Sampled C1/C2 lessons including C1 L01, L03, L14, L17 and C2 L03 | Roman Urdu explanations of stance, mood, register, idioms and synthesis were generally accurate and useful. | Preserve core explanations. | — | Positive content |
+| C12-014 | Broader sampled set | Some abstract discourse explanations are dense or slightly literal in Roman Urdu. | Review the densest explanatory paragraphs for clarity and conversational phrasing. | Low–Medium | Teaching/support issue |
+| C12-015 | Pronunciation support | Listen buttons exist, but systematic Spain-specific stress/difficult-sound guidance beyond earlier levels is limited. | Add selective advanced notes on reduced forms, linking and regional variants where useful. | Low | Teaching/support issue |
+| C12-016 | All core lessons | Highly uniform 12-phrase plus eight-question structure may become monotonous at advanced levels. | Vary task types in later units while preserving useful navigation consistency. | Low | Stylistic/pedagogical improvement |
+| C12-017 | Lesson IDs/navigation | Numbering, unit labels and closing-module sequencing reportedly match index pages. | Preserve. | — | Positive content |
+| C12-018 | C2 index note | Index reportedly retains residual "Units 01–03 / Lessons 01–12" language while also stating all 24 lessons are available. | Align status text with actual availability. | Low | Technical/content consistency |
+
+No additional confirmed Spanish grammar error was identified in the deeply reviewed sample. C12-007 and C12-014–016 are improvement suggestions rather than confirmed language errors.
+
+### 10.5 Cross-level links to earlier audits
+
+The reviewer explicitly links these findings to existing lower-level items:
+- Longest-correct-answer bias (QA-011) reportedly intensifies at advanced levels: C1 approximately 60–75% and C2 approximately 75–100% in sampled lesson sets; overall C1/C2 estimate is about 84% of 384 items.
+- English-label/meta-question dominance continues (QA-015).
+- Vosotros attenuation after A2 continues (ES-005).
+- Need for stronger productive assessment and Spanish-medium tasks links to CEFR-006.
+Treat these as systemic cross-level repair themes in the later synthesis, not as a reason to duplicate earlier findings.
+
+### 10.6 Overall reviewer assessment
+
+Reviewer considers C1/C2 a clear qualitative step up from B1/B2, with predominantly accurate, Spain-oriented advanced Spanish and useful Roman Urdu support. The dominant reported weaknesses are assessment design (longest-answer bias and English-meta dominance) and limited sustained Spanish production with explicit rubrics. The report recommends targeted assessment redesign and selective strengthening of production/rubrics rather than wholesale rewriting of lesson bodies.
+
+This is a reviewer conclusion based on repository extraction and representative deep reading; it is not an independent maintainer or live-site verification.
+
+### 10.7 Recommended later repair themes (not implementation)
+
+1. Redesign quiz banks for answer-length balance and Spanish-primary stems.
+2. Expand production tasks and explicit rubrics in closing modules and selected core lessons.
+3. Reintroduce vosotros and selected advanced Spain-specific forms naturally.
+4. Clarify the densest Roman Urdu explanations.
+5. Correct residual C2 index status wording.
+6. Conduct separate live browser, TTS and PWA checks and consider native-speaker review.
+
+### 10.8 Audit collection status
+
+C1–C2 reviewer report received. Together with Sections 2–9, the audit log now contains reviewer reports for A1–C2. The remaining planned stage is a consolidated cross-level gap/progression analysis, followed by a prioritized repair plan. No fixes, code edits or deployment are authorized by this audit report; implementation remains deferred until the user starts the repair phase.
