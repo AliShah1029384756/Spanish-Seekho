@@ -24,10 +24,18 @@ These are documentation/process changes. They do **not** implement a JSON lesson
 
 ## Next priorities
 
-1. **B1 release verification:** the final B1 content commit `2705fab84ccabe9d71979f3437313cd775d4f789` was deployed successfully in Pages run 45460248990 (run 578). The follow-up documentation commit `b5c05fec63d0cf3a14da3a36ea57f505ac9b66e3` also built and deployed successfully in run 45460473286 (run 579). Verify the B1 index, all 24 lesson routes and four closing routes; exercise core quiz completion and closing-module interactions when browser automation is available.
-2. **B1 release gate:** the full 01–28 source review is complete, but B1 live route/interaction QA remains pending. The owner has authorised B2 content authoring in parallel; this does not waive the B1 release gate.
-3. **Selected A1/A2 runtime follow-up:** test outstanding quiz submissions and closing-activity interactions without disturbing existing progress.
-4. **Cross-course device/accessibility QA:** Android/mobile layout, Urdu RTL, keyboard/focus, screen-reader labels, TTS, reload persistence and actual offline/PWA behaviour remain unverified. Service-worker cache is v79 after the Word Explorer source update; precache configuration is not proof of offline functionality.
+The active programme is now governed by [MASTER-EXECUTION-ROADMAP.md](MASTER-EXECUTION-ROADMAP.md), with detailed repair evidence in [MASTER-IMPLEMENTATION-REPAIR-TRACKER.md](MASTER-IMPLEMENTATION-REPAIR-TRACKER.md).
+
+**Current next task: Phase 6.0 — Baseline Inventory & Evidence Freeze.** Reconcile actual A1–C2 lesson files, closing modules, indexes, homepage/README counts, progress keys, quiz inventory, service-worker paths and live deployment state before editing curriculum content.
+
+Carry forward these known release/verification gates into the baseline:
+1. B1 live route and interaction QA remains pending despite previously recorded successful Pages deployments.
+2. Selected A1/A2 quiz and closing-activity runtime follow-up remains pending.
+3. Android/mobile, Urdu RTL, keyboard/focus, screen-reader labels, TTS, reload persistence and actual offline/PWA behavior require evidence.
+4. A2 currently has 23 core lesson links in its index/README while homepage and index copy still says 20.
+5. C2 has 24 core lessons and four closing modules in the current index, but one residual availability sentence still refers to only Lessons 01–12.
+
+Do not begin broad curriculum repairs until the Phase 6.0 inventory and evidence freeze are complete. Deployment/live verification remains part of each meaningful approved repair batch, not a final-only activity.
 
 ## Completed A2 work snapshot (24 November 2026)
 
@@ -286,3 +294,8 @@ C2 core Lessons 01–24 are now source-integrated across all six units. Remainin
 ## 26 November 2026 — C2 source curriculum complete
 
 C2 now has 24 core lessons across six units plus four closing modules (review, project, integrated assessment and lifelong development plan). Index, homepage availability copy, separate progress tracking and service-worker v108 precache have been updated. Remaining work is deployment confirmation, owner browser/device QA, qualified Spanish-language review, accessibility/RTL and offline/PWA validation. Course checkpoints are not accredited CEFR exams.
+
+
+## Master execution roadmap adopted — 29 November 2026
+
+Created `docs/MASTER-EXECUTION-ROADMAP.md` as the end-to-end ten-phase programme plan. Phases 1–5 are audit/planning stages; Phases 6–10 are controlled execution and release stages. The immediate next task is Phase 6.0 baseline inventory and evidence freeze. No curriculum implementation is authorized by this planning update. See the master roadmap for phase objectives, batch mapping, dependencies, deliverables, exit gates, preservation controls and deployment workflow.
