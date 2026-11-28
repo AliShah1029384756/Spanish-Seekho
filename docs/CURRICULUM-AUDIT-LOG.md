@@ -237,3 +237,121 @@ Reviewer specifically reported the following as sound and recommended retaining 
 ### 8.8 Reviewer’s proposed next step
 
 Reviewer asked whether to begin B1–B2 (grammar coverage, quizzes and lesson text) or wait for A1–A2 fixes and review the diff. Per the project's agreed audit-first workflow, continue collecting findings before beginning the consolidated repair phase unless the user explicitly changes that plan.
+
+
+## 9. B1–B2 lesson-text and quiz audit (reviewer report received 2026-11-28)
+
+### 9.1 Scope, method and limitations
+
+Reviewer reports completing a B1–B2 lesson-text audit covering 24 B1 lessons, 24 B2 lessons and eight closing modules. No source files were changed and nothing was deployed.
+
+Reported coverage:
+- B1: all lessons reportedly read in full.
+- B2: L01–06 and L09–12 explanations reportedly read in full. For L07–08 and L13–24, only Spanish rows were read; Roman Urdu paragraphs were not reviewed.
+- Quizzes: automated type/statistical checks on 431 items; approximately 85 items manually inspected.
+- B2 Spanish extraction initially returned empty rows because the extractor did not account for lang="es"; reviewer corrected the extraction and confirmed Spanish content exists.
+- Live site/browser was not checked.
+- Spain-specific usage still needs native-speaker review.
+- B2 L07–08 and L13–24 Roman Urdu paragraphs and all quizzes were not read line by line.
+
+All findings below are reviewer-reported and remain pending maintainer verification. Do not treat the report as an independent live-site verification.
+
+### 9.2 Confirmed errors reported
+
+| ID | Location | Reviewer-reported issue | Suggested correction |
+|---|---|---|---|
+| B12-001 | B1 L20, Part 2 note | "Quisiera and podría are polite conditional forms" incorrectly labels quisiera as conditional. Podría is conditional; quisiera is imperfect subjunctive used as a polite-request formula. | Explain the distinct forms and functions. |
+| B12-002 | B1 L17 Q2 | "Como ___ mucha gente, esperamos fuera": había is keyed, but hay can also fit because esperamos may be present. | Anchor the sentence clearly in the past, e.g. "Ayer, como había mucha gente, esperé fuera." |
+| B12-003 | B1 L24 Q2 | "Como ___ poco tiempo, cambiamos el plan": había is keyed, but hay can also fit because cambiamos may be present. | Add an unambiguous past-time anchor or revise the context. |
+| B12-004 | B2 L20, Part 3 row 2 | Spanish "Tomadas en consideración, sugieren…" means "Taken into consideration"; English says "Considered together", which does not match. | If meaning is "considered together", use "Consideradas en conjunto, sugieren…"; otherwise align the English translation. |
+| B12-005 | B2 L02, Part 3 | Rule says antes de que takes subjunctive "aam tor par" (usually), which is imprecise for the taught construction. | State that antes de que takes the subjunctive. |
+| B12-006 | B1 L01, completion message | Stale message says all B1 lessons will be added in future, although all 24 B1 lessons are now present. | Remove or update the completion message. |
+
+### 9.3 Quiz quality and distractor design
+
+Reviewer-reported guessable-distractor rates:
+- A1: 2% (from prior audit)
+- A2: 7% (from prior audit)
+- B1: 23% (48/213)
+- B2: 11% (24/218)
+
+B1 was reported as the weakest level for this issue. Examples:
+- B1 L04 Q4: temporally contradictory distractor such as "vivía mañana".
+- B1 L11 Q5: "buscaríamos mañana siempre".
+- B2 L01 Q5: "revisábamos ayer siempre".
+
+Reviewer also reports that the correct answer is the longest option in 51% of B1 and 64% of B2 questions (prior cross-level report had these same figures). These patterns may make answers guessable without understanding the Spanish.
+
+Positive quiz examples to preserve as potential patterns:
+- B1 L19 Q2 (pidas / pides / pedir).
+- B1 L17 Q5 (debido que).
+- B2 L10 Q2 (reciba / recibo / recibir).
+
+B2 quiz-design concern: many questions test recognition of connectors/labels in English (e.g. "Sin embargo signals…" and "Porque introduces a reason"). Reviewer recommends more Spanish production-style gap-fills and short writing tasks with rubrics.
+
+### 9.4 CEFR progression and grammar gaps
+
+- Imperfect subjunctive formation is reportedly not explicitly taught, despite use in B1 L10 (si tuviera / viviera), B1 L20 (enviara), and B2 L02, L07, L10, L11 and L14. B1 L10 reportedly calls it a "formula".
+- Present-perfect subjunctive forms appear without formation teaching: hayamos encontrado (B1 L24), hayan influido (B2 L15), haya frustrado (B2 L23).
+- Pluperfect subjunctive appears without formation teaching: hubiera aceptado (B2 L11).
+- Present subjunctive in B1 L21 reportedly teaches regular forms but not stem-change/spelling-change forms, despite using pruebes, busque and llegue.
+- B2 ordering: subjunctive/conditional examples appear in B2 L01–08 (including vaya a funcionar in L06 and sería recomendable que… ampliara in L07), while their grammar teaching is placed later in L09–12. Reviewer suggests moving L09–12 earlier or pre-teaching the forms.
+- Level placement: B1 L10 si + imperfect subjunctive and B1 L23 reported speech with backshift may sit closer to B2 in common CEFR-aligned syllabi (reviewer cites Plan Curricular Cervantes). Recognition at B1 may be acceptable; production could be reserved for B2. This is a curriculum-placement recommendation, not a confirmed error.
+- Vosotros forms appear in B1 L19 (reunáis, podéis), B2 L06 (si me permitís) and B2 L13 (si os parece, podéis ver), but reviewer did not find explicit teaching of vosotros imperative/subjunctive. B2 L13 reportedly mixes os/podéis with les agradecería (ustedes); add a register label or clarify audience.
+- B1 L09 future lesson reportedly lacks a Spain usage note: ir a + infinitive and present tense are common in conversation for future reference; future simple is more common in formal/written contexts and assumptions (e.g. estará en casa).
+- Repetition:
+  - "Si te he entendido bien / si no te he entendido mal" appears in B1 L08, B2 L06, L13 and L23.
+  - "¿A qué te refieres exactamente?" appears in B1 L06 and L08.
+  - B1 L05–07 and B2 L05–08 cover related opinion/agreement/disagreement/argument themes. Spiral review can be retained, but each recurrence should add distinct language or communicative value.
+  - "A cambio de ampliar el plazo…" is reportedly repeated almost identically in B2 L16 and L24.
+
+### 9.5 Roman Urdu support and pronunciation
+
+- B1 and B2 reportedly have no pronunciation guide (neither Roman Urdu nor Urdu script), despite a header claiming "Roman Urdu support".
+- B1 L01–16: Roman Urdu appears mainly in short introductions/notes, not as translations of example sentences.
+- B1 L17–24: guided-practice rows include Roman Urdu translations; L22–24 were reported as strongest.
+- B2: Roman Urdu explanations exist, but example translations are reportedly absent.
+- Reviewer suggests at least an optional reminder for Spain pronunciation: z/c, j, ll, v/b, plus stress in longer words such as aprovechamiento.
+- Pronunciation may be optional at these levels, but the mismatch between the header and actual support should be reviewed.
+
+### 9.6 Spain-specific language and naturalness
+
+Positive examples reported:
+- cogimos el metro (B1 L17).
+- echar una mano and dar en el clavo (B2 L21–22).
+- Space in "18 %" (Spain typography; B2 L14).
+- Qualified note about hoja de reclamaciones (B1 L20).
+
+Potential improvements:
+- B2 L22 "idiomatic language" reportedly contains only two or three Spain idioms. Reviewer suggests adding examples such as vale, tío, guay, me da igual and ni idea.
+- B2 L19 culture content is described as general rather than specifically Spain-focused. A short note on siesta, sobremesa, Spanish schedules, or a Pakistani-learner comparison may add context. Treat this as an enhancement suggestion, not an error.
+
+### 9.7 Content reported as sound / preserve
+
+Reviewer reports the following as accurate and worth preserving:
+- B1 L01–16 and L18–19, L21–24 grammar explanations overall.
+- Present-perfect versus indefinido contrast.
+- soler and en caso de que.
+- Reported speech in B1 L23 and si-clauses in B2 L11.
+- Relative clauses in B2 L12.
+- Passive/se in B2 L04.
+- B2 assessment reportedly includes a speaking/pronunciation rubric (unlike the A1/A2 assessment rubric gap reported earlier).
+- B1/B2 closing module numbering (25–28) is consistent.
+
+### 9.8 Audit coverage update
+
+| Area | Reviewer-reported coverage | Status |
+|---|---|---|
+| B1 lesson text | All 24 lessons reportedly read in full | Report received; maintainer verification pending |
+| B2 lesson text | L01–06 and L09–12 explanations read; L07–08 and L13–24 Spanish rows only | Partial text review; Roman Urdu paragraphs not fully reviewed |
+| Closing modules | Eight modules reportedly included | Report received; maintainer verification pending |
+| Quiz items | 431 automated type/statistical checks; approximately 85 manually inspected | Partial manual review; not line-by-line |
+| Live site/browser | Not checked | Separate live QA required |
+| Native Spain speaker review | Not completed | Recommended for nuanced usage/naturalness |
+| B2 Roman Urdu | Explanations read where in reviewed sections; later sections incomplete; example translations reportedly absent | Partial review |
+| Urdu-script pronunciation | Not reported as audited in this pass | Separate review required |
+
+### 9.9 Reviewer’s proposed next step
+
+Reviewer asks whether to begin C1–C2 audit or perform Phase 4 cross-level gap/progression analysis for recurring issues (imperfect subjunctive, vosotros, pronunciation consistency and quiz distractors). Under the agreed audit-first workflow, continue collecting the remaining C1–C2 audit first unless the user explicitly changes direction. Do not begin fixes or deployment during audit collection.
+
